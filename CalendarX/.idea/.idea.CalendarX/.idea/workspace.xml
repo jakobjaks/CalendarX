@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1d1a967e-c97c-4ba6-8c21-23e2f2dc6315" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/WebApp/Areas/Identity/Pages/Account/Manage/_ViewStart.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/Helpers/EmailSender.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.CalendarX/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CalendarX/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.CalendarX/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CalendarX/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DAL.App.EF/AppUnitOfWork.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DAL.App.EF/AppUnitOfWork.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApp/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/Startup.cs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -105,6 +108,7 @@
     <setting file="file://$PROJECT_DIR$/WebApp/ApiControllers/TargetAudienceController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/WebApp/Views/AdministrativeUnit/Create.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/WebApp/Views/AdministrativeUnit/Edit.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WebApp/Areas/Identity/IdentityHostingStartup.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/A02D31FD-4A36-4913-B23C-EBD1C24DC361/5a/7039bdd5/IdentityUser`1.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Contracts.DAL.App/Repositories/IAdministrativeUnitRepository.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Contracts.DAL.App/Repositories/IAdministrativeUnitInEventRepository.cs" root0="FORCE_HIGHLIGHTING" />
@@ -118,11 +122,16 @@
     <setting file="file://$PROJECT_DIR$/Contracts.DAL.App/Repositories/IOrganizationRepository.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Contracts.DAL.App/Repositories/IOrganizationOrganizingRepository.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Contracts.DAL.App/Repositories/ISponsorInEventRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WebApp/Areas/Identity/Pages/Account/Manage/_Layout.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Contracts.DAL.App/Repositories/IPerformerRepository.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Contracts.DAL.App/Repositories/IPerformerInEventRepository.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Contracts.DAL.App/Repositories/IEventTargetAudienceRepository.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Contracts.DAL.App/Repositories/ITargetAudienceRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WebApp/Areas/Identity/Pages/Account/Manage/_ViewStart.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/68BC8F1A-D288-4D67-83A7-36473951C21F/29/0fd0bfb7/MvcRazorPagesMvcBuilderExtensions.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/68BC8F1A-D288-4D67-83A7-36473951C21F/a4/ded4aa81/RazorPagesOptions.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DAL.Base.EF/Repositories/BaseRepositoryAsync.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WebApp/Helpers/EmailSender.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/WebApp/Controllers/AdminsitrativeUnitInEventController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/5A41D6B7-1898-42EC-A409-FD0B1C3E3DCF/43/78efdf54/IEnumerable`1.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Domain/Identity/AppRole.cs" root0="FORCE_HIGHLIGHTING" />
@@ -143,9 +152,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/DAL.App.EF/Repositories/AdministrativeUnitInEventRepository.cs" />
-        <option value="$PROJECT_DIR$/DAL.App.EF/Repositories/AdministrativeUnitRepository.cs" />
-        <option value="$PROJECT_DIR$/DAL.App.EF/Repositories/AreaOfInterestRepository.cs" />
         <option value="$PROJECT_DIR$/DAL.App.EF/Repositories/EventInAreaOfInterestRepository.cs" />
         <option value="$PROJECT_DIR$/DAL.App.EF/Repositories/EventInLocationRepository.cs" />
         <option value="$PROJECT_DIR$/DAL.App.EF/Repositories/EventInTypeRepository.cs" />
@@ -162,7 +168,6 @@
         <option value="$PROJECT_DIR$/DAL.Base.EF/Repositories/BaseRepositoryAsync.cs" />
         <option value="$PROJECT_DIR$/Contracts.DAL.Base/IUnitOfWork.cs" />
         <option value="$PROJECT_DIR$/Contracts.DAL.App/IAppUnitOfWork.cs" />
-        <option value="$PROJECT_DIR$/WebApp/Startup.cs" />
         <option value="$PROJECT_DIR$/Contracts.DAL.Base/Repositories/IBaseRepository.cs" />
         <option value="$PROJECT_DIR$/WebApp/ApiControllers/AdminsitrativeUnitInEventController.cs" />
         <option value="$PROJECT_DIR$/WebApp/ApiControllers/AreaOfInterestController.cs" />
@@ -194,6 +199,10 @@
         <option value="$PROJECT_DIR$/DAL.Base.EF/BaseUnitOfWork.cs" />
         <option value="$PROJECT_DIR$/WebApp/ApiControllers/AdministrativeUnitController.cs" />
         <option value="$PROJECT_DIR$/DAL.App.EF/AppUnitOfWork.cs" />
+        <option value="$PROJECT_DIR$/WebApp/Areas/Identity/Pages/Account/Manage/_Layout.cshtml" />
+        <option value="$PROJECT_DIR$/WebApp/Areas/Identity/Pages/Account/Manage/_ViewStart.cshtml" />
+        <option value="$PROJECT_DIR$/WebApp/Startup.cs" />
+        <option value="$PROJECT_DIR$/WebApp/Helpers/EmailSender.cs" />
       </list>
     </option>
   </component>
@@ -273,8 +282,16 @@
       <workItem from="1574019738249" duration="6538000" />
       <workItem from="1574071097842" duration="27000" />
       <workItem from="1574164957490" duration="15809000" />
-      <workItem from="1574246109532" duration="5891000" />
+      <workItem from="1574246109532" duration="9049000" />
     </task>
+    <task id="LOCAL-00001" summary="Fixed appunitofwork factory methods">
+      <created>1574259508863</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1574259508863</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -295,6 +312,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="LOCAL_CHANGES_DETAILS_PREVIEW_SHOWN" value="true" />
+    <MESSAGE value="Fixed appunitofwork factory methods" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed appunitofwork factory methods" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
