@@ -1,0 +1,59 @@
+﻿{
+  "version": "1.0.0",
+  "restore": {
+    "projectUniqueName": "C:\\Users\\ADMIN\\Desktop\\CalendarProject\\CalendarX\\DAL.App.EF\\DAL.App.EF.csproj",
+    "projectName": "DAL.App.EF",
+    "projectPath": "C:\\Users\\ADMIN\\Desktop\\CalendarProject\\CalendarX\\DAL.App.EF\\DAL.App.EF.csproj",
+    "outputPath": "C:\\Users\\ADMIN\\Desktop\\CalendarProject\\CalendarX\\DAL.App.EF\\obj\\",
+    "projectStyle": "PackageReference",
+    "fallbackFolders": [
+      "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+    ],
+    "originalTargetFrameworks": [
+      "netstandard2.1"
+    ],
+    "sources": {
+      "https://api.nuget.org/v3/index.json": {}
+    },
+    "frameworks": {
+      "netstandard2.1": {
+        "projectReferences": {
+          "C:\\Users\\ADMIN\\Desktop\\CalendarProject\\CalendarX\\Contracts.DAL.App\\Contracts.DAL.App.csproj": {
+            "projectPath": "C:\\Users\\ADMIN\\Desktop\\CalendarProject\\CalendarX\\Contracts.DAL.App\\Contracts.DAL.App.csproj"
+          },
+          "C:\\Users\\ADMIN\\Desktop\\CalendarProject\\CalendarX\\DAL.Base.EF\\DAL.Base.EF.csproj": {
+            "projectPath": "C:\\Users\\ADMIN\\Desktop\\CalendarProject\\CalendarX\\DAL.Base.EF\\DAL.Base.EF.csproj"
+          },
+          "C:\\Users\\ADMIN\\Desktop\\CalendarProject\\CalendarX\\Domain\\Domain.csproj": {
+            "projectPath": "C:\\Users\\ADMIN\\Desktop\\CalendarProject\\CalendarX\\Domain\\Domain.csproj"
+          }
+        }
+      }
+    },
+    "warningProperties": {
+      "warnAsError": [
+        "NU1605"
+      ]
+    }
+  },
+  "frameworks": {
+    "netstandard2.1": {
+      "dependencies": {
+        "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+          "target": "Package",
+          "version": "[3.0.0, )"
+        }
+      },
+      "imports": [
+        "net461",
+        "net462",
+        "net47",
+        "net471",
+        "net472",
+        "net48"
+      ],
+      "assetTargetFallback": true,
+      "warn": true
+    }
+  }
+}

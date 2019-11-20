@@ -1,0 +1,11 @@
+C:\Users\ADMIN\Desktop\CalendarProject\CalendarX\Domain\bin\Debug\netstandard2.1\Domain.deps.json
+C:\Users\ADMIN\Desktop\CalendarProject\CalendarX\Domain\bin\Debug\netstandard2.1\Domain.dll
+C:\Users\ADMIN\Desktop\CalendarProject\CalendarX\Domain\bin\Debug\netstandard2.1\Domain.pdb
+C:\Users\ADMIN\Desktop\CalendarProject\CalendarX\Domain\obj\Debug\netstandard2.1\Domain.csprojAssemblyReference.cache
+C:\Users\ADMIN\Desktop\CalendarProject\CalendarX\Domain\obj\Debug\netstandard2.1\Domain.AssemblyInfoInputs.cache
+C:\Users\ADMIN\Desktop\CalendarProject\CalendarX\Domain\obj\Debug\netstandard2.1\Domain.AssemblyInfo.cs
+C:\Users\ADMIN\Desktop\CalendarProject\CalendarX\Domain\obj\Debug\netstandard2.1\Domain.dll
+C:\Users\ADMIN\Desktop\CalendarProject\CalendarX\Domain\obj\Debug\netstandard2.1\Domain.pdb
+C:\Users\ADMIN\Desktop\CalendarProject\CalendarX\Domain\bin\Debug\netstandard2.1\Contracts.DAL.Base.dll
+C:\Users\ADMIN\Desktop\CalendarProject\CalendarX\Domain\bin\Debug\netstandard2.1\Contracts.DAL.Base.pdb
+C:\Users\ADMIN\Desktop\CalendarProject\CalendarX\Domain\obj\Debug\netstandard2.1\Domain.csproj.CopyComplete

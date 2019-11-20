@@ -1,0 +1,529 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\ADMIN\.Rider2019.2\config\consoles\db" t="IncludeRecursive" />
+    <e p="C:\Users\ADMIN\.Rider2019.2\config\extensions" t="IncludeRecursive" />
+    <e p="C:\Users\ADMIN\.Rider2019.2\config\scratches" t="IncludeRecursive" />
+    <e p="C:\Users\ADMIN\.Rider2019.2\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\ADMIN\.Rider2019.2\system\resharper-host\local\Transient\ReSharperHost\v192\SolutionCaches\_CalendarX.718283179.00" t="ExcludeRecursive" />
+    <e p="C:\Users\ADMIN\Desktop\CalendarProject\CalendarX" t="IncludeFlat">
+      <e p="CalendarX.sln" t="IncludeFlat" />
+      <e p="Contracts.DAL.App" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Contracts.DAL.App.csproj" t="IncludeRecursive" />
+        <e p="IAppUnitOfWork.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netstandard2.1" t="Include">
+              <e p="Contracts.DAL.App.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Repositories" t="Include">
+          <e p="IAdministrativeUnitInEventRepository.cs" t="Include" />
+          <e p="IAdministrativeUnitRepository.cs" t="Include" />
+          <e p="IAreaOfInterestRepository.cs" t="Include" />
+          <e p="IEventInAreaOfInterestRepository.cs" t="Include" />
+          <e p="IEventInLocationRepository.cs" t="Include" />
+          <e p="IEventInTypeRepository.cs" t="Include" />
+          <e p="IEventRepository.cs" t="Include" />
+          <e p="IEventTargetAudienceRepository.cs" t="Include" />
+          <e p="IEventTypeRepository.cs" t="Include" />
+          <e p="ILocationRepository.cs" t="Include" />
+          <e p="IOrganizationOrganizingRepository.cs" t="Include" />
+          <e p="IOrganizationRepository.cs" t="Include" />
+          <e p="IPerformerInEventRepository.cs" t="Include" />
+          <e p="IPerformerRepository.cs" t="Include" />
+          <e p="ISponsorInEventRepository.cs" t="Include" />
+          <e p="ITargetAudienceRepository.cs" t="Include" />
+        </e>
+      </e>
+      <e p="Contracts.DAL.Base" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Contracts.DAL.Base.csproj" t="IncludeRecursive" />
+        <e p="IBaseEntity.cs" t="Include" />
+        <e p="IUnitOfWork.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netstandard2.1" t="Include">
+              <e p="Contracts.DAL.Base.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Repositories" t="Include">
+          <e p="IBaseRepository.cs" t="Include" />
+        </e>
+      </e>
+      <e p="DAL.App.EF" t="IncludeRecursive">
+        <e p="AppDbContext.cs" t="Include" />
+        <e p="AppUnitOfWork.cs" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="DAL.App.EF.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netstandard2.1" t="Include">
+              <e p="DAL.App.EF.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Repositories" t="Include">
+          <e p="AdministrativeUnitInEventRepository.cs" t="Include" />
+          <e p="AdministrativeUnitRepository.cs" t="Include" />
+          <e p="AreaOfInterestRepository.cs" t="Include" />
+          <e p="EventInAreaOfInterestRepository.cs" t="Include" />
+          <e p="EventInLocationRepository.cs" t="Include" />
+          <e p="EventInTypeRepository.cs" t="Include" />
+          <e p="EventRepository.cs" t="Include" />
+          <e p="EventTargetAudienceRepository.cs" t="Include" />
+          <e p="EventTypeRepository.cs" t="Include" />
+          <e p="LocationRepository.cs" t="Include" />
+          <e p="OrganizationOrganizingRepository.cs" t="Include" />
+          <e p="OrganizationRepository.cs" t="Include" />
+          <e p="PerformerInEventRepository.cs" t="Include" />
+          <e p="PerformerRepository.cs" t="Include" />
+          <e p="SponsorInEventRepository.cs" t="Include" />
+          <e p="TargetAudienceRepository.cs" t="Include" />
+        </e>
+      </e>
+      <e p="DAL.Base.EF" t="IncludeRecursive">
+        <e p="BaseUnitOfWork.cs" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="DAL.Base.EF.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netstandard2.1" t="Include">
+              <e p="DAL.Base.EF.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Repositories" t="Include">
+          <e p="BaseRepositoryAsync.cs" t="Include" />
+        </e>
+      </e>
+      <e p="Domain" t="IncludeRecursive">
+        <e p="Abstractions" t="Include">
+          <e p="DomainEntity.cs" t="Include" />
+          <e p="NameDescDomainEntity.cs" t="Include" />
+        </e>
+        <e p="AdministrativeUnit" t="Include">
+          <e p="AdministrativeUnit.cs" t="Include" />
+          <e p="AdministrativeUnitInEvent.cs" t="Include" />
+        </e>
+        <e p="AreaOfInterest" t="Include">
+          <e p="AreaOfInterest.cs" t="Include" />
+          <e p="EventInAreaOfInterest.cs" t="Include" />
+        </e>
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Domain.csproj" t="IncludeRecursive" />
+        <e p="Event" t="Include">
+          <e p="Event.cs" t="Include" />
+        </e>
+        <e p="EventType" t="Include">
+          <e p="EventInType.cs" t="Include" />
+          <e p="EventType.cs" t="Include" />
+        </e>
+        <e p="Identity" t="Include">
+          <e p="AppRole.cs" t="Include" />
+          <e p="AppUser.cs" t="Include" />
+        </e>
+        <e p="Location" t="Include">
+          <e p="EventInLocation.cs" t="Include" />
+          <e p="Location.cs" t="Include" />
+        </e>
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netstandard2.1" t="Include">
+              <e p="Domain.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Organization" t="Include">
+          <e p="Organization.cs" t="Include" />
+          <e p="OrganizationOrganizing.cs" t="Include" />
+          <e p="SponsorInEvent.cs" t="Include" />
+        </e>
+        <e p="Performer" t="Include">
+          <e p="Performer.cs" t="Include" />
+          <e p="PerformerInEvent.cs" t="Include" />
+        </e>
+        <e p="TargetAudience" t="Include">
+          <e p="EventTargetAudience.cs" t="Include" />
+          <e p="TargetAudience.cs" t="Include" />
+        </e>
+      </e>
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="WebApp" t="IncludeRecursive">
+        <e p="ApiControllers" t="Include">
+          <e p="AdministrativeUnitController.cs" t="Include" />
+          <e p="AdminsitrativeUnitInEventController.cs" t="Include" />
+          <e p="AreaOfInterestController.cs" t="Include" />
+          <e p="EventController.cs" t="Include" />
+          <e p="EventInAreaOfInterestController.cs" t="Include" />
+          <e p="EventInLocationController.cs" t="Include" />
+          <e p="EventTargetAudienceController.cs" t="Include" />
+          <e p="LocationController.cs" t="Include" />
+          <e p="OrganizationController.cs" t="Include" />
+          <e p="OrganizationOrganizingController.cs" t="Include" />
+          <e p="PerformerController.cs" t="Include" />
+          <e p="PerformerInEventController.cs" t="Include" />
+          <e p="SponsorInEventController.cs" t="Include" />
+          <e p="TargetAudienceController.cs" t="Include" />
+        </e>
+        <e p="app.db" t="Include" />
+        <e p="appsettings.Development.json" t="Include" />
+        <e p="appsettings.json" t="Include" />
+        <e p="Areas" t="Include">
+          <e p="Identity" t="Include">
+            <e p="Pages" t="Include">
+              <e p="_ViewStart.cshtml" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Controllers" t="Include">
+          <e p="AdministrativeUnitController.cs" t="Include" />
+          <e p="AdminsitrativeUnitInEventController.cs" t="Include" />
+          <e p="AreaOfInterestController.cs" t="Include" />
+          <e p="EventController.cs" t="Include" />
+          <e p="EventInAreaOfInterestController.cs" t="Include" />
+          <e p="EventInLocationController.cs" t="Include" />
+          <e p="EventTargetAudienceController.cs" t="Include" />
+          <e p="LocationController.cs" t="Include" />
+          <e p="OrganizationController.cs" t="Include" />
+          <e p="OrganizationOrganizingController.cs" t="Include" />
+          <e p="PerformerController.cs" t="Include" />
+          <e p="PerformerInEventController.cs" t="Include" />
+          <e p="SponsorInEventController.cs" t="Include" />
+          <e p="TargetAudienceController.cs" t="Include" />
+        </e>
+        <e p="generation.txt" t="Include" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.0" t="Include">
+              <e p="WebApp.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Pages" t="Include">
+          <e p="_ViewImports.cshtml" t="Include" />
+          <e p="_ViewStart.cshtml" t="Include" />
+          <e p="Error.cshtml" t="Include" />
+          <e p="Error.cshtml.cs" t="Include" />
+          <e p="Index.cshtml" t="Include" />
+          <e p="Index.cshtml.cs" t="Include" />
+          <e p="Privacy.cshtml" t="Include" />
+          <e p="Privacy.cshtml.cs" t="Include" />
+          <e p="Shared" t="Include">
+            <e p="_Layout.cshtml" t="Include" />
+            <e p="_LoginPartial.cshtml" t="Include" />
+            <e p="_ValidationScriptsPartial.cshtml" t="Include" />
+          </e>
+        </e>
+        <e p="Program.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="launchSettings.json" t="Include" />
+        </e>
+        <e p="Startup.cs" t="Include" />
+        <e p="Views" t="Include">
+          <e p="AdministrativeUnit" t="Include">
+            <e p="Create.cshtml" t="Include" />
+            <e p="Delete.cshtml" t="Include" />
+            <e p="Details.cshtml" t="Include" />
+            <e p="Edit.cshtml" t="Include" />
+            <e p="Index.cshtml" t="Include" />
+          </e>
+          <e p="AdminsitrativeUnitInEvent" t="Include">
+            <e p="Create.cshtml" t="Include" />
+            <e p="Delete.cshtml" t="Include" />
+            <e p="Details.cshtml" t="Include" />
+            <e p="Edit.cshtml" t="Include" />
+            <e p="Index.cshtml" t="Include" />
+          </e>
+          <e p="AreaOfInterest" t="Include">
+            <e p="Create.cshtml" t="Include" />
+            <e p="Delete.cshtml" t="Include" />
+            <e p="Details.cshtml" t="Include" />
+            <e p="Edit.cshtml" t="Include" />
+            <e p="Index.cshtml" t="Include" />
+          </e>
+          <e p="Event" t="Include">
+            <e p="Create.cshtml" t="Include" />
+            <e p="Delete.cshtml" t="Include" />
+            <e p="Details.cshtml" t="Include" />
+            <e p="Edit.cshtml" t="Include" />
+            <e p="Index.cshtml" t="Include" />
+          </e>
+          <e p="EventInAreaOfInterest" t="Include">
+            <e p="Create.cshtml" t="Include" />
+            <e p="Delete.cshtml" t="Include" />
+            <e p="Details.cshtml" t="Include" />
+            <e p="Edit.cshtml" t="Include" />
+            <e p="Index.cshtml" t="Include" />
+          </e>
+          <e p="EventInLocation" t="Include">
+            <e p="Create.cshtml" t="Include" />
+            <e p="Delete.cshtml" t="Include" />
+            <e p="Details.cshtml" t="Include" />
+            <e p="Edit.cshtml" t="Include" />
+            <e p="Index.cshtml" t="Include" />
+          </e>
+          <e p="EventTargetAudience" t="Include">
+            <e p="Create.cshtml" t="Include" />
+            <e p="Delete.cshtml" t="Include" />
+            <e p="Details.cshtml" t="Include" />
+            <e p="Edit.cshtml" t="Include" />
+            <e p="Index.cshtml" t="Include" />
+          </e>
+          <e p="Location" t="Include">
+            <e p="Create.cshtml" t="Include" />
+            <e p="Delete.cshtml" t="Include" />
+            <e p="Details.cshtml" t="Include" />
+            <e p="Edit.cshtml" t="Include" />
+            <e p="Index.cshtml" t="Include" />
+          </e>
+          <e p="Organization" t="Include">
+            <e p="Create.cshtml" t="Include" />
+            <e p="Delete.cshtml" t="Include" />
+            <e p="Details.cshtml" t="Include" />
+            <e p="Edit.cshtml" t="Include" />
+            <e p="Index.cshtml" t="Include" />
+          </e>
+          <e p="OrganizationOrganizing" t="Include">
+            <e p="Create.cshtml" t="Include" />
+            <e p="Delete.cshtml" t="Include" />
+            <e p="Details.cshtml" t="Include" />
+            <e p="Edit.cshtml" t="Include" />
+            <e p="Index.cshtml" t="Include" />
+          </e>
+          <e p="Performer" t="Include">
+            <e p="Create.cshtml" t="Include" />
+            <e p="Delete.cshtml" t="Include" />
+            <e p="Details.cshtml" t="Include" />
+            <e p="Edit.cshtml" t="Include" />
+            <e p="Index.cshtml" t="Include" />
+          </e>
+          <e p="PerformerInEvent" t="Include">
+            <e p="Create.cshtml" t="Include" />
+            <e p="Delete.cshtml" t="Include" />
+            <e p="Details.cshtml" t="Include" />
+            <e p="Edit.cshtml" t="Include" />
+            <e p="Index.cshtml" t="Include" />
+          </e>
+          <e p="Shared" t="Include">
+            <e p="_ValidationScriptsPartial.cshtml" t="Include" />
+          </e>
+          <e p="SponsorInEvent" t="Include">
+            <e p="Create.cshtml" t="Include" />
+            <e p="Delete.cshtml" t="Include" />
+            <e p="Details.cshtml" t="Include" />
+            <e p="Edit.cshtml" t="Include" />
+            <e p="Index.cshtml" t="Include" />
+          </e>
+          <e p="TargetAudience" t="Include">
+            <e p="Create.cshtml" t="Include" />
+            <e p="Delete.cshtml" t="Include" />
+            <e p="Details.cshtml" t="Include" />
+            <e p="Edit.cshtml" t="Include" />
+            <e p="Index.cshtml" t="Include" />
+          </e>
+        </e>
+        <e p="WebApp.csproj" t="IncludeRecursive" />
+        <e p="wwwroot" t="Include">
+          <e p="css" t="Include">
+            <e p="site.css" t="Include" />
+          </e>
+          <e p="favicon.ico" t="Include" />
+          <e p="js" t="Include">
+            <e p="site.js" t="Include" />
+          </e>
+          <e p="lib" t="Include">
+            <e p="bootstrap" t="Include">
+              <e p="dist" t="Include">
+                <e p="css" t="Include">
+                  <e p="bootstrap-grid.css" t="Include" />
+                  <e p="bootstrap-grid.css.map" t="Include" />
+                  <e p="bootstrap-grid.min.css" t="Include" />
+                  <e p="bootstrap-grid.min.css.map" t="Include" />
+                  <e p="bootstrap-reboot.css" t="Include" />
+                  <e p="bootstrap-reboot.css.map" t="Include" />
+                  <e p="bootstrap-reboot.min.css" t="Include" />
+                  <e p="bootstrap-reboot.min.css.map" t="Include" />
+                  <e p="bootstrap.css" t="Include" />
+                  <e p="bootstrap.css.map" t="Include" />
+                  <e p="bootstrap.min.css" t="Include" />
+                  <e p="bootstrap.min.css.map" t="Include" />
+                </e>
+                <e p="js" t="Include">
+                  <e p="bootstrap.bundle.js" t="Include" />
+                  <e p="bootstrap.bundle.js.map" t="Include" />
+                  <e p="bootstrap.bundle.min.js" t="Include" />
+                  <e p="bootstrap.bundle.min.js.map" t="Include" />
+                  <e p="bootstrap.js" t="Include" />
+                  <e p="bootstrap.js.map" t="Include" />
+                  <e p="bootstrap.min.js" t="Include" />
+                  <e p="bootstrap.min.js.map" t="Include" />
+                </e>
+              </e>
+              <e p="LICENSE" t="Include" />
+            </e>
+            <e p="jquery" t="Include">
+              <e p="dist" t="Include">
+                <e p="jquery.js" t="Include" />
+                <e p="jquery.min.js" t="Include" />
+                <e p="jquery.min.map" t="Include" />
+              </e>
+              <e p="LICENSE.txt" t="Include" />
+            </e>
+            <e p="jquery-validation" t="Include">
+              <e p="dist" t="Include">
+                <e p="additional-methods.js" t="Include" />
+                <e p="additional-methods.min.js" t="Include" />
+                <e p="jquery.validate.js" t="Include" />
+                <e p="jquery.validate.min.js" t="Include" />
+              </e>
+              <e p="LICENSE.md" t="Include" />
+            </e>
+            <e p="jquery-validation-unobtrusive" t="Include">
+              <e p="jquery.validate.unobtrusive.js" t="Include" />
+              <e p="jquery.validate.unobtrusive.min.js" t="Include" />
+              <e p="LICENSE.txt" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
+    </e>
+    <e p="C:\Users\ADMIN\Desktop\CalendarProject\ClientApp\node_modules\@types" t="IncludeRecursive">
+      <e p="anymatch" t="IncludeRecursive" />
+      <e p="bootstrap" t="IncludeRecursive" />
+      <e p="events" t="IncludeRecursive" />
+      <e p="jquery" t="IncludeRecursive" />
+      <e p="lodash" t="IncludeRecursive" />
+      <e p="minimatch" t="IncludeRecursive" />
+      <e p="node" t="IncludeRecursive" />
+      <e p="sizzle" t="IncludeRecursive" />
+      <e p="source-list-map" t="IncludeRecursive" />
+      <e p="tapable" t="IncludeRecursive" />
+      <e p="uglify-js" t="IncludeRecursive" />
+      <e p="webpack" t="IncludeRecursive" />
+      <e p="webpack-sources" t="IncludeRecursive" />
+    </e>
+    <e p="C:\Users\ADMIN\Desktop\CalendarProject\ClientApp\node_modules\ansi-colors" t="IncludeRecursive" />
+    <e p="C:\Users\ADMIN\Desktop\CalendarProject\ClientApp\node_modules\app-settings-loader" t="IncludeRecursive" />
+    <e p="C:\Users\ADMIN\Desktop\CalendarProject\ClientApp\node_modules\aurelia-animator-css" t="IncludeRecursive" />
+    <e p="C:\Users\ADMIN\Desktop\CalendarProject\ClientApp\node_modules\aurelia-binding" t="IncludeRecursive" />
+    <e p="C:\Users\ADMIN\Desktop\CalendarProject\ClientApp\node_modules\aurelia-bootstrapper" t="IncludeRecursive" />
+    <e p="C:\Users\ADMIN\Desktop\CalendarProject\ClientApp\node_modules\aurelia-cli" t="IncludeRecursive" />
+    <e p="C:\Users\ADMIN\Desktop\CalendarProject\ClientApp\node_modules\aurelia-dependency-injection" t="IncludeRecursive" />
+    <e p="C:\Users\ADMIN\Desktop\CalendarProject\ClientApp\node_modules\aurelia-event-aggregator" t="IncludeRecursive" />
+    <e p="C:\Users\ADMIN\Desktop\CalendarProject\ClientApp\node_modules\aurelia-framework" t="IncludeRecursive" />
+    <e p="C:\Users\ADMIN\Desktop\CalendarProject\ClientApp\node_modules\aurelia-history" t="IncludeRecursive" />
+    <e p="C:\Users\ADMIN\Desktop\CalendarProject\ClientApp\node_modules\aurelia-history-browser" t="IncludeRecursive" />
+    <e p="C:\Users\ADMIN\Desktop\CalendarProject\ClientApp\node_modules\aurelia-hot-module-reload" t="IncludeRecursive" />
+    <e p="C:\Users\ADMIN\Desktop\CalendarProject\ClientApp\node_modules\aurelia-loader" t="IncludeRecursive" />
+    <e p="C:\Users\ADMIN\Desktop\CalendarProject\ClientApp\node_modules\aurelia-loader-default" t="IncludeRecursive" />
+    <e p="C:\Users\ADMIN\Desktop\CalendarProject\ClientApp\node_modules\aurelia-loader-webpack" t="IncludeRecursive" />
+    <e p="C:\Users\ADMIN\Desktop\CalendarProject\ClientApp\node_modules\aurelia-logging" t="IncludeRecursive" />
+    <e p="C:\Users\ADMIN\Desktop\CalendarProject\ClientApp\node_modules\aurelia-logging-console" t="IncludeRecursive" />
+    <e p="C:\Users\ADMIN\Desktop\CalendarProject\ClientApp\node_modules\aurelia-metadata" t="IncludeRecursive" />
+    <e p="C:\Users\ADMIN\Desktop\CalendarProject\ClientApp\node_modules\aurelia-pal" t="IncludeRecursive" />
+    <e p="C:\Users\ADMIN\Desktop\CalendarProject\ClientApp\node_modules\aurelia-pal-browser" t="IncludeRecursive" />
+    <e p="C:\Users\ADMIN\Desktop\CalendarProject\ClientApp\node_modules\aurelia-path" t="IncludeRecursive" />
+    <e p="C:\Users\ADMIN\Desktop\CalendarProject\ClientApp\node_modules\aurelia-polyfills" t="IncludeRecursive" />
+    <e p="C:\Users\ADMIN\Desktop\CalendarProject\ClientApp\node_modules\aurelia-route-recognizer" t="IncludeRecursive" />
+    <e p="C:\Users\ADMIN\Desktop\CalendarProject\ClientApp\node_modules\aurelia-router" t="IncludeRecursive" />
+    <e p="C:\Users\ADMIN\Desktop\CalendarProject\ClientApp\node_modules\aurelia-task-queue" t="IncludeRecursive" />
+    <e p="C:\Users\ADMIN\Desktop\CalendarProject\ClientApp\node_modules\aurelia-templating" t="IncludeRecursive" />
+    <e p="C:\Users\ADMIN\Desktop\CalendarProject\ClientApp\node_modules\aurelia-templating-binding" t="IncludeRecursive" />
+    <e p="C:\Users\ADMIN\Desktop\CalendarProject\ClientApp\node_modules\aurelia-templating-resources" t="IncludeRecursive" />
+    <e p="C:\Users\ADMIN\Desktop\CalendarProject\ClientApp\node_modules\aurelia-templating-router" t="IncludeRecursive" />
+    <e p="C:\Users\ADMIN\Desktop\CalendarProject\ClientApp\node_modules\aurelia-testing" t="IncludeRecursive" />
+    <e p="C:\Users\ADMIN\Desktop\CalendarProject\ClientApp\node_modules\aurelia-tools" t="IncludeRecursive" />
+    <e p="C:\Users\ADMIN\Desktop\CalendarProject\ClientApp\node_modules\aurelia-webpack-plugin" t="IncludeRecursive" />
+    <e p="C:\Users\ADMIN\Desktop\CalendarProject\ClientApp\node_modules\bootstrap" t="IncludeRecursive" />
+    <e p="C:\Users\ADMIN\Desktop\CalendarProject\ClientApp\node_modules\chalk" t="IncludeRecursive" />
+    <e p="C:\Users\ADMIN\Desktop\CalendarProject\ClientApp\node_modules\clean-webpack-plugin" t="IncludeRecursive" />
+    <e p="C:\Users\ADMIN\Desktop\CalendarProject\ClientApp\node_modules\commander" t="IncludeRecursive" />
+    <e p="C:\Users\ADMIN\Desktop\CalendarProject\ClientApp\node_modules\concat-with-sourcemaps" t="IncludeRecursive" />
+    <e p="C:\Users\ADMIN\Desktop\CalendarProject\ClientApp\node_modules\copy-webpack-plugin" t="IncludeRecursive" />
+    <e p="C:\Users\ADMIN\Desktop\CalendarProject\ClientApp\node_modules\css-loader" t="IncludeRecursive" />
+    <e p="C:\Users\ADMIN\Desktop\CalendarProject\ClientApp\node_modules\duplicate-package-checker-webpack-plugin" t="IncludeRecursive" />
+    <e p="C:\Users\ADMIN\Desktop\CalendarProject\ClientApp\node_modules\expose-loader" t="IncludeRecursive" />
+    <e p="C:\Users\ADMIN\Desktop\CalendarProject\ClientApp\node_modules\file-loader" t="IncludeRecursive" />
+    <e p="C:\Users\ADMIN\Desktop\CalendarProject\ClientApp\node_modules\gulp" t="IncludeRecursive" />
+    <e p="C:\Users\ADMIN\Desktop\CalendarProject\ClientApp\node_modules\html-loader" t="IncludeRecursive" />
+    <e p="C:\Users\ADMIN\Desktop\CalendarProject\ClientApp\node_modules\html-webpack-plugin" t="IncludeRecursive" />
+    <e p="C:\Users\ADMIN\Desktop\CalendarProject\ClientApp\node_modules\istanbul-instrumenter-loader" t="IncludeRecursive" />
+    <e p="C:\Users\ADMIN\Desktop\CalendarProject\ClientApp\node_modules\jquery" t="IncludeRecursive" />
+    <e p="C:\Users\ADMIN\Desktop\CalendarProject\ClientApp\node_modules\json-loader" t="IncludeRecursive" />
+    <e p="C:\Users\ADMIN\Desktop\CalendarProject\ClientApp\node_modules\mini-css-extract-plugin" t="IncludeRecursive" />
+    <e p="C:\Users\ADMIN\Desktop\CalendarProject\ClientApp\node_modules\minimatch" t="IncludeRecursive" />
+    <e p="C:\Users\ADMIN\Desktop\CalendarProject\ClientApp\node_modules\popper.js" t="IncludeRecursive" />
+    <e p="C:\Users\ADMIN\Desktop\CalendarProject\ClientApp\node_modules\promise-polyfill" t="IncludeRecursive" />
+    <e p="C:\Users\ADMIN\Desktop\CalendarProject\ClientApp\node_modules\source-map" t="IncludeRecursive" />
+    <e p="C:\Users\ADMIN\Desktop\CalendarProject\ClientApp\node_modules\style-loader" t="IncludeRecursive" />
+    <e p="C:\Users\ADMIN\Desktop\CalendarProject\ClientApp\node_modules\terser" t="IncludeRecursive" />
+    <e p="C:\Users\ADMIN\Desktop\CalendarProject\ClientApp\node_modules\through2" t="IncludeRecursive" />
+    <e p="C:\Users\ADMIN\Desktop\CalendarProject\ClientApp\node_modules\tree-kill" t="IncludeRecursive" />
+    <e p="C:\Users\ADMIN\Desktop\CalendarProject\ClientApp\node_modules\ts-loader" t="IncludeRecursive" />
+    <e p="C:\Users\ADMIN\Desktop\CalendarProject\ClientApp\node_modules\ts-node" t="IncludeRecursive" />
+    <e p="C:\Users\ADMIN\Desktop\CalendarProject\ClientApp\node_modules\tslib" t="IncludeRecursive" />
+    <e p="C:\Users\ADMIN\Desktop\CalendarProject\ClientApp\node_modules\typescript\lib\lib.d.ts" t="IncludeRecursive" />
+    <e p="C:\Users\ADMIN\Desktop\CalendarProject\ClientApp\node_modules\typescript\lib\lib.dom.d.ts" t="IncludeRecursive" />
+    <e p="C:\Users\ADMIN\Desktop\CalendarProject\ClientApp\node_modules\typescript\lib\lib.dom.iterable.d.ts" t="IncludeRecursive" />
+    <e p="C:\Users\ADMIN\Desktop\CalendarProject\ClientApp\node_modules\typescript\lib\lib.es2015.collection.d.ts" t="IncludeRecursive" />
+    <e p="C:\Users\ADMIN\Desktop\CalendarProject\ClientApp\node_modules\typescript\lib\lib.es2015.core.d.ts" t="IncludeRecursive" />
+    <e p="C:\Users\ADMIN\Desktop\CalendarProject\ClientApp\node_modules\typescript\lib\lib.es2015.d.ts" t="IncludeRecursive" />
+    <e p="C:\Users\ADMIN\Desktop\CalendarProject\ClientApp\node_modules\typescript\lib\lib.es2015.generator.d.ts" t="IncludeRecursive" />
+    <e p="C:\Users\ADMIN\Desktop\CalendarProject\ClientApp\node_modules\typescript\lib\lib.es2015.iterable.d.ts" t="IncludeRecursive" />
+    <e p="C:\Users\ADMIN\Desktop\CalendarProject\ClientApp\node_modules\typescript\lib\lib.es2015.promise.d.ts" t="IncludeRecursive" />
+    <e p="C:\Users\ADMIN\Desktop\CalendarProject\ClientApp\node_modules\typescript\lib\lib.es2015.proxy.d.ts" t="IncludeRecursive" />
+    <e p="C:\Users\ADMIN\Desktop\CalendarProject\ClientApp\node_modules\typescript\lib\lib.es2015.reflect.d.ts" t="IncludeRecursive" />
+    <e p="C:\Users\ADMIN\Desktop\CalendarProject\ClientApp\node_modules\typescript\lib\lib.es2015.symbol.d.ts" t="IncludeRecursive" />
+    <e p="C:\Users\ADMIN\Desktop\CalendarProject\ClientApp\node_modules\typescript\lib\lib.es2015.symbol.wellknown.d.ts" t="IncludeRecursive" />
+    <e p="C:\Users\ADMIN\Desktop\CalendarProject\ClientApp\node_modules\typescript\lib\lib.es2016.array.include.d.ts" t="IncludeRecursive" />
+    <e p="C:\Users\ADMIN\Desktop\CalendarProject\ClientApp\node_modules\typescript\lib\lib.es2016.d.ts" t="IncludeRecursive" />
+    <e p="C:\Users\ADMIN\Desktop\CalendarProject\ClientApp\node_modules\typescript\lib\lib.es2016.full.d.ts" t="IncludeRecursive" />
+    <e p="C:\Users\ADMIN\Desktop\CalendarProject\ClientApp\node_modules\typescript\lib\lib.es2017.d.ts" t="IncludeRecursive" />
+    <e p="C:\Users\ADMIN\Desktop\CalendarProject\ClientApp\node_modules\typescript\lib\lib.es2017.full.d.ts" t="IncludeRecursive" />
+    <e p="C:\Users\ADMIN\Desktop\CalendarProject\ClientApp\node_modules\typescript\lib\lib.es2017.intl.d.ts" t="IncludeRecursive" />
+    <e p="C:\Users\ADMIN\Desktop\CalendarProject\ClientApp\node_modules\typescript\lib\lib.es2017.object.d.ts" t="IncludeRecursive" />
+    <e p="C:\Users\ADMIN\Desktop\CalendarProject\ClientApp\node_modules\typescript\lib\lib.es2017.sharedmemory.d.ts" t="IncludeRecursive" />
+    <e p="C:\Users\ADMIN\Desktop\CalendarProject\ClientApp\node_modules\typescript\lib\lib.es2017.string.d.ts" t="IncludeRecursive" />
+    <e p="C:\Users\ADMIN\Desktop\CalendarProject\ClientApp\node_modules\typescript\lib\lib.es2017.typedarrays.d.ts" t="IncludeRecursive" />
+    <e p="C:\Users\ADMIN\Desktop\CalendarProject\ClientApp\node_modules\typescript\lib\lib.es2018.asyncgenerator.d.ts" t="IncludeRecursive" />
+    <e p="C:\Users\ADMIN\Desktop\CalendarProject\ClientApp\node_modules\typescript\lib\lib.es2018.asynciterable.d.ts" t="IncludeRecursive" />
+    <e p="C:\Users\ADMIN\Desktop\CalendarProject\ClientApp\node_modules\typescript\lib\lib.es2018.d.ts" t="IncludeRecursive" />
+    <e p="C:\Users\ADMIN\Desktop\CalendarProject\ClientApp\node_modules\typescript\lib\lib.es2018.full.d.ts" t="IncludeRecursive" />
+    <e p="C:\Users\ADMIN\Desktop\CalendarProject\ClientApp\node_modules\typescript\lib\lib.es2018.intl.d.ts" t="IncludeRecursive" />
+    <e p="C:\Users\ADMIN\Desktop\CalendarProject\ClientApp\node_modules\typescript\lib\lib.es2018.promise.d.ts" t="IncludeRecursive" />
+    <e p="C:\Users\ADMIN\Desktop\CalendarProject\ClientApp\node_modules\typescript\lib\lib.es2018.regexp.d.ts" t="IncludeRecursive" />
+    <e p="C:\Users\ADMIN\Desktop\CalendarProject\ClientApp\node_modules\typescript\lib\lib.es2019.array.d.ts" t="IncludeRecursive" />
+    <e p="C:\Users\ADMIN\Desktop\CalendarProject\ClientApp\node_modules\typescript\lib\lib.es2019.d.ts" t="IncludeRecursive" />
+    <e p="C:\Users\ADMIN\Desktop\CalendarProject\ClientApp\node_modules\typescript\lib\lib.es2019.full.d.ts" t="IncludeRecursive" />
+    <e p="C:\Users\ADMIN\Desktop\CalendarProject\ClientApp\node_modules\typescript\lib\lib.es2019.object.d.ts" t="IncludeRecursive" />
+    <e p="C:\Users\ADMIN\Desktop\CalendarProject\ClientApp\node_modules\typescript\lib\lib.es2019.string.d.ts" t="IncludeRecursive" />
+    <e p="C:\Users\ADMIN\Desktop\CalendarProject\ClientApp\node_modules\typescript\lib\lib.es2019.symbol.d.ts" t="IncludeRecursive" />
+    <e p="C:\Users\ADMIN\Desktop\CalendarProject\ClientApp\node_modules\typescript\lib\lib.es2020.d.ts" t="IncludeRecursive" />
+    <e p="C:\Users\ADMIN\Desktop\CalendarProject\ClientApp\node_modules\typescript\lib\lib.es2020.full.d.ts" t="IncludeRecursive" />
+    <e p="C:\Users\ADMIN\Desktop\CalendarProject\ClientApp\node_modules\typescript\lib\lib.es2020.string.d.ts" t="IncludeRecursive" />
+    <e p="C:\Users\ADMIN\Desktop\CalendarProject\ClientApp\node_modules\typescript\lib\lib.es2020.symbol.wellknown.d.ts" t="IncludeRecursive" />
+    <e p="C:\Users\ADMIN\Desktop\CalendarProject\ClientApp\node_modules\typescript\lib\lib.es5.d.ts" t="IncludeRecursive" />
+    <e p="C:\Users\ADMIN\Desktop\CalendarProject\ClientApp\node_modules\typescript\lib\lib.es6.d.ts" t="IncludeRecursive" />
+    <e p="C:\Users\ADMIN\Desktop\CalendarProject\ClientApp\node_modules\typescript\lib\lib.esnext.array.d.ts" t="IncludeRecursive" />
+    <e p="C:\Users\ADMIN\Desktop\CalendarProject\ClientApp\node_modules\typescript\lib\lib.esnext.asynciterable.d.ts" t="IncludeRecursive" />
+    <e p="C:\Users\ADMIN\Desktop\CalendarProject\ClientApp\node_modules\typescript\lib\lib.esnext.bigint.d.ts" t="IncludeRecursive" />
+    <e p="C:\Users\ADMIN\Desktop\CalendarProject\ClientApp\node_modules\typescript\lib\lib.esnext.d.ts" t="IncludeRecursive" />
+    <e p="C:\Users\ADMIN\Desktop\CalendarProject\ClientApp\node_modules\typescript\lib\lib.esnext.full.d.ts" t="IncludeRecursive" />
+    <e p="C:\Users\ADMIN\Desktop\CalendarProject\ClientApp\node_modules\typescript\lib\lib.esnext.intl.d.ts" t="IncludeRecursive" />
+    <e p="C:\Users\ADMIN\Desktop\CalendarProject\ClientApp\node_modules\typescript\lib\lib.esnext.symbol.d.ts" t="IncludeRecursive" />
+    <e p="C:\Users\ADMIN\Desktop\CalendarProject\ClientApp\node_modules\typescript\lib\lib.scripthost.d.ts" t="IncludeRecursive" />
+    <e p="C:\Users\ADMIN\Desktop\CalendarProject\ClientApp\node_modules\typescript\lib\lib.webworker.d.ts" t="IncludeRecursive" />
+    <e p="C:\Users\ADMIN\Desktop\CalendarProject\ClientApp\node_modules\typescript\lib\lib.webworker.importscripts.d.ts" t="IncludeRecursive" />
+    <e p="C:\Users\ADMIN\Desktop\CalendarProject\ClientApp\node_modules\url-loader" t="IncludeRecursive" />
+    <e p="C:\Users\ADMIN\Desktop\CalendarProject\ClientApp\node_modules\vinyl-fs" t="IncludeRecursive" />
+    <e p="C:\Users\ADMIN\Desktop\CalendarProject\ClientApp\node_modules\webpack" t="IncludeRecursive" />
+    <e p="C:\Users\ADMIN\Desktop\CalendarProject\ClientApp\node_modules\webpack-bundle-analyzer" t="IncludeRecursive" />
+    <e p="C:\Users\ADMIN\Desktop\CalendarProject\ClientApp\node_modules\webpack-cli" t="IncludeRecursive" />
+    <e p="C:\Users\ADMIN\Desktop\CalendarProject\ClientApp\node_modules\webpack-dev-server" t="IncludeRecursive" />
+  </component>
+</project>

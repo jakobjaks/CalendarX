@@ -1,0 +1,945 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1d1a967e-c97c-4ba6-8c21-23e2f2dc6315" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../.idea/.idea.CalendarProject.dir/.idea/contentModel.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/.idea.CalendarProject.dir/.idea/indexLayout.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/.idea.CalendarProject.dir/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/.idea.CalendarProject.dir/.idea/projectSettingsUpdater.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/.idea.CalendarProject.dir/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/.idea.CalendarProject.dir/riderModule.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.CalendarX/.idea/contentModel.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.CalendarX/.idea/indexLayout.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.CalendarX/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.CalendarX/.idea/projectSettingsUpdater.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.CalendarX/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.CalendarX/riderModule.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CalendarX.sln" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Contracts.DAL.App/Contracts.DAL.App.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Contracts.DAL.App/IAppUnitOfWork.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Contracts.DAL.App/Repositories/IAdministrativeUnitInEventRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Contracts.DAL.App/Repositories/IAdministrativeUnitRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Contracts.DAL.App/Repositories/IAreaOfInterestRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Contracts.DAL.App/Repositories/IEventInAreaOfInterestRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Contracts.DAL.App/Repositories/IEventInLocationRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Contracts.DAL.App/Repositories/IEventInTypeRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Contracts.DAL.App/Repositories/IEventRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Contracts.DAL.App/Repositories/IEventTargetAudienceRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Contracts.DAL.App/Repositories/IEventTypeRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Contracts.DAL.App/Repositories/ILocationRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Contracts.DAL.App/Repositories/IOrganizationOrganizingRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Contracts.DAL.App/Repositories/IOrganizationRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Contracts.DAL.App/Repositories/IPerformerInEventRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Contracts.DAL.App/Repositories/IPerformerRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Contracts.DAL.App/Repositories/ISponsorInEventRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Contracts.DAL.App/Repositories/ITargetAudienceRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Contracts.DAL.App/bin/Debug/netstandard2.1/Contracts.DAL.App.deps.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Contracts.DAL.App/bin/Debug/netstandard2.1/Contracts.DAL.App.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Contracts.DAL.App/bin/Debug/netstandard2.1/Contracts.DAL.App.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Contracts.DAL.App/bin/Debug/netstandard2.1/Contracts.DAL.Base.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Contracts.DAL.App/bin/Debug/netstandard2.1/Contracts.DAL.Base.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Contracts.DAL.App/bin/Debug/netstandard2.1/Domain.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Contracts.DAL.App/bin/Debug/netstandard2.1/Domain.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Contracts.DAL.App/obj/Contracts.DAL.App.csproj.nuget.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Contracts.DAL.App/obj/Contracts.DAL.App.csproj.nuget.dgspec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Contracts.DAL.App/obj/Contracts.DAL.App.csproj.nuget.g.props" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Contracts.DAL.App/obj/Contracts.DAL.App.csproj.nuget.g.targets" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Contracts.DAL.App/obj/Debug/netstandard2.1/Contracts.DAL.App.AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Contracts.DAL.App/obj/Debug/netstandard2.1/Contracts.DAL.App.AssemblyInfoInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Contracts.DAL.App/obj/Debug/netstandard2.1/Contracts.DAL.App.assets.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Contracts.DAL.App/obj/Debug/netstandard2.1/Contracts.DAL.App.csproj.CopyComplete" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Contracts.DAL.App/obj/Debug/netstandard2.1/Contracts.DAL.App.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Contracts.DAL.App/obj/Debug/netstandard2.1/Contracts.DAL.App.csprojAssemblyReference.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Contracts.DAL.App/obj/Debug/netstandard2.1/Contracts.DAL.App.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Contracts.DAL.App/obj/Debug/netstandard2.1/Contracts.DAL.App.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Contracts.DAL.App/obj/project.assets.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Contracts.DAL.App/obj/project.packagespec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Contracts.DAL.Base/Contracts.DAL.Base.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Contracts.DAL.Base/IBaseEntity.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Contracts.DAL.Base/IUnitOfWork.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Contracts.DAL.Base/Repositories/IBaseRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Contracts.DAL.Base/bin/Debug/netstandard2.1/Contracts.DAL.Base.deps.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Contracts.DAL.Base/bin/Debug/netstandard2.1/Contracts.DAL.Base.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Contracts.DAL.Base/bin/Debug/netstandard2.1/Contracts.DAL.Base.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Contracts.DAL.Base/obj/Contracts.DAL.Base.csproj.nuget.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Contracts.DAL.Base/obj/Contracts.DAL.Base.csproj.nuget.dgspec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Contracts.DAL.Base/obj/Contracts.DAL.Base.csproj.nuget.g.props" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Contracts.DAL.Base/obj/Contracts.DAL.Base.csproj.nuget.g.targets" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Contracts.DAL.Base/obj/Debug/netstandard2.1/Contracts.DAL.Base.AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Contracts.DAL.Base/obj/Debug/netstandard2.1/Contracts.DAL.Base.AssemblyInfoInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Contracts.DAL.Base/obj/Debug/netstandard2.1/Contracts.DAL.Base.assets.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Contracts.DAL.Base/obj/Debug/netstandard2.1/Contracts.DAL.Base.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Contracts.DAL.Base/obj/Debug/netstandard2.1/Contracts.DAL.Base.csprojAssemblyReference.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Contracts.DAL.Base/obj/Debug/netstandard2.1/Contracts.DAL.Base.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Contracts.DAL.Base/obj/Debug/netstandard2.1/Contracts.DAL.Base.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Contracts.DAL.Base/obj/project.assets.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Contracts.DAL.Base/obj/project.packagespec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DAL.App.EF/AppDbContext.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DAL.App.EF/AppUnitOfWork.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DAL.App.EF/DAL.App.EF.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DAL.App.EF/Repositories/AdministrativeUnitInEventRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DAL.App.EF/Repositories/AdministrativeUnitRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DAL.App.EF/Repositories/AreaOfInterestRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DAL.App.EF/Repositories/EventInAreaOfInterestRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DAL.App.EF/Repositories/EventInLocationRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DAL.App.EF/Repositories/EventInTypeRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DAL.App.EF/Repositories/EventRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DAL.App.EF/Repositories/EventTargetAudienceRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DAL.App.EF/Repositories/EventTypeRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DAL.App.EF/Repositories/LocationRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DAL.App.EF/Repositories/OrganizationOrganizingRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DAL.App.EF/Repositories/OrganizationRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DAL.App.EF/Repositories/PerformerInEventRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DAL.App.EF/Repositories/PerformerRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DAL.App.EF/Repositories/SponsorInEventRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DAL.App.EF/Repositories/TargetAudienceRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DAL.App.EF/bin/Debug/netstandard2.1/Contracts.DAL.App.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DAL.App.EF/bin/Debug/netstandard2.1/Contracts.DAL.App.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DAL.App.EF/bin/Debug/netstandard2.1/Contracts.DAL.Base.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DAL.App.EF/bin/Debug/netstandard2.1/Contracts.DAL.Base.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DAL.App.EF/bin/Debug/netstandard2.1/DAL.App.EF.deps.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DAL.App.EF/bin/Debug/netstandard2.1/DAL.App.EF.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DAL.App.EF/bin/Debug/netstandard2.1/DAL.App.EF.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DAL.App.EF/bin/Debug/netstandard2.1/DAL.Base.EF.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DAL.App.EF/bin/Debug/netstandard2.1/DAL.Base.EF.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DAL.App.EF/bin/Debug/netstandard2.1/Domain.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DAL.App.EF/bin/Debug/netstandard2.1/Domain.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DAL.App.EF/obj/DAL.App.EF.csproj.nuget.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DAL.App.EF/obj/DAL.App.EF.csproj.nuget.dgspec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DAL.App.EF/obj/DAL.App.EF.csproj.nuget.g.props" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DAL.App.EF/obj/DAL.App.EF.csproj.nuget.g.targets" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DAL.App.EF/obj/Debug/netstandard2.1/DAL.App.EF.AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DAL.App.EF/obj/Debug/netstandard2.1/DAL.App.EF.AssemblyInfoInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DAL.App.EF/obj/Debug/netstandard2.1/DAL.App.EF.assets.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DAL.App.EF/obj/Debug/netstandard2.1/DAL.App.EF.csproj.CopyComplete" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DAL.App.EF/obj/Debug/netstandard2.1/DAL.App.EF.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DAL.App.EF/obj/Debug/netstandard2.1/DAL.App.EF.csprojAssemblyReference.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DAL.App.EF/obj/Debug/netstandard2.1/DAL.App.EF.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DAL.App.EF/obj/Debug/netstandard2.1/DAL.App.EF.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DAL.App.EF/obj/project.assets.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DAL.App.EF/obj/project.packagespec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DAL.Base.EF/BaseUnitOfWork.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DAL.Base.EF/DAL.Base.EF.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DAL.Base.EF/Repositories/BaseRepositoryAsync.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DAL.Base.EF/bin/Debug/netstandard2.1/Contracts.DAL.Base.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DAL.Base.EF/bin/Debug/netstandard2.1/Contracts.DAL.Base.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DAL.Base.EF/bin/Debug/netstandard2.1/DAL.Base.EF.deps.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DAL.Base.EF/bin/Debug/netstandard2.1/DAL.Base.EF.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DAL.Base.EF/bin/Debug/netstandard2.1/DAL.Base.EF.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DAL.Base.EF/obj/DAL.Base.EF.csproj.nuget.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DAL.Base.EF/obj/DAL.Base.EF.csproj.nuget.dgspec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DAL.Base.EF/obj/DAL.Base.EF.csproj.nuget.g.props" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DAL.Base.EF/obj/DAL.Base.EF.csproj.nuget.g.targets" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DAL.Base.EF/obj/Debug/netstandard2.1/DAL.Base.EF.AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DAL.Base.EF/obj/Debug/netstandard2.1/DAL.Base.EF.AssemblyInfoInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DAL.Base.EF/obj/Debug/netstandard2.1/DAL.Base.EF.assets.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DAL.Base.EF/obj/Debug/netstandard2.1/DAL.Base.EF.csproj.CopyComplete" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DAL.Base.EF/obj/Debug/netstandard2.1/DAL.Base.EF.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DAL.Base.EF/obj/Debug/netstandard2.1/DAL.Base.EF.csprojAssemblyReference.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DAL.Base.EF/obj/Debug/netstandard2.1/DAL.Base.EF.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DAL.Base.EF/obj/Debug/netstandard2.1/DAL.Base.EF.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DAL.Base.EF/obj/project.assets.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DAL.Base.EF/obj/project.packagespec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DAL/obj/DAL.csproj.nuget.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DAL/obj/DAL.csproj.nuget.dgspec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DAL/obj/DAL.csproj.nuget.g.props" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DAL/obj/DAL.csproj.nuget.g.targets" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DAL/obj/project.assets.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Domain/Abstractions/DomainEntity.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Domain/Abstractions/NameDescDomainEntity.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Domain/AdministrativeUnit/AdministrativeUnit.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Domain/AdministrativeUnit/AdministrativeUnitInEvent.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Domain/AreaOfInterest/AreaOfInterest.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Domain/AreaOfInterest/EventInAreaOfInterest.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Domain/Domain.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Domain/Event/Event.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Domain/EventType/EventInType.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Domain/EventType/EventType.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Domain/Identity/AppRole.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Domain/Identity/AppUser.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Domain/Location/EventInLocation.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Domain/Location/Location.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Domain/Organization/Organization.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Domain/Organization/OrganizationOrganizing.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Domain/Organization/SponsorInEvent.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Domain/Performer/Performer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Domain/Performer/PerformerInEvent.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Domain/TargetAudience/EventTargetAudience.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Domain/TargetAudience/TargetAudience.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Domain/bin/Debug/netstandard2.1/Contracts.DAL.Base.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Domain/bin/Debug/netstandard2.1/Contracts.DAL.Base.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Domain/bin/Debug/netstandard2.1/Domain.deps.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Domain/bin/Debug/netstandard2.1/Domain.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Domain/bin/Debug/netstandard2.1/Domain.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Domain/obj/Debug/netstandard2.1/Domain.AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Domain/obj/Debug/netstandard2.1/Domain.AssemblyInfoInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Domain/obj/Debug/netstandard2.1/Domain.assets.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Domain/obj/Debug/netstandard2.1/Domain.csproj.CopyComplete" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Domain/obj/Debug/netstandard2.1/Domain.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Domain/obj/Debug/netstandard2.1/Domain.csprojAssemblyReference.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Domain/obj/Debug/netstandard2.1/Domain.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Domain/obj/Debug/netstandard2.1/Domain.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Domain/obj/Domain.csproj.nuget.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Domain/obj/Domain.csproj.nuget.dgspec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Domain/obj/Domain.csproj.nuget.g.props" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Domain/obj/Domain.csproj.nuget.g.targets" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Domain/obj/project.assets.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Domain/obj/project.packagespec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/ApiControllers/AdministrativeUnitController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/ApiControllers/AdminsitrativeUnitInEventController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/ApiControllers/AreaOfInterestController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/ApiControllers/EventController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/ApiControllers/EventInAreaOfInterestController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/ApiControllers/EventInLocationController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/ApiControllers/EventTargetAudienceController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/ApiControllers/LocationController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/ApiControllers/OrganizationController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/ApiControllers/OrganizationOrganizingController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/ApiControllers/PerformerController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/ApiControllers/PerformerInEventController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/ApiControllers/SponsorInEventController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/ApiControllers/TargetAudienceController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/Areas/Identity/Pages/_ViewStart.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/Controllers/AdministrativeUnitController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/Controllers/AdminsitrativeUnitInEventController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/Controllers/AreaOfInterestController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/Controllers/EventController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/Controllers/EventInAreaOfInterestController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/Controllers/EventInLocationController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/Controllers/EventTargetAudienceController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/Controllers/LocationController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/Controllers/OrganizationController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/Controllers/OrganizationOrganizingController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/Controllers/PerformerController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/Controllers/PerformerInEventController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/Controllers/SponsorInEventController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/Controllers/TargetAudienceController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/Pages/Error.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/Pages/Error.cshtml.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/Pages/Index.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/Pages/Index.cshtml.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/Pages/Privacy.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/Pages/Privacy.cshtml.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/Pages/Shared/_Layout.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/Pages/Shared/_LoginPartial.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/Pages/Shared/_ValidationScriptsPartial.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/Pages/_ViewImports.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/Pages/_ViewStart.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/Program.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/Properties/launchSettings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/Startup.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/Views/AdministrativeUnit/Create.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/Views/AdministrativeUnit/Delete.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/Views/AdministrativeUnit/Details.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/Views/AdministrativeUnit/Edit.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/Views/AdministrativeUnit/Index.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/Views/AdminsitrativeUnitInEvent/Create.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/Views/AdminsitrativeUnitInEvent/Delete.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/Views/AdminsitrativeUnitInEvent/Details.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/Views/AdminsitrativeUnitInEvent/Edit.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/Views/AdminsitrativeUnitInEvent/Index.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/Views/AreaOfInterest/Create.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/Views/AreaOfInterest/Delete.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/Views/AreaOfInterest/Details.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/Views/AreaOfInterest/Edit.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/Views/AreaOfInterest/Index.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/Views/Event/Create.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/Views/Event/Delete.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/Views/Event/Details.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/Views/Event/Edit.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/Views/Event/Index.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/Views/EventInAreaOfInterest/Create.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/Views/EventInAreaOfInterest/Delete.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/Views/EventInAreaOfInterest/Details.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/Views/EventInAreaOfInterest/Edit.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/Views/EventInAreaOfInterest/Index.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/Views/EventInLocation/Create.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/Views/EventInLocation/Delete.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/Views/EventInLocation/Details.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/Views/EventInLocation/Edit.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/Views/EventInLocation/Index.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/Views/EventTargetAudience/Create.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/Views/EventTargetAudience/Delete.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/Views/EventTargetAudience/Details.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/Views/EventTargetAudience/Edit.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/Views/EventTargetAudience/Index.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/Views/Location/Create.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/Views/Location/Delete.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/Views/Location/Details.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/Views/Location/Edit.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/Views/Location/Index.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/Views/Organization/Create.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/Views/Organization/Delete.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/Views/Organization/Details.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/Views/Organization/Edit.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/Views/Organization/Index.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/Views/OrganizationOrganizing/Create.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/Views/OrganizationOrganizing/Delete.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/Views/OrganizationOrganizing/Details.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/Views/OrganizationOrganizing/Edit.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/Views/OrganizationOrganizing/Index.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/Views/Performer/Create.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/Views/Performer/Delete.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/Views/Performer/Details.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/Views/Performer/Edit.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/Views/Performer/Index.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/Views/PerformerInEvent/Create.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/Views/PerformerInEvent/Delete.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/Views/PerformerInEvent/Details.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/Views/PerformerInEvent/Edit.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/Views/PerformerInEvent/Index.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/Views/Shared/_ValidationScriptsPartial.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/Views/SponsorInEvent/Create.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/Views/SponsorInEvent/Delete.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/Views/SponsorInEvent/Details.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/Views/SponsorInEvent/Edit.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/Views/SponsorInEvent/Index.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/Views/TargetAudience/Create.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/Views/TargetAudience/Delete.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/Views/TargetAudience/Details.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/Views/TargetAudience/Edit.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/Views/TargetAudience/Index.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/WebApp.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/app.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/appsettings.Development.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/appsettings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/netcoreapp3.0/Contracts.DAL.App.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/netcoreapp3.0/Contracts.DAL.App.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/netcoreapp3.0/Contracts.DAL.Base.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/netcoreapp3.0/Contracts.DAL.Base.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/netcoreapp3.0/DAL.App.EF.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/netcoreapp3.0/DAL.App.EF.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/netcoreapp3.0/Domain.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/netcoreapp3.0/Domain.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/netcoreapp3.0/Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/netcoreapp3.0/Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/netcoreapp3.0/Microsoft.AspNetCore.Identity.UI.Views.V3.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/netcoreapp3.0/Microsoft.AspNetCore.Identity.UI.Views.V4.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/netcoreapp3.0/Microsoft.AspNetCore.Identity.UI.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/netcoreapp3.0/Microsoft.AspNetCore.Razor.Language.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/netcoreapp3.0/Microsoft.CodeAnalysis.CSharp.Workspaces.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/netcoreapp3.0/Microsoft.CodeAnalysis.CSharp.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/netcoreapp3.0/Microsoft.CodeAnalysis.Razor.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/netcoreapp3.0/Microsoft.CodeAnalysis.Workspaces.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/netcoreapp3.0/Microsoft.CodeAnalysis.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/netcoreapp3.0/Microsoft.Data.SqlClient.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/netcoreapp3.0/Microsoft.Data.Sqlite.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/netcoreapp3.0/Microsoft.DotNet.PlatformAbstractions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/netcoreapp3.0/Microsoft.EntityFrameworkCore.Abstractions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/netcoreapp3.0/Microsoft.EntityFrameworkCore.Design.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/netcoreapp3.0/Microsoft.EntityFrameworkCore.Relational.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/netcoreapp3.0/Microsoft.EntityFrameworkCore.SqlServer.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/netcoreapp3.0/Microsoft.EntityFrameworkCore.Sqlite.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/netcoreapp3.0/Microsoft.EntityFrameworkCore.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/netcoreapp3.0/Microsoft.Extensions.DependencyModel.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/netcoreapp3.0/Microsoft.Identity.Client.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/netcoreapp3.0/Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/netcoreapp3.0/Microsoft.VisualStudio.Web.CodeGeneration.Core.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/netcoreapp3.0/Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/netcoreapp3.0/Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/netcoreapp3.0/Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/netcoreapp3.0/Microsoft.VisualStudio.Web.CodeGeneration.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/netcoreapp3.0/Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/netcoreapp3.0/MySqlConnector.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/netcoreapp3.0/Newtonsoft.Json.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/netcoreapp3.0/NuGet.Frameworks.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/netcoreapp3.0/Pomelo.EntityFrameworkCore.MySql.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/netcoreapp3.0/Pomelo.JsonObject.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/netcoreapp3.0/Properties/launchSettings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/netcoreapp3.0/SQLitePCLRaw.batteries_v2.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/netcoreapp3.0/SQLitePCLRaw.core.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/netcoreapp3.0/SQLitePCLRaw.nativelibrary.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/netcoreapp3.0/SQLitePCLRaw.provider.dynamic_cdecl.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/netcoreapp3.0/System.Composition.AttributedModel.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/netcoreapp3.0/System.Composition.Convention.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/netcoreapp3.0/System.Composition.Hosting.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/netcoreapp3.0/System.Composition.Runtime.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/netcoreapp3.0/System.Composition.TypedParts.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/netcoreapp3.0/System.Configuration.ConfigurationManager.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/netcoreapp3.0/System.Runtime.Caching.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/netcoreapp3.0/System.Security.Cryptography.ProtectedData.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/netcoreapp3.0/WebApp.StaticWebAssets.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/netcoreapp3.0/WebApp.Views.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/netcoreapp3.0/WebApp.Views.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/netcoreapp3.0/WebApp.deps.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/netcoreapp3.0/WebApp.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/netcoreapp3.0/WebApp.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/netcoreapp3.0/WebApp.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/netcoreapp3.0/WebApp.runtimeconfig.dev.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/netcoreapp3.0/WebApp.runtimeconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/netcoreapp3.0/app.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/netcoreapp3.0/appsettings.Development.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/netcoreapp3.0/appsettings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/netcoreapp3.0/cs/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/netcoreapp3.0/cs/Microsoft.CodeAnalysis.CSharp.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/netcoreapp3.0/cs/Microsoft.CodeAnalysis.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/netcoreapp3.0/cs/Microsoft.CodeAnalysis.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/netcoreapp3.0/de/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/netcoreapp3.0/de/Microsoft.CodeAnalysis.CSharp.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/netcoreapp3.0/de/Microsoft.CodeAnalysis.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/netcoreapp3.0/de/Microsoft.CodeAnalysis.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/netcoreapp3.0/dotnet-aspnet-codegenerator-design.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/netcoreapp3.0/es/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/netcoreapp3.0/es/Microsoft.CodeAnalysis.CSharp.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/netcoreapp3.0/es/Microsoft.CodeAnalysis.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/netcoreapp3.0/es/Microsoft.CodeAnalysis.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/netcoreapp3.0/fr/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/netcoreapp3.0/fr/Microsoft.CodeAnalysis.CSharp.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/netcoreapp3.0/fr/Microsoft.CodeAnalysis.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/netcoreapp3.0/fr/Microsoft.CodeAnalysis.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/netcoreapp3.0/it/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/netcoreapp3.0/it/Microsoft.CodeAnalysis.CSharp.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/netcoreapp3.0/it/Microsoft.CodeAnalysis.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/netcoreapp3.0/it/Microsoft.CodeAnalysis.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/netcoreapp3.0/ja/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/netcoreapp3.0/ja/Microsoft.CodeAnalysis.CSharp.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/netcoreapp3.0/ja/Microsoft.CodeAnalysis.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/netcoreapp3.0/ja/Microsoft.CodeAnalysis.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/netcoreapp3.0/ko/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/netcoreapp3.0/ko/Microsoft.CodeAnalysis.CSharp.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/netcoreapp3.0/ko/Microsoft.CodeAnalysis.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/netcoreapp3.0/ko/Microsoft.CodeAnalysis.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/netcoreapp3.0/pl/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/netcoreapp3.0/pl/Microsoft.CodeAnalysis.CSharp.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/netcoreapp3.0/pl/Microsoft.CodeAnalysis.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/netcoreapp3.0/pl/Microsoft.CodeAnalysis.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/netcoreapp3.0/pt-BR/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/netcoreapp3.0/pt-BR/Microsoft.CodeAnalysis.CSharp.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/netcoreapp3.0/pt-BR/Microsoft.CodeAnalysis.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/netcoreapp3.0/pt-BR/Microsoft.CodeAnalysis.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/netcoreapp3.0/ru/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/netcoreapp3.0/ru/Microsoft.CodeAnalysis.CSharp.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/netcoreapp3.0/ru/Microsoft.CodeAnalysis.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/netcoreapp3.0/ru/Microsoft.CodeAnalysis.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/netcoreapp3.0/runtimes/alpine-x64/native/libe_sqlite3.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/netcoreapp3.0/runtimes/linux-arm/native/libe_sqlite3.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/netcoreapp3.0/runtimes/linux-arm64/native/libe_sqlite3.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/netcoreapp3.0/runtimes/linux-armel/native/libe_sqlite3.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/netcoreapp3.0/runtimes/linux-musl-x64/native/libe_sqlite3.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/netcoreapp3.0/runtimes/linux-x64/native/libe_sqlite3.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/netcoreapp3.0/runtimes/linux-x86/native/libe_sqlite3.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/netcoreapp3.0/runtimes/osx-x64/native/libe_sqlite3.dylib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/netcoreapp3.0/runtimes/unix/lib/netcoreapp2.0/System.Runtime.Caching.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/netcoreapp3.0/runtimes/unix/lib/netcoreapp2.1/Microsoft.Data.SqlClient.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/netcoreapp3.0/runtimes/win-arm/native/e_sqlite3.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/netcoreapp3.0/runtimes/win-arm64/native/e_sqlite3.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/netcoreapp3.0/runtimes/win-arm64/native/sni.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/netcoreapp3.0/runtimes/win-x64/native/e_sqlite3.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/netcoreapp3.0/runtimes/win-x64/native/sni.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/netcoreapp3.0/runtimes/win-x86/native/e_sqlite3.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/netcoreapp3.0/runtimes/win-x86/native/sni.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/netcoreapp3.0/runtimes/win/lib/netcoreapp2.0/System.Runtime.Caching.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/netcoreapp3.0/runtimes/win/lib/netcoreapp2.1/Microsoft.Data.SqlClient.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/netcoreapp3.0/runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/netcoreapp3.0/tr/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/netcoreapp3.0/tr/Microsoft.CodeAnalysis.CSharp.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/netcoreapp3.0/tr/Microsoft.CodeAnalysis.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/netcoreapp3.0/tr/Microsoft.CodeAnalysis.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/netcoreapp3.0/zh-Hans/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/netcoreapp3.0/zh-Hans/Microsoft.CodeAnalysis.CSharp.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/netcoreapp3.0/zh-Hans/Microsoft.CodeAnalysis.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/netcoreapp3.0/zh-Hans/Microsoft.CodeAnalysis.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/netcoreapp3.0/zh-Hant/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/netcoreapp3.0/zh-Hant/Microsoft.CodeAnalysis.CSharp.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/netcoreapp3.0/zh-Hant/Microsoft.CodeAnalysis.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/netcoreapp3.0/zh-Hant/Microsoft.CodeAnalysis.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/generation.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/obj/DAL.App.EF.EntityFrameworkCore.targets" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/obj/DAL.EntityFrameworkCore.targets" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/obj/Debug/netcoreapp3.0/Razor/Areas/Identity/Pages/_ViewStart.cshtml.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/obj/Debug/netcoreapp3.0/Razor/Pages/Error.cshtml.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/obj/Debug/netcoreapp3.0/Razor/Pages/Index.cshtml.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/obj/Debug/netcoreapp3.0/Razor/Pages/Privacy.cshtml.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/obj/Debug/netcoreapp3.0/Razor/Pages/Shared/_Layout.cshtml.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/obj/Debug/netcoreapp3.0/Razor/Pages/Shared/_LoginPartial.cshtml.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/obj/Debug/netcoreapp3.0/Razor/Pages/Shared/_ValidationScriptsPartial.cshtml.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/obj/Debug/netcoreapp3.0/Razor/Pages/_ViewImports.cshtml.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/obj/Debug/netcoreapp3.0/Razor/Pages/_ViewStart.cshtml.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/obj/Debug/netcoreapp3.0/Razor/Views/AdministrativeUnit/Create.cshtml.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/obj/Debug/netcoreapp3.0/Razor/Views/AdministrativeUnit/Delete.cshtml.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/obj/Debug/netcoreapp3.0/Razor/Views/AdministrativeUnit/Details.cshtml.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/obj/Debug/netcoreapp3.0/Razor/Views/AdministrativeUnit/Edit.cshtml.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/obj/Debug/netcoreapp3.0/Razor/Views/AdministrativeUnit/Index.cshtml.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/obj/Debug/netcoreapp3.0/Razor/Views/AdminsitrativeUnitInEvent/Create.cshtml.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/obj/Debug/netcoreapp3.0/Razor/Views/AdminsitrativeUnitInEvent/Delete.cshtml.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/obj/Debug/netcoreapp3.0/Razor/Views/AdminsitrativeUnitInEvent/Details.cshtml.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/obj/Debug/netcoreapp3.0/Razor/Views/AdminsitrativeUnitInEvent/Edit.cshtml.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/obj/Debug/netcoreapp3.0/Razor/Views/AdminsitrativeUnitInEvent/Index.cshtml.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/obj/Debug/netcoreapp3.0/Razor/Views/AreaOfInterest/Create.cshtml.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/obj/Debug/netcoreapp3.0/Razor/Views/AreaOfInterest/Delete.cshtml.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/obj/Debug/netcoreapp3.0/Razor/Views/AreaOfInterest/Details.cshtml.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/obj/Debug/netcoreapp3.0/Razor/Views/AreaOfInterest/Edit.cshtml.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/obj/Debug/netcoreapp3.0/Razor/Views/AreaOfInterest/Index.cshtml.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/obj/Debug/netcoreapp3.0/Razor/Views/Event/Create.cshtml.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/obj/Debug/netcoreapp3.0/Razor/Views/Event/Delete.cshtml.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/obj/Debug/netcoreapp3.0/Razor/Views/Event/Details.cshtml.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/obj/Debug/netcoreapp3.0/Razor/Views/Event/Edit.cshtml.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/obj/Debug/netcoreapp3.0/Razor/Views/Event/Index.cshtml.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/obj/Debug/netcoreapp3.0/Razor/Views/EventInAreaOfInterest/Create.cshtml.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/obj/Debug/netcoreapp3.0/Razor/Views/EventInAreaOfInterest/Delete.cshtml.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/obj/Debug/netcoreapp3.0/Razor/Views/EventInAreaOfInterest/Details.cshtml.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/obj/Debug/netcoreapp3.0/Razor/Views/EventInAreaOfInterest/Edit.cshtml.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/obj/Debug/netcoreapp3.0/Razor/Views/EventInAreaOfInterest/Index.cshtml.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/obj/Debug/netcoreapp3.0/Razor/Views/EventInLocation/Create.cshtml.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/obj/Debug/netcoreapp3.0/Razor/Views/EventInLocation/Delete.cshtml.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/obj/Debug/netcoreapp3.0/Razor/Views/EventInLocation/Details.cshtml.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/obj/Debug/netcoreapp3.0/Razor/Views/EventInLocation/Edit.cshtml.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/obj/Debug/netcoreapp3.0/Razor/Views/EventInLocation/Index.cshtml.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/obj/Debug/netcoreapp3.0/Razor/Views/EventTargetAudience/Create.cshtml.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/obj/Debug/netcoreapp3.0/Razor/Views/EventTargetAudience/Delete.cshtml.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/obj/Debug/netcoreapp3.0/Razor/Views/EventTargetAudience/Details.cshtml.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/obj/Debug/netcoreapp3.0/Razor/Views/EventTargetAudience/Edit.cshtml.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/obj/Debug/netcoreapp3.0/Razor/Views/EventTargetAudience/Index.cshtml.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/obj/Debug/netcoreapp3.0/Razor/Views/Location/Create.cshtml.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/obj/Debug/netcoreapp3.0/Razor/Views/Location/Delete.cshtml.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/obj/Debug/netcoreapp3.0/Razor/Views/Location/Details.cshtml.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/obj/Debug/netcoreapp3.0/Razor/Views/Location/Edit.cshtml.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/obj/Debug/netcoreapp3.0/Razor/Views/Location/Index.cshtml.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/obj/Debug/netcoreapp3.0/Razor/Views/Organization/Create.cshtml.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/obj/Debug/netcoreapp3.0/Razor/Views/Organization/Delete.cshtml.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/obj/Debug/netcoreapp3.0/Razor/Views/Organization/Details.cshtml.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/obj/Debug/netcoreapp3.0/Razor/Views/Organization/Edit.cshtml.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/obj/Debug/netcoreapp3.0/Razor/Views/Organization/Index.cshtml.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/obj/Debug/netcoreapp3.0/Razor/Views/OrganizationOrganizing/Create.cshtml.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/obj/Debug/netcoreapp3.0/Razor/Views/OrganizationOrganizing/Delete.cshtml.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/obj/Debug/netcoreapp3.0/Razor/Views/OrganizationOrganizing/Details.cshtml.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/obj/Debug/netcoreapp3.0/Razor/Views/OrganizationOrganizing/Edit.cshtml.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/obj/Debug/netcoreapp3.0/Razor/Views/OrganizationOrganizing/Index.cshtml.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/obj/Debug/netcoreapp3.0/Razor/Views/Performer/Create.cshtml.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/obj/Debug/netcoreapp3.0/Razor/Views/Performer/Delete.cshtml.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/obj/Debug/netcoreapp3.0/Razor/Views/Performer/Details.cshtml.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/obj/Debug/netcoreapp3.0/Razor/Views/Performer/Edit.cshtml.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/obj/Debug/netcoreapp3.0/Razor/Views/Performer/Index.cshtml.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/obj/Debug/netcoreapp3.0/Razor/Views/PerformerInEvent/Create.cshtml.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/obj/Debug/netcoreapp3.0/Razor/Views/PerformerInEvent/Delete.cshtml.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/obj/Debug/netcoreapp3.0/Razor/Views/PerformerInEvent/Details.cshtml.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/obj/Debug/netcoreapp3.0/Razor/Views/PerformerInEvent/Edit.cshtml.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/obj/Debug/netcoreapp3.0/Razor/Views/PerformerInEvent/Index.cshtml.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/obj/Debug/netcoreapp3.0/Razor/Views/Shared/_ValidationScriptsPartial.cshtml.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/obj/Debug/netcoreapp3.0/Razor/Views/SponsorInEvent/Create.cshtml.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/obj/Debug/netcoreapp3.0/Razor/Views/SponsorInEvent/Delete.cshtml.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/obj/Debug/netcoreapp3.0/Razor/Views/SponsorInEvent/Details.cshtml.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/obj/Debug/netcoreapp3.0/Razor/Views/SponsorInEvent/Edit.cshtml.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/obj/Debug/netcoreapp3.0/Razor/Views/SponsorInEvent/Index.cshtml.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/obj/Debug/netcoreapp3.0/Razor/Views/TargetAudience/Create.cshtml.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/obj/Debug/netcoreapp3.0/Razor/Views/TargetAudience/Delete.cshtml.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/obj/Debug/netcoreapp3.0/Razor/Views/TargetAudience/Details.cshtml.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/obj/Debug/netcoreapp3.0/Razor/Views/TargetAudience/Edit.cshtml.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/obj/Debug/netcoreapp3.0/Razor/Views/TargetAudience/Index.cshtml.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/obj/Debug/netcoreapp3.0/WebApp.AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/obj/Debug/netcoreapp3.0/WebApp.AssemblyInfoInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/obj/Debug/netcoreapp3.0/WebApp.MvcApplicationPartsAssemblyInfo.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/obj/Debug/netcoreapp3.0/WebApp.MvcApplicationPartsAssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/obj/Debug/netcoreapp3.0/WebApp.RazorAssemblyInfo.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/obj/Debug/netcoreapp3.0/WebApp.RazorAssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/obj/Debug/netcoreapp3.0/WebApp.RazorCoreGenerate.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/obj/Debug/netcoreapp3.0/WebApp.RazorTargetAssemblyInfo.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/obj/Debug/netcoreapp3.0/WebApp.RazorTargetAssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/obj/Debug/netcoreapp3.0/WebApp.TagHelpers.input.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/obj/Debug/netcoreapp3.0/WebApp.TagHelpers.output.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/obj/Debug/netcoreapp3.0/WebApp.Views.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/obj/Debug/netcoreapp3.0/WebApp.Views.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/obj/Debug/netcoreapp3.0/WebApp.assets.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/obj/Debug/netcoreapp3.0/WebApp.csproj.CopyComplete" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/obj/Debug/netcoreapp3.0/WebApp.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/obj/Debug/netcoreapp3.0/WebApp.csprojAssemblyReference.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/obj/Debug/netcoreapp3.0/WebApp.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/obj/Debug/netcoreapp3.0/WebApp.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/obj/Debug/netcoreapp3.0/WebApp.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/obj/Debug/netcoreapp3.0/staticwebassets/WebApp.StaticWebAssets.Manifest.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/obj/Debug/netcoreapp3.0/staticwebassets/WebApp.StaticWebAssets.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/obj/WebApp.csproj.EntityFrameworkCore.targets" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/obj/WebApp.csproj.codegeneration.targets" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/obj/WebApp.csproj.nuget.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/obj/WebApp.csproj.nuget.dgspec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/obj/WebApp.csproj.nuget.g.props" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/obj/WebApp.csproj.nuget.g.targets" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/obj/project.assets.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/obj/project.packagespec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/wwwroot/css/site.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/wwwroot/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/wwwroot/js/site.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/wwwroot/lib/bootstrap/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/wwwroot/lib/bootstrap/dist/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/wwwroot/lib/bootstrap/dist/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/wwwroot/lib/bootstrap/dist/js/bootstrap.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/wwwroot/lib/jquery-validation/LICENSE.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/wwwroot/lib/jquery-validation/dist/additional-methods.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/wwwroot/lib/jquery-validation/dist/additional-methods.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/wwwroot/lib/jquery-validation/dist/jquery.validate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/wwwroot/lib/jquery/LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/wwwroot/lib/jquery/dist/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/wwwroot/lib/jquery/dist/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/wwwroot/lib/jquery/dist/jquery.min.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/obj/DAL.App.EF.EntityFrameworkCore.targets" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClientApp/.dockerignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClientApp/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClientApp/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClientApp/.vscode/extensions.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClientApp/.vscode/launch.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClientApp/.vscode/settings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClientApp/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClientApp/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClientApp/aurelia_project/aurelia.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClientApp/aurelia_project/generators/attribute.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClientApp/aurelia_project/generators/attribute.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClientApp/aurelia_project/generators/binding-behavior.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClientApp/aurelia_project/generators/binding-behavior.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClientApp/aurelia_project/generators/component.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClientApp/aurelia_project/generators/component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClientApp/aurelia_project/generators/element.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClientApp/aurelia_project/generators/element.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClientApp/aurelia_project/generators/generator.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClientApp/aurelia_project/generators/generator.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClientApp/aurelia_project/generators/task.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClientApp/aurelia_project/generators/task.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClientApp/aurelia_project/generators/value-converter.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClientApp/aurelia_project/generators/value-converter.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClientApp/aurelia_project/tasks/build.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClientApp/aurelia_project/tasks/build.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClientApp/aurelia_project/tasks/run.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClientApp/aurelia_project/tasks/run.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClientApp/config/environment.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClientApp/config/environment.production.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClientApp/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClientApp/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClientApp/index.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClientApp/nginx.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClientApp/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClientApp/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClientApp/src/home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClientApp/src/home.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClientApp/src/main-router.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClientApp/src/main-router.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClientApp/src/main.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClientApp/src/resources/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClientApp/static/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClientApp/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClientApp/tslint.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClientApp/types/fetch.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClientApp/types/system.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClientApp/webpack.config.js" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/DAL.App.EF/Repositories/AreaOfInterestRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DAL.App.EF/Repositories/EventInAreaOfInterestRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DAL.App.EF/Repositories/EventInLocationRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DAL.App.EF/Repositories/EventInTypeRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DAL.App.EF/Repositories/EventRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DAL.App.EF/Repositories/EventTargetAudienceRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DAL.App.EF/Repositories/EventTypeRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DAL.App.EF/Repositories/LocationRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Domain/Event/Event.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DAL.App.EF/Repositories/OrganizationOrganizingRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DAL.App.EF/Repositories/OrganizationRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DAL.App.EF/Repositories/PerformerInEventRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Domain/Location/Location.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DAL.App.EF/Repositories/PerformerRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Domain/Location/EventInLocation.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WebApp/Controllers/OrganizationController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DAL.App.EF/Repositories/SponsorInEventRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Domain/EventType/EventType.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DAL.App.EF/Repositories/TargetAudienceRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Domain/EventType/EventInType.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Contracts.DAL.Base/IUnitOfWork.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Domain/Performer/PerformerInEvent.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Contracts.DAL.App/IAppUnitOfWork.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Domain/Performer/Performer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DAL.Base.EF/BaseUnitOfWork.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Domain/Abstractions/DomainEntity.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DAL.App.EF/AppUnitOfWork.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Domain/Organization/Organization.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Domain/Organization/SponsorInEvent.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WebApp/Controllers/OrganizationOrganizingController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Domain/Organization/OrganizationOrganizing.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Domain/AreaOfInterest/EventInAreaOfInterest.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Domain/AreaOfInterest/AreaOfInterest.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Domain/TargetAudience/EventTargetAudience.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Domain/TargetAudience/TargetAudience.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Domain/AdministrativeUnit/AdministrativeUnit.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Domain/AdministrativeUnit/AdministrativeUnitInEvent.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WebApp/Controllers/SponsorInEventController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Contracts.DAL.Base/IBaseEntity.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Contracts.DAL.Base/Repositories/IBaseRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WebApp/Pages/_ViewImports.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WebApp/Controllers/PerformerController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WebApp/Controllers/PerformerInEventController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WebApp/Pages/Shared/_LoginPartial.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WebApp/Pages/Shared/_Layout.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WebApp/Controllers/EventTargetAudienceController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WebApp/Controllers/TargetAudienceController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/80A8E0B4-6759-4C72-9F37-0AAE76C1C59E/10/9dec696b/UIFramework.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WebApp/Views/TargetAudience/Edit.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WebApp/Controllers/EventController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WebApp/Views/Shared/_ValidationScriptsPartial.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WebApp/ApiControllers/AdministrativeUnitController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WebApp/ApiControllers/AdminsitrativeUnitInEventController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WebApp/ApiControllers/AreaOfInterestController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WebApp/ApiControllers/EventInAreaOfInterestController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WebApp/ApiControllers/EventController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WebApp/ApiControllers/EventInLocationController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WebApp/ApiControllers/LocationController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WebApp/ApiControllers/OrganizationController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WebApp/ApiControllers/OrganizationOrganizingController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WebApp/ApiControllers/SponsorInEventController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WebApp/ApiControllers/PerformerController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WebApp/ApiControllers/PerformerInEventController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WebApp/ApiControllers/EventTargetAudienceController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WebApp/Controllers/AdministrativeUnitController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WebApp/ApiControllers/TargetAudienceController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WebApp/Views/AdministrativeUnit/Create.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WebApp/Views/AdministrativeUnit/Edit.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/A02D31FD-4A36-4913-B23C-EBD1C24DC361/5a/7039bdd5/IdentityUser`1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Contracts.DAL.App/Repositories/IAdministrativeUnitRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Contracts.DAL.App/Repositories/IAdministrativeUnitInEventRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Contracts.DAL.App/Repositories/IAreaOfInterestRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Contracts.DAL.App/Repositories/IEventInAreaOfInterestRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Contracts.DAL.App/Repositories/IEventRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Contracts.DAL.App/Repositories/IEventInTypeRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Contracts.DAL.App/Repositories/IEventTypeRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Contracts.DAL.App/Repositories/IEventInLocationRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Contracts.DAL.App/Repositories/ILocationRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Contracts.DAL.App/Repositories/IOrganizationRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Contracts.DAL.App/Repositories/IOrganizationOrganizingRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Contracts.DAL.App/Repositories/ISponsorInEventRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Contracts.DAL.App/Repositories/IPerformerRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Contracts.DAL.App/Repositories/IPerformerInEventRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Contracts.DAL.App/Repositories/IEventTargetAudienceRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Contracts.DAL.App/Repositories/ITargetAudienceRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DAL.Base.EF/Repositories/BaseRepositoryAsync.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WebApp/Controllers/AdminsitrativeUnitInEventController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/5A41D6B7-1898-42EC-A409-FD0B1C3E3DCF/43/78efdf54/IEnumerable`1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Domain/Identity/AppRole.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Domain/Identity/AppUser.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/321379DE-7588-4210-A158-5B61DC2801D6/d4/8797052c/AppDbContext.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Domain/Abstractions/NameDescDomainEntity.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WebApp/Controllers/AreaOfInterestController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WebApp/Controllers/EventInAreaOfInterestController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DAL.App.EF/AppDbContext.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WebApp/Views/Event/Delete.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WebApp/Startup.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WebApp/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WebApp/Controllers/EventInLocationController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DAL.App.EF/Repositories/AdministrativeUnitInEventRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WebApp/Controllers/LocationController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DAL.App.EF/Repositories/AdministrativeUnitRepository.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/DAL.App.EF/Repositories/AdministrativeUnitInEventRepository.cs" />
+        <option value="$PROJECT_DIR$/DAL.App.EF/Repositories/AdministrativeUnitRepository.cs" />
+        <option value="$PROJECT_DIR$/DAL.App.EF/Repositories/AreaOfInterestRepository.cs" />
+        <option value="$PROJECT_DIR$/DAL.App.EF/Repositories/EventInAreaOfInterestRepository.cs" />
+        <option value="$PROJECT_DIR$/DAL.App.EF/Repositories/EventInLocationRepository.cs" />
+        <option value="$PROJECT_DIR$/DAL.App.EF/Repositories/EventInTypeRepository.cs" />
+        <option value="$PROJECT_DIR$/DAL.App.EF/Repositories/EventRepository.cs" />
+        <option value="$PROJECT_DIR$/DAL.App.EF/Repositories/EventTargetAudienceRepository.cs" />
+        <option value="$PROJECT_DIR$/DAL.App.EF/Repositories/EventTypeRepository.cs" />
+        <option value="$PROJECT_DIR$/DAL.App.EF/Repositories/LocationRepository.cs" />
+        <option value="$PROJECT_DIR$/DAL.App.EF/Repositories/OrganizationOrganizingRepository.cs" />
+        <option value="$PROJECT_DIR$/DAL.App.EF/Repositories/OrganizationRepository.cs" />
+        <option value="$PROJECT_DIR$/DAL.App.EF/Repositories/PerformerInEventRepository.cs" />
+        <option value="$PROJECT_DIR$/DAL.App.EF/Repositories/PerformerRepository.cs" />
+        <option value="$PROJECT_DIR$/DAL.App.EF/Repositories/SponsorInEventRepository.cs" />
+        <option value="$PROJECT_DIR$/DAL.App.EF/Repositories/TargetAudienceRepository.cs" />
+        <option value="$PROJECT_DIR$/DAL.Base.EF/Repositories/BaseRepositoryAsync.cs" />
+        <option value="$PROJECT_DIR$/Contracts.DAL.Base/IUnitOfWork.cs" />
+        <option value="$PROJECT_DIR$/Contracts.DAL.App/IAppUnitOfWork.cs" />
+        <option value="$PROJECT_DIR$/WebApp/Startup.cs" />
+        <option value="$PROJECT_DIR$/Contracts.DAL.Base/Repositories/IBaseRepository.cs" />
+        <option value="$PROJECT_DIR$/WebApp/ApiControllers/AdminsitrativeUnitInEventController.cs" />
+        <option value="$PROJECT_DIR$/WebApp/ApiControllers/AreaOfInterestController.cs" />
+        <option value="$PROJECT_DIR$/WebApp/ApiControllers/EventController.cs" />
+        <option value="$PROJECT_DIR$/WebApp/ApiControllers/EventInAreaOfInterestController.cs" />
+        <option value="$PROJECT_DIR$/WebApp/ApiControllers/EventInLocationController.cs" />
+        <option value="$PROJECT_DIR$/WebApp/ApiControllers/EventTargetAudienceController.cs" />
+        <option value="$PROJECT_DIR$/WebApp/ApiControllers/LocationController.cs" />
+        <option value="$PROJECT_DIR$/WebApp/ApiControllers/OrganizationController.cs" />
+        <option value="$PROJECT_DIR$/WebApp/ApiControllers/OrganizationOrganizingController.cs" />
+        <option value="$PROJECT_DIR$/WebApp/ApiControllers/PerformerController.cs" />
+        <option value="$PROJECT_DIR$/WebApp/ApiControllers/PerformerInEventController.cs" />
+        <option value="$PROJECT_DIR$/WebApp/ApiControllers/SponsorInEventController.cs" />
+        <option value="$PROJECT_DIR$/WebApp/ApiControllers/TargetAudienceController.cs" />
+        <option value="$PROJECT_DIR$/WebApp/Controllers/AdministrativeUnitController.cs" />
+        <option value="$PROJECT_DIR$/WebApp/Controllers/AdminsitrativeUnitInEventController.cs" />
+        <option value="$PROJECT_DIR$/WebApp/Controllers/AreaOfInterestController.cs" />
+        <option value="$PROJECT_DIR$/WebApp/Controllers/EventController.cs" />
+        <option value="$PROJECT_DIR$/WebApp/Controllers/EventInAreaOfInterestController.cs" />
+        <option value="$PROJECT_DIR$/WebApp/Controllers/EventInLocationController.cs" />
+        <option value="$PROJECT_DIR$/WebApp/Controllers/EventTargetAudienceController.cs" />
+        <option value="$PROJECT_DIR$/WebApp/Controllers/LocationController.cs" />
+        <option value="$PROJECT_DIR$/WebApp/Controllers/OrganizationController.cs" />
+        <option value="$PROJECT_DIR$/WebApp/Controllers/OrganizationOrganizingController.cs" />
+        <option value="$PROJECT_DIR$/WebApp/Controllers/PerformerController.cs" />
+        <option value="$PROJECT_DIR$/WebApp/Controllers/PerformerInEventController.cs" />
+        <option value="$PROJECT_DIR$/WebApp/Controllers/SponsorInEventController.cs" />
+        <option value="$PROJECT_DIR$/WebApp/Controllers/TargetAudienceController.cs" />
+        <option value="$PROJECT_DIR$/DAL.Base.EF/BaseUnitOfWork.cs" />
+        <option value="$PROJECT_DIR$/DAL.App.EF/AppUnitOfWork.cs" />
+        <option value="$PROJECT_DIR$/WebApp/ApiControllers/AdministrativeUnitController.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1TYda93HMWEEU1dCglxROphc9hL" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
+    <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ClientApp" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="ts.external.directory.path" value="C:\Users\ADMIN\Desktop\CalendarProject\ClientApp\node_modules\typescript\lib" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected=".NET Launch Settings Profile.WebApp">
+    <configuration name="WebApp" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
+      <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/WebApp/WebApp.csproj" />
+      <option name="LAUNCH_PROFILE_TFM" value=".NETCoreApp,Version=v3.0" />
+      <option name="LAUNCH_PROFILE_NAME" value="WebApp" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="GENERATE_APPLICATIONHOST_CONFIG" value="1" />
+      <option name="SHOW_IIS_EXPRESS_OUTPUT" value="0" />
+      <option name="SEND_DEBUG_REQUEST" value="1" />
+      <option name="ADDITIONAL_IIS_EXPRESS_ARGUMENTS" value="" />
+      <method v="2">
+        <option name="Build" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WebApp: IIS Express" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
+      <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/WebApp/WebApp.csproj" />
+      <option name="LAUNCH_PROFILE_TFM" value=".NETCoreApp,Version=v3.0" />
+      <option name="LAUNCH_PROFILE_NAME" value="IIS Express" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="GENERATE_APPLICATIONHOST_CONFIG" value="1" />
+      <option name="SHOW_IIS_EXPRESS_OUTPUT" value="0" />
+      <option name="SEND_DEBUG_REQUEST" value="1" />
+      <option name="ADDITIONAL_IIS_EXPRESS_ARGUMENTS" value="" />
+      <method v="2">
+        <option name="Build" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1d1a967e-c97c-4ba6-8c21-23e2f2dc6315" name="Default Changelist" comment="" />
+      <created>1573641024916</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1573641024916</updated>
+      <workItem from="1573641029445" duration="1359000" />
+      <workItem from="1573644184140" duration="5475000" />
+      <workItem from="1573654458122" duration="1112000" />
+      <workItem from="1573657945145" duration="4632000" />
+      <workItem from="1574004055412" duration="7803000" />
+      <workItem from="1574019738249" duration="6538000" />
+      <workItem from="1574071097842" duration="27000" />
+      <workItem from="1574164957490" duration="15809000" />
+      <workItem from="1574246109532" duration="5255000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="LOCAL_CHANGES_DETAILS_PREVIEW_SHOWN" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" suspend="NONE" type="DotNet Exception Breakpoints">
+          <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

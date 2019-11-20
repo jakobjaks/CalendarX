@@ -1,0 +1,50 @@
+﻿{
+  "version": "1.0.0",
+  "restore": {
+    "projectUniqueName": "C:\\Users\\ADMIN\\Desktop\\CalendarProject\\CalendarX\\Contracts.DAL.App\\Contracts.DAL.App.csproj",
+    "projectName": "Contracts.DAL.App",
+    "projectPath": "C:\\Users\\ADMIN\\Desktop\\CalendarProject\\CalendarX\\Contracts.DAL.App\\Contracts.DAL.App.csproj",
+    "outputPath": "C:\\Users\\ADMIN\\Desktop\\CalendarProject\\CalendarX\\Contracts.DAL.App\\obj\\",
+    "projectStyle": "PackageReference",
+    "fallbackFolders": [
+      "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+    ],
+    "originalTargetFrameworks": [
+      "netstandard2.1"
+    ],
+    "sources": {
+      "https://api.nuget.org/v3/index.json": {}
+    },
+    "frameworks": {
+      "netstandard2.1": {
+        "projectReferences": {
+          "C:\\Users\\ADMIN\\Desktop\\CalendarProject\\CalendarX\\Contracts.DAL.Base\\Contracts.DAL.Base.csproj": {
+            "projectPath": "C:\\Users\\ADMIN\\Desktop\\CalendarProject\\CalendarX\\Contracts.DAL.Base\\Contracts.DAL.Base.csproj"
+          },
+          "C:\\Users\\ADMIN\\Desktop\\CalendarProject\\CalendarX\\Domain\\Domain.csproj": {
+            "projectPath": "C:\\Users\\ADMIN\\Desktop\\CalendarProject\\CalendarX\\Domain\\Domain.csproj"
+          }
+        }
+      }
+    },
+    "warningProperties": {
+      "warnAsError": [
+        "NU1605"
+      ]
+    }
+  },
+  "frameworks": {
+    "netstandard2.1": {
+      "imports": [
+        "net461",
+        "net462",
+        "net47",
+        "net471",
+        "net472",
+        "net48"
+      ],
+      "assetTargetFallback": true,
+      "warn": true
+    }
+  }
+}

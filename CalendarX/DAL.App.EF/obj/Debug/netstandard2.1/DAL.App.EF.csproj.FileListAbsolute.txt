@@ -1,0 +1,17 @@
+C:\Users\ADMIN\Desktop\CalendarProject\CalendarX\DAL.App.EF\bin\Debug\netstandard2.1\DAL.App.EF.deps.json
+C:\Users\ADMIN\Desktop\CalendarProject\CalendarX\DAL.App.EF\bin\Debug\netstandard2.1\DAL.App.EF.dll
+C:\Users\ADMIN\Desktop\CalendarProject\CalendarX\DAL.App.EF\bin\Debug\netstandard2.1\DAL.App.EF.pdb
+C:\Users\ADMIN\Desktop\CalendarProject\CalendarX\DAL.App.EF\bin\Debug\netstandard2.1\Contracts.DAL.Base.dll
+C:\Users\ADMIN\Desktop\CalendarProject\CalendarX\DAL.App.EF\bin\Debug\netstandard2.1\Domain.dll
+C:\Users\ADMIN\Desktop\CalendarProject\CalendarX\DAL.App.EF\bin\Debug\netstandard2.1\Domain.pdb
+C:\Users\ADMIN\Desktop\CalendarProject\CalendarX\DAL.App.EF\bin\Debug\netstandard2.1\Contracts.DAL.Base.pdb
+C:\Users\ADMIN\Desktop\CalendarProject\CalendarX\DAL.App.EF\obj\Debug\netstandard2.1\DAL.App.EF.csprojAssemblyReference.cache
+C:\Users\ADMIN\Desktop\CalendarProject\CalendarX\DAL.App.EF\obj\Debug\netstandard2.1\DAL.App.EF.AssemblyInfoInputs.cache
+C:\Users\ADMIN\Desktop\CalendarProject\CalendarX\DAL.App.EF\obj\Debug\netstandard2.1\DAL.App.EF.AssemblyInfo.cs
+C:\Users\ADMIN\Desktop\CalendarProject\CalendarX\DAL.App.EF\obj\Debug\netstandard2.1\DAL.App.EF.csproj.CopyComplete
+C:\Users\ADMIN\Desktop\CalendarProject\CalendarX\DAL.App.EF\obj\Debug\netstandard2.1\DAL.App.EF.dll
+C:\Users\ADMIN\Desktop\CalendarProject\CalendarX\DAL.App.EF\obj\Debug\netstandard2.1\DAL.App.EF.pdb
+C:\Users\ADMIN\Desktop\CalendarProject\CalendarX\DAL.App.EF\bin\Debug\netstandard2.1\Contracts.DAL.App.dll
+C:\Users\ADMIN\Desktop\CalendarProject\CalendarX\DAL.App.EF\bin\Debug\netstandard2.1\DAL.Base.EF.dll
+C:\Users\ADMIN\Desktop\CalendarProject\CalendarX\DAL.App.EF\bin\Debug\netstandard2.1\Contracts.DAL.App.pdb
+C:\Users\ADMIN\Desktop\CalendarProject\CalendarX\DAL.App.EF\bin\Debug\netstandard2.1\DAL.Base.EF.pdb
