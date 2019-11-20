@@ -37,54 +37,54 @@ namespace DAL.App.EF
             GetOrCreateRepository<IAdministrativeUnitInEventRepository>((ctx) =>
                 new AdministrativeUnitInEventRepository(ctx));
         public IAdministrativeUnitRepository AdministrativeUnitRepository =>
-            GetOrCreateRepository<IAdministrativeUnitInEventRepository>((ctx) =>
-                new AdministrativeUnitInEventRepository(ctx));        
+            GetOrCreateRepository<IAdministrativeUnitRepository>((ctx) =>
+                new AdministrativeUnitRepository(ctx));        
         public IAreaOfInterestRepository AreaOfInterestRepository =>
-            GetOrCreateRepository<IAdministrativeUnitInEventRepository>((ctx) =>
-                new AdministrativeUnitInEventRepository(ctx));        
+            GetOrCreateRepository<IAreaOfInterestRepository>((ctx) =>
+                new AreaOfInterestRepository(ctx));        
         public IEventInAreaOfInterestRepository EventInAreaOfInterestRepository =>
-            GetOrCreateRepository<IAdministrativeUnitInEventRepository>((ctx) =>
-                new AdministrativeUnitInEventRepository(ctx));
+            GetOrCreateRepository<IEventInAreaOfInterestRepository>((ctx) =>
+                new EventInAreaOfInterestRepository(ctx));
         
         public IEventInLocationRepository EventInLocationRepository =>
-            GetOrCreateRepository<IAdministrativeUnitInEventRepository>((ctx) =>
-                new AdministrativeUnitInEventRepository(ctx));
+            GetOrCreateRepository<IEventInLocationRepository>((ctx) =>
+                new EventInLocationRepository(ctx));
         public IEventTypeRepository EventTypeRepository =>
-            GetOrCreateRepository<IAdministrativeUnitInEventRepository>((ctx) =>
-                new AdministrativeUnitInEventRepository(ctx));
+            GetOrCreateRepository<IEventTypeRepository>((ctx) =>
+                new EventTypeRepository(ctx));
         
         public IEventRepository EventRepository =>
-            GetOrCreateRepository<IAdministrativeUnitInEventRepository>((ctx) =>
-                new AdministrativeUnitInEventRepository(ctx));
+            GetOrCreateRepository<IEventRepository>((ctx) =>
+                new EventRepository(ctx));
         public IEventTargetAudienceRepository EventTargetAudienceRepository =>
-            GetOrCreateRepository<IAdministrativeUnitInEventRepository>((ctx) =>
-                new AdministrativeUnitInEventRepository(ctx));
+            GetOrCreateRepository<IEventTargetAudienceRepository>((ctx) =>
+                new EventTargetAudienceRepository(ctx));
         public IEventInTypeRepository EventInTypeRepository =>
-            GetOrCreateRepository<IAdministrativeUnitInEventRepository>((ctx) =>
-                new AdministrativeUnitInEventRepository(ctx));
+            GetOrCreateRepository<IEventInTypeRepository>((ctx) =>
+                new EventInTypeRepository(ctx));
         
         public ILocationRepository LocationRepository =>
-            GetOrCreateRepository<IAdministrativeUnitInEventRepository>((ctx) =>
-                new AdministrativeUnitInEventRepository(ctx));
+            GetOrCreateRepository<ILocationRepository>((ctx) =>
+                new LocationRepository(ctx));
         public IOrganizationRepository OrganizationRepository =>
-            GetOrCreateRepository<IAdministrativeUnitInEventRepository>((ctx) =>
-                new AdministrativeUnitInEventRepository(ctx));
+            GetOrCreateRepository<IOrganizationRepository>((ctx) =>
+                new OrganizationRepository(ctx));
         
         public IOrganizationOrganizingRepository OrganizationOrganizingRepository =>
-            GetOrCreateRepository<IAdministrativeUnitInEventRepository>((ctx) =>
-                new AdministrativeUnitInEventRepository(ctx));
+            GetOrCreateRepository<IOrganizationOrganizingRepository>((ctx) =>
+                new OrganizationOrganizingRepository(ctx));
         public IPerformerInEventRepository PerformerInEventRepository =>
-            GetOrCreateRepository<IAdministrativeUnitInEventRepository>((ctx) =>
-                new AdministrativeUnitInEventRepository(ctx));
+            GetOrCreateRepository<IPerformerInEventRepository>((ctx) =>
+                new PerformerInEventRepository(ctx));
         
         public IPerformerRepository PerformerRepository =>
-            GetOrCreateRepository<IAdministrativeUnitInEventRepository>((ctx) =>
-                new AdministrativeUnitInEventRepository(ctx));
+            GetOrCreateRepository<IPerformerRepository>((ctx) =>
+                new PerformerRepository(ctx));
         public ISponsorInEventRepository SponsorInEventRepository =>
-            GetOrCreateRepository<IAdministrativeUnitInEventRepository>((ctx) =>
-                new AdministrativeUnitInEventRepository(ctx));
+            GetOrCreateRepository<ISponsorInEventRepository>((ctx) =>
+                new SponsorInEventRepository(ctx));
         public ITargetAudienceRepository TargetAudienceRepository =>
-            GetOrCreateRepository<IAdministrativeUnitInEventRepository>((ctx) =>
-                new AdministrativeUnitInEventRepository(ctx));
+            GetOrCreateRepository<ITargetAudienceRepository>((ctx) =>
+                new TargetAudienceRepository(ctx));
     }
 }
