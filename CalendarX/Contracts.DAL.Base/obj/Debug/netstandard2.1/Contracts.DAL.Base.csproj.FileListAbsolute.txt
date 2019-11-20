@@ -1,8 +1,0 @@
-C:\Users\ADMIN\Desktop\CalendarProject\CalendarX\Contracts.DAL.Base\bin\Debug\netstandard2.1\Contracts.DAL.Base.deps.json
-C:\Users\ADMIN\Desktop\CalendarProject\CalendarX\Contracts.DAL.Base\bin\Debug\netstandard2.1\Contracts.DAL.Base.dll
-C:\Users\ADMIN\Desktop\CalendarProject\CalendarX\Contracts.DAL.Base\bin\Debug\netstandard2.1\Contracts.DAL.Base.pdb
-C:\Users\ADMIN\Desktop\CalendarProject\CalendarX\Contracts.DAL.Base\obj\Debug\netstandard2.1\Contracts.DAL.Base.csprojAssemblyReference.cache
-C:\Users\ADMIN\Desktop\CalendarProject\CalendarX\Contracts.DAL.Base\obj\Debug\netstandard2.1\Contracts.DAL.Base.AssemblyInfoInputs.cache
-C:\Users\ADMIN\Desktop\CalendarProject\CalendarX\Contracts.DAL.Base\obj\Debug\netstandard2.1\Contracts.DAL.Base.AssemblyInfo.cs
-C:\Users\ADMIN\Desktop\CalendarProject\CalendarX\Contracts.DAL.Base\obj\Debug\netstandard2.1\Contracts.DAL.Base.dll
-C:\Users\ADMIN\Desktop\CalendarProject\CalendarX\Contracts.DAL.Base\obj\Debug\netstandard2.1\Contracts.DAL.Base.pdb
