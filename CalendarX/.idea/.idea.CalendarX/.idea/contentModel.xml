@@ -151,6 +151,19 @@
           <e p="TargetAudience.cs" t="Include" />
         </e>
       </e>
+      <e p="Identity" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Identity.csproj" t="IncludeRecursive" />
+        <e p="IdentityExtensions.cs" t="Include" />
+        <e p="JwtHelper.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netstandard2.1" t="Include">
+              <e p="Identity.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
       <e p="packages" t="ExcludeRecursive" />
       <e p="WebApp" t="IncludeRecursive">
         <e p="ApiControllers" t="Include">
@@ -161,6 +174,9 @@
           <e p="EventInAreaOfInterestController.cs" t="Include" />
           <e p="EventInLocationController.cs" t="Include" />
           <e p="EventTargetAudienceController.cs" t="Include" />
+          <e p="Identity" t="Include">
+            <e p="AccountController.cs" t="Include" />
+          </e>
           <e p="LocationController.cs" t="Include" />
           <e p="OrganizationController.cs" t="Include" />
           <e p="OrganizationOrganizingController.cs" t="Include" />
@@ -305,6 +321,8 @@
         <e p="ScaffoldingReadme.txt" t="Include" />
         <e p="Startup.cs" t="Include" />
         <e p="Views" t="Include">
+          <e p="_ViewImports.cshtml" t="Include" />
+          <e p="_ViewStart.cshtml" t="Include" />
           <e p="AdministrativeUnit" t="Include">
             <e p="Create.cshtml" t="Include" />
             <e p="Delete.cshtml" t="Include" />
@@ -390,6 +408,9 @@
             <e p="Index.cshtml" t="Include" />
           </e>
           <e p="Shared" t="Include">
+            <e p="_CookieConsentPartial.cshtml" t="Include" />
+            <e p="_Layout.cshtml" t="Include" />
+            <e p="_LoginPartial.cshtml" t="Include" />
             <e p="_ValidationScriptsPartial.cshtml" t="Include" />
           </e>
           <e p="SponsorInEvent" t="Include">
@@ -495,6 +516,7 @@
     <e p="C:\Users\ADMIN\Desktop\CalendarProject\ClientApp\node_modules\aurelia-cli" t="IncludeRecursive" />
     <e p="C:\Users\ADMIN\Desktop\CalendarProject\ClientApp\node_modules\aurelia-dependency-injection" t="IncludeRecursive" />
     <e p="C:\Users\ADMIN\Desktop\CalendarProject\ClientApp\node_modules\aurelia-event-aggregator" t="IncludeRecursive" />
+    <e p="C:\Users\ADMIN\Desktop\CalendarProject\ClientApp\node_modules\aurelia-fetch-client" t="IncludeRecursive" />
     <e p="C:\Users\ADMIN\Desktop\CalendarProject\ClientApp\node_modules\aurelia-framework" t="IncludeRecursive" />
     <e p="C:\Users\ADMIN\Desktop\CalendarProject\ClientApp\node_modules\aurelia-history" t="IncludeRecursive" />
     <e p="C:\Users\ADMIN\Desktop\CalendarProject\ClientApp\node_modules\aurelia-history-browser" t="IncludeRecursive" />

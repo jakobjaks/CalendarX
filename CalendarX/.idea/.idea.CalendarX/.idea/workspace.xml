@@ -2,11 +2,66 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1d1a967e-c97c-4ba6-8c21-23e2f2dc6315" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/WebApp/Areas/Identity/Pages/Account/Manage/_ViewStart.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/Helpers/EmailSender.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Identity/JwtHelper.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/ApiControllers/Identity/AccountController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/Views/Shared/_CookieConsentPartial.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/Views/Shared/_Layout.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/Views/Shared/_LoginPartial.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/Views/_ViewImports.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/Views/_ViewStart.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClientApp/src/app-config.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClientApp/src/identity/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClientApp/src/identity/login.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClientApp/src/identity/logout.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClientApp/src/identity/logout.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClientApp/src/identity/register.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClientApp/src/identity/register.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClientApp/src/interfaces/IBaseEntity.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClientApp/src/pages/administrativeUnits/create.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClientApp/src/pages/administrativeUnits/create.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClientApp/src/pages/administrativeUnits/delete.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClientApp/src/pages/administrativeUnits/delete.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClientApp/src/pages/administrativeUnits/details.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClientApp/src/pages/administrativeUnits/details.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClientApp/src/pages/administrativeUnits/edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClientApp/src/pages/administrativeUnits/edit.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClientApp/src/pages/administrativeUnits/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClientApp/src/pages/administrativeUnits/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClientApp/src/services/base-service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClientApp/src/services/identity-service.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.CalendarX/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CalendarX/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.CalendarX/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CalendarX/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CalendarX.sln" beforeDir="false" afterPath="$PROJECT_DIR$/CalendarX.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApp/ApiControllers/AdministrativeUnitController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/ApiControllers/AdministrativeUnitController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApp/ApiControllers/AdminsitrativeUnitInEventController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/ApiControllers/AdminsitrativeUnitInEventController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApp/ApiControllers/AreaOfInterestController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/ApiControllers/AreaOfInterestController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApp/ApiControllers/EventController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/ApiControllers/EventController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApp/ApiControllers/EventInAreaOfInterestController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/ApiControllers/EventInAreaOfInterestController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApp/ApiControllers/EventInLocationController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/ApiControllers/EventInLocationController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApp/ApiControllers/EventTargetAudienceController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/ApiControllers/EventTargetAudienceController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApp/ApiControllers/LocationController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/ApiControllers/LocationController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApp/ApiControllers/OrganizationController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/ApiControllers/OrganizationController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApp/ApiControllers/OrganizationOrganizingController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/ApiControllers/OrganizationOrganizingController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApp/ApiControllers/PerformerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/ApiControllers/PerformerController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApp/ApiControllers/PerformerInEventController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/ApiControllers/PerformerInEventController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApp/ApiControllers/SponsorInEventController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/ApiControllers/SponsorInEventController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApp/ApiControllers/TargetAudienceController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/ApiControllers/TargetAudienceController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApp/Pages/Shared/_Layout.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/Pages/Shared/_Layout.cshtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebApp/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/Startup.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApp/Views/AdminsitrativeUnitInEvent/Delete.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/Views/AdminsitrativeUnitInEvent/Delete.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApp/Views/Event/Delete.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/Views/Event/Delete.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApp/Views/EventInAreaOfInterest/Delete.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/Views/EventInAreaOfInterest/Delete.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApp/Views/EventInLocation/Delete.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/Views/EventInLocation/Delete.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApp/Views/EventTargetAudience/Delete.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/Views/EventTargetAudience/Delete.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApp/Views/OrganizationOrganizing/Delete.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/Views/OrganizationOrganizing/Delete.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApp/Views/PerformerInEvent/Delete.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/Views/PerformerInEvent/Delete.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApp/Views/SponsorInEvent/Delete.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/Views/SponsorInEvent/Delete.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApp/WebApp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/WebApp.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApp/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/appsettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ClientApp/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../ClientApp/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ClientApp/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../ClientApp/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ClientApp/src/main-router.html" beforeDir="false" afterPath="$PROJECT_DIR$/../ClientApp/src/main-router.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ClientApp/src/main-router.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../ClientApp/src/main-router.ts" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,8 +86,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="TypeScript File" />
         <option value="HTML File" />
+        <option value="tsconfig.json" />
+        <option value="TypeScript File" />
       </list>
     </option>
   </component>
@@ -73,24 +129,40 @@
     <setting file="file://$PROJECT_DIR$/Domain/Organization/OrganizationOrganizing.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Domain/AreaOfInterest/EventInAreaOfInterest.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Domain/AreaOfInterest/AreaOfInterest.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WebApp/Views/Shared/_Layout.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Domain/TargetAudience/EventTargetAudience.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Domain/TargetAudience/TargetAudience.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Domain/AdministrativeUnit/AdministrativeUnit.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Domain/AdministrativeUnit/AdministrativeUnitInEvent.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WebApp/Views/OrganizationOrganizing/Delete.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/WebApp/Controllers/SponsorInEventController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Contracts.DAL.Base/IBaseEntity.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Contracts.DAL.Base/Repositories/IBaseRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WebApp/Views/Shared/_CookieConsentPartial.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WebApp/Views/_ViewStart.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WebApp/Pages/Error.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WebApp/Pages/Index.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WebApp/Views/SponsorInEvent/Create.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WebApp/Views/SponsorInEvent/Delete.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WebApp/Views/SponsorInEvent/Index.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/WebApp/Pages/_ViewImports.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WebApp/Views/_ViewImports.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/WebApp/Controllers/PerformerController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/WebApp/Controllers/PerformerInEventController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WebApp/Views/PerformerInEvent/Create.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/WebApp/Pages/Shared/_LoginPartial.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WebApp/Views/PerformerInEvent/Delete.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WebApp/Pages/Shared/_ValidationScriptsPartial.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/WebApp/Pages/Shared/_Layout.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/WebApp/Controllers/EventTargetAudienceController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WebApp/Views/EventTargetAudience/Create.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WebApp/Areas/Identity/Pages/_ViewStart.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/WebApp/Controllers/TargetAudienceController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/80A8E0B4-6759-4C72-9F37-0AAE76C1C59E/10/9dec696b/UIFramework.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/WebApp/Views/TargetAudience/Edit.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/WebApp/Controllers/EventController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/WebApp/Views/Shared/_ValidationScriptsPartial.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WebApp/Areas/Identity/Pages/Account/ConfirmEmailChange.cshtml.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/WebApp/ApiControllers/AdministrativeUnitController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/WebApp/ApiControllers/AdminsitrativeUnitInEventController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/WebApp/ApiControllers/AreaOfInterestController.cs" root0="FORCE_HIGHLIGHTING" />
@@ -107,9 +179,16 @@
     <setting file="file://$PROJECT_DIR$/WebApp/Controllers/AdministrativeUnitController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/WebApp/ApiControllers/TargetAudienceController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/WebApp/Views/AdministrativeUnit/Create.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WebApp/Areas/Identity/Pages/Account/Lockout.cshtml.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WebApp/Areas/Identity/Pages/Account/Login.cshtml.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/WebApp/Views/AdministrativeUnit/Edit.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WebApp/Pages/Shared/_CookieConsentPartial.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/WebApp/Areas/Identity/IdentityHostingStartup.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WebApp/Areas/Identity/Pages/Account/Login.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/A02D31FD-4A36-4913-B23C-EBD1C24DC361/5a/7039bdd5/IdentityUser`1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WebApp/Areas/Identity/Pages/Account/RegisterConfirmation.cshtml.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WebApp/Areas/Identity/Pages/Account/RegisterConfirmation.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WebApp/Areas/Identity/Pages/Account/Lockout.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Contracts.DAL.App/Repositories/IAdministrativeUnitRepository.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Contracts.DAL.App/Repositories/IAdministrativeUnitInEventRepository.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Contracts.DAL.App/Repositories/IAreaOfInterestRepository.cs" root0="FORCE_HIGHLIGHTING" />
@@ -141,10 +220,16 @@
     <setting file="file://$PROJECT_DIR$/WebApp/Controllers/AreaOfInterestController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/WebApp/Controllers/EventInAreaOfInterestController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DAL.App.EF/AppDbContext.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WebApp/Views/Event/Create.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/WebApp/Views/Event/Delete.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WebApp/Views/Event/Edit.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WebApp/Views/Event/Index.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WebApp/ApiControllers/Identity/AccountController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/WebApp/Startup.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Identity/IdentityExtensions.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/WebApp/Program.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/WebApp/Controllers/EventInLocationController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Identity/JwtHelper.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DAL.App.EF/Repositories/AdministrativeUnitInEventRepository.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/WebApp/Controllers/LocationController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DAL.App.EF/Repositories/AdministrativeUnitRepository.cs" root0="FORCE_HIGHLIGHTING" />
@@ -152,24 +237,32 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/DAL.App.EF/Repositories/EventInAreaOfInterestRepository.cs" />
-        <option value="$PROJECT_DIR$/DAL.App.EF/Repositories/EventInLocationRepository.cs" />
-        <option value="$PROJECT_DIR$/DAL.App.EF/Repositories/EventInTypeRepository.cs" />
-        <option value="$PROJECT_DIR$/DAL.App.EF/Repositories/EventRepository.cs" />
-        <option value="$PROJECT_DIR$/DAL.App.EF/Repositories/EventTargetAudienceRepository.cs" />
-        <option value="$PROJECT_DIR$/DAL.App.EF/Repositories/EventTypeRepository.cs" />
-        <option value="$PROJECT_DIR$/DAL.App.EF/Repositories/LocationRepository.cs" />
-        <option value="$PROJECT_DIR$/DAL.App.EF/Repositories/OrganizationOrganizingRepository.cs" />
-        <option value="$PROJECT_DIR$/DAL.App.EF/Repositories/OrganizationRepository.cs" />
-        <option value="$PROJECT_DIR$/DAL.App.EF/Repositories/PerformerInEventRepository.cs" />
-        <option value="$PROJECT_DIR$/DAL.App.EF/Repositories/PerformerRepository.cs" />
-        <option value="$PROJECT_DIR$/DAL.App.EF/Repositories/SponsorInEventRepository.cs" />
-        <option value="$PROJECT_DIR$/DAL.App.EF/Repositories/TargetAudienceRepository.cs" />
-        <option value="$PROJECT_DIR$/DAL.Base.EF/Repositories/BaseRepositoryAsync.cs" />
-        <option value="$PROJECT_DIR$/Contracts.DAL.Base/IUnitOfWork.cs" />
-        <option value="$PROJECT_DIR$/Contracts.DAL.App/IAppUnitOfWork.cs" />
-        <option value="$PROJECT_DIR$/Contracts.DAL.Base/Repositories/IBaseRepository.cs" />
+        <option value="$PROJECT_DIR$/WebApp/Areas/Identity/Pages/Account/RegisterConfirmation.cshtml.cs" />
+        <option value="$PROJECT_DIR$/Identity/Class1.cs" />
+        <option value="$PROJECT_DIR$/Identity/JwtHelper.cs" />
+        <option value="$PROJECT_DIR$/Identity/IdentityExtensions.cs" />
+        <option value="$PROJECT_DIR$/../ClientApp/src/identity/index.ts" />
+        <option value="$PROJECT_DIR$/WebApp/appsettings.json" />
+        <option value="$PROJECT_DIR$/../ClientApp/src/main.ts" />
+        <option value="$PROJECT_DIR$/../ClientApp/src/administrativeUnits/create.html" />
+        <option value="$PROJECT_DIR$/../ClientApp/src/administrativeUnits/index.html" />
+        <option value="$PROJECT_DIR$/../ClientApp/src/administrativeUnits/edit.html" />
+        <option value="$PROJECT_DIR$/../ClientApp/src/administrativeUnits/delete.html" />
+        <option value="$PROJECT_DIR$/../ClientApp/src/administrativeUnits/details.html" />
+        <option value="$PROJECT_DIR$/../ClientApp/src/administrativeUnits/create.ts" />
+        <option value="$PROJECT_DIR$/../ClientApp/src/administrativeUnits/delete.ts" />
+        <option value="$PROJECT_DIR$/../ClientApp/src/administrativeUnits/edit.ts" />
+        <option value="$PROJECT_DIR$/../ClientApp/src/administrativeUnits/details.ts" />
+        <option value="$PROJECT_DIR$/../ClientApp/src/administrativeUnits/index.ts" />
+        <option value="$PROJECT_DIR$/../ClientApp/src/identity/login.html" />
+        <option value="$PROJECT_DIR$/../ClientApp/src/interfaces/IBaseEntity.ts" />
+        <option value="$PROJECT_DIR$/../ClientApp/src/services/base-service.ts" />
+        <option value="$PROJECT_DIR$/../ClientApp/src/identity/logout.html" />
+        <option value="$PROJECT_DIR$/../ClientApp/src/identity/register.html" />
+        <option value="$PROJECT_DIR$/../ClientApp/src/identity/register.ts" />
+        <option value="$PROJECT_DIR$/../ClientApp/src/identity/logout.ts" />
         <option value="$PROJECT_DIR$/WebApp/ApiControllers/AdminsitrativeUnitInEventController.cs" />
+        <option value="$PROJECT_DIR$/WebApp/ApiControllers/AdministrativeUnitController.cs" />
         <option value="$PROJECT_DIR$/WebApp/ApiControllers/AreaOfInterestController.cs" />
         <option value="$PROJECT_DIR$/WebApp/ApiControllers/EventController.cs" />
         <option value="$PROJECT_DIR$/WebApp/ApiControllers/EventInAreaOfInterestController.cs" />
@@ -182,32 +275,26 @@
         <option value="$PROJECT_DIR$/WebApp/ApiControllers/PerformerInEventController.cs" />
         <option value="$PROJECT_DIR$/WebApp/ApiControllers/SponsorInEventController.cs" />
         <option value="$PROJECT_DIR$/WebApp/ApiControllers/TargetAudienceController.cs" />
-        <option value="$PROJECT_DIR$/WebApp/Controllers/AdministrativeUnitController.cs" />
-        <option value="$PROJECT_DIR$/WebApp/Controllers/AdminsitrativeUnitInEventController.cs" />
-        <option value="$PROJECT_DIR$/WebApp/Controllers/AreaOfInterestController.cs" />
+        <option value="$PROJECT_DIR$/WebApp/Pages/Shared/_Layout.cshtml" />
         <option value="$PROJECT_DIR$/WebApp/Controllers/EventController.cs" />
-        <option value="$PROJECT_DIR$/WebApp/Controllers/EventInAreaOfInterestController.cs" />
-        <option value="$PROJECT_DIR$/WebApp/Controllers/EventInLocationController.cs" />
-        <option value="$PROJECT_DIR$/WebApp/Controllers/EventTargetAudienceController.cs" />
-        <option value="$PROJECT_DIR$/WebApp/Controllers/LocationController.cs" />
-        <option value="$PROJECT_DIR$/WebApp/Controllers/OrganizationController.cs" />
-        <option value="$PROJECT_DIR$/WebApp/Controllers/OrganizationOrganizingController.cs" />
-        <option value="$PROJECT_DIR$/WebApp/Controllers/PerformerController.cs" />
-        <option value="$PROJECT_DIR$/WebApp/Controllers/PerformerInEventController.cs" />
-        <option value="$PROJECT_DIR$/WebApp/Controllers/SponsorInEventController.cs" />
-        <option value="$PROJECT_DIR$/WebApp/Controllers/TargetAudienceController.cs" />
-        <option value="$PROJECT_DIR$/DAL.Base.EF/BaseUnitOfWork.cs" />
-        <option value="$PROJECT_DIR$/WebApp/ApiControllers/AdministrativeUnitController.cs" />
-        <option value="$PROJECT_DIR$/DAL.App.EF/AppUnitOfWork.cs" />
-        <option value="$PROJECT_DIR$/WebApp/Areas/Identity/Pages/Account/Manage/_Layout.cshtml" />
-        <option value="$PROJECT_DIR$/WebApp/Areas/Identity/Pages/Account/Manage/_ViewStart.cshtml" />
+        <option value="$PROJECT_DIR$/WebApp/Views/Event/Create.cshtml" />
+        <option value="$PROJECT_DIR$/WebApp/Views/_ViewImports.cshtml" />
+        <option value="$PROJECT_DIR$/WebApp/Views/SponsorInEvent/Delete.cshtml" />
+        <option value="$PROJECT_DIR$/WebApp/Views/Shared/_Layout.cshtml" />
+        <option value="$PROJECT_DIR$/../ClientApp/src/services/identity-service.ts" />
         <option value="$PROJECT_DIR$/WebApp/Startup.cs" />
-        <option value="$PROJECT_DIR$/WebApp/Helpers/EmailSender.cs" />
+        <option value="$PROJECT_DIR$/WebApp/ApiControllers/Identity/AccountController.cs" />
+        <option value="$PROJECT_DIR$/../ClientApp/src/identity/login.ts" />
+        <option value="$PROJECT_DIR$/../ClientApp/src/main-router.html" />
+        <option value="$PROJECT_DIR$/../ClientApp/src/app-config.ts" />
+        <option value="$PROJECT_DIR$/../ClientApp/src/main-router.ts" />
       </list>
     </option>
   </component>
   <component name="ProjectId" id="1TYda93HMWEEU1dCglxROphc9hL" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
@@ -217,6 +304,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../ClientApp" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="configurable.group.language" />
     <property name="ts.external.directory.path" value="C:\Users\ADMIN\Desktop\CalendarProject\ClientApp\node_modules\typescript\lib" />
   </component>
@@ -282,7 +370,9 @@
       <workItem from="1574019738249" duration="6538000" />
       <workItem from="1574071097842" duration="27000" />
       <workItem from="1574164957490" duration="15809000" />
-      <workItem from="1574246109532" duration="9049000" />
+      <workItem from="1574246109532" duration="14602000" />
+      <workItem from="1574273952379" duration="6447000" />
+      <workItem from="1574327203673" duration="7657000" />
     </task>
     <task id="LOCAL-00001" summary="Fixed appunitofwork factory methods">
       <created>1574259508863</created>
@@ -291,7 +381,14 @@
       <option name="project" value="LOCAL" />
       <updated>1574259508863</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Scaffolded identity with&#10;dotnet aspnet-codegenerator identity -dc DAL.App.EF.AppDbContext -f &#10;&#10;Added dummy EmailSender">
+      <created>1574263336080</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1574263336080</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -304,7 +401,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -313,7 +412,8 @@
   <component name="VcsManagerConfiguration">
     <option name="LOCAL_CHANGES_DETAILS_PREVIEW_SHOWN" value="true" />
     <MESSAGE value="Fixed appunitofwork factory methods" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed appunitofwork factory methods" />
+    <MESSAGE value="Scaffolded identity with&#10;dotnet aspnet-codegenerator identity -dc DAL.App.EF.AppDbContext -f &#10;&#10;Added dummy EmailSender" />
+    <option name="LAST_COMMIT_MESSAGE" value="Scaffolded identity with&#10;dotnet aspnet-codegenerator identity -dc DAL.App.EF.AppDbContext -f &#10;&#10;Added dummy EmailSender" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
