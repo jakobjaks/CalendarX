@@ -1,3 +1,22 @@
 <template>
-  
+  <h1>Details</h1>
+
+  <div>
+    <h4>Administrative Unit </h4>
+    <hr />
+    <dl class="row">
+      <dt class = "col-sm-2">
+        Administrative Unit Name
+      </dt>
+      <dd class = "col-sm-10">
+        ${administrativeUnit.name}
+      </dd>
+    </dl>
+  </div>
+  <div>
+    <!-- if.bind - add/remove element to dom based on predicate -->
+    <a if.bind="administrativeUnit != null" route-href="route: AdministrativeUnitsEdit; params.bind: {id: administrativeUnit.id}">Edit</a> |
+    <a route-href="route: AdministrativeUnitsIndex">Back to List</a>
+  </div>
+
 </template>

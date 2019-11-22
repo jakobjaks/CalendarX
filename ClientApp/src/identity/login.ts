@@ -11,8 +11,8 @@ export var log = LogManager.getLogger('Identity.Login');
 export class Login {
 
   // TODO: Remove fixed username and password
-  private email: string = "a@a.ee";
-  private password: string = "Password";
+  private email: string = "a@gmail.ee";
+  private password: string = "123456";
 
   constructor(
     private identityService: IdentityService,

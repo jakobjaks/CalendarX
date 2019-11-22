@@ -1,0 +1,42 @@
+<template>
+  <h1>Events</h1>
+
+  <p>
+    <a route-href="route: EventsCreate">Event - Create New</a>
+  </p>
+  <table class="table">
+    <thead>
+    <tr>
+      <th>
+        Name
+      </th> 
+      <th>
+        Description
+      </th>
+      <th></th>
+    </tr>
+    </thead>  
+    <tbody>
+    <!-- repeat this tr element, iterate over Events -->
+    <tr repeat.for="event of Event">
+      <td>
+        <!-- string interpolation -->
+        ${event.name}
+      </td>
+      <td>
+        <!-- string interpolation -->
+        ${event.description}
+      </td>
+      <td>
+        <!-- gdenerate links, based on routing table defined in main-router -->
+        <a route-href="route: EventsEdit; params.bind: {id: event.id}">Edit</a> |
+        <a route-href="route: EventsDetails; params.bind: {id: event.id}">Details</a> |
+        <a route-href="route: EventsDelete; params.bind: {id: event.id}">Delete</a>
+      </td>
+    </tr>
+
+    </tbody>
+  </table>
+
+
+</template>

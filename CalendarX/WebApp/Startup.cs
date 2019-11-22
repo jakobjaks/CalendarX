@@ -16,6 +16,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.IdentityModel.Tokens;
+using Newtonsoft.Json;
 using WebApp.Helpers;
 
 namespace WebApp
@@ -47,6 +48,12 @@ namespace WebApp
 
             services.AddScoped(typeof(IAppUnitOfWork), typeof(AppUnitOfWork));
             
+            services.AddControllers()
+                .AddNewtonsoftJson(options =>
+                {
+                    options.SerializerSettings.Formatting = Formatting.Indented;
+                });
+            
             
             services
                 .AddIdentity<AppUser, AppRole>()
@@ -73,16 +80,16 @@ namespace WebApp
 
             });
 
-            
+
             services
                 .AddMvc(options => options.EnableEndpointRouting = false)
                 .SetCompatibilityVersion(CompatibilityVersion.Version_3_0)
-                .SetCompatibilityVersion(CompatibilityVersion.Version_2_2)
                 .AddRazorPagesOptions(options =>
                 {
                     options.Conventions.AuthorizeAreaFolder("Identity", "/Account/Manage");
-                    options.Conventions.AuthorizeAreaPage("Identity", "/Account/Logout");
+                    options.Conventions.AuthorizeAreaPage("Identity", "/Account/Lout");
                 });
+            
             
             services.ConfigureApplicationCookie(options =>
             {

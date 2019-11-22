@@ -1,0 +1,22 @@
+<template>
+  <h1>Details</h1>
+
+  <div>
+    <h4>Event </h4>
+    <hr />
+    <dl class="row">
+      <dt class = "col-sm-2">
+        Event Name
+      </dt>
+      <dd class = "col-sm-10">
+        ${event.name}
+      </dd>
+    </dl>
+  </div>
+  <div>
+    <!-- if.bind - add/remove element to dom based on predicate -->
+    <a if.bind="event != null" route-href="route: EventsEdit; params.bind: {id: event.id}">Edit</a> |
+    <a route-href="route: EventsIndex">Back to List</a>
+  </div>
+
+</template>

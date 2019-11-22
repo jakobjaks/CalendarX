@@ -12,11 +12,13 @@ using DAL.App.EF;
 using Domain;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Cors;
 
 namespace WebApp.ApiControllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [EnableCors("MyPolicy")]
     [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
     public class AdministrativeUnitController : ControllerBase
     {
@@ -72,6 +74,8 @@ namespace WebApp.ApiControllers
         [HttpPost]
         public async Task<ActionResult<AdministrativeUnit>> PostAdministrativeUnit(AdministrativeUnit administrativeUnit)
         {
+            
+                Console.WriteLine("we here" + administrativeUnit.Name);
             await _uow.AdministrativeUnitRepository.AddAsync(administrativeUnit);
             await _uow.SaveChangesAsync();
 
