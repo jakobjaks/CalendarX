@@ -1,12 +1,14 @@
 <template>
   <!-- include/require file or module -->
   <require from="bootstrap/dist/css/bootstrap.min.css"></require>
+  <require from="C:/Users/ADMIN/Desktop/CalendarProject/ClientApp/src/style.css"></require>
+
   <header>
-    <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+    <nav class="gradient-nav navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
       <div class="container">
         <a class="navbar-brand">WebApp</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse"
-                aria-controls="navbarSupportedContent"
+                aria-controls="navbarSupportedContent"  
                 aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -14,20 +16,20 @@
 
           <ul class="navbar-nav">
             <li class="nav-item" show.bind="appConfig.jwt == null">
-              <a class="nav-link text-dark" route-href="route: identityRegister">Register</a>
+              <a class="nav-link text-light" route-href="route: identityRegister">Register</a>
             </li>
             <li class="nav-item" if.bind="appConfig.jwt == null">
-              <a class="nav-link text-dark" route-href="route: identityLogin">Login</a>
+              <a class="nav-link text-light" route-href="route: identityLogin">Login</a>
             </li>
             <li class="nav-item" show.bind="appConfig.jwt != null">
-              <a class="nav-link text-dark" route-href="route: identityLogout">Logout</a>
+              <a class="nav-link text-light" route-href="route: identityLogout">Logout</a>
             </li>
           </ul>
 
 
           <ul class="navbar-nav ">
             <li class="nav-item" repeat.for="nav of router.navigation">
-              <a class="nav-link text-dark" href.bind="nav.href">${nav.title}</a>
+              <a class="nav-link text-light" href.bind="nav.href">${nav.title}</a>
             </li>
           </ul>
         </div>
@@ -37,7 +39,7 @@
   <div class="container">
     <main role="main" class="pb-3">
       <!-- content will be rendered here-->
-      <router-view></router-view>
+      <router-view class="router-view"></router-view>
     </main>
   </div>
 

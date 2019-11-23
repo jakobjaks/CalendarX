@@ -18,7 +18,7 @@ namespace WebApp.ApiControllers
     [Route("api/[controller]")]
     [ApiController]
     [EnableCors("MyPolicy")]
-    [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
+    //[Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
     public class EventController : ControllerBase
     {
         private readonly IAppUnitOfWork _uow;

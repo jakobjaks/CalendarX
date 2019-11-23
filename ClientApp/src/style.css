@@ -1,0 +1,26 @@
+.big-block {
+  color: #28a745;
+  flex: 1;
+  
+}
+.big-box {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: stretch; 
+  align-content: stretch;
+  height: -webkit-fill-available;
+}
+
+.router-view {
+  height: auto; 
+}
+
+
+  
+
+.gradient-nav {
+  background: linear-gradient(135deg,#e4067e 10%,#342b60);
+  color: white;
+}

@@ -2,80 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1d1a967e-c97c-4ba6-8c21-23e2f2dc6315" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../ClientApp/src/interfaces/IAdministrativeUnit.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ClientApp/src/interfaces/IAdministrativeUnitInEvent.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ClientApp/src/interfaces/IAreaOfInterest.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ClientApp/src/interfaces/IEvent.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ClientApp/src/interfaces/IEventInAreaOfInterest.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ClientApp/src/interfaces/IEventInLocation.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ClientApp/src/interfaces/IEventInType.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ClientApp/src/interfaces/IEventTargetAudience.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ClientApp/src/interfaces/ILocation.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ClientApp/src/interfaces/IOrganization.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ClientApp/src/interfaces/IOrganizationOrganizing.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ClientApp/src/interfaces/IPerformer.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ClientApp/src/interfaces/IPerformerInEvent.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ClientApp/src/interfaces/ISponsorInEvent.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ClientApp/src/interfaces/ITargetAudience.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ClientApp/src/pages/events/create.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ClientApp/src/pages/events/create.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ClientApp/src/pages/events/delete.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ClientApp/src/pages/events/delete.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ClientApp/src/pages/events/details.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ClientApp/src/pages/events/details.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ClientApp/src/pages/events/edit.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ClientApp/src/pages/events/edit.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ClientApp/src/pages/events/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ClientApp/src/pages/events/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ClientApp/src/services/administrativeunit-service.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ClientApp/src/services/administrativeunitsinevents-service.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ClientApp/src/services/areaofinterests-service.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ClientApp/src/services/eventinareaofinterests-service.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ClientApp/src/services/eventinlocation-service.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ClientApp/src/services/eventintypes-service.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ClientApp/src/services/events-service.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ClientApp/src/services/eventtargetaudiences-service.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ClientApp/src/services/locations-service.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ClientApp/src/services/organization-service.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ClientApp/src/services/organizationsorganizing-service.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ClientApp/src/services/performerinevents-service.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ClientApp/src/services/performers-service.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ClientApp/src/services/sponsorinevents-service.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ClientApp/src/services/targetaudiences-service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClientApp/src/frontpage/front.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClientApp/src/frontpage/front.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClientApp/src/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClientApp/src/styledata.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.CalendarX/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CalendarX/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.CalendarX/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CalendarX/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DAL.App.EF/DAL.App.EF.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/DAL.App.EF/DAL.App.EF.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DAL.App.EF/Repositories/EventRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DAL.App.EF/Repositories/EventRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CalendarX.sln" beforeDir="false" afterPath="$PROJECT_DIR$/CalendarX.sln" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Domain/Event/Event.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/Event/Event.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApp/ApiControllers/AdministrativeUnitController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/ApiControllers/AdministrativeUnitController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApp/ApiControllers/AdminsitrativeUnitInEventController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/ApiControllers/AdminsitrativeUnitInEventController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApp/ApiControllers/AreaOfInterestController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/ApiControllers/AreaOfInterestController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebApp/ApiControllers/EventController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/ApiControllers/EventController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApp/ApiControllers/EventInAreaOfInterestController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/ApiControllers/EventInAreaOfInterestController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApp/ApiControllers/EventInLocationController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/ApiControllers/EventInLocationController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApp/ApiControllers/EventTargetAudienceController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/ApiControllers/EventTargetAudienceController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApp/ApiControllers/LocationController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/ApiControllers/LocationController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApp/ApiControllers/OrganizationController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/ApiControllers/OrganizationController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApp/ApiControllers/OrganizationOrganizingController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/ApiControllers/OrganizationOrganizingController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApp/ApiControllers/PerformerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/ApiControllers/PerformerController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApp/ApiControllers/PerformerInEventController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/ApiControllers/PerformerInEventController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApp/ApiControllers/SponsorInEventController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/ApiControllers/SponsorInEventController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApp/ApiControllers/TargetAudienceController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/ApiControllers/TargetAudienceController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApp/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApp/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/Startup.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApp/WebApp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/WebApp.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApp/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/appsettings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ClientApp/src/identity/login.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../ClientApp/src/identity/login.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ClientApp/src/pages/administrativeUnits/create.html" beforeDir="false" afterPath="$PROJECT_DIR$/../ClientApp/src/pages/administrativeUnits/create.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ClientApp/src/pages/administrativeUnits/create.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../ClientApp/src/pages/administrativeUnits/create.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ClientApp/src/pages/administrativeUnits/delete.html" beforeDir="false" afterPath="$PROJECT_DIR$/../ClientApp/src/pages/administrativeUnits/delete.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ClientApp/src/pages/administrativeUnits/delete.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../ClientApp/src/pages/administrativeUnits/delete.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ClientApp/src/pages/administrativeUnits/details.html" beforeDir="false" afterPath="$PROJECT_DIR$/../ClientApp/src/pages/administrativeUnits/details.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ClientApp/src/pages/administrativeUnits/details.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../ClientApp/src/pages/administrativeUnits/details.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ClientApp/src/pages/administrativeUnits/edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/../ClientApp/src/pages/administrativeUnits/edit.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ClientApp/src/pages/administrativeUnits/edit.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../ClientApp/src/pages/administrativeUnits/edit.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ClientApp/src/pages/administrativeUnits/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../ClientApp/src/pages/administrativeUnits/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ClientApp/src/pages/administrativeUnits/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../ClientApp/src/pages/administrativeUnits/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ClientApp/src/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/../ClientApp/src/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ClientApp/src/main-router.html" beforeDir="false" afterPath="$PROJECT_DIR$/../ClientApp/src/main-router.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ClientApp/src/main-router.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../ClientApp/src/main-router.ts" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -100,9 +38,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="tsconfig.json" />
+        <option value="HTML File" />
         <option value="TypeScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -224,11 +163,13 @@
     <setting file="file://$PROJECT_DIR$/Contracts.DAL.App/Repositories/IEventTargetAudienceRepository.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Contracts.DAL.App/Repositories/ITargetAudienceRepository.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/WebApp/Areas/Identity/Pages/Account/Manage/_ViewStart.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DAL.App.DTO/Class1.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/68BC8F1A-D288-4D67-83A7-36473951C21F/29/0fd0bfb7/MvcRazorPagesMvcBuilderExtensions.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/68BC8F1A-D288-4D67-83A7-36473951C21F/a4/ded4aa81/RazorPagesOptions.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DAL.Base.EF/Repositories/BaseRepositoryAsync.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/WebApp/Helpers/EmailSender.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/WebApp/Controllers/AdminsitrativeUnitInEventController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/BLL.App.DTO/EventDTO.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/5A41D6B7-1898-42EC-A409-FD0B1C3E3DCF/43/78efdf54/IEnumerable`1.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Domain/Identity/AppRole.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Domain/Identity/AppUser.cs" root0="FORCE_HIGHLIGHTING" />
@@ -254,16 +195,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/../ClientApp/src/services/eventintypes-service.ts" />
-        <option value="$PROJECT_DIR$/../ClientApp/src/services/administrativeunits-service.ts" />
-        <option value="$PROJECT_DIR$/../ClientApp/src/services/areaofinterests-service.ts" />
-        <option value="$PROJECT_DIR$/../ClientApp/src/services/events-service.ts" />
-        <option value="$PROJECT_DIR$/../ClientApp/src/services/locations-service.ts" />
-        <option value="$PROJECT_DIR$/../ClientApp/src/services/organizations-service.ts" />
-        <option value="$PROJECT_DIR$/../ClientApp/src/services/performers-service.ts" />
-        <option value="$PROJECT_DIR$/../ClientApp/src/services/targetaudiences-service.ts" />
-        <option value="$PROJECT_DIR$/../ClientApp/src/services/administrativeunit-service.ts" />
-        <option value="$PROJECT_DIR$/../ClientApp/src/pages/administrativeUnits/index.ts" />
         <option value="$PROJECT_DIR$/WebApp/Program.cs" />
         <option value="$PROJECT_DIR$/WebApp/appsettings.json" />
         <option value="$PROJECT_DIR$/../ClientApp/src/pages/administrativeUnits/create.ts" />
@@ -277,7 +208,6 @@
         <option value="$PROJECT_DIR$/../ClientApp/src/pages/administrativeUnits/details.html" />
         <option value="$PROJECT_DIR$/../ClientApp/src/pages/events/create.ts" />
         <option value="$PROJECT_DIR$/../ClientApp/src/pages/events/index.ts" />
-        <option value="$PROJECT_DIR$/WebApp/ApiControllers/EventController.cs" />
         <option value="$PROJECT_DIR$/WebApp/ApiControllers/AdministrativeUnitController.cs" />
         <option value="$PROJECT_DIR$/WebApp/ApiControllers/AreaOfInterestController.cs" />
         <option value="$PROJECT_DIR$/WebApp/ApiControllers/EventInAreaOfInterestController.cs" />
@@ -294,7 +224,6 @@
         <option value="$PROJECT_DIR$/WebApp/ApiControllers/Identity/AccountController.cs" />
         <option value="$PROJECT_DIR$/../ClientApp/src/pages/events/create.html" />
         <option value="$PROJECT_DIR$/../ClientApp/src/interfaces/IEvent.ts" />
-        <option value="$PROJECT_DIR$/Domain/Event/Event.cs" />
         <option value="$PROJECT_DIR$/../ClientApp/src/pages/events/delete.html" />
         <option value="$PROJECT_DIR$/../ClientApp/src/pages/events/index.html" />
         <option value="$PROJECT_DIR$/../ClientApp/src/pages/events/delete.ts" />
@@ -305,6 +234,18 @@
         <option value="$PROJECT_DIR$/../ClientApp/src/pages/events/edit.ts" />
         <option value="$PROJECT_DIR$/DAL.App.EF/Repositories/EventRepository.cs" />
         <option value="$PROJECT_DIR$/WebApp/Startup.cs" />
+        <option value="$PROJECT_DIR$/WebApp/ApiControllers/EventController.cs" />
+        <option value="$PROJECT_DIR$/../ClientApp/src/frontpage/front.ts" />
+        <option value="$PROJECT_DIR$/../ClientApp/src/frontpage/front.html" />
+        <option value="$PROJECT_DIR$/../ClientApp/src/StyleData.ts" />
+        <option value="$PROJECT_DIR$/../ClientApp/src/styledata.ts" />
+        <option value="$PROJECT_DIR$/../ClientApp/src/main-router.html" />
+        <option value="$PROJECT_DIR$/../ClientApp/src/main-router.ts" />
+        <option value="$PROJECT_DIR$/../ClientApp/src/style.css" />
+        <option value="$PROJECT_DIR$/Domain/Event/Event.cs" />
+        <option value="$PROJECT_DIR$/../ClientApp/src/home.html" />
+        <option value="$PROJECT_DIR$/DAL.App.DTO/Class1.cs" />
+        <option value="$PROJECT_DIR$/BLL.App.DTO/Class1.cs" />
       </list>
     </option>
   </component>
@@ -319,6 +260,7 @@
     <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../ClientApp" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -391,7 +333,11 @@
       <workItem from="1574273952379" duration="6447000" />
       <workItem from="1574327203673" duration="9145000" />
       <workItem from="1574358712054" duration="318000" />
-      <workItem from="1574434732217" duration="16815000" />
+      <workItem from="1574434732217" duration="18473000" />
+      <workItem from="1574466921297" duration="5294000" />
+      <workItem from="1574505773471" duration="3887000" />
+      <workItem from="1574514410834" duration="603000" />
+      <workItem from="1574516742591" duration="537000" />
     </task>
     <task id="LOCAL-00001" summary="Fixed appunitofwork factory methods">
       <created>1574259508863</created>
@@ -421,7 +367,14 @@
       <option name="project" value="LOCAL" />
       <updated>1574336993489</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Added event and administrativeunit client frontend with functional crud&#10;Added Include for event locations for requesting events">
+      <created>1574457296788</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1574457296788</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -448,7 +401,8 @@
     <MESSAGE value="Scaffolded identity with&#10;dotnet aspnet-codegenerator identity -dc DAL.App.EF.AppDbContext -f &#10;&#10;Added dummy EmailSender" />
     <MESSAGE value="Temporary fix for cors,&#10;Added JWT token signing and modified client" />
     <MESSAGE value="Forgot to add identity class library to git" />
-    <option name="LAST_COMMIT_MESSAGE" value="Forgot to add identity class library to git" />
+    <MESSAGE value="Added event and administrativeunit client frontend with functional crud&#10;Added Include for event locations for requesting events" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added event and administrativeunit client frontend with functional crud&#10;Added Include for event locations for requesting events" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

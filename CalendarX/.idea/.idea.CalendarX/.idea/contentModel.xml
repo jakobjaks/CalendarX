@@ -7,6 +7,18 @@
     <e p="C:\Users\ADMIN\.Rider2019.2\system\extResources" t="IncludeRecursive" />
     <e p="C:\Users\ADMIN\.Rider2019.2\system\resharper-host\local\Transient\ReSharperHost\v192\SolutionCaches\_CalendarX.718283179.00" t="ExcludeRecursive" />
     <e p="C:\Users\ADMIN\Desktop\CalendarProject\CalendarX" t="IncludeFlat">
+      <e p="BLL.App.DTO" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="BLL.App.DTO.csproj" t="IncludeRecursive" />
+        <e p="EventDTO.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netstandard2.1" t="Include">
+              <e p="BLL.App.DTO.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
       <e p="CalendarX.sln" t="IncludeFlat" />
       <e p="Contracts.DAL.App" t="IncludeRecursive">
         <e p="bin" t="ExcludeRecursive" />
@@ -52,6 +64,18 @@
         </e>
         <e p="Repositories" t="Include">
           <e p="IBaseRepository.cs" t="Include" />
+        </e>
+      </e>
+      <e p="DAL.App.DTO" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Class1.cs" t="Include" />
+        <e p="DAL.App.DTO.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netstandard2.1" t="Include">
+              <e p="DAL.App.DTO.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
         </e>
       </e>
       <e p="DAL.App.EF" t="IncludeRecursive">

@@ -7,6 +7,8 @@ namespace Domain
     public class Event : NameDescDomainEntity
     {
 
+        public string? PictureUrl { get; set; }
+
         public ICollection<EventInAreaOfInterest> EventAreasOfInterest { get; set; }
 
         public ICollection<EventInLocation> EventLocations { get; set; }
