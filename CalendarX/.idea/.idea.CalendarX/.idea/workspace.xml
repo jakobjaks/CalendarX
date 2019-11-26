@@ -360,7 +360,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/DAL.App.DTO/Organization.cs" />
         <option value="$PROJECT_DIR$/Domain/Event/Event.cs" />
         <option value="$PROJECT_DIR$/DAL.App.EF/Repositories/EventRepository.cs" />
         <option value="$PROJECT_DIR$/DAL.App.EF/Mappers/LocationMapper.cs" />
@@ -411,6 +410,7 @@
         <option value="$PROJECT_DIR$/PublicApi.v1/Mappers/EventMapper.cs" />
         <option value="$PROJECT_DIR$/BLL.Base/Services/BaseEntityService.cs" />
         <option value="$PROJECT_DIR$/DAL.App.EF/Mappers/EventMapper.cs" />
+        <option value="$PROJECT_DIR$/../ClientApp/src/pages/events/delete.ts" />
       </list>
     </option>
   </component>
@@ -508,7 +508,7 @@
       <workItem from="1574627271495" duration="4692000" />
       <workItem from="1574639073672" duration="5515000" />
       <workItem from="1574722038622" duration="530000" />
-      <workItem from="1574764451443" duration="6458000" />
+      <workItem from="1574764451443" duration="6701000" />
     </task>
     <task id="LOCAL-00001" summary="Fixed appunitofwork factory methods">
       <created>1574259508863</created>
@@ -559,7 +559,14 @@
       <option name="project" value="LOCAL" />
       <updated>1574632234719</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Complete rework of the data flow, added a business logic layer,&#10;Commented out controllers that arent in use until the backend is complete&#10;Will add them back one by one or maybe remove some&#10;Added mappers for 3 types of domains, events administrativeunits and locations&#10;&#10;Will implement more in next commits">
+      <created>1574771163575</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1574771163575</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -589,7 +596,8 @@
     <MESSAGE value="Added event and administrativeunit client frontend with functional crud&#10;Added Include for event locations for requesting events" />
     <MESSAGE value="Added DTO projects" />
     <MESSAGE value="Rewrote all repo interfaces to match data dto-s and modified appunitofwork" />
-    <option name="LAST_COMMIT_MESSAGE" value="Rewrote all repo interfaces to match data dto-s and modified appunitofwork" />
+    <MESSAGE value="Complete rework of the data flow, added a business logic layer,&#10;Commented out controllers that arent in use until the backend is complete&#10;Will add them back one by one or maybe remove some&#10;Added mappers for 3 types of domains, events administrativeunits and locations&#10;&#10;Will implement more in next commits" />
+    <option name="LAST_COMMIT_MESSAGE" value="Complete rework of the data flow, added a business logic layer,&#10;Commented out controllers that arent in use until the backend is complete&#10;Will add them back one by one or maybe remove some&#10;Added mappers for 3 types of domains, events administrativeunits and locations&#10;&#10;Will implement more in next commits" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
