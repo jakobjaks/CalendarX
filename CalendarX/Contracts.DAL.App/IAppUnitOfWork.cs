@@ -5,21 +5,21 @@ namespace Contracts.DAL.App
 {
     public interface IAppUnitOfWork : IBaseUnitOfWork
     {
-        IAdministrativeUnitInEventRepository AdministrativeUnitInEventRepository { get; }
-        IAdministrativeUnitRepository AdministrativeUnitRepository { get; }
-        IAreaOfInterestRepository AreaOfInterestRepository  { get; }
-        IEventInAreaOfInterestRepository EventInAreaOfInterestRepository { get; }
-        IEventInLocationRepository EventInLocationRepository { get; }
-        IEventTypeRepository EventTypeRepository { get; }
-        IEventRepository EventRepository { get; }
-        IEventTargetAudienceRepository EventTargetAudienceRepository { get; }
-        IEventInTypeRepository EventInTypeRepository { get; }
-        ILocationRepository LocationRepository { get; }
-        IOrganizationRepository OrganizationRepository { get; }
-        IOrganizationOrganizingRepository OrganizationOrganizingRepository { get; }
-        IPerformerInEventRepository PerformerInEventRepository { get; }
-        IPerformerRepository PerformerRepository { get; }
-        ISponsorInEventRepository SponsorInEventRepository { get; }
-        ITargetAudienceRepository TargetAudienceRepository { get; }
+        IAdministrativeUnitInEventRepository AdministrativeUnitInEvent { get; }
+        IAdministrativeUnitRepository AdministrativeUnit { get; }
+        IAreaOfInterestRepository AreaOfInterest  { get; }
+        IEventInAreaOfInterestRepository EventInAreaOfInterest { get; }
+        IEventInLocationRepository EventInLocation { get; }
+        IEventTypeRepository EventType { get; }
+        IEventRepository Event { get; }
+        IEventTargetAudienceRepository EventTargetAudience { get; }
+        IEventInTypeRepository EventInType { get; }
+        ILocationRepository Location { get; }
+        IOrganizationRepository Organization { get; }
+        IOrganizationOrganizingRepository OrganizationOrganizing { get; }
+        IPerformerInEventRepository PerformerInEvent { get; }
+        IPerformerRepository Performer { get; }
+        ISponsorInEventRepository SponsorInEvent { get; }
+        ITargetAudienceRepository TargetAudience { get; }
     }
 }

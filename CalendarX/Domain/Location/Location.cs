@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using Domain.Identity;
 
 namespace Domain
 {
@@ -6,5 +7,8 @@ namespace Domain
     {
 
         public ICollection<EventInLocation> EventsInLocation { get; set; }
+        
+        public int AppUserId { get; set; }
+        public AppUser AppUser { get; set; }
     }
 }

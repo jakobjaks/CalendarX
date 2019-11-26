@@ -2,89 +2,83 @@ using System;
 using System.Collections.Generic;
 using Contracts.DAL.App;
 using Contracts.DAL.App.Repositories;
+using Contracts.DAL.Base;
 using DAL.App.EF.Repositories;
 using DAL.Base.EF;
-using Microsoft.EntityFrameworkCore;
+using Contracts.DAL.Base;
+using Contracts.DAL.Base.Helpers;
 
 namespace DAL.App.EF
 {
-    public class AppUnitOfWork : BaseUnitOfWork, IAppUnitOfWork
+    public class AppUnitOfWork : BaseUnitOfWork<AppDbContext>, IAppUnitOfWork
     {
-        private readonly Dictionary<Type, object> _repositoryCache = new Dictionary<Type, object>();
-        
-        public AppUnitOfWork(AppDbContext dbContext) : base(dbContext) {}
-
-
-        private TRepository GetOrCreateRepository<TRepository>(Func<AppDbContext, TRepository> repoCreationMethod) where TRepository : class    
+        public AppUnitOfWork(AppDbContext dbContext, IBaseRepositoryProvider repositoryProvider) : base(dbContext,
+            repositoryProvider)
         {
-            _repositoryCache.TryGetValue(typeof(TRepository), out var repoObject);
-            if (repoObject != null)
-            {
-                return (TRepository) repoObject;
-            }
-
-            object repo = repoCreationMethod((AppDbContext) UOWDbContext);
-
-            _repositoryCache[typeof(TRepository)] = repo;
-            return (TRepository) repo;
-
-
         }
 
 
+        public IAdministrativeUnitInEventRepository AdministrativeUnitInEvent =>
+            _repositoryProvider.GetRepository<IAdministrativeUnitInEventRepository>();
 
-        public IAdministrativeUnitInEventRepository AdministrativeUnitInEventRepository =>
-            GetOrCreateRepository<IAdministrativeUnitInEventRepository>((ctx) =>
-                new AdministrativeUnitInEventRepository(ctx));
-        public IAdministrativeUnitRepository AdministrativeUnitRepository =>
-            GetOrCreateRepository<IAdministrativeUnitRepository>((ctx) =>
-                new AdministrativeUnitRepository(ctx));        
-        public IAreaOfInterestRepository AreaOfInterestRepository =>
-            GetOrCreateRepository<IAreaOfInterestRepository>((ctx) =>
-                new AreaOfInterestRepository(ctx));        
-        public IEventInAreaOfInterestRepository EventInAreaOfInterestRepository =>
-            GetOrCreateRepository<IEventInAreaOfInterestRepository>((ctx) =>
-                new EventInAreaOfInterestRepository(ctx));
-        
-        public IEventInLocationRepository EventInLocationRepository =>
-            GetOrCreateRepository<IEventInLocationRepository>((ctx) =>
-                new EventInLocationRepository(ctx));
-        public IEventTypeRepository EventTypeRepository =>
-            GetOrCreateRepository<IEventTypeRepository>((ctx) =>
-                new EventTypeRepository(ctx));
-        
-        public IEventRepository EventRepository =>
-            GetOrCreateRepository<IEventRepository>((ctx) =>
-                new EventRepository(ctx));
-        public IEventTargetAudienceRepository EventTargetAudienceRepository =>
-            GetOrCreateRepository<IEventTargetAudienceRepository>((ctx) =>
-                new EventTargetAudienceRepository(ctx));
-        public IEventInTypeRepository EventInTypeRepository =>
-            GetOrCreateRepository<IEventInTypeRepository>((ctx) =>
-                new EventInTypeRepository(ctx));
-        
-        public ILocationRepository LocationRepository =>
-            GetOrCreateRepository<ILocationRepository>((ctx) =>
-                new LocationRepository(ctx));
-        public IOrganizationRepository OrganizationRepository =>
-            GetOrCreateRepository<IOrganizationRepository>((ctx) =>
-                new OrganizationRepository(ctx));
-        
-        public IOrganizationOrganizingRepository OrganizationOrganizingRepository =>
-            GetOrCreateRepository<IOrganizationOrganizingRepository>((ctx) =>
-                new OrganizationOrganizingRepository(ctx));
-        public IPerformerInEventRepository PerformerInEventRepository =>
-            GetOrCreateRepository<IPerformerInEventRepository>((ctx) =>
-                new PerformerInEventRepository(ctx));
-        
-        public IPerformerRepository PerformerRepository =>
-            GetOrCreateRepository<IPerformerRepository>((ctx) =>
-                new PerformerRepository(ctx));
-        public ISponsorInEventRepository SponsorInEventRepository =>
-            GetOrCreateRepository<ISponsorInEventRepository>((ctx) =>
-                new SponsorInEventRepository(ctx));
-        public ITargetAudienceRepository TargetAudienceRepository =>
-            GetOrCreateRepository<ITargetAudienceRepository>((ctx) =>
-                new TargetAudienceRepository(ctx));
+
+        public IAdministrativeUnitRepository AdministrativeUnit =>
+            _repositoryProvider.GetRepository<IAdministrativeUnitRepository>();
+
+
+        public IAreaOfInterestRepository AreaOfInterest =>
+            _repositoryProvider.GetRepository<IAreaOfInterestRepository>();
+
+
+        public IEventInAreaOfInterestRepository EventInAreaOfInterest =>
+            _repositoryProvider.GetRepository<IEventInAreaOfInterestRepository>();
+
+
+        public IEventInLocationRepository EventInLocation =>
+            _repositoryProvider.GetRepository<IEventInLocationRepository>();
+
+
+        public IEventTypeRepository EventType =>
+            _repositoryProvider.GetRepository<IEventTypeRepository>();
+
+
+        public IEventRepository Event =>
+            _repositoryProvider.GetRepository<IEventRepository>();
+
+
+        public IEventTargetAudienceRepository EventTargetAudience =>
+            _repositoryProvider.GetRepository<IEventTargetAudienceRepository>();
+
+
+        public IEventInTypeRepository EventInType =>
+            _repositoryProvider.GetRepository<IEventInTypeRepository>();
+
+
+        public ILocationRepository Location =>
+            _repositoryProvider.GetRepository<ILocationRepository>();
+
+
+        public IOrganizationRepository Organization =>
+            _repositoryProvider.GetRepository<IOrganizationRepository>();
+
+
+        public IOrganizationOrganizingRepository OrganizationOrganizing =>
+            _repositoryProvider.GetRepository<IOrganizationOrganizingRepository>();
+
+
+        public IPerformerInEventRepository PerformerInEvent =>
+            _repositoryProvider.GetRepository<IPerformerInEventRepository>();
+
+
+        public IPerformerRepository Performer =>
+            _repositoryProvider.GetRepository<IPerformerRepository>();
+
+
+        public ISponsorInEventRepository SponsorInEvent =>
+            _repositoryProvider.GetRepository<ISponsorInEventRepository>();
+
+
+        public ITargetAudienceRepository TargetAudience =>
+            _repositoryProvider.GetRepository<ITargetAudienceRepository>();
     }
 }

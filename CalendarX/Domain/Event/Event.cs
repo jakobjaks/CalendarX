@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations.Schema;
+using Domain.Identity;
 
 namespace Domain
 {
@@ -30,6 +31,10 @@ namespace Domain
         [ForeignKey("NextEvent")]
         public int? NextEventId { get; set; }
         public virtual Event NextEvent { get; set; }
+        
+        public int AppUserId { get; set; }
+        public AppUser AppUser { get; set; }
+
 
     }
 }

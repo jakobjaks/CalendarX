@@ -1,8 +1,16 @@
 using System;
 using System.IdentityModel.Tokens.Jwt;
 using System.Text;
+using BLL.App;
+using BLL.App.Helpers;
+using BLL.Base.Helpers;
+using Contracts.BLL.App;
+using Contracts.BLL.Base.Helpers;
 using Contracts.DAL.App;
+using Contracts.DAL.Base.Helpers;
 using DAL.App.EF;
+using DAL.App.EF.Helpers;
+using DAL.Base.EF.Helpers;
 using Domain.Identity;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Builder;
@@ -79,6 +87,14 @@ namespace WebApp
                 options.Password.RequireNonAlphanumeric = false;
 
             });
+
+            services.AddScoped<IBaseRepositoryProvider, BaseRepositoryProvider<AppDbContext>>();
+            services.AddSingleton<IBaseRepositoryFactory<AppDbContext>, AppRepositoryFactory>();
+            services.AddScoped<IAppUnitOfWork, AppUnitOfWork>();
+
+            services.AddSingleton<IBaseServiceFactory<IAppUnitOfWork>, AppServiceFactory>();
+            services.AddScoped<IBaseServiceProvider, BaseServiceProvider<IAppUnitOfWork>>();
+            services.AddScoped<IAppBLL, AppBLL>();
 
 
             services

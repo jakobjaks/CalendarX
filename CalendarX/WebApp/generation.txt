@@ -31,3 +31,16 @@ dotnet aspnet-codegenerator controller -name PerformerInEventController -actions
 dotnet aspnet-codegenerator controller -name EventTargetAudienceController -actions -m EventTargetAudience -dc AppDbContext -outDir ApiControllers -api --useAsyncActions -f
 dotnet aspnet-codegenerator controller -name TargetAudienceController -actions -m TargetAudience -dc AppDbContext -outDir ApiControllers -api --useAsyncActions -f
 
+DATABASE
+
+dotnet tool install -g dotnet-ef
+
+Add db migration
+dotnet ef migrations add InitialDbCreation --project DAL.App.EF --startup-project WebApp
+
+Apply migration
+dotnet ef database update --project DAL.App.EF --startup-project WebApp
+
+If you want restart:
+delete Migrations folder from DAL project and drop the DB:
+dotnet ef database drop --project DAL.App.EF --startup-project WebApp
