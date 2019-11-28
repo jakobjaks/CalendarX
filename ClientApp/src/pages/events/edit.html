@@ -16,9 +16,24 @@
           <label class="control-label" for="EventDesc">Event description</label>
           <input class="form-control" type="text" value.bind="event.description" />
         </div>
+        <select valute-bind="AdministrativeUnitList">
+          <option model.bind="null">Choose the administrative unit</option>
+          <option repeat.for="unit of administrativeUnitList"
+                  model.bind="unit">
+            ${unit.name}
+          </option>
+        </select>
+        <select valute-bind="LocationList">
+          <option model.bind="null">Choose the location</option>
+          <option repeat.for="unit of locationList"
+                  model.bind="unit">
+            ${unit.name}
+          </option>
+        </select>
         <div class="form-group">
           <input type="submit" value="Save" class="btn btn-primary" />
         </div>
+
       </form>
     </div>
   </div>

@@ -2,17 +2,25 @@ import {LogManager, View, autoinject} from "aurelia-framework";
 import {RouteConfig, NavigationInstruction, Router} from "aurelia-router";
 import {EventService} from "../../services/events-service";
 import {IEvent} from "../../interfaces/IEvent";
+import {IAdministrativeUnit} from "../../interfaces/IAdministrativeUnit";
+import {AdministrativeUnitService} from "../../services/administrativeunit-service";
+import {ILocation} from "../../interfaces/ILocation";
+import {LocationService} from "../../services/locations-service";
 
-export var log = LogManager.getLogger('Event.Delete');
+export var log = LogManager.getLogger('Event.Edit');
 
 @autoinject
-export class Delete {
+export class Edit {
 
   private event: IEvent | null = null;
+  private administrativeUnitList: IAdministrativeUnit[];
+  private locationList: ILocation[];
 
   constructor(
     private router: Router,
-    private eventService: EventService
+    private eventService: EventService,
+    private locationService: LocationService,
+    private administrativeUnitService: AdministrativeUnitService
   ) {
     log.debug('constructor');
   }
@@ -20,6 +28,8 @@ export class Delete {
   // ============ View Methods ==============
   submit():void{
     log.debug('event', this.event);
+    this.event.administrativeUnits = this.administrativeUnitList;
+    this.event.locations = this.locationList;
     this.eventService.put(this.event!).then(
       response => {
         if (response.status == 204){
@@ -63,8 +73,20 @@ export class Delete {
 
     this.eventService.fetch(params.id).then(
       event => {
-        log.debug('administrativeUnit', event);
+        log.debug('event', event);
         this.event = event;
+      }
+    );
+    this.administrativeUnitService.fetchAll().then(
+      jsonData => {
+        log.debug('jsonData', jsonData);
+        this.administrativeUnitList = jsonData;
+      }
+    );
+    this.locationService.fetchAll().then(
+      jsonData => {
+        log.debug('jsonData', jsonData);
+        this.locationList = jsonData;
       }
     );
 

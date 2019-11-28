@@ -15,6 +15,7 @@
           <e p="AppServiceFactory.cs" t="Include" />
         </e>
         <e p="Mappers" t="Include">
+          <e p="AdministrativeUnitInEventMapper.cs" t="Include" />
           <e p="AdministrativeUnitMapper.cs" t="Include" />
           <e p="EventMapper.cs" t="Include" />
           <e p="LocationMapper.cs" t="Include" />
@@ -27,6 +28,7 @@
           </e>
         </e>
         <e p="Services" t="Include">
+          <e p="AdministrativeUnitInEventService.cs" t="Include" />
           <e p="AdministrativeUnitService.cs" t="Include" />
           <e p="EventService.cs" t="Include" />
           <e p="LocationService.cs" t="Include" />
@@ -34,9 +36,14 @@
       </e>
       <e p="BLL.App.DTO" t="IncludeRecursive">
         <e p="AdministrativeUnit.cs" t="Include" />
+        <e p="AdministrativeUnitInEvent.cs" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
         <e p="BLL.App.DTO.csproj" t="IncludeRecursive" />
         <e p="Event.cs" t="Include" />
+        <e p="Identity" t="Include">
+          <e p="AppRole.cs" t="Include" />
+          <e p="AppUser.cs" t="Include" />
+        </e>
         <e p="Location.cs" t="Include" />
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
@@ -91,6 +98,7 @@
           </e>
         </e>
         <e p="Services" t="Include">
+          <e p="IAdministrativeUnitInEventService.cs" t="Include" />
           <e p="IAdministrativeUnitService.cs" t="Include" />
           <e p="IEventService.cs" t="Include" />
           <e p="ILocationService.cs" t="Include" />
@@ -185,6 +193,10 @@
         <e p="EventInType.cs" t="Include" />
         <e p="EventTargetAudience.cs" t="Include" />
         <e p="EventType.cs" t="Include" />
+        <e p="Identity" t="Include">
+          <e p="AppRole.cs" t="Include" />
+          <e p="AppUser.cs" t="Include" />
+        </e>
         <e p="Location.cs" t="Include" />
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
@@ -209,13 +221,14 @@
           <e p="AppRepositoryFactory.cs" t="Include" />
         </e>
         <e p="Mappers" t="Include">
+          <e p="AdministrativeUnitInEventMapper.cs" t="Include" />
           <e p="AdministrativeUnitMapper.cs" t="Include" />
           <e p="EventMapper.cs" t="Include" />
           <e p="LocationMapper.cs" t="Include" />
         </e>
         <e p="Migrations" t="Include">
-          <e p="20191126114233_InitialDbCreation.cs" t="Include" />
-          <e p="20191126114233_InitialDbCreation.Designer.cs" t="Include" />
+          <e p="20191128220355_InitialDbCreation.cs" t="Include" />
+          <e p="20191128220355_InitialDbCreation.Designer.cs" t="Include" />
           <e p="AppDbContextModelSnapshot.cs" t="Include" />
         </e>
         <e p="obj" t="ExcludeRecursive">
@@ -334,7 +347,9 @@
       <e p="PublicApi.v1" t="IncludeRecursive">
         <e p="bin" t="ExcludeRecursive" />
         <e p="Mappers" t="Include">
+          <e p="AdministrativeUnitMapper.cs" t="Include" />
           <e p="EventMapper.cs" t="Include" />
+          <e p="LocationMapper.cs" t="Include" />
         </e>
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
@@ -347,6 +362,7 @@
       </e>
       <e p="PublicApi.v1.DTO" t="IncludeRecursive">
         <e p="AdministrativeUnit.cs" t="Include" />
+        <e p="AdministrativeUnitInEvent.cs" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
         <e p="Event.cs" t="Include" />
         <e p="Identity" t="Include">

@@ -1,4 +1,7 @@
 ﻿using System;
+using System.Collections;
+using System.Collections.Generic;
+using System.Linq;
 using externalDTO = PublicApi.v1.DTO;
 using internalDTO = BLL.App.DTO;
 
@@ -31,8 +34,10 @@ namespace PublicApi.v1.Mappers
                 Name = Event.Name,
                 Description = Event.Description,   
                 AppUserId = Event.AppUserId,
-            };
+                AdministrativeUnits = Event.AdministrativeUnits?.Select(AdministrativeUnitMapper.MapFromBLL).ToList(),
+                Locations = Event.Locations?.Select(LocationMapper.MapFromBLL).ToList()
 
+            };
             return res;
         }
 
@@ -46,8 +51,9 @@ namespace PublicApi.v1.Mappers
                 Name = Event.Name,
                 Description = Event.Description,   
                 AppUserId = Event.AppUserId,
+                AdministrativeUnits = Event.AdministrativeUnits?.Select(AdministrativeUnitMapper.MapFromExternal).ToList(),
+                Locations = Event.Locations?.Select(LocationMapper.MapFromExternal).ToList()
             };
-            Console.WriteLine(res.Name + "BLL");
 
             return res;
         }

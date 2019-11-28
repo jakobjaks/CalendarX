@@ -13,7 +13,9 @@
       <th>
         Description
       </th>
-      <th></th>
+      <th>
+        Administrative Units
+      </th>
     </tr>
     </thead>  
     <tbody>
@@ -26,6 +28,13 @@
       <td>
         <!-- string interpolation -->
         ${event.description}
+      </td>
+      <td>
+        <label repeat.for="unit of event.administrativeUnits">
+          ${unit.name}
+        </label>
+
+        <!-- string interpolation -->
       </td>
       <td>
         <!-- gdenerate links, based on routing table defined in main-router -->

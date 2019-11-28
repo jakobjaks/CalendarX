@@ -30,7 +30,9 @@ namespace DAL.App.EF.Mappers
             {
                 Id = Location.Id,
                 Name = Location.Name,
-                Description = Location.Description                
+                Description = Location.Description,
+                AppUserId = Location.AppUserId
+                
             };
 
             return res;
@@ -42,7 +44,8 @@ namespace DAL.App.EF.Mappers
             {
                 Id = Location.Id,
                 Name = Location.Name,
-                Description = Location.Description
+                Description = Location.Description,
+                AppUserId = Location.AppUserId
             };
 
             return res;

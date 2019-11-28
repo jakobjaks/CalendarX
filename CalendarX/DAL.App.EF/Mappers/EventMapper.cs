@@ -1,4 +1,6 @@
 using System;
+using System.Collections.Generic;
+using System.Linq;
 using Contracts.DAL.Base.Mappers;
 using internalDTO = Domain;
 using externalDTO = DAL.App.DTO;
@@ -16,7 +18,7 @@ namespace DAL.App.EF.Mappers
             }
 
             if (typeof(TOutObject) == typeof(internalDTO.Event))
-            {
+            {    
                 return MapFromDAL((externalDTO.Event) inObject) as TOutObject;
             }
 
@@ -34,8 +36,11 @@ namespace DAL.App.EF.Mappers
                 NextEventId = Event.NextEventId,
                 SubEventId = Event.SubEventId,
                 AppUserId = Event.AppUserId,
-            };
+                AdministrativeUnits = Event.EventAdministrativeUnit?.Select(item => AdministrativeUnitMapper.MapFromDomain(item.AdministrativeUnit)).ToList(),
+                Locations = Event.EventLocations?.Select(item => LocationMapper.MapFromDomain(item.Location)).ToList()
 
+            };
+            
             return res;
         }
         
@@ -49,6 +54,16 @@ namespace DAL.App.EF.Mappers
                 NextEventId = Event.NextEventId,
                 SubEventId = Event.SubEventId,
                 AppUserId = Event.AppUserId,
+                EventAdministrativeUnit = Event.AdministrativeUnits?.Select(item => new internalDTO.AdministrativeUnitInEvent()
+                {
+                    AdministrativeUnitId = item.Id,
+                    EventId = Event.Id
+                }).ToList(),
+                EventLocations = Event.Locations?.Select(item => new internalDTO.EventInLocation()
+                {
+                    LocationId = item.Id,
+                    EventId = Event.Id
+                }).ToList()
             };
 
             return res;

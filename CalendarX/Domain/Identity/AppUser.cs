@@ -7,5 +7,7 @@ namespace Domain.Identity
     {
         // add relationships and data fields you need
         public List<Event> Events { get; set; }
+        public List<AdministrativeUnit> AdministrativeUnits { get; set; }
+
     }
 }

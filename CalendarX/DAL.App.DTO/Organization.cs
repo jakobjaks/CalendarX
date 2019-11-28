@@ -1,5 +1,6 @@
 using System.Collections.Generic;
 using Domain.Identity;
+using AppUser = DAL.App.DTO.Identity.AppUser;
 
 namespace DAL.App.DTO
 {

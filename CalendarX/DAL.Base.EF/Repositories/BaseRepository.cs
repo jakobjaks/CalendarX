@@ -100,5 +100,15 @@ namespace DAL.Base.EF.Repositories
         {
             return _mapper.Map<TDALEntity>(RepositoryDbSet.Add(_mapper.Map<TDomainEntity>(entity)).Entity);
         }
+        
+        public ICollection<int> ToIdCollection(List<IDomainEntity> entities)
+        {
+            var list = new List<int>();
+            foreach (var entity in entities)
+            {
+                list.Add(entity.Id);
+            }
+            return list;
+        }
     }
 }

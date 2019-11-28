@@ -14,6 +14,7 @@ namespace DAL.App.EF.Helpers
         private void RegisterRepositories()
         {
             AddToCreationMethods<IEventRepository>(dataContext => new EventRepository(dataContext));
+            AddToCreationMethods<IAdministrativeUnitInEventRepository>(dataContext => new AdministrativeUnitInEventRepository(dataContext));
             AddToCreationMethods<ILocationRepository>(dataContext => new LocationRepository(dataContext));
             AddToCreationMethods<IAdministrativeUnitRepository>(dataContext => new AdministrativeUnitRepository(dataContext));
         }

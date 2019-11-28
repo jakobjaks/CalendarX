@@ -1,5 +1,7 @@
 ﻿using System;
+using System.Collections.Generic;
 using Domain.Identity;
+using AppUser = DAL.App.DTO.Identity.AppUser;
 
 namespace DAL.App.DTO
 {
@@ -20,6 +22,10 @@ namespace DAL.App.DTO
         
         public int AppUserId { get; set; }
         public AppUser AppUser { get; set; }
+        
+        public ICollection<AdministrativeUnit>? AdministrativeUnits { get; set; }
+        public ICollection<Location> Locations { get; set; }
+
 
 
     }

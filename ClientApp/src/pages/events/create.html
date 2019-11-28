@@ -17,6 +17,13 @@
           <input class="form-control" type="text"
                  id="EventsDesc" name="Events" value.bind="Event.description"/>
         </div>
+        <select value.bind="event.administrativeUnits">
+          <option model.bind="null">Choose the administrative unit</option>
+          <option repeat.for="event of Event.administrativeUnits"
+                  model.bind="event.name">
+            ${event.name}
+          </option>
+        </select>
         <div class="form-group">
           <input type="submit" value="Create" class="btn btn-primary" />
         </div>

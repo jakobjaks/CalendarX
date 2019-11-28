@@ -1,6 +1,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using BLL.App.DTO;
 using BLL.App.Mappers;
 using BLL.Base.Services;
 using Contracts.BLL.App.Services;
@@ -10,6 +11,7 @@ namespace BLL.App.Services
 {
     public class EventService : BaseEntityService<BLL.App.DTO.Event, DAL.App.DTO.Event, IAppUnitOfWork>, IEventService
     {
+        
         public EventService(IAppUnitOfWork uow) : base(uow, new EventMapper())
         {
             ServiceRepository = Uow.Event;  //Uow.BaseRepository<DAL.App.DTO.Event, Domain.Event>();
@@ -28,6 +30,13 @@ namespace BLL.App.Services
         public async Task<bool> BelongsToUserAsync(int id, int userId)
         {
             return await Uow.Event.BelongsToUserAsync(id, userId);
+        }
+
+
+
+        public override Event Update(Event entity)
+        {
+            return EventMapper.MapFromDAL(ServiceRepository.Update(EventMapper.MapFromBLL(entity)));
         }
     }
 }

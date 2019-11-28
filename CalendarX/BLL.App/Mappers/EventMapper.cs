@@ -1,4 +1,6 @@
 using System;
+using System.Collections.Generic;
+using System.Linq;
 using Contracts.BLL.Base.Mappers;
 using internalDTO = DAL.App.DTO;
 using externalDTO = BLL.App.DTO;
@@ -32,8 +34,9 @@ namespace BLL.App.Mappers
                 Name = Event.Name,
                 Description = Event.Description,   
                 AppUserId = Event.AppUserId,
+                AdministrativeUnits = Event.AdministrativeUnits?.Select(AdministrativeUnitMapper.MapFromDAL).ToList(),
+                Locations = Event.Locations?.Select(LocationMapper.MapFromDAL).ToList()
             };
-
             return res;
         }
         
@@ -45,8 +48,9 @@ namespace BLL.App.Mappers
                 Name = Event.Name,
                 Description = Event.Description,     
                 AppUserId = Event.AppUserId,
+                AdministrativeUnits = Event.AdministrativeUnits?.Select(AdministrativeUnitMapper.MapFromBLL).ToList(),
+                Locations = Event.Locations?.Select(LocationMapper.MapFromBLL).ToList()
             };
-
             return res;
         }
 

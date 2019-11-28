@@ -1,4 +1,5 @@
-﻿using PublicApi.v1.DTO.Identity;
+﻿using System.Collections.Generic;
+using PublicApi.v1.DTO.Identity;
 
 namespace PublicApi.v1.DTO
 {
@@ -19,6 +20,10 @@ namespace PublicApi.v1.DTO
         
         public int AppUserId { get; set; }
         public AppUser AppUser { get; set; }
+        
+        public ICollection<AdministrativeUnit> AdministrativeUnits { get; set; }
+        public ICollection<Location> Locations { get; set; }
+
 
     }
 }

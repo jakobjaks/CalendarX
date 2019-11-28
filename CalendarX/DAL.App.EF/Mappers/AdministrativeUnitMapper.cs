@@ -30,7 +30,8 @@ namespace DAL.App.EF.Mappers
             {
                 Id = administrativeUnit.Id,
                 Name = administrativeUnit.Name,
-                Description = administrativeUnit.Description                
+                Description = administrativeUnit.Description,
+                AppUserId = administrativeUnit.AppUserId,
             };
 
             return res;
@@ -42,7 +43,9 @@ namespace DAL.App.EF.Mappers
             {
                 Id = administrativeUnit.Id,
                 Name = administrativeUnit.Name,
-                Description = administrativeUnit.Description
+                Description = administrativeUnit.Description,
+                AppUserId = administrativeUnit.AppUserId,
+
             };
 
             return res;

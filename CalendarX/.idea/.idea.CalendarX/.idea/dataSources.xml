@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="student2018_jaroot_aspnetbook@alpha.akaver.com" uuid="ef904473-71da-47fe-9437-e896788a49ac">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://alpha.akaver.com/student2018_jaroot_aspnetbook</jdbc-url>
+    </data-source>
+  </component>
+</project>

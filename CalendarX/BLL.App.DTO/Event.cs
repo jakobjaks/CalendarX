@@ -1,5 +1,7 @@
 ﻿using System;
-using Domain.Identity;
+using System.Collections.Generic;
+using BLL.App.DTO.Identity;
+using Domain;
 
 namespace BLL.App.DTO
 {
@@ -20,6 +22,11 @@ namespace BLL.App.DTO
         
         public int AppUserId { get; set; }
         public AppUser AppUser { get; set; }
+        
+
+        public ICollection<AdministrativeUnit> AdministrativeUnits { get; set; }
+        public ICollection<Location> Locations { get; set; }
+
 
     }
 }
