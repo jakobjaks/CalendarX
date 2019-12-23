@@ -6,6 +6,8 @@ import {IAdministrativeUnit} from "../../interfaces/IAdministrativeUnit";
 import {AdministrativeUnitService} from "../../services/administrativeunit-service";
 import {ILocation} from "../../interfaces/ILocation";
 import {LocationService} from "../../services/locations-service";
+import {IEventType} from "../../interfaces/IEventType";
+import {EventTypeService} from "../../services/eventtype-service";
 
 export var log = LogManager.getLogger('Event.Edit');
 
@@ -15,12 +17,14 @@ export class Edit {
   private event: IEvent | null = null;
   private administrativeUnitList: IAdministrativeUnit[];
   private locationList: ILocation[];
+  private eventTypeList: IEventType[];
 
   constructor(
     private router: Router,
     private eventService: EventService,
     private locationService: LocationService,
-    private administrativeUnitService: AdministrativeUnitService
+    private administrativeUnitService: AdministrativeUnitService,
+    private eventTypeService: EventTypeService
   ) {
     log.debug('constructor');
   }
@@ -30,6 +34,7 @@ export class Edit {
     log.debug('event', this.event);
     this.event.administrativeUnits = this.administrativeUnitList;
     this.event.locations = this.locationList;
+    this.event.eventTypes = this.eventTypeList;
     this.eventService.put(this.event!).then(
       response => {
         if (response.status == 204){
@@ -90,6 +95,12 @@ export class Edit {
       }
     );
 
+    this.eventTypeService.fetchAll().then(
+      jsonData => {
+        log.debug('jsonData', jsonData);
+        this.eventTypeList = jsonData;
+      }
+    );
   }
 
   canDeactivate() {

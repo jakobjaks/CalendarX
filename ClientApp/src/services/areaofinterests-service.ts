@@ -4,10 +4,10 @@ import {IAreaOfInterest} from "../interfaces/IAreaOfInterest";
 import {BaseService} from "./base-service";
 import {AppConfig} from "../app-config";
 
-export var log = LogManager.getLogger('AreaofinterestsService');
+export var log = LogManager.getLogger('AreaofinterestService');
 
 @autoinject
-export class AreaofinterestService extends BaseService<IAreaOfInterest> {
+export class AreaOfInterestService extends BaseService<IAreaOfInterest> {
 
   constructor(
     private httpClient: HttpClient,

@@ -19,6 +19,7 @@ namespace BLL.App
 
         public IEventService Events => ServiceProvider.GetService<IEventService>();
         public IAdministrativeUnitService AdministrativeUnits => ServiceProvider.GetService<IAdministrativeUnitService>();
+        public IEventTypeService EventTypes => ServiceProvider.GetService<IEventTypeService>();
         public ILocationService Locations => ServiceProvider.GetService<ILocationService>();
         
     }

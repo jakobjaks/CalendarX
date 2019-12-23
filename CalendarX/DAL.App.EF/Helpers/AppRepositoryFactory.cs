@@ -17,6 +17,8 @@ namespace DAL.App.EF.Helpers
             AddToCreationMethods<IAdministrativeUnitInEventRepository>(dataContext => new AdministrativeUnitInEventRepository(dataContext));
             AddToCreationMethods<ILocationRepository>(dataContext => new LocationRepository(dataContext));
             AddToCreationMethods<IAdministrativeUnitRepository>(dataContext => new AdministrativeUnitRepository(dataContext));
+            AddToCreationMethods<IEventTypeRepository>(dataContext => new EventTypeRepository(dataContext));
+
         }
     }
     

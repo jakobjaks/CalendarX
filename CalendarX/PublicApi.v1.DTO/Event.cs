@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System.Collections;
+using System.Collections.Generic;
 using PublicApi.v1.DTO.Identity;
 
 namespace PublicApi.v1.DTO
@@ -23,6 +24,7 @@ namespace PublicApi.v1.DTO
         
         public ICollection<AdministrativeUnit> AdministrativeUnits { get; set; }
         public ICollection<Location> Locations { get; set; }
+        public ICollection<EventType> EventTypes { get; set; }
 
 
     }

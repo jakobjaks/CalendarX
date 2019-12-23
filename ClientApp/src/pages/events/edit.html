@@ -30,6 +30,15 @@
             ${unit.name}
           </option>
         </select>
+        <div></div>
+        <select valute-bind="EventTypeList">
+          <option model.bind="null">Choose the location</option>
+          <option repeat.for="unit of eventTypeList"
+                  model.bind="unit">
+            ${unit.name}
+          </option>
+        </select>
+        <button onclick="">Add</button>
         <div class="form-group">
           <input type="submit" value="Save" class="btn btn-primary" />
         </div>

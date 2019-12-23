@@ -24,7 +24,9 @@ namespace DAL.App.DTO
         public AppUser AppUser { get; set; }
         
         public ICollection<AdministrativeUnit>? AdministrativeUnits { get; set; }
-        public ICollection<Location> Locations { get; set; }
+        public ICollection<Location>? Locations { get; set; }
+        public ICollection<EventType>? EventTypes { get; set; }
+
 
 
 

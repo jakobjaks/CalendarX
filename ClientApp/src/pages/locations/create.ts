@@ -1,7 +1,7 @@
 import {LogManager, View, autoinject} from "aurelia-framework";
 import {RouteConfig, NavigationInstruction, Router} from "aurelia-router";
 import {ILocation} from "../../interfaces/ILocation";
-import {LocationService} from "../../services/Locations-service";
+import {LocationService} from "../../services/locations-service";
 
 export var log = LogManager.getLogger('Locations.Create');
 

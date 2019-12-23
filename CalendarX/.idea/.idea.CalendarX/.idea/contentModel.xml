@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\Users\ADMIN\.Rider2019.2\config\consoles\db" t="IncludeRecursive" />
-    <e p="C:\Users\ADMIN\.Rider2019.2\config\extensions" t="IncludeRecursive" />
-    <e p="C:\Users\ADMIN\.Rider2019.2\config\scratches" t="IncludeRecursive" />
-    <e p="C:\Users\ADMIN\.Rider2019.2\system\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\ADMIN\.Rider2019.2\system\resharper-host\local\Transient\ReSharperHost\v192\SolutionCaches\_CalendarX.718283179.00" t="ExcludeRecursive" />
+    <e p="C:\Users\ADMIN\.Rider2019.3\config\consoles\db" t="IncludeRecursive" />
+    <e p="C:\Users\ADMIN\.Rider2019.3\config\extensions" t="IncludeRecursive" />
+    <e p="C:\Users\ADMIN\.Rider2019.3\config\scratches" t="IncludeRecursive" />
+    <e p="C:\Users\ADMIN\.Rider2019.3\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\ADMIN\.Rider2019.3\system\resharper-host\local\Transient\ReSharperHost\v193\SolutionCaches\_CalendarX.718283179.00" t="ExcludeRecursive" />
     <e p="C:\Users\ADMIN\Desktop\CalendarProject\CalendarX" t="IncludeFlat">
       <e p="BLL.App" t="IncludeRecursive">
         <e p="AppBLL.cs" t="Include" />
@@ -18,6 +18,7 @@
           <e p="AdministrativeUnitInEventMapper.cs" t="Include" />
           <e p="AdministrativeUnitMapper.cs" t="Include" />
           <e p="EventMapper.cs" t="Include" />
+          <e p="EventTypeMapper.cs" t="Include" />
           <e p="LocationMapper.cs" t="Include" />
         </e>
         <e p="obj" t="ExcludeRecursive">
@@ -31,7 +32,9 @@
           <e p="AdministrativeUnitInEventService.cs" t="Include" />
           <e p="AdministrativeUnitService.cs" t="Include" />
           <e p="EventService.cs" t="Include" />
+          <e p="EventTypeService.cs" t="Include" />
           <e p="LocationService.cs" t="Include" />
+          <e p="SingingService.cs" t="Include" />
         </e>
       </e>
       <e p="BLL.App.DTO" t="IncludeRecursive">
@@ -40,6 +43,7 @@
         <e p="bin" t="ExcludeRecursive" />
         <e p="BLL.App.DTO.csproj" t="IncludeRecursive" />
         <e p="Event.cs" t="Include" />
+        <e p="EventType.cs" t="Include" />
         <e p="Identity" t="Include">
           <e p="AppRole.cs" t="Include" />
           <e p="AppUser.cs" t="Include" />
@@ -101,6 +105,7 @@
           <e p="IAdministrativeUnitInEventService.cs" t="Include" />
           <e p="IAdministrativeUnitService.cs" t="Include" />
           <e p="IEventService.cs" t="Include" />
+          <e p="IEventTypeService.cs" t="Include" />
           <e p="ILocationService.cs" t="Include" />
         </e>
       </e>
@@ -224,6 +229,7 @@
           <e p="AdministrativeUnitInEventMapper.cs" t="Include" />
           <e p="AdministrativeUnitMapper.cs" t="Include" />
           <e p="EventMapper.cs" t="Include" />
+          <e p="EventTypeMapper.cs" t="Include" />
           <e p="LocationMapper.cs" t="Include" />
         </e>
         <e p="Migrations" t="Include">
@@ -349,6 +355,7 @@
         <e p="Mappers" t="Include">
           <e p="AdministrativeUnitMapper.cs" t="Include" />
           <e p="EventMapper.cs" t="Include" />
+          <e p="EventTypeMapper.cs" t="Include" />
           <e p="LocationMapper.cs" t="Include" />
         </e>
         <e p="obj" t="ExcludeRecursive">
@@ -365,6 +372,7 @@
         <e p="AdministrativeUnitInEvent.cs" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
         <e p="Event.cs" t="Include" />
+        <e p="EventType.cs" t="Include" />
         <e p="Identity" t="Include">
           <e p="AppRole.cs" t="Include" />
           <e p="AppUser.cs" t="Include" />
@@ -388,8 +396,10 @@
           <e p="EventInAreaOfInterestController.cs" t="Include" />
           <e p="EventInLocationController.cs" t="Include" />
           <e p="EventTargetAudienceController.cs" t="Include" />
+          <e p="EventTypeController.cs" t="Include" />
           <e p="Identity" t="Include">
             <e p="AccountController.cs" t="Include" />
+            <e p="SigningController.cs" t="Include" />
           </e>
           <e p="LocationController.cs" t="Include" />
           <e p="OrganizationController.cs" t="Include" />
@@ -505,10 +515,12 @@
         <e p="Helpers" t="Include">
           <e p="EmailSender.cs" t="Include" />
         </e>
+        <e p="intro.txt" t="Include" />
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
             <e p="netcoreapp3.0" t="Include">
               <e p="WebApp.AssemblyInfo.cs" t="Include" />
+              <e p="WebApp.RazorAssemblyInfo.cs" t="Include" />
             </e>
           </e>
         </e>
@@ -756,6 +768,7 @@
     <e p="C:\Users\ADMIN\Desktop\CalendarProject\ClientApp\node_modules\aurelia-tools" t="IncludeRecursive" />
     <e p="C:\Users\ADMIN\Desktop\CalendarProject\ClientApp\node_modules\aurelia-webpack-plugin" t="IncludeRecursive" />
     <e p="C:\Users\ADMIN\Desktop\CalendarProject\ClientApp\node_modules\bootstrap" t="IncludeRecursive" />
+    <e p="C:\Users\ADMIN\Desktop\CalendarProject\ClientApp\node_modules\bower" t="IncludeRecursive" />
     <e p="C:\Users\ADMIN\Desktop\CalendarProject\ClientApp\node_modules\chalk" t="IncludeRecursive" />
     <e p="C:\Users\ADMIN\Desktop\CalendarProject\ClientApp\node_modules\clean-webpack-plugin" t="IncludeRecursive" />
     <e p="C:\Users\ADMIN\Desktop\CalendarProject\ClientApp\node_modules\commander" t="IncludeRecursive" />

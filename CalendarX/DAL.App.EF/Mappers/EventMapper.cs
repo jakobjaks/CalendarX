@@ -37,7 +37,9 @@ namespace DAL.App.EF.Mappers
                 SubEventId = Event.SubEventId,
                 AppUserId = Event.AppUserId,
                 AdministrativeUnits = Event.EventAdministrativeUnit?.Select(item => AdministrativeUnitMapper.MapFromDomain(item.AdministrativeUnit)).ToList(),
-                Locations = Event.EventLocations?.Select(item => LocationMapper.MapFromDomain(item.Location)).ToList()
+                Locations = Event.EventLocations?.Select(item => LocationMapper.MapFromDomain(item.Location)).ToList(),
+                EventTypes = Event.EventTypes?.Select(item => EventTypeMapper.MapFromDomain(item.EventType)).ToList()
+                
 
             };
             
@@ -62,6 +64,11 @@ namespace DAL.App.EF.Mappers
                 EventLocations = Event.Locations?.Select(item => new internalDTO.EventInLocation()
                 {
                     LocationId = item.Id,
+                    EventId = Event.Id
+                }).ToList(),
+                EventTypes = Event.EventTypes?.Select(type => new internalDTO.EventInType()
+                {
+                    EventTypeId = type.Id,
                     EventId = Event.Id
                 }).ToList()
             };

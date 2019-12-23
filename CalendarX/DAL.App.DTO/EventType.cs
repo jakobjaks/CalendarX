@@ -1,10 +1,15 @@
-using System.Collections;
-using System.Collections.Generic;
+using DAL.App.DTO.Identity;
 
 namespace DAL.App.DTO
 {
     public class EventType
     {
-        public ICollection<EventInType> EventsInType { get; set; }
+        public int Id { get; set; }
+
+        public string Name { get; set; }
+        public string Description { get; set; }
+        
+        public int AppUserId { get; set; }
+        public AppUser AppUser { get; set; }
     }
 }

@@ -12,10 +12,11 @@
     "@types/jquery": "^3.3.31",
     "aurelia-animator-css": "^1.0.4",
     "aurelia-bootstrapper": "^2.3.2",
+    "aurelia-fetch-client": "latest",
     "bootstrap": "^4.3.1",
+    "bower": "^1.8.8",
     "jquery": "^3.4.1",
-    "popper.js": "^1.16.0",
-    "aurelia-fetch-client": "latest"
+    "popper.js": "^1.16.0"
   },
   "devDependencies": {
     "aurelia-cli": "^1.0.2",
@@ -55,7 +56,7 @@
   },
   "scripts": {
     "build": "webpack --env.production --extractCss",
-    "start": "webpack-dev-server --extractCss",
+    "start": "webpack-dev-server --extractCss --https",
     "build:dev": "webpack --extractCss",
     "analyze": "webpack --env.production --analyze",
     "docker:build": "docker build -t client-app:0.1.0 -t client-app:latest .",

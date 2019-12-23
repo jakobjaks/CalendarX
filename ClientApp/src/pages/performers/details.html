@@ -1,0 +1,22 @@
+<template>
+  <h1>Details</h1>
+
+  <div>
+    <h4>Performer </h4>
+    <hr />
+    <dl class="row">
+      <dt class = "col-sm-2">
+        Performer Name
+      </dt>
+      <dd class = "col-sm-10">
+        ${performer.name}
+      </dd>
+    </dl>
+  </div>
+  <div>
+    <!-- if.bind - add/remove element to dom based on predicate -->
+    <a if.bind="performer != null" route-href="route: PerformersEdit; params.bind: {id: performer.id}">Edit</a> |
+    <a route-href="route: PerformersIndex">Back to List</a>
+  </div>
+
+</template>

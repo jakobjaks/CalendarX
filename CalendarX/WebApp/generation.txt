@@ -44,3 +44,5 @@ dotnet ef database update --project DAL.App.EF --startup-project WebApp
 If you want restart:
 delete Migrations folder from DAL project and drop the DB:
 dotnet ef database drop --project DAL.App.EF --startup-project WebApp
+
+

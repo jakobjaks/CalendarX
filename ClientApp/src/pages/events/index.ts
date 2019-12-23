@@ -1,7 +1,7 @@
 import {LogManager, View, autoinject} from "aurelia-framework";
 import {RouteConfig, NavigationInstruction} from "aurelia-router";
 import {IEvent} from "../../interfaces/IEvent";
-import {EventService} from "../../services/Events-service";
+import {EventService} from "../../services/events-service";
 import {BaseService} from "../../services/base-service";
 
 export var log = LogManager.getLogger('Event.Index');

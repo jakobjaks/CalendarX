@@ -1,7 +1,7 @@
 import {LogManager, View, autoinject} from "aurelia-framework";
 import {RouteConfig, NavigationInstruction} from "aurelia-router";
 import {ILocation} from "../../interfaces/ILocation";
-import {LocationService} from "../../services/Locations-service";
+import {LocationService} from "../../services/locations-service";
 import {BaseService} from "../../services/base-service";
 
 export var log = LogManager.getLogger('Locations.Index');
@@ -11,7 +11,7 @@ export var log = LogManager.getLogger('Locations.Index');
 @autoinject
 export class Index {
 
-  private Locations: ILocation[] = [];
+  private locations: ILocation[] = [];
 
   constructor(
     private LocationsService: LocationService
@@ -33,7 +33,7 @@ export class Index {
     this.LocationsService.fetchAll().then(
       jsonData => {
         log.debug('jsonData', jsonData);
-        this.Locations = jsonData;
+        this.locations = jsonData;
       }
     );
   }

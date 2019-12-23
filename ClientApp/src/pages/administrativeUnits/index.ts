@@ -1,7 +1,7 @@
 import {LogManager, View, autoinject} from "aurelia-framework";
 import {RouteConfig, NavigationInstruction} from "aurelia-router";
 import {IAdministrativeUnit} from "../../interfaces/IAdministrativeUnit";
-import {AdministrativeUnitService} from "../../services/AdministrativeUnit-service";
+import {AdministrativeUnitService} from "../../services/administrativeunit-service";
 import {BaseService} from "../../services/base-service";
 
 export var log = LogManager.getLogger('AdministrativeUnits.Index');
@@ -11,7 +11,7 @@ export var log = LogManager.getLogger('AdministrativeUnits.Index');
 @autoinject
 export class Index {
 
-  private AdministrativeUnits: IAdministrativeUnit[] = [];
+  private administrativeUnits: IAdministrativeUnit[] = [];
 
   constructor(
     private AdministrativeUnitsService: AdministrativeUnitService
@@ -33,7 +33,7 @@ export class Index {
     this.AdministrativeUnitsService.fetchAll().then(
       jsonData => {
         log.debug('jsonData', jsonData);
-        this.AdministrativeUnits = jsonData;
+        this.administrativeUnits = jsonData;
       }
     );
   }

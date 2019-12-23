@@ -1,0 +1,42 @@
+<template>
+  <h1>Organizations</h1>
+
+  <p>
+    <a route-href="route: OrganizationsCreate">Organization - Create New</a>
+  </p>
+  <table class="table">
+    <thead>
+    <tr>
+      <th>
+        Name
+      </th> 
+      <th>
+        Description
+      </th>
+      <th></th>
+    </tr>
+    </thead>
+    <tbody>
+    <!-- repeat this tr element, iterate over Organizations -->
+    <tr repeat.for="organization of organizations">
+      <td>
+        <!-- string interpolation -->
+        ${organization.name}
+      </td>
+      <td>
+        <!-- string interpolation -->
+        ${organization.description}
+      </td>
+      <td>
+        <!-- gdenerate links, based on routing table defined in main-router -->
+        <a route-href="route: OrganizationsEdit; params.bind: {id: organization.id}">Edit</a> |
+        <a route-href="route: OrganizationsDetails; params.bind: {id: organization.id}">Details</a> |
+        <a route-href="route: OrganizationsDelete; params.bind: {id: organization.id}">Delete</a>
+      </td>
+    </tr>
+
+    </tbody>
+  </table>
+
+
+</template>

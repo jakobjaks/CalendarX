@@ -1,0 +1,42 @@
+<template>
+  <h1>Performers</h1>
+
+  <p>
+    <a route-href="route: PerformersCreate">Performer - Create New</a>
+  </p>
+  <table class="table">
+    <thead>
+    <tr>
+      <th>
+        Name
+      </th> 
+      <th>
+        Description
+      </th>
+      <th></th>
+    </tr>
+    </thead>
+    <tbody>
+    <!-- repeat this tr element, iterate over Performers -->
+    <tr repeat.for="performer of Performers">
+      <td>
+        <!-- string interpolation -->
+        ${performer.name}
+      </td>
+      <td>
+        <!-- string interpolation -->
+        ${performer.description}
+      </td>
+      <td>
+        <!-- gdenerate links, based on routing table defined in main-router -->
+        <a route-href="route: PerformersEdit; params.bind: {id: performer.id}">Edit</a> |
+        <a route-href="route: PerformersDetails; params.bind: {id: performer.id}">Details</a> |
+        <a route-href="route: PerformersDelete; params.bind: {id: performer.id}">Delete</a>
+      </td>
+    </tr>
+
+    </tbody>
+  </table>
+
+
+</template>

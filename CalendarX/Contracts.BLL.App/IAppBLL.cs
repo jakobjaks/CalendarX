@@ -9,6 +9,7 @@ namespace Contracts.BLL.App
         IEventService Events { get; }
         ILocationService Locations { get; }
         IAdministrativeUnitService AdministrativeUnits { get; }
+        IEventTypeService EventTypes { get; }
         
         //Todo: public facing services
     }

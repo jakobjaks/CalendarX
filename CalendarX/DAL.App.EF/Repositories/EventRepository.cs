@@ -57,6 +57,8 @@ namespace DAL.App.EF.Repositories
         {
             var dbUnit = RepositoryDbContext.AdministrativeUnitInEvents.Where(item => item.EventId == entity.Id).ToList();
             RepositoryDbContext.RemoveRange(dbUnit);
+            var dbType = RepositoryDbContext.EventInTypes.Where(item => item.EventId == entity.Id).ToList();
+            RepositoryDbContext.RemoveRange(dbType);
             return EventMapper.MapFromDomain(RepositoryDbSet.Update(EventMapper.MapFromDAL(entity)).Entity);
         }
     }

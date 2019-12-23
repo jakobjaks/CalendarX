@@ -1,0 +1,59 @@
+custom kood:
+BLL.APP, BLL.APP.DTO, contracts.bll.app, contracts.dal.app, dal.app.dto, dal.app.ef, domain, publicapi.v1, publicapi.dto
+
+ühine kood:
+contracts.bll.base, contracts.dal.base, dal.base.ef, contracts.base, identity
+
+
+BLL.APP:
+kõik serviceid mis sa kirjutad on siin services kaustas, mappers kaustas on klassid mis mapiivad repodest edasi tagasi 
+, helpers folderis on service factory mis toodab serviceid
+
+BLL.App.DTO
+Siin on service layeri DTO objektid, BLL.APP mapperid töötavad nende olemitega
+
+BLL.Base
+Sisaldab baas serviceid ja baas factoryt ja providerit, peaks olema kõigil sama
+
+Contracts.BLL.App
+Sisaldab Serviceite interface hunnikut ja IAppBLL sisaldab nende viiteid, mingit funktsionaalset koodi siin ei ole
+
+Contracts.BLL.Base
+Kõigil samasugune, sisaldab baas service layer mapperi ja serviceite üldist interfacei
+
+Contracts.DAL.App
+sisaldab kõikidel sinu custom repode interfacei
+
+Contracts.DAL.Base
+Sisaldab kõik data access layeri interfaceide kirjeldusi, repo, mapperid, factory, datacontext jne, standard kood
+
+DAL.App.DTO
+Sialdab neid DTO-si milleks mapitaks sinu andmebaasist tulnud Domeenimudelid
+
+DAL.App.EF
+Data access layeri funktsionaalne osa, kõik interfaceid implementeeritud, repod, mapperid domeeniga
+
+DAL.Base.EF
+Standard kood, kõik repo layeri universaalsed protseduurid ja baasfunktsioonid
+
+Domain
+andmebaasi genereerimiseks tehtud entityd
+
+PublicApiv1
+Mapperid service layeriga
+
+PublicApi.v1DTO
+Api layeri DTO-d
+
+WebApp
+Tavalised controllerid võib vist suht ära deleteida
+Alles peab jääma ApiControllers
+
+
+Kõige lihtsam viis arusaamiseks vist et copyd kõik selle koodi ja kustutad ära kõik need minu tabelid ja DTO-d
+Ja paned asemele testiks nt ühe ainsa tabeli ja implementeerid sellega otsast lõpuni loogika
+ja ss saad pärast juurde lisada neid ühekaupa. ma olen ka prgu suht ühe kaupa neid juurde teinud, sest muidu liiga 
+overwhelming
+Et mu soovitus siis et tee mingi dummy entity, pane see igasse DTO projekti sisse ehita talle kõik need 3 mapperite taset,
+tee interfaceid valmis talle, repod ja serviceid ja siis kustuta kõik teised minu omad ära nt
+ja kus punaseks läks siis tead et sealt fixida vaja, ilmselt et minu need mingi referencid eemaldada ja enda oma lisada

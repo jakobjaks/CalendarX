@@ -1,0 +1,24 @@
+<template>
+  <h1>Delete</h1>
+
+  <h3>Are you sure you want to delete this?</h3>
+  <div>
+    <h4>Target Audience</h4>
+    <hr/>
+    <dl class="row">
+      <dt class="col-sm-4">
+        Adminsitrative unit name
+      </dt>
+      <dd class="col-sm-8">
+        ${targetAudience.name}
+      </dd>
+    </dl>
+
+    <form method="post" submit.delegate="submit()">
+      <input type="submit" value="Delete" class="btn btn-danger"/> |
+      <a route-href="route: TargetAudiencesIndex">Back to List</a>
+    </form>
+  </div>
+
+
+</template>
