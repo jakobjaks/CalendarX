@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\ADMIN\.Rider2019.3\config\consoles\db" t="IncludeRecursive" />
+    <e p="C:\Users\ADMIN\.Rider2019.3\config\extensions" t="IncludeRecursive" />
+    <e p="C:\Users\ADMIN\.Rider2019.3\config\scratches" t="IncludeRecursive" />
+    <e p="C:\Users\ADMIN\.Rider2019.3\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\ADMIN\.Rider2019.3\system\resharper-host\local\Transient\ReSharperHost\v193\SolutionCaches\_ee.itcollege.jarootnuget.1593577775.00" t="ExcludeRecursive" />
+    <e p="C:\Users\ADMIN\Desktop\CalendarProject\ee.itcollege.jarootnuget" t="IncludeFlat">
+      <e p="ee.itcollege.jarootnuget" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Class1.cs" t="Include" />
+        <e p="ee.itcollege.jarootnuget.csproj" t="IncludeRecursive" />
+        <e p="NewFile1.txt" t="Include" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="ee.itcollege.jarootnuget.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
+      <e p="ee.itcollege.jarootnuget.BLL.Base" t="IncludeRecursive">
+        <e p="BaseBLL.cs" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="ee.itcollege.jarootnuget.BLL.Base.csproj" t="IncludeRecursive" />
+        <e p="Helpers" t="Include">
+          <e p="BaseServiceFactory.cs" t="Include" />
+          <e p="BaseServiceProvider.cs" t="Include" />
+        </e>
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netstandard2.1" t="Include">
+              <e p="ee.itcollege.jarootnuget.BLL.Base.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Services" t="Include">
+          <e p="BaseEntityService.cs" t="Include" />
+          <e p="BaseService.cs" t="Include" />
+        </e>
+      </e>
+      <e p="ee.itcollege.jarootnuget.Contracts.Base" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="ee.itcollege.jarootnuget.Contracts.Base.csproj" t="IncludeRecursive" />
+        <e p="ITrackableInstance.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netstandard2.1" t="Include">
+              <e p="ee.itcollege.jarootnuget.Contracts.Base.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
+      <e p="ee.itcollege.jarootnuget.Contracts.BLL.Base" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="ee.itcollege.jarootnuget.Contracts.BLL.Base.csproj" t="IncludeRecursive" />
+        <e p="Helpers" t="Include">
+          <e p="IBaseServiceFactory.cs" t="Include" />
+          <e p="IBaseServiceProvider.cs" t="Include" />
+        </e>
+        <e p="IBaseBLL.cs" t="Include" />
+        <e p="Mappers" t="Include">
+          <e p="IBaseBLLMapper.cs" t="Include" />
+        </e>
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netstandard2.1" t="Include">
+              <e p="ee.itcollege.jarootnuget.Contracts.BLL.Base.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Services" t="Include">
+          <e p="IBaseService.cs" t="Include" />
+        </e>
+      </e>
+      <e p="ee.itcollege.jarootnuget.Contracts.DAL.Base" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="ee.itcollege.jarootnuget.Contracts.DAL.Base.csproj" t="IncludeRecursive" />
+        <e p="Helpers" t="Include">
+          <e p="IBaseRepositoryFactory.cs" t="Include" />
+          <e p="IBaseRepositoryProvider.cs" t="Include" />
+        </e>
+        <e p="IBaseEntity.cs" t="Include" />
+        <e p="IBaseUnitOfWork.cs" t="Include" />
+        <e p="IDataContext.cs" t="Include" />
+        <e p="IDomainEntity.cs" t="Include" />
+        <e p="Mappers" t="Include">
+          <e p="IBaseDALMapper.cs" t="Include" />
+        </e>
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netstandard2.1" t="Include">
+              <e p="ee.itcollege.jarootnuget.Contracts.DAL.Base.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Repositories" t="Include">
+          <e p="IBaseRepository.cs" t="Include" />
+        </e>
+      </e>
+      <e p="ee.itcollege.jarootnuget.DAL.Base.EF" t="IncludeRecursive">
+        <e p="BaseUnitOfWork.cs" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="ee.itcollege.jarootnuget.DAL.Base.EF.csproj" t="IncludeRecursive" />
+        <e p="Helpers" t="Include">
+          <e p="BaseRepositoryFactory.cs" t="Include" />
+          <e p="BaseRepositoryProvider.cs" t="Include" />
+        </e>
+        <e p="Mappers" t="Include">
+          <e p="BaseDALMapper.cs" t="Include" />
+        </e>
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netstandard2.1" t="Include">
+              <e p="ee.itcollege.jarootnuget.DAL.Base.EF.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Repositories" t="Include">
+          <e p="BaseRepository.cs" t="Include" />
+        </e>
+      </e>
+      <e p="ee.itcollege.jarootnuget.sln" t="IncludeFlat" />
+      <e p="packages" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>

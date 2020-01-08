@@ -1,130 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1d1a967e-c97c-4ba6-8c21-23e2f2dc6315" name="Default Changelist" comment="Added neW data flows for Event types">
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.CalendarX/.idea/jsLibraryMappings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BLL.App.DTO/AreaOfInterest.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BLL.App.DTO/Organization.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BLL.App.DTO/Performer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BLL.App.DTO/TargetAudience.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BLL.App/Mappers/AreaOfInterestMapper.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BLL.App/Mappers/OrganizationMapper.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BLL.App/Mappers/PerformerMapper.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BLL.App/Mappers/TargetAudienceMapper.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BLL.App/Services/AreaOfInterestService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BLL.App/Services/OrganizationService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BLL.App/Services/PerformerService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BLL.App/Services/TargetAudienceService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Contracts.BLL.App/Services/IAreaOfInterestService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Contracts.BLL.App/Services/IOrganizationService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Contracts.BLL.App/Services/IPerformerService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Contracts.BLL.App/Services/ITargetAudienceService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DAL.App.EF/Mappers/AreaOfInterestMapper.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DAL.App.EF/Mappers/EventInLocationMapper.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DAL.App.EF/Mappers/OrganizationMapper.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DAL.App.EF/Mappers/PerformerMapper.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DAL.App.EF/Mappers/TargetAudienceMapper.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PublicApi.v1.DTO/AreaOfInterest.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PublicApi.v1.DTO/Organization.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PublicApi.v1.DTO/Performer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PublicApi.v1.DTO/TargetAudience.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PublicApi.v1/Mappers/AreaOfInterestMapper.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PublicApi.v1/Mappers/OrganizationMapper.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PublicApi.v1/Mappers/PerformerMapper.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PublicApi.v1/Mappers/TargetAudienceMapper.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/ApiControllers/v1.0/AreaOfInterestController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/ApiControllers/v1.0/OrganizationController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/ApiControllers/v1.0/PerformerController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/ApiControllers/v1.0/TargetAudienceController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/ConfigureSwaggerOptions.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ClientApp/src/carousel.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ClientApp/src/carousel.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ClientApp/src/home.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ClientApp/src/identity/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ClientApp/src/pages/events/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ClientApp/src/style/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ClientApp/src/style/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ClientApp/src/style/homecss.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+    <list default="true" id="1d1a967e-c97c-4ba6-8c21-23e2f2dc6315" name="Default Changelist" comment="Added file ending features, fixed frontend and made it nicer, added new search workflows">
+      <change afterPath="$PROJECT_DIR$/../ee.itcollege.jarootnuget/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ee.itcollege.jarootnuget/.idea/.idea.ee.itcollege.jarootnuget/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ee.itcollege.jarootnuget/.idea/.idea.ee.itcollege.jarootnuget/.idea/contentModel.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ee.itcollege.jarootnuget/.idea/.idea.ee.itcollege.jarootnuget/.idea/indexLayout.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ee.itcollege.jarootnuget/.idea/.idea.ee.itcollege.jarootnuget/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ee.itcollege.jarootnuget/.idea/.idea.ee.itcollege.jarootnuget/.idea/projectSettingsUpdater.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ee.itcollege.jarootnuget/.idea/.idea.ee.itcollege.jarootnuget/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ee.itcollege.jarootnuget/.idea/.idea.ee.itcollege.jarootnuget/riderModule.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ee.itcollege.jarootnuget/ee.itcollege.jarootnuget.BLL.Base/ee.itcollege.jarootnuget.BLL.Base.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ee.itcollege.jarootnuget/ee.itcollege.jarootnuget.Contracts.Base/ee.itcollege.jarootnuget.Contracts.Base.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ee.itcollege.jarootnuget/ee.itcollege.jarootnuget.Contracts.DAL.Base/ee.itcollege.jarootnuget.Contracts.DAL.Base.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ee.itcollege.jarootnuget/ee.itcollege.jarootnuget.DAL.Base.EF/ee.itcollege.jarootnuget.DAL.Base.EF.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ee.itcollege.jarootnuget/ee.itcollege.jarootnuget/NewFile1.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.CalendarX/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CalendarX/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.CalendarX/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CalendarX/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.CalendarX/riderModule.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CalendarX/riderModule.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BLL.App.DTO/AdministrativeUnitInEvent.cs" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/BLL.App/AppBLL.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BLL.App/AppBLL.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BLL.App/Helpers/AppServiceFactory.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BLL.App/Helpers/AppServiceFactory.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BLL.App/Mappers/AdministrativeUnitInEventMapper.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BLL.App/Services/AdministrativeUnitInEventService.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BLL.App/Services/EventService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BLL.App/Services/EventService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BLL.App/BLL.App.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/BLL.App/BLL.App.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BLL.Base/BLL.Base.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BLL.Base/BaseBLL.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BLL.Base/Helpers/BaseServiceFactory.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BLL.Base/Helpers/BaseServiceProvider.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BLL.Base/Services/BaseEntityService.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BLL.Base/Services/BaseService.cs" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/CalendarX.sln" beforeDir="false" afterPath="$PROJECT_DIR$/CalendarX.sln" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Contracts.BLL.App/IAppBLL.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Contracts.BLL.App/IAppBLL.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Contracts.BLL.App/Services/IAdministrativeUnitInEventService.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Contracts.BLL.App/Services/IEventService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Contracts.BLL.App/Services/IEventService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Contracts.DAL.App/Repositories/IAreaOfInterestRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Contracts.DAL.App/Repositories/IAreaOfInterestRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Contracts.DAL.App/Repositories/IEventRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Contracts.DAL.App/Repositories/IEventRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Contracts.DAL.App/Repositories/IOrganizationRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Contracts.DAL.App/Repositories/IOrganizationRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Contracts.DAL.App/Repositories/IPerformerRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Contracts.DAL.App/Repositories/IPerformerRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Contracts.DAL.App/Repositories/ITargetAudienceRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Contracts.DAL.App/Repositories/ITargetAudienceRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DAL.App.DTO/AreaOfInterest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DAL.App.DTO/AreaOfInterest.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DAL.App.DTO/DAL.App.DTO.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/DAL.App.DTO/DAL.App.DTO.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DAL.App.DTO/Event.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DAL.App.DTO/Event.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DAL.App.DTO/EventInLocation.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DAL.App.DTO/EventInLocation.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DAL.App.DTO/Organization.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DAL.App.DTO/Organization.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DAL.App.DTO/Performer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DAL.App.DTO/Performer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DAL.App.DTO/PerformerInEvent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DAL.App.DTO/PerformerInEvent.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DAL.App.DTO/TargetAudience.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DAL.App.DTO/TargetAudience.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DAL.App.EF/AppDbContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DAL.App.EF/AppDbContext.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Contracts.BLL.App/Contracts.BLL.App.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Contracts.BLL.App/Contracts.BLL.App.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Contracts.BLL.Base/Contracts.BLL.Base.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Contracts.BLL.Base/Helpers/IBaseServiceFactory.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Contracts.BLL.Base/Helpers/IBaseServiceProvider.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Contracts.BLL.Base/IBaseBLL.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Contracts.BLL.Base/Mappers/IBaseBLLMapper.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Contracts.BLL.Base/Services/IBaseService.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Contracts.Base/Contracts.Base.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Contracts.Base/ITrackableInstance.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Contracts.DAL.Base/Contracts.DAL.Base.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Contracts.DAL.Base/Helpers/IBaseRepositoryFactory.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Contracts.DAL.Base/Helpers/IBaseRepositoryProvider.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Contracts.DAL.Base/IBaseEntity.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Contracts.DAL.Base/IBaseUnitOfWork.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Contracts.DAL.Base/IDataContext.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Contracts.DAL.Base/IDomainEntity.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Contracts.DAL.Base/Mappers/IBaseDALMapper.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Contracts.DAL.Base/Repositories/IBaseRepository.cs" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/DAL.App.EF/DAL.App.EF.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/DAL.App.EF/DAL.App.EF.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DAL.App.EF/Helpers/AppRepositoryFactory.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DAL.App.EF/Helpers/AppRepositoryFactory.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DAL.App.EF/Mappers/EventMapper.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DAL.App.EF/Mappers/EventMapper.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DAL.App.EF/Repositories/AreaOfInterestRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DAL.App.EF/Repositories/AreaOfInterestRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DAL.App.EF/Repositories/EventRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DAL.App.EF/Repositories/EventRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DAL.App.EF/Repositories/OrganizationRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DAL.App.EF/Repositories/OrganizationRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DAL.App.EF/Repositories/PerformerRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DAL.App.EF/Repositories/PerformerRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DAL.App.EF/Repositories/TargetAudienceRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DAL.App.EF/Repositories/TargetAudienceRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain/Organization/Organization.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/Organization/Organization.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PublicApi.v1.DTO/AdministrativeUnitInEvent.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PublicApi.v1.DTO/Event.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PublicApi.v1.DTO/Event.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PublicApi.v1.DTO/PublicApi.v1.DTO.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/PublicApi.v1.DTO/PublicApi.v1.DTO.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PublicApi.v1/Mappers/AdministrativeUnitMapper.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PublicApi.v1/Mappers/AdministrativeUnitMapper.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PublicApi.v1/Mappers/EventMapper.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PublicApi.v1/Mappers/EventMapper.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PublicApi.v1/Mappers/EventTypeMapper.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PublicApi.v1/Mappers/EventTypeMapper.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PublicApi.v1/Mappers/LocationMapper.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PublicApi.v1/Mappers/LocationMapper.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApp/ApiControllers/AdministrativeUnitController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/ApiControllers/v1.0/AdministrativeUnitController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApp/ApiControllers/AdminsitrativeUnitInEventController.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApp/ApiControllers/AreaOfInterestController.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApp/ApiControllers/EventController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/ApiControllers/v1.0/EventController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApp/ApiControllers/EventInAreaOfInterestController.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApp/ApiControllers/EventInLocationController.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApp/ApiControllers/EventTargetAudienceController.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApp/ApiControllers/EventTypeController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/ApiControllers/v1.0/EventTypeController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApp/ApiControllers/Identity/AccountController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/ApiControllers/v1.0/Identity/AccountController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApp/ApiControllers/Identity/SigningController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/ApiControllers/v1.0/Identity/SigningController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApp/ApiControllers/LocationController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/ApiControllers/v1.0/LocationController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApp/ApiControllers/OrganizationController.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApp/ApiControllers/OrganizationOrganizingController.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApp/ApiControllers/PerformerController.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApp/ApiControllers/PerformerInEventController.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApp/ApiControllers/SponsorInEventController.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApp/ApiControllers/TargetAudienceController.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApp/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/Startup.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DAL.Base.EF/BaseUnitOfWork.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DAL.Base.EF/DAL.Base.EF.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DAL.Base.EF/Helpers/BaseRepositoryFactory.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DAL.Base.EF/Helpers/BaseRepositoryProvider.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DAL.Base.EF/Mappers/BaseDALMapper.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DAL.Base.EF/Repositories/BaseRepository.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/Domain.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/Domain.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApp/ApiControllers/v1.0/AdministrativeUnitController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/ApiControllers/v1.0/AdministrativeUnitController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebApp/WebApp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/WebApp.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ClientApp/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../ClientApp/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ClientApp/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../ClientApp/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ClientApp/src/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/../ClientApp/src/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ClientApp/src/home.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../ClientApp/src/home.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ClientApp/src/identity/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/../ClientApp/src/identity/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ClientApp/src/interfaces/IEvent.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../ClientApp/src/interfaces/IEvent.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ClientApp/src/main-router.html" beforeDir="false" afterPath="$PROJECT_DIR$/../ClientApp/src/main-router.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ClientApp/src/main-router.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../ClientApp/src/main-router.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ClientApp/src/pages/events/create.html" beforeDir="false" afterPath="$PROJECT_DIR$/../ClientApp/src/pages/events/create.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ClientApp/src/pages/events/create.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../ClientApp/src/pages/events/create.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ClientApp/src/pages/events/details.html" beforeDir="false" afterPath="$PROJECT_DIR$/../ClientApp/src/pages/events/details.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ClientApp/src/pages/events/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../ClientApp/src/pages/events/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ClientApp/src/pages/events/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../ClientApp/src/pages/events/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ClientApp/src/pages/performers/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../ClientApp/src/pages/performers/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ClientApp/src/pages/targetAudiences/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../ClientApp/src/pages/targetAudiences/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ClientApp/src/services/base-service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../ClientApp/src/services/base-service.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ClientApp/src/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/../ClientApp/src/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -176,16 +105,8 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Contracts.BLL.Base/Helpers/IBaseServiceFactory.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Contracts.BLL.Base/Mappers/IBaseBLLMapper.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Contracts.BLL.Base/Helpers/IBaseServiceProvider.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Contracts.BLL.Base/Services/IBaseService.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../ClientApp/bower_components/js-polyfills/.bower.json" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/081372C7-3509-4D45-BD06-A6A9BC610C6B/2F/Union.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Contracts.DAL.Base/Helpers/IBaseRepositoryProvider.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Contracts.DAL.Base/Mappers/IBaseDALMapper.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Contracts.DAL.Base/Helpers/IBaseRepositoryFactory.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Contracts.DAL.Base/Repositories/IBaseRepository.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Test/Test.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../ClientApp/src/hwcrypto/.bower.json" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../ClientApp/src/hwcrypto/bower.json" root0="FORCE_HIGHLIGHTING" />
@@ -295,15 +216,18 @@
     <setting file="file://$PROJECT_DIR$/WebApp/Controllers/AreaOfInterestController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/WebApp/Controllers/SponsorInEventController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/WebApp/Controllers/OrganizationOrganizingController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/11BEAD40-7192-41B3-BC77-ACB536C8DAFB/af/106d84d1/IBaseBLL.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/WebApp/Controllers/EventInLocationController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/WebApp/Controllers/EventInAreaOfInterestController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/WebApp/Controllers/LocationController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/11BEAD40-7192-41B3-BC77-ACB536C8DAFB/8e/33b92179/IBaseService.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/WebApp/Controllers/PerformerInEventController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/WebApp/Controllers/TargetAudienceController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/WebApp/Controllers/EventController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/WebApp/ApiControllers/v1.0/PerformerController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/530EA6F8-FA83-415D-BB26-3558E38AABC4/24/ControllerBase.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/WebApp/ApiControllers/v1.0/AdministrativeUnitController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/11BEAD40-7192-41B3-BC77-ACB536C8DAFB/39/d14d531f/IBaseEntityService`1.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/WebApp/ApiControllers/v1.0/OrganizationController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DAL.App.EF/Mappers/EventInLocationMapper.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/WebApp/ApiControllers/v1.0/AreaOfInterestController.cs" root0="FORCE_HIGHLIGHTING" />
@@ -313,9 +237,11 @@
     <setting file="file://$PROJECT_DIR$/WebApp/ApiControllers/v1.0/LocationController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/WebApp/ApiControllers/v1.0/TargetAudienceController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/WebApp/ApiControllers/v1.0/EventController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/FF26496F-EB27-438E-A889-0DB000305391/96/0f5e42d8/BaseBLL`1.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/PublicApi.v1/Mappers/OrganizationMapper.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/PublicApi.v1.DTO/AreaOfInterest.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/BLL.App.DTO/AreaOfInterest.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/FF26496F-EB27-438E-A889-0DB000305391/f5/0ed8565a/BaseEntityService`3.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/BLL.App.DTO/Organization.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/EEB3139E-B62A-4069-86A0-B56DA4C814BC/4/IServiceCollectionExtensions.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/BLL.App/Mappers/EventMapper.cs" root0="FORCE_HIGHLIGHTING" />
@@ -342,13 +268,9 @@
     <setting file="file://$PROJECT_DIR$/BLL.App/Mappers/AreaOfInterestMapper.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/BLL.App/Services/TargetAudienceService.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/BLL.App/Services/PerformerService.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/BLL.Base/Helpers/BaseServiceProvider.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Contracts.BLL.App/Services/IAreaOfInterestService.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/BLL.Base/Helpers/BaseServiceFactory.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/BLL.App/Services/AreaOfInterestService.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/BLL.Base/Services/BaseService.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Contracts.BLL.App/Services/ITargetAudienceService.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/BLL.Base/Services/BaseEntityService.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Contracts.BLL.App/Services/IOrganizationService.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DAL.App.EF/Mappers/TargetAudienceMapper.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Contracts.BLL.App/Services/IPerformerService.cs" root0="FORCE_HIGHLIGHTING" />
@@ -385,7 +307,6 @@
     <setting file="file://$PROJECT_DIR$/DAL.App.EF/Repositories/AreaOfInterestRepository.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DAL.App.EF/Repositories/OrganizationOrganizingRepository.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DAL.App.EF/Repositories/PerformerRepository.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/BLL.Base/BaseBLL.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Identity/JwtHelper.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Identity/IdentityExtensions.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/BLL.App.DTO/Identity/AppRole.cs" root0="FORCE_HIGHLIGHTING" />
@@ -400,13 +321,9 @@
     <setting file="file://$PROJECT_DIR$/BLL.App.DTO/Event.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DAL.App.DTO/EventInType.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DAL.App.DTO/SponsorInEvent.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/DAL.Base.EF/Helpers/BaseRepositoryProvider.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DAL.App.DTO/AreaOfInterest.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/DAL.Base.EF/Helpers/BaseRepositoryFactory.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DAL.App.DTO/EventTargetAudience.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/DAL.Base.EF/Repositories/BaseRepository.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DAL.App.DTO/EventType.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/DAL.Base.EF/Mappers/BaseDALMapper.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DAL.App.DTO/EventInAreaOfInterest.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DAL.App.DTO/Organization.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DAL.App.DTO/PerformerInEvent.cs" root0="FORCE_HIGHLIGHTING" />
@@ -421,10 +338,8 @@
     <setting file="file://$PROJECT_DIR$/PublicApi.v1/Mappers/AdministrativeUnitMapper.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DAL.App.DTO/TargetAudience.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DAL.App.DTO/Event.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/DAL.Base.EF/BaseUnitOfWork.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/PublicApi.v1.DTO/Performer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/PublicApi.v1.DTO/AdministrativeUnit.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Contracts.Base/ITrackableInstance.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/PublicApi.v1.DTO/EventType.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/PublicApi.v1.DTO/Location.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/PublicApi.v1.DTO/Event.cs" root0="FORCE_HIGHLIGHTING" />
@@ -437,31 +352,24 @@
     <setting file="file://$PROJECT_DIR$/Contracts.DAL.App/Repositories/IEventRepository.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Contracts.DAL.App/Repositories/ITargetAudienceRepository.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Contracts.DAL.App/Repositories/IPerformerRepository.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Contracts.DAL.Base/IBaseEntity.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Contracts.DAL.App/Repositories/IEventInLocationRepository.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Contracts.BLL.Base/IBaseBLL.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Contracts.DAL.App/Repositories/IPerformerInEventRepository.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/6F7983DF-5846-436F-8E9C-B779867785C7/11/DbSet.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Contracts.DAL.App/Repositories/IAdministrativeUnitInEventRepository.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Contracts.DAL.App/Repositories/IOrganizationOrganizingRepository.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Contracts.DAL.Base/IDomainEntity.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Contracts.DAL.App/Repositories/IEventInAreaOfInterestRepository.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Contracts.DAL.App/Repositories/IEventTargetAudienceRepository.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Contracts.DAL.Base/IDataContext.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Contracts.DAL.App/Repositories/IEventTypeRepository.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Contracts.DAL.App/Repositories/IEventInTypeRepository.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Contracts.DAL.App/Repositories/ILocationRepository.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Contracts.DAL.App/Repositories/IAreaOfInterestRepository.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Contracts.DAL.App/Repositories/ISponsorInEventRepository.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Contracts.DAL.App/Repositories/IOrganizationRepository.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Contracts.DAL.Base/IBaseUnitOfWork.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Contracts.DAL.App/Repositories/IAdministrativeUnitRepository.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Test/Class1.cs" />
-        <option value="$PROJECT_DIR$/Test/Test.cs" />
         <option value="$PROJECT_DIR$/DAL.App.EF/AppDbContext.cs" />
         <option value="$PROJECT_DIR$/DAL.App.EF/Helpers/AppRepositoryFactory.cs" />
         <option value="$PROJECT_DIR$/../ClientApp/src/identity/style.css" />
@@ -499,7 +407,6 @@
         <option value="$PROJECT_DIR$/../ClientApp/src/pages/events/create.ts" />
         <option value="$PROJECT_DIR$/WebApp/ApiControllers/EventController.cs" />
         <option value="$PROJECT_DIR$/WebApp/ApiControllers/v1.0/TargetAudienceController.cs" />
-        <option value="$PROJECT_DIR$/WebApp/ApiControllers/v1.0/AdministrativeUnitController.cs" />
         <option value="$PROJECT_DIR$/WebApp/ApiControllers/v1.0/AreaOfInterestController.cs" />
         <option value="$PROJECT_DIR$/WebApp/ApiControllers/v1.0/EventController.cs" />
         <option value="$PROJECT_DIR$/WebApp/ApiControllers/v1.0/EventTypeController.cs" />
@@ -511,6 +418,9 @@
         <option value="$PROJECT_DIR$/WebApp/WebApp.csproj" />
         <option value="$PROJECT_DIR$/WebApp/Startup.cs" />
         <option value="$PROJECT_DIR$/WebApp/ConfigureSwaggerOptions.cs" />
+        <option value="$PROJECT_DIR$/CalendarX.sln" />
+        <option value="$PROJECT_DIR$/WebApp/ApiControllers/v1.0/AdministrativeUnitController.cs" />
+        <option value="$PROJECT_DIR$/BLL.App/AppBLL.cs" />
       </list>
     </option>
   </component>
@@ -754,7 +664,9 @@
       <workItem from="1578425984085" duration="2944000" />
       <workItem from="1578429120711" duration="1928000" />
       <workItem from="1578441055789" duration="12560000" />
-      <workItem from="1578482812198" duration="3863000" />
+      <workItem from="1578482812198" duration="5207000" />
+      <workItem from="1578488215229" duration="1818000" />
+      <workItem from="1578491508504" duration="1031000" />
     </task>
     <task id="LOCAL-00001" summary="Fixed appunitofwork factory methods">
       <created>1574259508863</created>
@@ -833,7 +745,14 @@
       <option name="project" value="LOCAL" />
       <updated>1577137397697</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Added file ending features, fixed frontend and made it nicer, added new search workflows">
+      <created>1578486869689</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1578486869689</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -865,7 +784,8 @@
     <MESSAGE value="Complete rework of the data flow, added a business logic layer,&#10;Commented out controllers that arent in use until the backend is complete&#10;Will add them back one by one or maybe remove some&#10;Added mappers for 3 types of domains, events administrativeunits and locations&#10;&#10;Will implement more in next commits" />
     <MESSAGE value="Radical changes in mappers, used linq mapping instead of doing everything by hand&#10;Added Location support and included locations within events&#10;Event list selection is still broken, will fix later, currently sending every list option to db" />
     <MESSAGE value="Added neW data flows for Event types" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added neW data flows for Event types" />
+    <MESSAGE value="Added file ending features, fixed frontend and made it nicer, added new search workflows" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added file ending features, fixed frontend and made it nicer, added new search workflows" />
   </component>
   <component name="WindowStateProjectService">
     <state x="-1386" y="194" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1578317306647">
@@ -888,33 +808,33 @@
       <screen x="-1680" y="30" width="1680" height="1020" />
     </state>
     <state x="-1206" y="317" key="EditFileWatcherDialog/0.0.1920.1050/-1680.30.1680.1020@-1680.30.1680.1020" timestamp="1578323860694" />
-    <state width="964" height="222" key="GridCell.Tab.0.bottom" timestamp="1578486431457">
-      <screen x="-1680" y="30" width="1680" height="1020" />
+    <state width="1105" height="230" key="GridCell.Tab.0.bottom" timestamp="1578492338603">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1637" height="275" key="GridCell.Tab.0.bottom/0.0.1920.1050/-1680.-76.1680.1020@-1680.-76.1680.1020" timestamp="1576609714063" />
     <state width="964" height="222" key="GridCell.Tab.0.bottom/0.0.1920.1050/-1680.30.1680.1020@-1680.30.1680.1020" timestamp="1578486431457" />
-    <state width="1877" height="352" key="GridCell.Tab.0.bottom/0.0.1920.1050/-1680.30.1680.1020@0.0.1920.1050" timestamp="1577980771296" />
+    <state width="1105" height="230" key="GridCell.Tab.0.bottom/0.0.1920.1050/-1680.30.1680.1020@0.0.1920.1050" timestamp="1578492338603" />
     <state width="1877" height="352" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1577545893163" />
-    <state width="964" height="222" key="GridCell.Tab.0.center" timestamp="1578486431457">
-      <screen x="-1680" y="30" width="1680" height="1020" />
+    <state width="1105" height="230" key="GridCell.Tab.0.center" timestamp="1578492338603">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1637" height="275" key="GridCell.Tab.0.center/0.0.1920.1050/-1680.-76.1680.1020@-1680.-76.1680.1020" timestamp="1576609714063" />
     <state width="964" height="222" key="GridCell.Tab.0.center/0.0.1920.1050/-1680.30.1680.1020@-1680.30.1680.1020" timestamp="1578486431457" />
-    <state width="1877" height="352" key="GridCell.Tab.0.center/0.0.1920.1050/-1680.30.1680.1020@0.0.1920.1050" timestamp="1577980771296" />
+    <state width="1105" height="230" key="GridCell.Tab.0.center/0.0.1920.1050/-1680.30.1680.1020@0.0.1920.1050" timestamp="1578492338603" />
     <state width="1877" height="352" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1577545893163" />
-    <state width="964" height="222" key="GridCell.Tab.0.left" timestamp="1578486431456">
-      <screen x="-1680" y="30" width="1680" height="1020" />
+    <state width="1105" height="230" key="GridCell.Tab.0.left" timestamp="1578492338603">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1637" height="275" key="GridCell.Tab.0.left/0.0.1920.1050/-1680.-76.1680.1020@-1680.-76.1680.1020" timestamp="1576609714063" />
     <state width="964" height="222" key="GridCell.Tab.0.left/0.0.1920.1050/-1680.30.1680.1020@-1680.30.1680.1020" timestamp="1578486431456" />
-    <state width="1877" height="352" key="GridCell.Tab.0.left/0.0.1920.1050/-1680.30.1680.1020@0.0.1920.1050" timestamp="1577980771296" />
+    <state width="1105" height="230" key="GridCell.Tab.0.left/0.0.1920.1050/-1680.30.1680.1020@0.0.1920.1050" timestamp="1578492338603" />
     <state width="1877" height="352" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1577545893162" />
-    <state width="964" height="222" key="GridCell.Tab.0.right" timestamp="1578486431457">
-      <screen x="-1680" y="30" width="1680" height="1020" />
+    <state width="1105" height="230" key="GridCell.Tab.0.right" timestamp="1578492338603">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1637" height="275" key="GridCell.Tab.0.right/0.0.1920.1050/-1680.-76.1680.1020@-1680.-76.1680.1020" timestamp="1576609714063" />
     <state width="964" height="222" key="GridCell.Tab.0.right/0.0.1920.1050/-1680.30.1680.1020@-1680.30.1680.1020" timestamp="1578486431457" />
-    <state width="1877" height="352" key="GridCell.Tab.0.right/0.0.1920.1050/-1680.30.1680.1020@0.0.1920.1050" timestamp="1577980771296" />
+    <state width="1105" height="230" key="GridCell.Tab.0.right/0.0.1920.1050/-1680.30.1680.1020@0.0.1920.1050" timestamp="1578492338603" />
     <state width="1877" height="352" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1577545893163" />
     <state width="1637" height="361" key="GridCell.Tab.1.bottom" timestamp="1578453678577">
       <screen x="-1680" y="30" width="1680" height="1020" />
@@ -1008,19 +928,20 @@
       <screen x="-1680" y="30" width="1680" height="1020" />
     </state>
     <state x="-1339" y="181" key="SettingsEditor/0.0.1920.1050/-1680.30.1680.1020@-1680.30.1680.1020" timestamp="1578483125898" />
-    <state x="552" y="257" key="Vcs.Push.Dialog.v2" timestamp="1577137400185">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state x="-1197" y="280" key="Vcs.Push.Dialog.v2" timestamp="1578486871741">
+      <screen x="-1680" y="30" width="1680" height="1020" />
     </state>
+    <state x="-1197" y="280" key="Vcs.Push.Dialog.v2/0.0.1920.1050/-1680.30.1680.1020@-1680.30.1680.1020" timestamp="1578486871741" />
     <state x="552" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1577137400185" />
     <state x="-1160" y="294" key="WebReferenceSession.Dialog" timestamp="1578317890568">
       <screen x="-1680" y="30" width="1680" height="1020" />
     </state>
     <state x="-1160" y="294" key="WebReferenceSession.Dialog/0.0.1920.1050/-1680.30.1680.1020@-1680.30.1680.1020" timestamp="1578317890568" />
-    <state x="-1599" y="119" width="1519" height="842" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1578451291872">
-      <screen x="-1680" y="30" width="1680" height="1020" />
+    <state x="92" y="92" width="1736" height="866" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1578487240444">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="-1599" y="119" width="1519" height="842" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1920.1050/-1680.30.1680.1020@-1680.30.1680.1020" timestamp="1578451291872" />
-    <state x="92" y="92" width="1736" height="866" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1920.1050/-1680.30.1680.1020@0.0.1920.1050" timestamp="1577980518860" />
+    <state x="92" y="92" width="1736" height="866" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1920.1050/-1680.30.1680.1020@0.0.1920.1050" timestamp="1578487240444" />
     <state x="-1415" y="18" width="746" height="919" maximized="true" key="dock-window-1" timestamp="1578314100895">
       <screen x="-1680" y="30" width="1680" height="1020" />
     </state>
@@ -1033,6 +954,10 @@
       <screen x="-1680" y="30" width="1680" height="1020" />
     </state>
     <state x="-1162" y="277" width="741" height="596" key="find.popup/0.0.1920.1050/-1680.30.1680.1020@-1680.30.1680.1020" timestamp="1578427921491" />
+    <state x="668" y="315" key="git4idea.merge.GitPullDialog" timestamp="1578488144246">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="668" y="315" key="git4idea.merge.GitPullDialog/0.0.1920.1050/-1680.30.1680.1020@0.0.1920.1050" timestamp="1578488144246" />
     <state x="-1184" y="250" key="run.anything.popup" timestamp="1578314137454">
       <screen x="-1680" y="30" width="1680" height="1020" />
     </state>
@@ -1053,27 +978,13 @@
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/WebApp/ApiControllers/v1.0/Identity/SigningController.cs</url>
           <line>35</line>
-          <properties documentPath="$PROJECT_DIR$/WebApp/ApiControllers/Identity/SigningController.cs" initialLine="35">
-            <startOffsets>
-              <option value="988" />
-            </startOffsets>
-            <endOffsets>
-              <option value="1008" />
-            </endOffsets>
-          </properties>
+          <properties documentPath="$PROJECT_DIR$/WebApp/ApiControllers/Identity/SigningController.cs" initialLine="35" />
           <option name="timeStamp" value="35" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/WebApp/ApiControllers/v1.0/OrganizationController.cs</url>
           <line>86</line>
-          <properties documentPath="$PROJECT_DIR$/WebApp/ApiControllers/OrganizationController.cs" initialLine="82">
-            <startOffsets>
-              <option value="2914" />
-            </startOffsets>
-            <endOffsets>
-              <option value="3092" />
-            </endOffsets>
-          </properties>
+          <properties documentPath="$PROJECT_DIR$/WebApp/ApiControllers/OrganizationController.cs" initialLine="82" />
           <option name="timeStamp" value="61" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">

@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netstandard2.1</TargetFramework>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <PackageVersion>1.0.2</PackageVersion>
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
+        <RootNamespace>DAL.Base.EF</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="AutoMapper" Version="9.0.0" />
+      <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.0.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\ee.itcollege.jarootnuget.Contracts.DAL.Base\ee.itcollege.jarootnuget.Contracts.DAL.Base.csproj" />
+    </ItemGroup>
+
+</Project>

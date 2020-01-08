@@ -2,11 +2,11 @@
 
     <PropertyGroup>
         <TargetFramework>netstandard2.1</TargetFramework>
+        <RootNamespace>BLL.Base</RootNamespace>
     </PropertyGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\Contracts.Base\Contracts.Base.csproj" />
-      <ProjectReference Include="..\Contracts.DAL.Base\Contracts.DAL.Base.csproj" />
+      <ProjectReference Include="..\ee.itcollege.jarootnuget.Contracts.BLL.Base\ee.itcollege.jarootnuget.Contracts.BLL.Base.csproj" />
     </ItemGroup>
 
 </Project>

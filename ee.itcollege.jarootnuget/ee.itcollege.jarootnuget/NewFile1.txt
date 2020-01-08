@@ -1,0 +1,1 @@
+nuget add C:/Users/ADMIN/Desktop/CalendarProject/ee.itcollege.jarootnuget/BLL.Base/bin/Debug/BLL.Base.1.0.0.nupkg -source ~/nuget_repo

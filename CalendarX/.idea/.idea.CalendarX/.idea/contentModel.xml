@@ -72,39 +72,7 @@
         <e p="Performer.cs" t="Include" />
         <e p="TargetAudience.cs" t="Include" />
       </e>
-      <e p="BLL.Base" t="IncludeRecursive">
-        <e p="BaseBLL.cs" t="Include" />
-        <e p="bin" t="ExcludeRecursive" />
-        <e p="BLL.Base.csproj" t="IncludeRecursive" />
-        <e p="Helpers" t="Include">
-          <e p="BaseServiceFactory.cs" t="Include" />
-          <e p="BaseServiceProvider.cs" t="Include" />
-        </e>
-        <e p="obj" t="ExcludeRecursive">
-          <e p="Debug" t="Include">
-            <e p="netstandard2.1" t="Include">
-              <e p="BLL.Base.AssemblyInfo.cs" t="Include" />
-            </e>
-          </e>
-        </e>
-        <e p="Services" t="Include">
-          <e p="BaseEntityService.cs" t="Include" />
-          <e p="BaseService.cs" t="Include" />
-        </e>
-      </e>
       <e p="CalendarX.sln" t="IncludeFlat" />
-      <e p="Contracts.Base" t="IncludeRecursive">
-        <e p="bin" t="ExcludeRecursive" />
-        <e p="Contracts.Base.csproj" t="IncludeRecursive" />
-        <e p="ITrackableInstance.cs" t="Include" />
-        <e p="obj" t="ExcludeRecursive">
-          <e p="Debug" t="Include">
-            <e p="netstandard2.1" t="Include">
-              <e p="Contracts.Base.AssemblyInfo.cs" t="Include" />
-            </e>
-          </e>
-        </e>
-      </e>
       <e p="Contracts.BLL.App" t="IncludeRecursive">
         <e p="bin" t="ExcludeRecursive" />
         <e p="Contracts.BLL.App.csproj" t="IncludeRecursive" />
@@ -125,28 +93,6 @@
           <e p="IOrganizationService.cs" t="Include" />
           <e p="IPerformerService.cs" t="Include" />
           <e p="ITargetAudienceService.cs" t="Include" />
-        </e>
-      </e>
-      <e p="Contracts.BLL.Base" t="IncludeRecursive">
-        <e p="bin" t="ExcludeRecursive" />
-        <e p="Contracts.BLL.Base.csproj" t="IncludeRecursive" />
-        <e p="Helpers" t="Include">
-          <e p="IBaseServiceFactory.cs" t="Include" />
-          <e p="IBaseServiceProvider.cs" t="Include" />
-        </e>
-        <e p="IBaseBLL.cs" t="Include" />
-        <e p="Mappers" t="Include">
-          <e p="IBaseBLLMapper.cs" t="Include" />
-        </e>
-        <e p="obj" t="ExcludeRecursive">
-          <e p="Debug" t="Include">
-            <e p="netstandard2.1" t="Include">
-              <e p="Contracts.BLL.Base.AssemblyInfo.cs" t="Include" />
-            </e>
-          </e>
-        </e>
-        <e p="Services" t="Include">
-          <e p="IBaseService.cs" t="Include" />
         </e>
       </e>
       <e p="Contracts.DAL.App" t="IncludeRecursive">
@@ -177,31 +123,6 @@
           <e p="IPerformerRepository.cs" t="Include" />
           <e p="ISponsorInEventRepository.cs" t="Include" />
           <e p="ITargetAudienceRepository.cs" t="Include" />
-        </e>
-      </e>
-      <e p="Contracts.DAL.Base" t="IncludeRecursive">
-        <e p="bin" t="ExcludeRecursive" />
-        <e p="Contracts.DAL.Base.csproj" t="IncludeRecursive" />
-        <e p="Helpers" t="Include">
-          <e p="IBaseRepositoryFactory.cs" t="Include" />
-          <e p="IBaseRepositoryProvider.cs" t="Include" />
-        </e>
-        <e p="IBaseEntity.cs" t="Include" />
-        <e p="IBaseUnitOfWork.cs" t="Include" />
-        <e p="IDataContext.cs" t="Include" />
-        <e p="IDomainEntity.cs" t="Include" />
-        <e p="Mappers" t="Include">
-          <e p="IBaseDALMapper.cs" t="Include" />
-        </e>
-        <e p="obj" t="ExcludeRecursive">
-          <e p="Debug" t="Include">
-            <e p="netstandard2.1" t="Include">
-              <e p="Contracts.DAL.Base.AssemblyInfo.cs" t="Include" />
-            </e>
-          </e>
-        </e>
-        <e p="Repositories" t="Include">
-          <e p="IBaseRepository.cs" t="Include" />
         </e>
       </e>
       <e p="DAL.App.DTO" t="IncludeRecursive">
@@ -284,28 +205,6 @@
           <e p="PerformerRepository.cs" t="Include" />
           <e p="SponsorInEventRepository.cs" t="Include" />
           <e p="TargetAudienceRepository.cs" t="Include" />
-        </e>
-      </e>
-      <e p="DAL.Base.EF" t="IncludeRecursive">
-        <e p="BaseUnitOfWork.cs" t="Include" />
-        <e p="bin" t="ExcludeRecursive" />
-        <e p="DAL.Base.EF.csproj" t="IncludeRecursive" />
-        <e p="Helpers" t="Include">
-          <e p="BaseRepositoryFactory.cs" t="Include" />
-          <e p="BaseRepositoryProvider.cs" t="Include" />
-        </e>
-        <e p="Mappers" t="Include">
-          <e p="BaseDALMapper.cs" t="Include" />
-        </e>
-        <e p="obj" t="ExcludeRecursive">
-          <e p="Debug" t="Include">
-            <e p="netstandard2.1" t="Include">
-              <e p="DAL.Base.EF.AssemblyInfo.cs" t="Include" />
-            </e>
-          </e>
-        </e>
-        <e p="Repositories" t="Include">
-          <e p="BaseRepository.cs" t="Include" />
         </e>
       </e>
       <e p="Domain" t="IncludeRecursive">
@@ -416,21 +315,6 @@
         <e p="Performer.cs" t="Include" />
         <e p="PublicApi.v1.DTO.csproj" t="IncludeRecursive" />
         <e p="TargetAudience.cs" t="Include" />
-      </e>
-      <e p="Test" t="IncludeRecursive">
-        <e p="bin" t="ExcludeRecursive" />
-        <e p="obj" t="ExcludeRecursive">
-          <e p="Debug" t="Include">
-            <e p="netcoreapp3.1" t="Include">
-              <e p="Test.AssemblyInfo.cs" t="Include" />
-            </e>
-            <e p="netstandard2.1" t="Include">
-              <e p="Test.AssemblyInfo.cs" t="Include" />
-            </e>
-          </e>
-        </e>
-        <e p="Test.cs" t="Include" />
-        <e p="Test.csproj" t="IncludeRecursive" />
       </e>
       <e p="WebApp" t="IncludeRecursive">
         <e p="ApiControllers" t="Include">

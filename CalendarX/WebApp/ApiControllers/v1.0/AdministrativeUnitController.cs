@@ -6,6 +6,7 @@ using Domain;
 using Identity;
 using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Mvc;
+using BLL.Base;
 
 namespace WebApp.ApiControllers.v1._0
 {
