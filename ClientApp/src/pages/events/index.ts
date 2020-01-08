@@ -12,11 +12,22 @@ export var log = LogManager.getLogger('Event.Index');
 export class Index {
 
   private Event: IEvent[] = [];
+  private category: number = 0;
+  private searchString: string = "";
 
   constructor(
     private EventService: EventService
   ) {
     log.debug('constructor');
+  }
+  
+  submit() {
+    this.EventService.fetchBySearch(this.searchString, this.category).then(
+      jsonData => {
+        log.debug('jsonData', jsonData);
+        this.Event = jsonData;
+      }
+    );
   }
 
   // ============ View LifeCycle events ==============

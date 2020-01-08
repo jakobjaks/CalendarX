@@ -1,0 +1,28 @@
+<template>
+  <require from="./carousel.css"></require>
+  <div class="wrapper">
+    <!-- Header -->
+    <div if.bind="heading" class="heading">
+      <!-- Heading -->
+      <div if.bind="heading" class="headingTitle">
+        <h2>${heading}</h2>
+        <span if.bind="sortBy">Sorted by ${sortBy} (${sortDir})</span>
+      </div>
+    </div>
+    <!-- Carousel -->
+    <div ref="carouselContainer" class="carousel ${config.draggable ? pointerDown ? 'grabbing': 'grab' : ''}" >
+      <div ref="sliderFrame" class="slider" show.bind="initialized" css="width: ${sliderWidth}px; transition: transform ${transformDuration}ms ${config.easing}; ${transformProperty}: translate3d(${sliderTransform}px, 0, 0);;">
+        <slot></slot>
+      </div>
+    </div>
+    <div class="${heading ? 'controlsHead' : 'controlsFoot'}">
+      <!-- Nav -->
+      <div if.bind="showNav" class="nav">
+        <span click.delegate="prev()" class="navBtn ${navPrevDisabled ? 'navDisabled' : ''}"><i class="fa fa-angle-left navBtnIcon"></i></span>
+        <span click.delegate="next()" class="navBtn ${navNextDisabled ? 'navDisabled' : ''}"><i class="fa fa-angle-right navBtnIcon"></i></span>
+      </div>
+      <!-- Optional filter buttons -->
+      <slot name="buttons"></slot>
+    </div>
+  </div>
+</template>

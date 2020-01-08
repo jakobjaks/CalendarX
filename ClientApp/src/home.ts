@@ -2,16 +2,17 @@ import {LogManager, View} from "aurelia-framework";
 import {RouteConfig, NavigationInstruction} from "aurelia-router";
 
 
+
 export var log = LogManager.getLogger('MainRouter');
 
 export class Home {
 
-
+  searchString: string;
+  
   constructor() {
     log.debug('constructor')
   }
-
-
+  
   // ============ View LifeCycle events ==============
   created(owningView: View, myView: View) {
     log.debug('created');
@@ -50,4 +51,5 @@ export class Home {
     log.debug('deactivate');
   }
 
+  
 }

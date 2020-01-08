@@ -1,62 +1,73 @@
 <template>
-  <h1>Events</h1>
+  <require from="./index.css"></require>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <require from="../../home.css"></require>
 
+  <section class="search-sec">
+    <div class="container">
+      <form action="#" method="get" submit.delegate="submit()">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="row">
+              <div class=" search-input">
+                <input type="text" class="form-control search-slt" placeholder="Search" value.bind="searchString">
+              </div>
+              <div class="col-lg-3 col-md-3 col-sm-12 p-0">
+                <select class="form-control search-slt" id="exampleFormControlSelect1"
+                value.bind="category">
+                  <option model.bind="1">Event Name</option>
+                  <option model.bind="2">Administrative Unit</option>
+                  <option model.bind="3">Event Type</option>
+                  <option model.bind="4">Location</option>
+                  <option model.bind="5">Target Audience</option>
+                  <option model.bind="6">Organization</option>
+                  <option model.bind="7">Sponsor</option>
+                </select>
+              </div>
+              <div class="col-lg-3 col-md-3 col-sm-12 p-0">
+                <input type="submit" value="Search" class="btn btn-danger wrn-btn"></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
+  </section>
   <p>
-    <a route-href="route: EventsCreate">Event - Create New</a>
+    <a route-href="route: EventsCreate" show.bind="appConfig.jwt != null"
+       class="btn btn-primary float-center btn-sm">Event - Create New</a>
   </p>
-  <table class="table">
-    <thead>
-    <tr>
-      <th>
-        Name
-      </th> 
-      <th>
-        Description
-      </th>
-      <th>
-        Administrative Units
-      </th>
-    </tr>
-    </thead>  
-    <tbody>
     <!-- repeat this tr element, iterate over Events -->
-    <tr repeat.for="event of Event">
-      <td>
-        <!-- string interpolation -->
-        ${event.name}
-      </td>
-      <td>
-        <!-- string interpolation -->
-        ${event.description}
-      </td>
-      <td>
-        <label repeat.for="unit of event.administrativeUnits">
-          ${unit.name}
-        </label>
-        <!-- string interpolation -->
-      </td>
-      <td>
-        <label repeat.for="unit of event.locations">
-          ${unit.name}
-        </label>
-        <!-- string interpolation -->
-      </td>
-      <td>
-        <label repeat.for="unit of event.eventTypes">
-          ${unit.name}
-        </label>
-        <!-- string interpolation -->
-      </td>
-      <td>
-        <!-- gdenerate links, based on routing table defined in main-router -->
-        <a route-href="route: EventsEdit; params.bind: {id: event.id}">Edit</a> |
-        <a route-href="route: EventsDetails; params.bind: {id: event.id}">Details</a> |
-        <a route-href="route: EventsDelete; params.bind: {id: event.id}">Delete</a>
-      </td>
-    </tr>
+    <div class="container">
+      <div class="row">
+      <div class="col-sm-6 col-md-4 col-lg-3 mt-4" repeat.for="event of Event">
+        <div class="card">
+          <img class="card-img-top" src="https://picsum.photos/200/150/?random">
+          <div class="card-block">
+            <figure class="profile">
+              <img src="https://picsum.photos/200/150/?random" class="profile-avatar" alt="">
+            </figure>
+            <h4 class="card-title mt-3">
+              ${event.name}
+            </h4>
+            <div class="meta">
 
-    </tbody>
-  </table>
+            </div>
+            <div class="card-text">
+              ${event.description}
+            </div>
+          </div>
+          <div class="card-footer">
+            <small>Last updated 3 mins ago</small>
+            <a class="btn btn-secondary float-right btn-sm" 
+               route-href="route: EventsDetails; params.bind: {id: event.id}">Show</a>
+
+          </div>
+        </div>
+      </div>
+    </div>
+      </div>
+
 
 
 </template>

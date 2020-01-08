@@ -1,32 +1,137 @@
 <template>
-
+  <div class="jumbotron">
   <h1>Create</h1>
 
   <h4>Events</h4>
-  <hr />
+  <hr/>
   <div class="row">
-    <div class="col-md-4">
+    <div class="col-md-4 event_create_container">
       <form method="post" submit.delegate="submit()">
-        <div class="form-group">
-          <label for="EventsName" class="control-label">Name of the event</label>
-          <input class="form-control" type="text"
-                 id="EventsName" name="Events" value.bind="Event.name"/>        
-        </div>
-        <div class="form-group">
-          <label for="EventsDesc" class="control-label">Description</label>
-          <input class="form-control" type="text"
-                 id="EventsDesc" name="Events" value.bind="Event.description"/>
-        </div>
-        <select value.bind="event.administrativeUnits">
-          <option model.bind="null">Choose the administrative unit</option>
-          <option repeat.for="event of Event.administrativeUnits"
-                  model.bind="event.name">
-            ${event.name}
-          </option>
-        </select>
-        <div class="form-group">
-          <input type="submit" value="Create" class="btn btn-primary" />
-        </div>
+        <table class="table">
+          <tbody>
+          <div id="parent_div_1">
+          <div class="event-column">
+
+          <div class="form-group">
+            <label for="EventsName" class="control-label">Name of the event</label>
+            <input class="form-control" type="text"
+                   id="EventsName" name="Events" value.bind="event.name"/>
+          </div>
+          <div class="form-group">
+            <label for="EventsDesc" class="control-label">Description</label>
+            <input class="form-control" type="text"
+                   id="EventsDesc" name="Events" value.bind="event.description"/>
+          </div>
+          <div class="form-group">
+            <label for="adminUnit">Choose the administrative units</label>
+            <div repeat.for="admin of adminUnitCount" class="form-group">
+              <select value.bind="administrativeUnitSelected[admin]" class="custom-select" id="adminUnit">
+                <option model.bind="null">None</option>
+                <option repeat.for="unit of administrativeUnitList"
+                        model.bind="unit">
+                  ${unit.name}
+                </option>
+              </select>
+            </div>
+            <button click.delegate="removeAdminOption()">Remove</button>
+            <button click.delegate="addAdminOption()">Add</button>
+          </div>
+          <div class="form-group">
+            <label for="locations">Choose the locations</label>
+            <div repeat.for="loc of locationUnitCount" class="form-group">
+            <select value.bind="locationSelected[loc]" class="custom-select" id="locations">
+              <option model.bind="null">None</option>
+              <option repeat.for="unit of locationList"
+                      model.bind="unit">
+                ${unit.name}
+              </option>
+            </select>
+            </div>
+            <button click.delegate="removeLocationOption()">Remove</button>
+            <button click.delegate="addLocationOption()">Add</button>
+          </div>
+          <div class="form-group">
+            <label for="eventType">Choose the event types</label>
+            <div repeat.for="eventType of eventTypesUnitCount" class="form-group">
+              <select value.bind="eventTypeSelected[eventType]" class="custom-select" id="eventType">
+                <option model.bind="null">None</option>
+                <option repeat.for="unit of eventTypeList"
+                        model.bind="unit">
+                  ${unit.name}
+                </option>
+              </select>
+            </div>
+            <button click.delegate="removeEventTypesOption()">Remove</button>
+            <button click.delegate="addEventTypesOption()">Add</button>
+          </div>
+          </div>
+          <div class="event-column">
+          <div class="form-group">
+            <label for="organizations">Choose the organizations</label>
+            <div repeat.for="org of organizationUnitCount" class="form-group">
+              <select value.bind="organisationSelected[org]" class="custom-select" id="organizations">
+                <option value.bind="null">None</option>
+                <option repeat.for="unit of organisationList"
+                        value.bind="unit">
+                  ${unit.name}
+                </option>
+              </select>
+            </div>
+            <button click.delegate="removeOrgOption()">Remove</button>
+            <button click.delegate="addOrgOption()">Add</button>
+          </div>
+          <div class="form-group">
+            <label for="sponsors">Choose the sponsors</label>
+            <div repeat.for="spons of sponsorUnitCount" class="form-group">
+              <select value.bind="sponsorSelected[spons]" class="custom-select" id="sponsors">
+                <option model.bind="null">None</option>
+                <option repeat.for="unit of sponsorList"
+                        model.bind="unit">
+                  ${unit.name}
+                </option>
+              </select>
+            </div>
+            <button click.delegate="removeSponsOption()">Remove</button>
+            <button click.delegate="addSponsOption()">Add</button>
+          </div>
+          <div class="form-group">
+            <label for="performers">Choose the performers</label>
+            <div repeat.for="perf of performerUnitCount" class="form-group">
+              <select value.bind="performerSelected[perf]" class="custom-select" id="performers">
+                <option model.bind="null">None</option>
+                <option repeat.for="unit of performerList"
+                        model.bind="unit">
+                  ${unit.name}
+                </option>
+              </select>
+            </div>
+            <button click.delegate="removePerfOption()">Remove</button>
+            <button click.delegate="addPerfOption()">Add</button>
+          </div>
+          <div class="form-group">
+            <label for="audiences">Choose the target audiences</label>
+            <div repeat.for="targ of targetAudienceUnitCount" class="form-group">
+              <select value.bind="targetAudienceSelected[targ]" class="custom-select" id="audiences">
+                <option model.bind="null">None</option>
+                <option repeat.for="unit of targetAudienceLists"
+                        model.bind="unit">
+                  ${unit.name}
+                </option>
+              </select>
+            </div>
+            <button click.delegate="removeTargOption()">Remove</button>
+            <button click.delegate="addTargOption()">Add</button>
+          </div>
+          </div>
+
+          </div>
+          <div class="form-group">
+            <input accept="image/*" id="files" type="file" files.bind="selectedFiles" >
+
+            <input type="submit" value="Create" class="btn btn-primary" if.bind="selectedFiles.length > 0"/>
+          </div>
+          </tbody>
+        </table>
       </form>
     </div>
   </div>
@@ -34,4 +139,6 @@
   <div>
     <a route-href="route: EventsIndex">Back to List</a>
   </div>
+  </div>
 </template>
+

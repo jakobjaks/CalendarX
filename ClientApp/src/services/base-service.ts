@@ -1,5 +1,5 @@
 import { LogManager, autoinject } from "aurelia-framework";
-import { HttpClient } from 'aurelia-fetch-client';
+import {HttpClient, json} from 'aurelia-fetch-client';
 import { IBaseEntity } from "../interfaces/IBaseEntity";
 import { AppConfig } from "../app-config";
 
@@ -50,16 +50,62 @@ export class BaseService<TEntity extends IBaseEntity> {
 
   }
 
+  fetchBySearch(search: string, topic: number): Promise<TEntity[]> {
+    // TODO: use config
+    let url = this.serviceAppConfig.apiUrl + this.serviceEndPoint + '/' + search + '/' + topic
+    console.log(url)
+
+    
+    
+    
+    return this.serviceHttpClient.fetch(url,
+      {
+        cache: 'no-store',
+        headers: {
+          Authorization: 'Bearer ' + this.serviceAppConfig.jwt,
+        }
+      })
+      .then(response => {
+        log.debug('resonse', response);
+        return response.json();
+      })
+      .then(jsonData => {
+        log.debug('jsonData', jsonData);
+        return jsonData;
+      }).catch(reason => {
+        log.debug('catch reason', reason);
+      });
+
+  }
+
 
   // create a new entity
-  post(entity: TEntity): Promise<Response> {
+  post(entity: TEntity, file): Promise<Response> {
     let url = this.serviceAppConfig.apiUrl + this.serviceEndPoint;
 
+
+    var form = new FormData()
+    form.append('image', file)
+    this.serviceHttpClient.fetch(url + '/image', {
+      method: 'POST',
+      //headers: { 'Content-Type': image.type },
+      body: form
+    })
+      .then(response => {
+        return response
+      })
+      .catch(error => {
+        console.log("Some Failure...");
+        throw error.content;
+      })
+
     return this.serviceHttpClient.post(url, JSON.stringify(entity), {
-      cache: 'no-store',
+      cache: 'no-cache',
+      
       headers: {
         Authorization: 'Bearer ' + this.serviceAppConfig.jwt,
-      }
+        Accept: '*/*',
+      },
     }).then(
       response => {
         log.debug('response', response);
@@ -126,5 +172,7 @@ export class BaseService<TEntity extends IBaseEntity> {
       }
     );
   }
+
+
 
 }

@@ -1,0 +1,145 @@
+.wrapper {
+  position: relative;
+}
+
+.carousel {
+  overflow: hidden;
+}
+
+.grab {
+  cursor: -webkit-grab;
+  cursor: grab;
+}
+
+.grabbing {
+  cursor: -webkit-grabbing;
+  cursor: grabbing;
+}
+
+.slider > * {
+  float: left;
+}
+
+.heading {
+  height: 6rem;
+  color: #3ccaf8;
+  position: relative;
+  width: 100%;
+  font-family: "Gotham Medium";
+  display: inline-block;
+  padding: 0 10px;
+}
+
+.headingTitle {
+  margin-bottom: .5rem;
+  width: 100%;
+}
+
+.headingTitle h2 {
+  font-size: 1.5rem;
+  margin: 0;
+  line-height: 1;
+  letter-spacing: -.5px;
+  font-weight: 500;
+  display: inline-block;
+}
+
+.headingTitle span {
+  font-size: .75rem;
+  line-height: 1.25rem;
+  display: block;
+}
+
+.controlsHead {
+  top: 3rem;
+  position: absolute;
+  width: 100%;
+  padding: 0 10px;
+}
+
+.controlsFoot {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  margin: 0 .6rem;
+}
+
+.nav {
+  float: right;
+  margin: 5px 0 15px 10px;
+}
+
+.navBtn {
+  cursor: pointer;
+  background: #3ccaf8;
+  font-size: 1.875rem;
+  color: #fff;
+  text-indent: -1px;
+  padding: 0 .8rem;
+  box-shadow: 0 2px 3px rgba(0,0,0,.5);
+  width: 2rem;
+  display: inline-block;
+}
+
+.navBtn:active {
+  box-shadow: inset 0 2px 3px rgba(0,0,0,.3);
+}
+
+.navBtnIcon {
+  vertical-align: top;
+  pointer-events: none;
+  width: 0;
+  height: 0;
+}
+
+@media screen and (min-width: 48em) {
+  .heading {
+    height: 60px;
+    padding: 0;
+  }
+
+  .headingTitle {
+    position: absolute;
+    margin: 0;
+    z-index: 1;
+  }
+
+  .headingTitle h2 {
+    font-size: 1.875rem;
+    background: #fff;
+    padding: 0 .6rem;
+  }
+
+  .headingTitle span {
+    font-size: .875rem;
+    line-height: 1.5rem;
+    padding: 0 .6rem;
+  }
+
+  .headingTitle::after{
+    content: "";
+    position: absolute;
+    top: 20px;
+    left: 10px;
+    background: #cbc9c9;
+    width: 90%;
+    height: 1px;
+    margin-top: 1px;
+    z-index: -1;
+  }
+  .controlsHead {
+    position: absolute;
+    width: auto;
+    right: 0;
+    top: 0;
+    z-index: 1;
+    padding-left: .6rem;
+    background: #fff;
+  }
+}
+
+@media screen and (min-width: 64em) {
+  .controlsHead {
+    padding: 0 .6rem;
+  }
+}

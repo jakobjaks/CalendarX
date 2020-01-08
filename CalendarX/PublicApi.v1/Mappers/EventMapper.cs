@@ -43,8 +43,18 @@ namespace PublicApi.v1.Mappers
 
         public static internalDTO.Event MapFromExternal(externalDTO.Event Event)
         {
-            Console.WriteLine(Event.Name + "BLL");
-
+            if (Event.AdministrativeUnits.Contains(null))
+            {
+                Event.AdministrativeUnits = null;
+            }
+            if (Event.Locations.Contains(null))
+            {
+                Event.Locations = null;
+            }
+            if (Event.EventTypes.Contains(null))
+            {
+                Event.EventTypes = null;
+            }
             var res = Event == null ? null : new internalDTO.Event
             {
                 Id = Event.Id,
@@ -53,7 +63,8 @@ namespace PublicApi.v1.Mappers
                 AppUserId = Event.AppUserId,
                 AdministrativeUnits = Event.AdministrativeUnits?.Select(AdministrativeUnitMapper.MapFromExternal).ToList(),
                 Locations = Event.Locations?.Select(LocationMapper.MapFromExternal).ToList(),
-                EventTypes= Event.EventTypes?.Select(EventTypeMapper.MapFromExternal).ToList()
+                EventTypes= Event.EventTypes?.Select(EventTypeMapper.MapFromExternal).ToList(),
+                
             };
             return res;
         }

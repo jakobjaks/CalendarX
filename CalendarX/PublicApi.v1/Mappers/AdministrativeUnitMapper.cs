@@ -38,8 +38,6 @@ namespace PublicApi.v1.Mappers
 
         public static internalDTO.AdministrativeUnit MapFromExternal(externalDTO.AdministrativeUnit AdministrativeUnit)
         {
-            Console.WriteLine(AdministrativeUnit.Name + "BLL");
-
             var res = AdministrativeUnit == null ? null : new internalDTO.AdministrativeUnit
             {
                 Id = AdministrativeUnit.Id,
@@ -47,8 +45,6 @@ namespace PublicApi.v1.Mappers
                 Description = AdministrativeUnit.Description,   
                 AppUserId = AdministrativeUnit.AppUserId,
             };
-            Console.WriteLine(res.Name + "BLL");
-
             return res;
         }
     }

@@ -16,7 +16,9 @@
     "bootstrap": "^4.3.1",
     "bower": "^1.8.8",
     "jquery": "^3.4.1",
-    "popper.js": "^1.16.0"
+    "popper.js": "^1.16.0",
+    "scss": "^0.2.4",
+    "swagger-ui": "^3.24.3"
   },
   "devDependencies": {
     "aurelia-cli": "^1.0.2",

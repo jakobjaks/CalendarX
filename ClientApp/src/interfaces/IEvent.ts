@@ -9,6 +9,7 @@ export interface IEvent extends IBaseEntity {
   administrativeUnits: IAdministrativeUnit[];
   locations: ILocation[];
   eventTypes: IEventType[];
+  fileName: string;
 
 
 }

@@ -20,6 +20,10 @@ namespace BLL.App
         public IEventService Events => ServiceProvider.GetService<IEventService>();
         public IAdministrativeUnitService AdministrativeUnits => ServiceProvider.GetService<IAdministrativeUnitService>();
         public IEventTypeService EventTypes => ServiceProvider.GetService<IEventTypeService>();
+        public ITargetAudienceService TargetAudiences => ServiceProvider.GetService<ITargetAudienceService>();
+        public IPerformerService Performers => ServiceProvider.GetService<IPerformerService>();
+        public IOrganizationService Organizations => ServiceProvider.GetService<IOrganizationService>();
+        public IAreaOfInterestService AreaOfInterests => ServiceProvider.GetService<IAreaOfInterestService>();
         public ILocationService Locations => ServiceProvider.GetService<ILocationService>();
         
     }

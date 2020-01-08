@@ -24,3 +24,19 @@
   background: linear-gradient(135deg,#e4067e 10%,#342b60);
   color: white;
 }
+#parent_div_1{
+  display:flex;
+}
+
+.event_create_container {
+  flex: 0 0 100%;
+  max-width: 100%;
+}
+
+.event-column {
+  width: -webkit-fill-available;
+}
+
+.event-column .form-group {
+  margin-right: 5px;
+}

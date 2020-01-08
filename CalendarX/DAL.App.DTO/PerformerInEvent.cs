@@ -2,6 +2,8 @@ namespace DAL.App.DTO
 {
     public class PerformerInEvent
     {
+        
+        
         public int PerformerId { get; set; }
         public Performer Performer { get; set; }
 

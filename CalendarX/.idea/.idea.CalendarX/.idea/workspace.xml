@@ -1,135 +1,130 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1d1a967e-c97c-4ba6-8c21-23e2f2dc6315" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/BLL.App.DTO/EventType.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BLL.App/Mappers/EventTypeMapper.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BLL.App/Services/EventTypeService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BLL.App/Services/SingingService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Contracts.BLL.App/Services/IEventTypeService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DAL.App.EF/Mappers/EventTypeMapper.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PublicApi.v1.DTO/EventType.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PublicApi.v1/Mappers/EventTypeMapper.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/ApiControllers/EventTypeController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/ApiControllers/Identity/SigningController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ClientApp/src/hwcrypto/.bower.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ClientApp/src/hwcrypto/CONTRIBUTING.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ClientApp/src/hwcrypto/Gruntfile.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ClientApp/src/hwcrypto/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ClientApp/src/hwcrypto/Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ClientApp/src/hwcrypto/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ClientApp/src/hwcrypto/bower.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ClientApp/src/hwcrypto/demo/sign.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ClientApp/src/hwcrypto/hex2base.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ClientApp/src/hwcrypto/hwcrypto-legacy.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ClientApp/src/hwcrypto/hwcrypto.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ClientApp/src/hwcrypto/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ClientApp/src/hwcrypto/snippets/test.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ClientApp/src/hwcrypto/snippets/toolbar.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ClientApp/src/hwcrypto/src/hwcrypto.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ClientApp/src/pages/areaOfInterests/create.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ClientApp/src/pages/areaOfInterests/create.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ClientApp/src/pages/areaOfInterests/delete.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ClientApp/src/pages/areaOfInterests/delete.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ClientApp/src/pages/areaOfInterests/details.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ClientApp/src/pages/areaOfInterests/details.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ClientApp/src/pages/areaOfInterests/edit.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ClientApp/src/pages/areaOfInterests/edit.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ClientApp/src/pages/areaOfInterests/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ClientApp/src/pages/areaOfInterests/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ClientApp/src/pages/eventtypes/create.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ClientApp/src/pages/eventtypes/create.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ClientApp/src/pages/eventtypes/delete.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ClientApp/src/pages/eventtypes/delete.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ClientApp/src/pages/eventtypes/details.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ClientApp/src/pages/eventtypes/details.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ClientApp/src/pages/eventtypes/edit.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ClientApp/src/pages/eventtypes/edit.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ClientApp/src/pages/eventtypes/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ClientApp/src/pages/eventtypes/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ClientApp/src/pages/organizations/create.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ClientApp/src/pages/organizations/create.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ClientApp/src/pages/organizations/delete.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ClientApp/src/pages/organizations/delete.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ClientApp/src/pages/organizations/details.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ClientApp/src/pages/organizations/details.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ClientApp/src/pages/organizations/edit.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ClientApp/src/pages/organizations/edit.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ClientApp/src/pages/organizations/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ClientApp/src/pages/organizations/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ClientApp/src/pages/performers/create.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ClientApp/src/pages/performers/create.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ClientApp/src/pages/performers/delete.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ClientApp/src/pages/performers/delete.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ClientApp/src/pages/performers/details.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ClientApp/src/pages/performers/details.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ClientApp/src/pages/performers/edit.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ClientApp/src/pages/performers/edit.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ClientApp/src/pages/performers/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ClientApp/src/pages/performers/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ClientApp/src/pages/singing/singing.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ClientApp/src/pages/targetAudiences/create.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ClientApp/src/pages/targetAudiences/create.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ClientApp/src/pages/targetAudiences/delete.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ClientApp/src/pages/targetAudiences/delete.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ClientApp/src/pages/targetAudiences/details.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ClientApp/src/pages/targetAudiences/details.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ClientApp/src/pages/targetAudiences/edit.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ClientApp/src/pages/targetAudiences/edit.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ClientApp/src/pages/targetAudiences/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ClientApp/src/pages/targetAudiences/index.ts" afterDir="false" />
+    <list default="true" id="1d1a967e-c97c-4ba6-8c21-23e2f2dc6315" name="Default Changelist" comment="Added neW data flows for Event types">
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.CalendarX/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BLL.App.DTO/AreaOfInterest.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BLL.App.DTO/Organization.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BLL.App.DTO/Performer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BLL.App.DTO/TargetAudience.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BLL.App/Mappers/AreaOfInterestMapper.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BLL.App/Mappers/OrganizationMapper.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BLL.App/Mappers/PerformerMapper.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BLL.App/Mappers/TargetAudienceMapper.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BLL.App/Services/AreaOfInterestService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BLL.App/Services/OrganizationService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BLL.App/Services/PerformerService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BLL.App/Services/TargetAudienceService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Contracts.BLL.App/Services/IAreaOfInterestService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Contracts.BLL.App/Services/IOrganizationService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Contracts.BLL.App/Services/IPerformerService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Contracts.BLL.App/Services/ITargetAudienceService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DAL.App.EF/Mappers/AreaOfInterestMapper.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DAL.App.EF/Mappers/EventInLocationMapper.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DAL.App.EF/Mappers/OrganizationMapper.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DAL.App.EF/Mappers/PerformerMapper.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DAL.App.EF/Mappers/TargetAudienceMapper.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PublicApi.v1.DTO/AreaOfInterest.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PublicApi.v1.DTO/Organization.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PublicApi.v1.DTO/Performer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PublicApi.v1.DTO/TargetAudience.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PublicApi.v1/Mappers/AreaOfInterestMapper.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PublicApi.v1/Mappers/OrganizationMapper.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PublicApi.v1/Mappers/PerformerMapper.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PublicApi.v1/Mappers/TargetAudienceMapper.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/ApiControllers/v1.0/AreaOfInterestController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/ApiControllers/v1.0/OrganizationController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/ApiControllers/v1.0/PerformerController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/ApiControllers/v1.0/TargetAudienceController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/ConfigureSwaggerOptions.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClientApp/src/carousel.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClientApp/src/carousel.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClientApp/src/home.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClientApp/src/identity/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClientApp/src/pages/events/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClientApp/src/style/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClientApp/src/style/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClientApp/src/style/homecss.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.CalendarX/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CalendarX/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.CalendarX/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CalendarX/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.CalendarX/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CalendarX/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.CalendarX/riderModule.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CalendarX/riderModule.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BLL.App.DTO/Event.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BLL.App.DTO/Event.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BLL.App.DTO/AdministrativeUnitInEvent.cs" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/BLL.App/AppBLL.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BLL.App/AppBLL.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BLL.App/Helpers/AppServiceFactory.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BLL.App/Helpers/AppServiceFactory.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BLL.App/Mappers/EventMapper.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BLL.App/Mappers/EventMapper.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BLL.App/Mappers/AdministrativeUnitInEventMapper.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BLL.App/Services/AdministrativeUnitInEventService.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BLL.App/Services/EventService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BLL.App/Services/EventService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CalendarX.sln" beforeDir="false" afterPath="$PROJECT_DIR$/CalendarX.sln" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Contracts.BLL.App/IAppBLL.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Contracts.BLL.App/IAppBLL.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Contracts.DAL.App/Repositories/IEventTypeRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Contracts.DAL.App/Repositories/IEventTypeRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Contracts.BLL.App/Services/IAdministrativeUnitInEventService.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Contracts.BLL.App/Services/IEventService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Contracts.BLL.App/Services/IEventService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Contracts.DAL.App/Repositories/IAreaOfInterestRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Contracts.DAL.App/Repositories/IAreaOfInterestRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Contracts.DAL.App/Repositories/IEventRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Contracts.DAL.App/Repositories/IEventRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Contracts.DAL.App/Repositories/IOrganizationRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Contracts.DAL.App/Repositories/IOrganizationRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Contracts.DAL.App/Repositories/IPerformerRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Contracts.DAL.App/Repositories/IPerformerRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Contracts.DAL.App/Repositories/ITargetAudienceRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Contracts.DAL.App/Repositories/ITargetAudienceRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DAL.App.DTO/AreaOfInterest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DAL.App.DTO/AreaOfInterest.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DAL.App.DTO/DAL.App.DTO.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/DAL.App.DTO/DAL.App.DTO.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DAL.App.DTO/Event.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DAL.App.DTO/Event.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DAL.App.DTO/EventType.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DAL.App.DTO/EventType.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DAL.App.DTO/EventInLocation.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DAL.App.DTO/EventInLocation.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DAL.App.DTO/Organization.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DAL.App.DTO/Organization.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DAL.App.DTO/Performer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DAL.App.DTO/Performer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DAL.App.DTO/PerformerInEvent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DAL.App.DTO/PerformerInEvent.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DAL.App.DTO/TargetAudience.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DAL.App.DTO/TargetAudience.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DAL.App.EF/AppDbContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DAL.App.EF/AppDbContext.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DAL.App.EF/DAL.App.EF.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/DAL.App.EF/DAL.App.EF.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DAL.App.EF/Helpers/AppRepositoryFactory.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DAL.App.EF/Helpers/AppRepositoryFactory.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DAL.App.EF/Mappers/EventMapper.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DAL.App.EF/Mappers/EventMapper.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DAL.App.EF/Repositories/AreaOfInterestRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DAL.App.EF/Repositories/AreaOfInterestRepository.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DAL.App.EF/Repositories/EventRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DAL.App.EF/Repositories/EventRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DAL.App.EF/Repositories/EventTypeRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DAL.App.EF/Repositories/EventTypeRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DAL.App.EF/Repositories/OrganizationRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DAL.App.EF/Repositories/OrganizationRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DAL.App.EF/Repositories/PerformerRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DAL.App.EF/Repositories/PerformerRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DAL.App.EF/Repositories/TargetAudienceRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DAL.App.EF/Repositories/TargetAudienceRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/Organization/Organization.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/Organization/Organization.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PublicApi.v1.DTO/AdministrativeUnitInEvent.cs" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/PublicApi.v1.DTO/Event.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PublicApi.v1.DTO/Event.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PublicApi.v1.DTO/PublicApi.v1.DTO.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/PublicApi.v1.DTO/PublicApi.v1.DTO.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PublicApi.v1/Mappers/AdministrativeUnitMapper.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PublicApi.v1/Mappers/AdministrativeUnitMapper.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PublicApi.v1/Mappers/EventMapper.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PublicApi.v1/Mappers/EventMapper.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PublicApi.v1/Mappers/EventTypeMapper.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PublicApi.v1/Mappers/EventTypeMapper.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PublicApi.v1/Mappers/LocationMapper.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PublicApi.v1/Mappers/LocationMapper.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApp/ApiControllers/AdministrativeUnitController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/ApiControllers/v1.0/AdministrativeUnitController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApp/ApiControllers/AdminsitrativeUnitInEventController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApp/ApiControllers/AreaOfInterestController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApp/ApiControllers/EventController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/ApiControllers/v1.0/EventController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApp/ApiControllers/EventInAreaOfInterestController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApp/ApiControllers/EventInLocationController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApp/ApiControllers/EventTargetAudienceController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApp/ApiControllers/EventTypeController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/ApiControllers/v1.0/EventTypeController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApp/ApiControllers/Identity/AccountController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/ApiControllers/v1.0/Identity/AccountController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApp/ApiControllers/Identity/SigningController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/ApiControllers/v1.0/Identity/SigningController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApp/ApiControllers/LocationController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/ApiControllers/v1.0/LocationController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApp/ApiControllers/OrganizationController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApp/ApiControllers/OrganizationOrganizingController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApp/ApiControllers/PerformerController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApp/ApiControllers/PerformerInEventController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApp/ApiControllers/SponsorInEventController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApp/ApiControllers/TargetAudienceController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApp/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/Startup.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebApp/WebApp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/WebApp.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApp/generation.txt" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/generation.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ClientApp/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../ClientApp/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ClientApp/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../ClientApp/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ClientApp/src/interfaces/IAdministrativeUnitInEvent.ts" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/intro.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ClientApp/src/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/../ClientApp/src/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ClientApp/src/home.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../ClientApp/src/home.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ClientApp/src/identity/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/../ClientApp/src/identity/login.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ClientApp/src/interfaces/IEvent.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../ClientApp/src/interfaces/IEvent.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ClientApp/src/interfaces/IEventInAreaOfInterest.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../ClientApp/src/interfaces/IEventType.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ClientApp/src/interfaces/IEventInLocation.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../ClientApp/src/interfaces/IIdUnit.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ClientApp/src/interfaces/IEventInType.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../ClientApp/src/pages/singing/singing.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ClientApp/src/interfaces/IEventTargetAudience.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../ClientApp/src/services/eventtype-service.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ClientApp/src/interfaces/IOrganizationOrganizing.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../ClientApp/src/services/id-service/id-service.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ClientApp/src/interfaces/ISponsorInEvent.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../ClientApp/src/services/id-service/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ClientApp/src/main-router.html" beforeDir="false" afterPath="$PROJECT_DIR$/../ClientApp/src/main-router.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ClientApp/src/main-router.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../ClientApp/src/main-router.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ClientApp/src/pages/administrativeUnits/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../ClientApp/src/pages/administrativeUnits/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ClientApp/src/pages/administrativeUnits/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../ClientApp/src/pages/administrativeUnits/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ClientApp/src/pages/events/edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/../ClientApp/src/pages/events/edit.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ClientApp/src/pages/events/edit.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../ClientApp/src/pages/events/edit.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ClientApp/src/pages/events/create.html" beforeDir="false" afterPath="$PROJECT_DIR$/../ClientApp/src/pages/events/create.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ClientApp/src/pages/events/create.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../ClientApp/src/pages/events/create.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ClientApp/src/pages/events/details.html" beforeDir="false" afterPath="$PROJECT_DIR$/../ClientApp/src/pages/events/details.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ClientApp/src/pages/events/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../ClientApp/src/pages/events/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ClientApp/src/pages/events/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../ClientApp/src/pages/events/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ClientApp/src/pages/locations/create.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../ClientApp/src/pages/locations/create.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ClientApp/src/pages/locations/delete.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../ClientApp/src/pages/locations/delete.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ClientApp/src/pages/locations/details.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../ClientApp/src/pages/locations/details.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ClientApp/src/pages/locations/edit.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../ClientApp/src/pages/locations/edit.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ClientApp/src/pages/locations/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../ClientApp/src/pages/locations/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ClientApp/src/pages/locations/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../ClientApp/src/pages/locations/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ClientApp/src/services/administrativeunitsinevents-service.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ClientApp/src/services/areaofinterests-service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../ClientApp/src/services/areaofinterests-service.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ClientApp/src/services/eventinareaofinterests-service.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ClientApp/src/services/eventinlocation-service.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ClientApp/src/services/eventintypes-service.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ClientApp/src/services/eventtargetaudiences-service.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ClientApp/src/services/organizationsorganizing-service.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ClientApp/src/services/performerinevents-service.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ClientApp/src/services/sponsorinevents-service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ClientApp/src/pages/performers/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../ClientApp/src/pages/performers/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ClientApp/src/pages/targetAudiences/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../ClientApp/src/pages/targetAudiences/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ClientApp/src/services/base-service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../ClientApp/src/services/base-service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ClientApp/src/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/../ClientApp/src/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -170,9 +165,10 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="tsconfig.json" />
-        <option value="CSS File" />
         <option value="TypeScript File" />
         <option value="HTML File" />
+        <option value="SCSS File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -184,11 +180,15 @@
     <setting file="file://$PROJECT_DIR$/Contracts.BLL.Base/Mappers/IBaseBLLMapper.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Contracts.BLL.Base/Helpers/IBaseServiceProvider.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Contracts.BLL.Base/Services/IBaseService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../ClientApp/bower_components/js-polyfills/.bower.json" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/081372C7-3509-4D45-BD06-A6A9BC610C6B/2F/Union.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Contracts.DAL.Base/Helpers/IBaseRepositoryProvider.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Contracts.DAL.Base/Mappers/IBaseDALMapper.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Contracts.DAL.Base/Helpers/IBaseRepositoryFactory.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Contracts.DAL.Base/Repositories/IBaseRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Test/Test.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../ClientApp/src/hwcrypto/.bower.json" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../ClientApp/src/hwcrypto/bower.json" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/WebApp/Areas/Identity/Pages/_ViewStart.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/WebApp/Areas/Identity/IdentityHostingStartup.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/WebApp/Pages/Shared/_CookieConsentPartial.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
@@ -219,17 +219,24 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6F7983DF-5846-436F-8E9C-B779867785C7/6e/3ee56ebd/DbContext.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/WebApp/Areas/Identity/Pages/Account/Login.cshtml.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/1E566733-E6C2-4253-BBE9-2F663252FF50/9c/e1651933/ControllerBase.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WebApp/Views/AreaOfInterest/Edit.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/WebApp/Views/SponsorInEvent/Index.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/WebApp/Views/SponsorInEvent/Create.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/8983CE9C-4BD5-4A65-826E-A16B3296E3D7/f8/50df39e8/IdentityDbContext`3.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/WebApp/Areas/Identity/Pages/Account/Lockout.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/WebApp/Views/SponsorInEvent/Delete.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/68BC8F1A-D288-4D67-83A7-36473951C21F/29/0fd0bfb7/MvcRazorPagesMvcBuilderExtensions.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WebApp/Views/TargetAudience/Index.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WebApp/wwwroot/lib/jquery/dist/jquery.min.map" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/68BC8F1A-D288-4D67-83A7-36473951C21F/a4/ded4aa81/RazorPagesOptions.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/WebApp/Views/TargetAudience/Edit.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/8983CE9C-4BD5-4A65-826E-A16B3296E3D7/2/IdentityDbContext.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WebApp/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/WebApp/Views/EventInLocation/Create.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2C11A255-2860-428F-987B-EBE8CFCCD0FB/95/1b53fefb/PdfSignature.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/WebApp/Views/EventInLocation/Edit.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WebApp/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WebApp/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/WebApp/Views/PerformerInEvent/Create.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/WebApp/Views/PerformerInEvent/Delete.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/5A41D6B7-1898-42EC-A409-FD0B1C3E3DCF/43/78efdf54/IEnumerable`1.cs" root0="SKIP_HIGHLIGHTING" />
@@ -243,8 +250,12 @@
     <setting file="file://$PROJECT_DIR$/WebApp/Views/OrganizationOrganizing/Create.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/WebApp/Views/OrganizationOrganizing/Delete.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/WebApp/Views/AdminsitrativeUnitInEvent/Create.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/WebApp/ApiControllers/Identity/SigningController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/WebApp/ApiControllers/Identity/AccountController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WebApp/ApiControllers/v1.0/Identity/SigningController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WebApp/ApiControllers/v1.0/Identity/AccountController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/947CFA9E-93C5-4D21-8EE6-CD975672A1F8/3DC/List.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/58F99FC1-54B7-4030-B14C-2808C6A01B83/17/HttpRequest.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/947CFA9E-93C5-4D21-8EE6-CD975672A1F8/262/AsyncValueTaskMethodBuilder.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/947CFA9E-93C5-4D21-8EE6-CD975672A1F8/14E/ExecutionContext.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Domain/Event/Event.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/947CFA9E-93C5-4D21-8EE6-CD975672A1F8/7a/55cce478/ExecutionContext.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Domain/Identity/AppRole.cs" root0="FORCE_HIGHLIGHTING" />
@@ -266,7 +277,9 @@
     <setting file="file://$PROJECT_DIR$/Domain/AdministrativeUnit/AdministrativeUnit.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Domain/TargetAudience/TargetAudience.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Domain/AdministrativeUnit/AdministrativeUnitInEvent.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WebApp/ConfigureSwaggerOptions.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/WebApp/Pages/Error.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/PublicApi.v1.DTO/Organization.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/WebApp/Pages/Index.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/WebApp/Pages/_ViewImports.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/WebApp/Views/_ViewImports.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
@@ -274,6 +287,7 @@
     <setting file="file://$PROJECT_DIR$/WebApp/Views/_ViewStart.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/WebApp/Helpers/EmailSender.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/WebApp/Controllers/PerformerController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TestsNUnit/UnitTest1.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/WebApp/Controllers/EventTargetAudienceController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/WebApp/Controllers/AdministrativeUnitController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/WebApp/Controllers/AdminsitrativeUnitInEventController.cs" root0="FORCE_HIGHLIGHTING" />
@@ -287,44 +301,70 @@
     <setting file="file://$PROJECT_DIR$/WebApp/Controllers/PerformerInEventController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/WebApp/Controllers/TargetAudienceController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/WebApp/Controllers/EventController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/WebApp/ApiControllers/PerformerController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/WebApp/ApiControllers/EventTargetAudienceController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/WebApp/ApiControllers/AdministrativeUnitController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/WebApp/ApiControllers/AdminsitrativeUnitInEventController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/WebApp/ApiControllers/OrganizationController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/WebApp/ApiControllers/AreaOfInterestController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/WebApp/ApiControllers/SponsorInEventController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/WebApp/ApiControllers/EventTypeController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/WebApp/ApiControllers/EventInAreaOfInterestController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/WebApp/ApiControllers/EventInLocationController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/WebApp/ApiControllers/OrganizationOrganizingController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/WebApp/ApiControllers/LocationController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/WebApp/ApiControllers/PerformerInEventController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/WebApp/ApiControllers/TargetAudienceController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/WebApp/ApiControllers/EventController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WebApp/ApiControllers/v1.0/PerformerController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/530EA6F8-FA83-415D-BB26-3558E38AABC4/24/ControllerBase.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WebApp/ApiControllers/v1.0/AdministrativeUnitController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WebApp/ApiControllers/v1.0/OrganizationController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DAL.App.EF/Mappers/EventInLocationMapper.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WebApp/ApiControllers/v1.0/AreaOfInterestController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Testing/UnitTest.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WebApp/ApiControllers/v1.0/EventTypeController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/081372C7-3509-4D45-BD06-A6A9BC610C6B/27/Select.SpeedOpt.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WebApp/ApiControllers/v1.0/LocationController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WebApp/ApiControllers/v1.0/TargetAudienceController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WebApp/ApiControllers/v1.0/EventController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/PublicApi.v1/Mappers/OrganizationMapper.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/PublicApi.v1.DTO/AreaOfInterest.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/BLL.App.DTO/AreaOfInterest.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/BLL.App.DTO/Organization.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/EEB3139E-B62A-4069-86A0-B56DA4C814BC/4/IServiceCollectionExtensions.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/BLL.App/Mappers/EventMapper.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/EEB3139E-B62A-4069-86A0-B56DA4C814BC/1F/ApiVersioningOptions.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/BLL.App/Helpers/AppServiceFactory.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/BLL.App.DTO/Performer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/BLL.App/Mappers/EventTypeMapper.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/BLL.App/Mappers/AdministrativeUnitInEventMapper.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/BLL.App/Mappers/LocationMapper.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/PublicApi.v1/Mappers/AreaOfInterestMapper.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/BLL.App/Mappers/AdministrativeUnitMapper.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/PublicApi.v1/Mappers/PerformerMapper.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/BLL.App/Services/SingingService.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/BLL.App/Services/AdministrativeUnitInEventService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/PublicApi.v1.DTO/TargetAudience.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/PublicApi.v1/Mappers/TargetAudienceMapper.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/BLL.App/Services/EventService.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/BLL.App/Services/EventTypeService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/BLL.App.DTO/TargetAudience.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/BLL.App/Services/AdministrativeUnitService.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/BLL.App/Services/LocationService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/BLL.App/Mappers/PerformerMapper.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/BLL.App/Mappers/OrganizationMapper.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/BLL.App/Mappers/TargetAudienceMapper.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/BLL.App/Services/OrganizationService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/BLL.App/Mappers/AreaOfInterestMapper.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/BLL.App/Services/TargetAudienceService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/BLL.App/Services/PerformerService.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/BLL.Base/Helpers/BaseServiceProvider.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Contracts.BLL.App/Services/IAreaOfInterestService.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/BLL.Base/Helpers/BaseServiceFactory.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/BLL.App/Services/AreaOfInterestService.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/BLL.Base/Services/BaseService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Contracts.BLL.App/Services/ITargetAudienceService.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/BLL.Base/Services/BaseEntityService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Contracts.BLL.App/Services/IOrganizationService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DAL.App.EF/Mappers/TargetAudienceMapper.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Contracts.BLL.App/Services/IPerformerService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DAL.App.EF/Mappers/OrganizationMapper.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DAL.App.EF/Mappers/PerformerMapper.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DAL.App.EF/Mappers/AreaOfInterestMapper.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/12891E82-5FCE-44A5-81E5-BBBB579C1D49/0/Formatting.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/WebApp/Program.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DAL.App.EF/Helpers/AppRepositoryFactory.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WebApp/appsettings.Development.json" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Domain/obj/Debug/netstandard2.1/Domain.AssemblyInfo.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DAL.App.EF/Mappers/AdministrativeUnitInEventMapper.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DAL.App.EF/Mappers/EventMapper.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DAL.App.EF/Mappers/AdministrativeUnitMapper.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DAL.App.EF/Mappers/EventTypeMapper.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DAL.App.EF/Migrations/20191128220355_InitialDbCreation.Designer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DAL.App.EF/Mappers/LocationMapper.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/WebApp/appsettings.json" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DAL.App.EF/Repositories/SponsorInEventRepository.cs" root0="FORCE_HIGHLIGHTING" />
@@ -358,8 +398,8 @@
     <setting file="file://$PROJECT_DIR$/BLL.App.DTO/EventType.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/BLL.App.DTO/Location.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/BLL.App.DTO/Event.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/BLL.App.DTO/AdministrativeUnitInEvent.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DAL.App.DTO/EventInType.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DAL.App.DTO/SponsorInEvent.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DAL.Base.EF/Helpers/BaseRepositoryProvider.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DAL.App.DTO/AreaOfInterest.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DAL.Base.EF/Helpers/BaseRepositoryFactory.cs" root0="FORCE_HIGHLIGHTING" />
@@ -369,6 +409,7 @@
     <setting file="file://$PROJECT_DIR$/DAL.Base.EF/Mappers/BaseDALMapper.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DAL.App.DTO/EventInAreaOfInterest.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DAL.App.DTO/Organization.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DAL.App.DTO/PerformerInEvent.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DAL.App.DTO/EventInLocation.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DAL.App.DTO/AdministrativeUnit.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/PublicApi.v1/Mappers/EventTypeMapper.cs" root0="FORCE_HIGHLIGHTING" />
@@ -381,16 +422,15 @@
     <setting file="file://$PROJECT_DIR$/DAL.App.DTO/TargetAudience.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DAL.App.DTO/Event.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DAL.Base.EF/BaseUnitOfWork.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/PublicApi.v1.DTO/Performer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/PublicApi.v1.DTO/AdministrativeUnit.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Contracts.Base/ITrackableInstance.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/PublicApi.v1.DTO/EventType.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/PublicApi.v1.DTO/AdministrativeUnitInEvent.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/PublicApi.v1.DTO/Location.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/PublicApi.v1.DTO/Event.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Contracts.BLL.App/Services/IEventService.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Contracts.BLL.App/Services/IAdministrativeUnitService.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Contracts.BLL.App/Services/ILocationService.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Contracts.BLL.App/Services/IAdministrativeUnitInEventService.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Contracts.BLL.App/Services/IEventTypeService.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Contracts.BLL.App/IAppBLL.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Contracts.DAL.App/IAppUnitOfWork.cs" root0="FORCE_HIGHLIGHTING" />
@@ -401,6 +441,7 @@
     <setting file="file://$PROJECT_DIR$/Contracts.DAL.App/Repositories/IEventInLocationRepository.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Contracts.BLL.Base/IBaseBLL.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Contracts.DAL.App/Repositories/IPerformerInEventRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/6F7983DF-5846-436F-8E9C-B779867785C7/11/DbSet.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Contracts.DAL.App/Repositories/IAdministrativeUnitInEventRepository.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Contracts.DAL.App/Repositories/IOrganizationOrganizingRepository.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Contracts.DAL.Base/IDomainEntity.cs" root0="FORCE_HIGHLIGHTING" />
@@ -419,57 +460,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/DAL.App.DTO/Event.cs" />
-        <option value="$PROJECT_DIR$/BLL.App.DTO/Event.cs" />
-        <option value="$PROJECT_DIR$/BLL.App/Mappers/EventTypeMapper.cs" />
-        <option value="$PROJECT_DIR$/DAL.App.EF/Mappers/EventTypeMapper.cs" />
-        <option value="$PROJECT_DIR$/DAL.App.EF/Mappers/EventMapper.cs" />
-        <option value="$PROJECT_DIR$/../ClientApp/src/pages/events/edit.html" />
-        <option value="$PROJECT_DIR$/BLL.App/Services/SingingService.cs" />
-        <option value="$PROJECT_DIR$/WebApp/Controllers/SingingController.cs" />
-        <option value="$PROJECT_DIR$/WebApp/ApiControllers/SigningController.cs" />
-        <option value="$PROJECT_DIR$/WebApp/ApiControllers/Identity/SigningController.cs" />
-        <option value="$PROJECT_DIR$/../ClientApp/src/interfaces/IdUnit.ts" />
-        <option value="$PROJECT_DIR$/../ClientApp/src/interfaces/IIdUnit.ts" />
-        <option value="$PROJECT_DIR$/../ClientApp/src/hwcrypto/src/hwcrypto.js" />
-        <option value="$PROJECT_DIR$/../ClientApp/aurelia_project/tasks/run.ts" />
-        <option value="$PROJECT_DIR$/../ClientApp/package.json" />
-        <option value="$PROJECT_DIR$/../ClientApp/src/pages/areaOfInterests/create.html" />
-        <option value="$PROJECT_DIR$/../ClientApp/src/services/areaofinterests-service.ts" />
-        <option value="$PROJECT_DIR$/../ClientApp/src/pages/areaOfInterests/create.ts" />
-        <option value="$PROJECT_DIR$/../ClientApp/src/pages/areaOfInterests/delete.ts" />
-        <option value="$PROJECT_DIR$/../ClientApp/src/pages/areaOfInterests/details.ts" />
-        <option value="$PROJECT_DIR$/../ClientApp/src/pages/areaOfInterests/edit.ts" />
-        <option value="$PROJECT_DIR$/../ClientApp/src/pages/areaOfInterests/index.ts" />
-        <option value="$PROJECT_DIR$/../ClientApp/src/pages/organizations/create.ts" />
-        <option value="$PROJECT_DIR$/../ClientApp/src/pages/performers/create.ts" />
-        <option value="$PROJECT_DIR$/../ClientApp/src/pages/performers/delete.ts" />
-        <option value="$PROJECT_DIR$/../ClientApp/src/pages/performers/details.ts" />
-        <option value="$PROJECT_DIR$/../ClientApp/src/pages/performers/edit.ts" />
-        <option value="$PROJECT_DIR$/../ClientApp/src/pages/targetAudiences/create.ts" />
-        <option value="$PROJECT_DIR$/../ClientApp/src/pages/targetAudiences/delete.ts" />
-        <option value="$PROJECT_DIR$/../ClientApp/src/pages/targetAudiences/details.ts" />
-        <option value="$PROJECT_DIR$/../ClientApp/src/pages/targetAudiences/edit.ts" />
-        <option value="$PROJECT_DIR$/../ClientApp/src/pages/administrativeUnits/index.html" />
-        <option value="$PROJECT_DIR$/../ClientApp/src/pages/performers/index.ts" />
-        <option value="$PROJECT_DIR$/../ClientApp/src/pages/organizations/index.html" />
-        <option value="$PROJECT_DIR$/../ClientApp/src/pages/locations/index.ts" />
-        <option value="$PROJECT_DIR$/../ClientApp/src/pages/locations/index.html" />
-        <option value="$PROJECT_DIR$/../ClientApp/src/pages/eventtypes/index.ts" />
-        <option value="$PROJECT_DIR$/../ClientApp/src/pages/eventtypes/index.html" />
-        <option value="$PROJECT_DIR$/../ClientApp/src/services/id-service/id-service.ts" />
-        <option value="$PROJECT_DIR$/../ClientApp/src/services/id-service/index.ts" />
-        <option value="$PROJECT_DIR$/../ClientApp/src/pages/singing/singing.ts" />
-        <option value="$PROJECT_DIR$/../ClientApp/src/pages/singing/singing.html" />
-        <option value="$PROJECT_DIR$/../ClientApp/src/main-router.ts" />
-        <option value="$PROJECT_DIR$/../ClientApp/src/pages/targetAudiences/index.ts" />
+        <option value="$PROJECT_DIR$/Test/Class1.cs" />
+        <option value="$PROJECT_DIR$/Test/Test.cs" />
+        <option value="$PROJECT_DIR$/DAL.App.EF/AppDbContext.cs" />
+        <option value="$PROJECT_DIR$/DAL.App.EF/Helpers/AppRepositoryFactory.cs" />
+        <option value="$PROJECT_DIR$/../ClientApp/src/identity/style.css" />
+        <option value="$PROJECT_DIR$/../ClientApp/src/carousel.ts" />
+        <option value="$PROJECT_DIR$/../ClientApp/src/carousel.css" />
+        <option value="$PROJECT_DIR$/../ClientApp/src/carousel.html" />
+        <option value="$PROJECT_DIR$/../ClientApp/src/home.scss" />
+        <option value="$PROJECT_DIR$/../ClientApp/src/style/homecss.css" />
+        <option value="$PROJECT_DIR$/../ClientApp/src/identity/login.html" />
+        <option value="$PROJECT_DIR$/../ClientApp/src/home.ts" />
+        <option value="$PROJECT_DIR$/../ClientApp/src/home.html" />
+        <option value="$APPLICATION_CONFIG_DIR$/javascript/extLibs/__maxcdn.bootstrapcdn.com_bootstrap_4.1.1_css_bootstrap.css" />
         <option value="$PROJECT_DIR$/../ClientApp/src/pages/events/index.ts" />
-        <option value="$PROJECT_DIR$/../ClientApp/src/pages/administrativeUnits/index.ts" />
-        <option value="$PROJECT_DIR$/../ClientApp/src/pages/events/edit.ts" />
-        <option value="$PROJECT_DIR$/../ClientApp/src/pages/organizations/index.ts" />
+        <option value="$PROJECT_DIR$/Domain/Organization/Organization.cs" />
+        <option value="$PROJECT_DIR$/Contracts.DAL.App/Repositories/IEventRepository.cs" />
+        <option value="$PROJECT_DIR$/Contracts.BLL.App/Services/IEventService.cs" />
+        <option value="$PROJECT_DIR$/BLL.App/Services/EventService.cs" />
+        <option value="$PROJECT_DIR$/../ClientApp/src/pages/events/details.html" />
+        <option value="$PROJECT_DIR$/DAL.App.EF/Repositories/EventRepository.cs" />
+        <option value="$PROJECT_DIR$/../ClientApp/src/main-router.ts" />
+        <option value="$PROJECT_DIR$/../ClientApp/src/pages/events/index.css" />
+        <option value="$PROJECT_DIR$/../ClientApp/src/home.css" />
+        <option value="$PROJECT_DIR$/../ClientApp/src/main-router.html" />
+        <option value="$PROJECT_DIR$/../ClientApp/src/pages/events/index.html" />
         <option value="$PROJECT_DIR$/../ClientApp/src/pages/targetAudiences/index.html" />
-        <option value="$PROJECT_DIR$/WebApp/generation.txt" />
-        <option value="$PROJECT_DIR$/WebApp/intro.txt" />
+        <option value="$PROJECT_DIR$/../ClientApp/src/style.css" />
+        <option value="$PROJECT_DIR$/PublicApi.v1.DTO/Event.cs" />
+        <option value="$APPLICATION_CONFIG_DIR$/scratches/rest-api_3.http" />
+        <option value="$PROJECT_DIR$/../ClientApp/src/interfaces/IEvent.ts" />
+        <option value="$PROJECT_DIR$/DAL.App.DTO/Event.cs" />
+        <option value="$PROJECT_DIR$/PublicApi.v1/Mappers/EventMapper.cs" />
+        <option value="$PROJECT_DIR$/../ClientApp/src/services/base-service.ts" />
+        <option value="$PROJECT_DIR$/../ClientApp/src/pages/events/create.html" />
+        <option value="$APPLICATION_CONFIG_DIR$/scratches/rest-api_5.http" />
+        <option value="$PROJECT_DIR$/../ClientApp/src/pages/events/create.ts" />
+        <option value="$PROJECT_DIR$/WebApp/ApiControllers/EventController.cs" />
+        <option value="$PROJECT_DIR$/WebApp/ApiControllers/v1.0/TargetAudienceController.cs" />
+        <option value="$PROJECT_DIR$/WebApp/ApiControllers/v1.0/AdministrativeUnitController.cs" />
+        <option value="$PROJECT_DIR$/WebApp/ApiControllers/v1.0/AreaOfInterestController.cs" />
+        <option value="$PROJECT_DIR$/WebApp/ApiControllers/v1.0/EventController.cs" />
+        <option value="$PROJECT_DIR$/WebApp/ApiControllers/v1.0/EventTypeController.cs" />
+        <option value="$PROJECT_DIR$/WebApp/ApiControllers/v1.0/LocationController.cs" />
+        <option value="$PROJECT_DIR$/WebApp/ApiControllers/v1.0/OrganizationController.cs" />
+        <option value="$PROJECT_DIR$/WebApp/ApiControllers/v1.0/PerformerController.cs" />
+        <option value="$PROJECT_DIR$/WebApp/ApiControllers/v1.0/Identity/AccountController.cs" />
+        <option value="$PROJECT_DIR$/WebApp/ApiControllers/v1.0/Identity/SigningController.cs" />
+        <option value="$PROJECT_DIR$/WebApp/WebApp.csproj" />
+        <option value="$PROJECT_DIR$/WebApp/Startup.cs" />
+        <option value="$PROJECT_DIR$/WebApp/ConfigureSwaggerOptions.cs" />
       </list>
     </option>
   </component>
@@ -487,6 +528,8 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
     <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="TWShift.4" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../ClientApp" />
@@ -494,10 +537,104 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.language" />
+    <property name="settings.editor.selected.configurable" value="RiderNuGetOptionsPageId" />
     <property name="ts.external.directory.path" value="C:\Users\ADMIN\Desktop\CalendarProject\ClientApp\node_modules\typescript\lib" />
   </component>
+  <component name="RestClientSettings">
+    <option name="REQUEST_HISTORY">
+      <list>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="https://localhost:5001/api/event/image" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="--null&#13;&#10;‰PNG&#13;&#10;&#10;&#13;IHDRÿ¢óvópgAMA±�üa cHRMz&amp;€„ú€èu0ê`:˜pœºQ&lt;&#9;PLTErÎÿÿÿñŠ½ébKGDf|dtIMEá&#9;&#10;0€¾]Û?IDAThÞíÌA&#9;@0CjÇãRB[€EpXÍ¤@ �@ 6ƒ?ó�@ �@°4C`r¢ª¼%tEXtdate:create2017-08-09T10:48:08+00:00Æ”î³%tEXtdate:modify2017-08-09T10:48:08+00:00·ÉVIEND®B`‚&#13;&#10;--null--" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="https://localhost:5001" />
+          <option name="urlPath" value="/api/event" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveFileToSend" value="true" />
+          <option name="isFileUpload" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="$USER_HOME$/Pictures/255px-Flag_of_Estonia.svg.png" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="https://localhost:5001/api/Event" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="--null&#13;&#10;‰PNG&#13;&#10;&#10;&#13;IHDRÿ¢óvópgAMA±�üa cHRMz&amp;€„ú€èu0ê`:˜pœºQ&lt;&#9;PLTErÎÿÿÿñŠ½ébKGDf|dtIMEá&#9;&#10;0€¾]Û?IDAThÞíÌA&#9;@0CjÇãRB[€EpXÍ¤@ �@ 6ƒ?ó�@ �@°4C`r¢ª¼%tEXtdate:create2017-08-09T10:48:08+00:00Æ”î³%tEXtdate:modify2017-08-09T10:48:08+00:00·ÉVIEND®B`‚&#13;&#10;--null--" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="https://localhost:5001/api/events" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="--null&#13;&#10;‰PNG&#13;&#10;&#10;&#13;IHDRÿ¢óvópgAMA±�üa cHRMz&amp;€„ú€èu0ê`:˜pœºQ&lt;&#9;PLTErÎÿÿÿñŠ½ébKGDf|dtIMEá&#9;&#10;0€¾]Û?IDAThÞíÌA&#9;@0CjÇãRB[€EpXÍ¤@ �@ 6ƒ?ó�@ �@°4C`r¢ª¼%tEXtdate:create2017-08-09T10:48:08+00:00Æ”î³%tEXtdate:modify2017-08-09T10:48:08+00:00·ÉVIEND®B`‚&#13;&#10;--null--" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+      </list>
+    </option>
+  </component>
   <component name="RunManager" selected=".NET Launch Settings Profile.WebApp">
+    <configuration name="All in rest-api_3" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$APPLICATION_CONFIG_DIR$/scratches/rest-api_3.http">
+      <method v="2" />
+    </configuration>
+    <configuration name="All in rest-api_5" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$APPLICATION_CONFIG_DIR$/scratches/rest-api_5.http">
+      <method v="2" />
+    </configuration>
     <configuration name="WebApp" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/WebApp/WebApp.csproj" />
       <option name="LAUNCH_PROFILE_TFM" value=".NETCoreApp,Version=v3.0" />
@@ -528,6 +665,12 @@
         <option name="Build" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="HTTP Request.All in rest-api_5" />
+        <item itemvalue="HTTP Request.All in rest-api_3" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -597,7 +740,21 @@
       <workItem from="1576560145585" duration="1930000" />
       <workItem from="1576609555490" duration="154000" />
       <workItem from="1576697125508" duration="72000" />
-      <workItem from="1577135739425" duration="1452000" />
+      <workItem from="1577135739425" duration="1713000" />
+      <workItem from="1577543517187" duration="2275000" />
+      <workItem from="1577979370441" duration="7382000" />
+      <workItem from="1578053300790" duration="9187000" />
+      <workItem from="1578070572620" duration="605000" />
+      <workItem from="1578149333268" duration="96000" />
+      <workItem from="1578154015457" duration="109000" />
+      <workItem from="1578259135195" duration="6332000" />
+      <workItem from="1578295794427" duration="22661000" />
+      <workItem from="1578337910563" duration="7238000" />
+      <workItem from="1578400527753" duration="9531000" />
+      <workItem from="1578425984085" duration="2944000" />
+      <workItem from="1578429120711" duration="1928000" />
+      <workItem from="1578441055789" duration="12560000" />
+      <workItem from="1578482812198" duration="3863000" />
     </task>
     <task id="LOCAL-00001" summary="Fixed appunitofwork factory methods">
       <created>1574259508863</created>
@@ -669,7 +826,14 @@
       <option name="project" value="LOCAL" />
       <updated>1574984025614</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Added neW data flows for Event types">
+      <created>1577137397697</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1577137397697</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -700,28 +864,183 @@
     <MESSAGE value="Rewrote all repo interfaces to match data dto-s and modified appunitofwork" />
     <MESSAGE value="Complete rework of the data flow, added a business logic layer,&#10;Commented out controllers that arent in use until the backend is complete&#10;Will add them back one by one or maybe remove some&#10;Added mappers for 3 types of domains, events administrativeunits and locations&#10;&#10;Will implement more in next commits" />
     <MESSAGE value="Radical changes in mappers, used linq mapping instead of doing everything by hand&#10;Added Location support and included locations within events&#10;Event list selection is still broken, will fix later, currently sending every list option to db" />
-    <option name="LAST_COMMIT_MESSAGE" value="Radical changes in mappers, used linq mapping instead of doing everything by hand&#10;Added Location support and included locations within events&#10;Event list selection is still broken, will fix later, currently sending every list option to db" />
+    <MESSAGE value="Added neW data flows for Event types" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added neW data flows for Event types" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1637" height="275" key="GridCell.Tab.0.bottom" timestamp="1576609714063">
-      <screen x="-1680" y="-76" width="1680" height="1020" />
+    <state x="-1386" y="194" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1578317306647">
+      <screen x="-1680" y="30" width="1680" height="1020" />
+    </state>
+    <state x="-1386" y="194" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1050/-1680.30.1680.1020@-1680.30.1680.1020" timestamp="1578317306647" />
+    <state x="-1072" y="342" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1578452783369">
+      <screen x="-1680" y="30" width="1680" height="1020" />
+    </state>
+    <state x="-1072" y="342" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1050/-1680.30.1680.1020@-1680.30.1680.1020" timestamp="1578452783369" />
+    <state x="-963" y="242" key="#xdebugger.evaluate" timestamp="1578402919413">
+      <screen x="-1680" y="30" width="1680" height="1020" />
+    </state>
+    <state x="-963" y="242" key="#xdebugger.evaluate/0.0.1920.1050/-1680.30.1680.1020@-1680.30.1680.1020" timestamp="1578402919413" />
+    <state width="415" height="466" key="DebuggerActiveHint" timestamp="1578442486537">
+      <screen x="-1680" y="30" width="1680" height="1020" />
+    </state>
+    <state width="415" height="466" key="DebuggerActiveHint/0.0.1920.1050/-1680.30.1680.1020@-1680.30.1680.1020" timestamp="1578442486537" />
+    <state x="-1206" y="317" key="EditFileWatcherDialog" timestamp="1578323860694">
+      <screen x="-1680" y="30" width="1680" height="1020" />
+    </state>
+    <state x="-1206" y="317" key="EditFileWatcherDialog/0.0.1920.1050/-1680.30.1680.1020@-1680.30.1680.1020" timestamp="1578323860694" />
+    <state width="964" height="222" key="GridCell.Tab.0.bottom" timestamp="1578486431457">
+      <screen x="-1680" y="30" width="1680" height="1020" />
     </state>
     <state width="1637" height="275" key="GridCell.Tab.0.bottom/0.0.1920.1050/-1680.-76.1680.1020@-1680.-76.1680.1020" timestamp="1576609714063" />
-    <state width="1637" height="275" key="GridCell.Tab.0.center" timestamp="1576609714063">
-      <screen x="-1680" y="-76" width="1680" height="1020" />
+    <state width="964" height="222" key="GridCell.Tab.0.bottom/0.0.1920.1050/-1680.30.1680.1020@-1680.30.1680.1020" timestamp="1578486431457" />
+    <state width="1877" height="352" key="GridCell.Tab.0.bottom/0.0.1920.1050/-1680.30.1680.1020@0.0.1920.1050" timestamp="1577980771296" />
+    <state width="1877" height="352" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1577545893163" />
+    <state width="964" height="222" key="GridCell.Tab.0.center" timestamp="1578486431457">
+      <screen x="-1680" y="30" width="1680" height="1020" />
     </state>
     <state width="1637" height="275" key="GridCell.Tab.0.center/0.0.1920.1050/-1680.-76.1680.1020@-1680.-76.1680.1020" timestamp="1576609714063" />
-    <state width="1637" height="275" key="GridCell.Tab.0.left" timestamp="1576609714063">
-      <screen x="-1680" y="-76" width="1680" height="1020" />
+    <state width="964" height="222" key="GridCell.Tab.0.center/0.0.1920.1050/-1680.30.1680.1020@-1680.30.1680.1020" timestamp="1578486431457" />
+    <state width="1877" height="352" key="GridCell.Tab.0.center/0.0.1920.1050/-1680.30.1680.1020@0.0.1920.1050" timestamp="1577980771296" />
+    <state width="1877" height="352" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1577545893163" />
+    <state width="964" height="222" key="GridCell.Tab.0.left" timestamp="1578486431456">
+      <screen x="-1680" y="30" width="1680" height="1020" />
     </state>
     <state width="1637" height="275" key="GridCell.Tab.0.left/0.0.1920.1050/-1680.-76.1680.1020@-1680.-76.1680.1020" timestamp="1576609714063" />
-    <state width="1637" height="275" key="GridCell.Tab.0.right" timestamp="1576609714063">
-      <screen x="-1680" y="-76" width="1680" height="1020" />
+    <state width="964" height="222" key="GridCell.Tab.0.left/0.0.1920.1050/-1680.30.1680.1020@-1680.30.1680.1020" timestamp="1578486431456" />
+    <state width="1877" height="352" key="GridCell.Tab.0.left/0.0.1920.1050/-1680.30.1680.1020@0.0.1920.1050" timestamp="1577980771296" />
+    <state width="1877" height="352" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1577545893162" />
+    <state width="964" height="222" key="GridCell.Tab.0.right" timestamp="1578486431457">
+      <screen x="-1680" y="30" width="1680" height="1020" />
     </state>
     <state width="1637" height="275" key="GridCell.Tab.0.right/0.0.1920.1050/-1680.-76.1680.1020@-1680.-76.1680.1020" timestamp="1576609714063" />
-    <state x="623" y="227" key="search.everywhere.popup" timestamp="1577136662993">
+    <state width="964" height="222" key="GridCell.Tab.0.right/0.0.1920.1050/-1680.30.1680.1020@-1680.30.1680.1020" timestamp="1578486431457" />
+    <state width="1877" height="352" key="GridCell.Tab.0.right/0.0.1920.1050/-1680.30.1680.1020@0.0.1920.1050" timestamp="1577980771296" />
+    <state width="1877" height="352" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1577545893163" />
+    <state width="1637" height="361" key="GridCell.Tab.1.bottom" timestamp="1578453678577">
+      <screen x="-1680" y="30" width="1680" height="1020" />
+    </state>
+    <state width="1637" height="361" key="GridCell.Tab.1.bottom/0.0.1920.1050/-1680.30.1680.1020@-1680.30.1680.1020" timestamp="1578453678577" />
+    <state width="1877" height="352" key="GridCell.Tab.1.bottom/0.0.1920.1050/-1680.30.1680.1020@0.0.1920.1050" timestamp="1577980769632" />
+    <state width="1637" height="361" key="GridCell.Tab.1.center" timestamp="1578453678577">
+      <screen x="-1680" y="30" width="1680" height="1020" />
+    </state>
+    <state width="1637" height="361" key="GridCell.Tab.1.center/0.0.1920.1050/-1680.30.1680.1020@-1680.30.1680.1020" timestamp="1578453678577" />
+    <state width="1877" height="352" key="GridCell.Tab.1.center/0.0.1920.1050/-1680.30.1680.1020@0.0.1920.1050" timestamp="1577980769632" />
+    <state width="1637" height="361" key="GridCell.Tab.1.left" timestamp="1578453678577">
+      <screen x="-1680" y="30" width="1680" height="1020" />
+    </state>
+    <state width="1637" height="361" key="GridCell.Tab.1.left/0.0.1920.1050/-1680.30.1680.1020@-1680.30.1680.1020" timestamp="1578453678577" />
+    <state width="1877" height="352" key="GridCell.Tab.1.left/0.0.1920.1050/-1680.30.1680.1020@0.0.1920.1050" timestamp="1577980769632" />
+    <state width="1637" height="361" key="GridCell.Tab.1.right" timestamp="1578453678577">
+      <screen x="-1680" y="30" width="1680" height="1020" />
+    </state>
+    <state width="1637" height="361" key="GridCell.Tab.1.right/0.0.1920.1050/-1680.30.1680.1020@-1680.30.1680.1020" timestamp="1578453678577" />
+    <state width="1877" height="352" key="GridCell.Tab.1.right/0.0.1920.1050/-1680.30.1680.1020@0.0.1920.1050" timestamp="1577980769632" />
+    <state width="1637" height="361" key="GridCell.Tab.2.bottom" timestamp="1578453678577">
+      <screen x="-1680" y="30" width="1680" height="1020" />
+    </state>
+    <state width="1637" height="361" key="GridCell.Tab.2.bottom/0.0.1920.1050/-1680.30.1680.1020@-1680.30.1680.1020" timestamp="1578453678577" />
+    <state width="1877" height="352" key="GridCell.Tab.2.bottom/0.0.1920.1050/-1680.30.1680.1020@0.0.1920.1050" timestamp="1577980699614" />
+    <state width="1637" height="361" key="GridCell.Tab.2.center" timestamp="1578453678577">
+      <screen x="-1680" y="30" width="1680" height="1020" />
+    </state>
+    <state width="1637" height="361" key="GridCell.Tab.2.center/0.0.1920.1050/-1680.30.1680.1020@-1680.30.1680.1020" timestamp="1578453678577" />
+    <state width="1877" height="352" key="GridCell.Tab.2.center/0.0.1920.1050/-1680.30.1680.1020@0.0.1920.1050" timestamp="1577980699614" />
+    <state width="1637" height="361" key="GridCell.Tab.2.left" timestamp="1578453678577">
+      <screen x="-1680" y="30" width="1680" height="1020" />
+    </state>
+    <state width="1637" height="361" key="GridCell.Tab.2.left/0.0.1920.1050/-1680.30.1680.1020@-1680.30.1680.1020" timestamp="1578453678577" />
+    <state width="1877" height="352" key="GridCell.Tab.2.left/0.0.1920.1050/-1680.30.1680.1020@0.0.1920.1050" timestamp="1577980699614" />
+    <state width="1637" height="361" key="GridCell.Tab.2.right" timestamp="1578453678577">
+      <screen x="-1680" y="30" width="1680" height="1020" />
+    </state>
+    <state width="1637" height="361" key="GridCell.Tab.2.right/0.0.1920.1050/-1680.30.1680.1020@-1680.30.1680.1020" timestamp="1578453678577" />
+    <state width="1877" height="352" key="GridCell.Tab.2.right/0.0.1920.1050/-1680.30.1680.1020@0.0.1920.1050" timestamp="1577980699614" />
+    <state width="1637" height="361" key="GridCell.Tab.3.bottom" timestamp="1578453678578">
+      <screen x="-1680" y="30" width="1680" height="1020" />
+    </state>
+    <state width="1637" height="361" key="GridCell.Tab.3.bottom/0.0.1920.1050/-1680.30.1680.1020@-1680.30.1680.1020" timestamp="1578453678578" />
+    <state width="1877" height="352" key="GridCell.Tab.3.bottom/0.0.1920.1050/-1680.30.1680.1020@0.0.1920.1050" timestamp="1577980699614" />
+    <state width="1637" height="361" key="GridCell.Tab.3.center" timestamp="1578453678578">
+      <screen x="-1680" y="30" width="1680" height="1020" />
+    </state>
+    <state width="1637" height="361" key="GridCell.Tab.3.center/0.0.1920.1050/-1680.30.1680.1020@-1680.30.1680.1020" timestamp="1578453678578" />
+    <state width="1877" height="352" key="GridCell.Tab.3.center/0.0.1920.1050/-1680.30.1680.1020@0.0.1920.1050" timestamp="1577980699614" />
+    <state width="1637" height="361" key="GridCell.Tab.3.left" timestamp="1578453678578">
+      <screen x="-1680" y="30" width="1680" height="1020" />
+    </state>
+    <state width="1637" height="361" key="GridCell.Tab.3.left/0.0.1920.1050/-1680.30.1680.1020@-1680.30.1680.1020" timestamp="1578453678578" />
+    <state width="1877" height="352" key="GridCell.Tab.3.left/0.0.1920.1050/-1680.30.1680.1020@0.0.1920.1050" timestamp="1577980699614" />
+    <state width="1637" height="361" key="GridCell.Tab.3.right" timestamp="1578453678578">
+      <screen x="-1680" y="30" width="1680" height="1020" />
+    </state>
+    <state width="1637" height="361" key="GridCell.Tab.3.right/0.0.1920.1050/-1680.30.1680.1020@-1680.30.1680.1020" timestamp="1578453678578" />
+    <state width="1877" height="352" key="GridCell.Tab.3.right/0.0.1920.1050/-1680.30.1680.1020@0.0.1920.1050" timestamp="1577980699614" />
+    <state width="1637" height="361" key="GridCell.Tab.4.bottom" timestamp="1578453678578">
+      <screen x="-1680" y="30" width="1680" height="1020" />
+    </state>
+    <state width="1637" height="361" key="GridCell.Tab.4.bottom/0.0.1920.1050/-1680.30.1680.1020@-1680.30.1680.1020" timestamp="1578453678578" />
+    <state width="1877" height="352" key="GridCell.Tab.4.bottom/0.0.1920.1050/-1680.30.1680.1020@0.0.1920.1050" timestamp="1577980699615" />
+    <state width="1637" height="361" key="GridCell.Tab.4.center" timestamp="1578453678578">
+      <screen x="-1680" y="30" width="1680" height="1020" />
+    </state>
+    <state width="1637" height="361" key="GridCell.Tab.4.center/0.0.1920.1050/-1680.30.1680.1020@-1680.30.1680.1020" timestamp="1578453678578" />
+    <state width="1877" height="352" key="GridCell.Tab.4.center/0.0.1920.1050/-1680.30.1680.1020@0.0.1920.1050" timestamp="1577980699615" />
+    <state width="1637" height="361" key="GridCell.Tab.4.left" timestamp="1578453678578">
+      <screen x="-1680" y="30" width="1680" height="1020" />
+    </state>
+    <state width="1637" height="361" key="GridCell.Tab.4.left/0.0.1920.1050/-1680.30.1680.1020@-1680.30.1680.1020" timestamp="1578453678578" />
+    <state width="1877" height="352" key="GridCell.Tab.4.left/0.0.1920.1050/-1680.30.1680.1020@0.0.1920.1050" timestamp="1577980699614" />
+    <state width="1637" height="361" key="GridCell.Tab.4.right" timestamp="1578453678578">
+      <screen x="-1680" y="30" width="1680" height="1020" />
+    </state>
+    <state width="1637" height="361" key="GridCell.Tab.4.right/0.0.1920.1050/-1680.30.1680.1020@-1680.30.1680.1020" timestamp="1578453678578" />
+    <state width="1877" height="352" key="GridCell.Tab.4.right/0.0.1920.1050/-1680.30.1680.1020@0.0.1920.1050" timestamp="1577980699615" />
+    <state x="-1248" y="271" key="Rider.ProjectTemplateDialog.Size" timestamp="1578486780276">
+      <screen x="-1680" y="30" width="1680" height="1020" />
+    </state>
+    <state x="-1248" y="271" key="Rider.ProjectTemplateDialog.Size/0.0.1920.1050/-1680.30.1680.1020@-1680.30.1680.1020" timestamp="1578486780276" />
+    <state x="-1073" y="203" key="RiderGenerateDialog" timestamp="1578403674139">
+      <screen x="-1680" y="30" width="1680" height="1020" />
+    </state>
+    <state x="-1073" y="203" key="RiderGenerateDialog/0.0.1920.1050/-1680.30.1680.1020@-1680.30.1680.1020" timestamp="1578403674139" />
+    <state x="-1339" y="181" key="SettingsEditor" timestamp="1578483125898">
+      <screen x="-1680" y="30" width="1680" height="1020" />
+    </state>
+    <state x="-1339" y="181" key="SettingsEditor/0.0.1920.1050/-1680.30.1680.1020@-1680.30.1680.1020" timestamp="1578483125898" />
+    <state x="552" y="257" key="Vcs.Push.Dialog.v2" timestamp="1577137400185">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
+    <state x="552" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1577137400185" />
+    <state x="-1160" y="294" key="WebReferenceSession.Dialog" timestamp="1578317890568">
+      <screen x="-1680" y="30" width="1680" height="1020" />
+    </state>
+    <state x="-1160" y="294" key="WebReferenceSession.Dialog/0.0.1920.1050/-1680.30.1680.1020@-1680.30.1680.1020" timestamp="1578317890568" />
+    <state x="-1599" y="119" width="1519" height="842" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1578451291872">
+      <screen x="-1680" y="30" width="1680" height="1020" />
+    </state>
+    <state x="-1599" y="119" width="1519" height="842" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1920.1050/-1680.30.1680.1020@-1680.30.1680.1020" timestamp="1578451291872" />
+    <state x="92" y="92" width="1736" height="866" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1920.1050/-1680.30.1680.1020@0.0.1920.1050" timestamp="1577980518860" />
+    <state x="-1415" y="18" width="746" height="919" maximized="true" key="dock-window-1" timestamp="1578314100895">
+      <screen x="-1680" y="30" width="1680" height="1020" />
+    </state>
+    <state x="-1415" y="18" width="746" height="919" maximized="true" key="dock-window-1/0.0.1920.1050/-1680.30.1680.1020@-1680.30.1680.1020" timestamp="1578314100895" />
+    <state x="101" y="-10" width="1180" height="949" maximized="true" key="dock-window-2" timestamp="1578314620792">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="101" y="-10" width="1180" height="949" maximized="true" key="dock-window-2/0.0.1920.1050/-1680.30.1680.1020@-1680.30.1680.1020" timestamp="1578314620791" />
+    <state x="-1162" y="277" width="741" height="596" key="find.popup" timestamp="1578427921491">
+      <screen x="-1680" y="30" width="1680" height="1020" />
+    </state>
+    <state x="-1162" y="277" width="741" height="596" key="find.popup/0.0.1920.1050/-1680.30.1680.1020@-1680.30.1680.1020" timestamp="1578427921491" />
+    <state x="-1184" y="250" key="run.anything.popup" timestamp="1578314137454">
+      <screen x="-1680" y="30" width="1680" height="1020" />
+    </state>
+    <state x="-1184" y="250" key="run.anything.popup/0.0.1920.1050/-1680.30.1680.1020@-1680.30.1680.1020" timestamp="1578314137454" />
+    <state x="-1135" y="251" width="672" height="678" key="search.everywhere.popup" timestamp="1578402636272">
+      <screen x="-1680" y="30" width="1680" height="1020" />
+    </state>
+    <state x="-1135" y="251" width="672" height="678" key="search.everywhere.popup/0.0.1920.1050/-1680.30.1680.1020@-1680.30.1680.1020" timestamp="1578402636272" />
     <state x="623" y="227" key="search.everywhere.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1577136662993" />
   </component>
   <component name="XDebuggerManager">
@@ -732,30 +1051,95 @@
           <option name="timeStamp" value="1" />
         </breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/DAL.App.EF/Mappers/EventTypeMapper.cs</url>
-          <line>41</line>
-          <properties documentPath="$PROJECT_DIR$/DAL.App.EF/Mappers/EventTypeMapper.cs" initialLine="41">
-            <startOffsets>
-              <option value="1316" />
-            </startOffsets>
-            <endOffsets>
-              <option value="1536" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="34" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/WebApp/ApiControllers/Identity/SigningController.cs</url>
+          <url>file://$PROJECT_DIR$/WebApp/ApiControllers/v1.0/Identity/SigningController.cs</url>
           <line>35</line>
           <properties documentPath="$PROJECT_DIR$/WebApp/ApiControllers/Identity/SigningController.cs" initialLine="35">
             <startOffsets>
-              <option value="1020" />
+              <option value="988" />
             </startOffsets>
             <endOffsets>
-              <option value="1040" />
+              <option value="1008" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/WebApp/ApiControllers/v1.0/OrganizationController.cs</url>
+          <line>86</line>
+          <properties documentPath="$PROJECT_DIR$/WebApp/ApiControllers/OrganizationController.cs" initialLine="82">
+            <startOffsets>
+              <option value="2914" />
+            </startOffsets>
+            <endOffsets>
+              <option value="3092" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="61" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/DAL.App.EF/Mappers/OrganizationMapper.cs</url>
+          <line>41</line>
+          <properties documentPath="$PROJECT_DIR$/DAL.App.EF/Mappers/OrganizationMapper.cs" initialLine="41">
+            <startOffsets>
+              <option value="1496" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1784" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="63" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/TestsNUnit/UnitTest1.cs</url>
+          <line>21</line>
+          <properties documentPath="$PROJECT_DIR$/TestsNUnit/UnitTest1.cs" initialLine="21">
+            <startOffsets>
+              <option value="369" />
+            </startOffsets>
+            <endOffsets>
+              <option value="383" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="70" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/TestsNUnit/UnitTest1.cs</url>
+          <line>14</line>
+          <properties documentPath="$PROJECT_DIR$/TestsNUnit/UnitTest1.cs" initialLine="14">
+            <startOffsets>
+              <option value="256" />
+            </startOffsets>
+            <endOffsets>
+              <option value="291" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="72" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/DAL.App.DTO/Event.cs</url>
+          <line>32</line>
+          <properties documentPath="$PROJECT_DIR$/DAL.App.DTO/Event.cs" initialLine="32">
+            <startOffsets>
+              <option value="906" />
+            </startOffsets>
+            <endOffsets>
+              <option value="924" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="83" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/WebApp/ApiControllers/v1.0/Identity/SigningController.cs</url>
+          <line>34</line>
+          <properties documentPath="$PROJECT_DIR$/WebApp/ApiControllers/v1.0/Identity/SigningController.cs" initialLine="34">
+            <startOffsets>
+              <option value="988" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1008" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="100" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/../ClientApp/src/pages/singing/singing.ts</url>
@@ -764,5 +1148,10 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="LaunchSettings">
+        <watch expression="PublicApi.v1.Mappers.EventMapper.MapFromBLL(&#10;                _bll.Events.Add(PublicApi.v1.Mappers.EventMapper.MapFromExternal(@event))) returned" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>

@@ -18,9 +18,13 @@ namespace BLL.App.Helpers
             // Register all your custom services here!
             AddToCreationMethods<ILocationService>(uow => new LocationService(uow));
             AddToCreationMethods<IEventService>(uow => new EventService(uow));
-            AddToCreationMethods<IAdministrativeUnitInEventService>(uow => new AdministrativeUnitInEventService(uow));
             AddToCreationMethods<IAdministrativeUnitService>(uow => new AdministrativeUnitService(uow));
             AddToCreationMethods<IEventTypeService>(uow => new EventTypeService(uow));
+            AddToCreationMethods<IOrganizationService>(uow => new OrganizationService(uow));
+            AddToCreationMethods<ITargetAudienceService>(uow => new TargetAudienceService(uow));
+            AddToCreationMethods<IAreaOfInterestService>(uow => new AreaOfInterestService(uow));
+            AddToCreationMethods<IPerformerService>(uow => new PerformerService(uow));
+
 
         }
        

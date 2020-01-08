@@ -38,8 +38,6 @@ namespace PublicApi.v1.Mappers
 
         public static internalDTO.EventType MapFromExternal(externalDTO.EventType eventType)
         {
-            Console.WriteLine(eventType.Name + "BLL");
-
             var res = eventType == null ? null : new internalDTO.EventType
             {
                 Id = eventType.Id,
@@ -47,8 +45,6 @@ namespace PublicApi.v1.Mappers
                 Description = eventType.Description,   
                 AppUserId = eventType.AppUserId,
             };
-            Console.WriteLine(res.Name + "BLL");
-
             return res;
         }
     }

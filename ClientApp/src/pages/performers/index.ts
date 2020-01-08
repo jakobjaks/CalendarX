@@ -11,7 +11,7 @@ export var log = LogManager.getLogger('Performers.Index');
 @autoinject
 export class Index {
 
-  private performers: IPerformer[] = [];
+  private Performers: IPerformer[] = [];
 
   constructor(
     private PerformersService: PerformerService
@@ -33,7 +33,7 @@ export class Index {
     this.PerformersService.fetchAll().then(
       jsonData => {
         log.debug('jsonData', jsonData);
-        this.performers = jsonData;
+        this.Performers = jsonData;
       }
     );
   }

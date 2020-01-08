@@ -3,6 +3,12 @@
   <component name="ContentModelStore">
     <e p="C:\Users\ADMIN\.Rider2019.3\config\consoles\db" t="IncludeRecursive" />
     <e p="C:\Users\ADMIN\.Rider2019.3\config\extensions" t="IncludeRecursive" />
+    <e p="C:\Users\ADMIN\.Rider2019.3\config\javascript\extLibs\__cdnjs.cloudflare.com_ajax_libs_jquery_3.2.1_jquery.js" t="IncludeRecursive" />
+    <e p="C:\Users\ADMIN\.Rider2019.3\config\javascript\extLibs\__code.jquery.com_jquery-1.11.1.js" t="IncludeRecursive" />
+    <e p="C:\Users\ADMIN\.Rider2019.3\config\javascript\extLibs\__maxcdn.bootstrapcdn.com_bootstrap_4.1.1_css_bootstrap.css" t="IncludeRecursive" />
+    <e p="C:\Users\ADMIN\.Rider2019.3\config\javascript\extLibs\__maxcdn.bootstrapcdn.com_bootstrap_4.1.1_js_bootstrap.js" t="IncludeRecursive" />
+    <e p="C:\Users\ADMIN\.Rider2019.3\config\javascript\extLibs\http_cdnjs.cloudflare.com_ajax_libs_systemjs_0.19.6_system.js" t="IncludeRecursive" />
+    <e p="C:\Users\ADMIN\.Rider2019.3\config\javascript\extLibs\http_rawgit.com_aurelia-ui-toolkits_aurelia-materialize-bundles_0.20.2_config2.js" t="IncludeRecursive" />
     <e p="C:\Users\ADMIN\.Rider2019.3\config\scratches" t="IncludeRecursive" />
     <e p="C:\Users\ADMIN\.Rider2019.3\system\extResources" t="IncludeRecursive" />
     <e p="C:\Users\ADMIN\.Rider2019.3\system\resharper-host\local\Transient\ReSharperHost\v193\SolutionCaches\_CalendarX.718283179.00" t="ExcludeRecursive" />
@@ -15,11 +21,14 @@
           <e p="AppServiceFactory.cs" t="Include" />
         </e>
         <e p="Mappers" t="Include">
-          <e p="AdministrativeUnitInEventMapper.cs" t="Include" />
           <e p="AdministrativeUnitMapper.cs" t="Include" />
+          <e p="AreaOfInterestMapper.cs" t="Include" />
           <e p="EventMapper.cs" t="Include" />
           <e p="EventTypeMapper.cs" t="Include" />
           <e p="LocationMapper.cs" t="Include" />
+          <e p="OrganizationMapper.cs" t="Include" />
+          <e p="PerformerMapper.cs" t="Include" />
+          <e p="TargetAudienceMapper.cs" t="Include" />
         </e>
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
@@ -29,17 +38,20 @@
           </e>
         </e>
         <e p="Services" t="Include">
-          <e p="AdministrativeUnitInEventService.cs" t="Include" />
           <e p="AdministrativeUnitService.cs" t="Include" />
+          <e p="AreaOfInterestService.cs" t="Include" />
           <e p="EventService.cs" t="Include" />
           <e p="EventTypeService.cs" t="Include" />
           <e p="LocationService.cs" t="Include" />
+          <e p="OrganizationService.cs" t="Include" />
+          <e p="PerformerService.cs" t="Include" />
           <e p="SingingService.cs" t="Include" />
+          <e p="TargetAudienceService.cs" t="Include" />
         </e>
       </e>
       <e p="BLL.App.DTO" t="IncludeRecursive">
         <e p="AdministrativeUnit.cs" t="Include" />
-        <e p="AdministrativeUnitInEvent.cs" t="Include" />
+        <e p="AreaOfInterest.cs" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
         <e p="BLL.App.DTO.csproj" t="IncludeRecursive" />
         <e p="Event.cs" t="Include" />
@@ -56,6 +68,9 @@
             </e>
           </e>
         </e>
+        <e p="Organization.cs" t="Include" />
+        <e p="Performer.cs" t="Include" />
+        <e p="TargetAudience.cs" t="Include" />
       </e>
       <e p="BLL.Base" t="IncludeRecursive">
         <e p="BaseBLL.cs" t="Include" />
@@ -102,11 +117,14 @@
           </e>
         </e>
         <e p="Services" t="Include">
-          <e p="IAdministrativeUnitInEventService.cs" t="Include" />
           <e p="IAdministrativeUnitService.cs" t="Include" />
+          <e p="IAreaOfInterestService.cs" t="Include" />
           <e p="IEventService.cs" t="Include" />
           <e p="IEventTypeService.cs" t="Include" />
           <e p="ILocationService.cs" t="Include" />
+          <e p="IOrganizationService.cs" t="Include" />
+          <e p="IPerformerService.cs" t="Include" />
+          <e p="ITargetAudienceService.cs" t="Include" />
         </e>
       </e>
       <e p="Contracts.BLL.Base" t="IncludeRecursive">
@@ -228,9 +246,14 @@
         <e p="Mappers" t="Include">
           <e p="AdministrativeUnitInEventMapper.cs" t="Include" />
           <e p="AdministrativeUnitMapper.cs" t="Include" />
+          <e p="AreaOfInterestMapper.cs" t="Include" />
+          <e p="EventInLocationMapper.cs" t="Include" />
           <e p="EventMapper.cs" t="Include" />
           <e p="EventTypeMapper.cs" t="Include" />
           <e p="LocationMapper.cs" t="Include" />
+          <e p="OrganizationMapper.cs" t="Include" />
+          <e p="PerformerMapper.cs" t="Include" />
+          <e p="TargetAudienceMapper.cs" t="Include" />
         </e>
         <e p="Migrations" t="Include">
           <e p="20191128220355_InitialDbCreation.cs" t="Include" />
@@ -354,9 +377,13 @@
         <e p="bin" t="ExcludeRecursive" />
         <e p="Mappers" t="Include">
           <e p="AdministrativeUnitMapper.cs" t="Include" />
+          <e p="AreaOfInterestMapper.cs" t="Include" />
           <e p="EventMapper.cs" t="Include" />
           <e p="EventTypeMapper.cs" t="Include" />
           <e p="LocationMapper.cs" t="Include" />
+          <e p="OrganizationMapper.cs" t="Include" />
+          <e p="PerformerMapper.cs" t="Include" />
+          <e p="TargetAudienceMapper.cs" t="Include" />
         </e>
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
@@ -369,7 +396,7 @@
       </e>
       <e p="PublicApi.v1.DTO" t="IncludeRecursive">
         <e p="AdministrativeUnit.cs" t="Include" />
-        <e p="AdministrativeUnitInEvent.cs" t="Include" />
+        <e p="AreaOfInterest.cs" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
         <e p="Event.cs" t="Include" />
         <e p="EventType.cs" t="Include" />
@@ -385,29 +412,42 @@
             </e>
           </e>
         </e>
+        <e p="Organization.cs" t="Include" />
+        <e p="Performer.cs" t="Include" />
         <e p="PublicApi.v1.DTO.csproj" t="IncludeRecursive" />
+        <e p="TargetAudience.cs" t="Include" />
+      </e>
+      <e p="Test" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="Test.AssemblyInfo.cs" t="Include" />
+            </e>
+            <e p="netstandard2.1" t="Include">
+              <e p="Test.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Test.cs" t="Include" />
+        <e p="Test.csproj" t="IncludeRecursive" />
       </e>
       <e p="WebApp" t="IncludeRecursive">
         <e p="ApiControllers" t="Include">
-          <e p="AdministrativeUnitController.cs" t="Include" />
-          <e p="AdminsitrativeUnitInEventController.cs" t="Include" />
-          <e p="AreaOfInterestController.cs" t="Include" />
-          <e p="EventController.cs" t="Include" />
-          <e p="EventInAreaOfInterestController.cs" t="Include" />
-          <e p="EventInLocationController.cs" t="Include" />
-          <e p="EventTargetAudienceController.cs" t="Include" />
-          <e p="EventTypeController.cs" t="Include" />
-          <e p="Identity" t="Include">
-            <e p="AccountController.cs" t="Include" />
-            <e p="SigningController.cs" t="Include" />
+          <e p="v1.0" t="Include">
+            <e p="AdministrativeUnitController.cs" t="Include" />
+            <e p="AreaOfInterestController.cs" t="Include" />
+            <e p="EventController.cs" t="Include" />
+            <e p="EventTypeController.cs" t="Include" />
+            <e p="Identity" t="Include">
+              <e p="AccountController.cs" t="Include" />
+              <e p="SigningController.cs" t="Include" />
+            </e>
+            <e p="LocationController.cs" t="Include" />
+            <e p="OrganizationController.cs" t="Include" />
+            <e p="PerformerController.cs" t="Include" />
+            <e p="TargetAudienceController.cs" t="Include" />
           </e>
-          <e p="LocationController.cs" t="Include" />
-          <e p="OrganizationController.cs" t="Include" />
-          <e p="OrganizationOrganizingController.cs" t="Include" />
-          <e p="PerformerController.cs" t="Include" />
-          <e p="PerformerInEventController.cs" t="Include" />
-          <e p="SponsorInEventController.cs" t="Include" />
-          <e p="TargetAudienceController.cs" t="Include" />
         </e>
         <e p="app.db" t="Include" />
         <e p="appsettings.Development.json" t="Include" />
@@ -495,6 +535,7 @@
           </e>
         </e>
         <e p="bin" t="ExcludeRecursive" />
+        <e p="ConfigureSwaggerOptions.cs" t="Include" />
         <e p="Controllers" t="Include">
           <e p="AdministrativeUnitController.cs" t="Include" />
           <e p="AdminsitrativeUnitInEventController.cs" t="Include" />
@@ -660,6 +701,15 @@
             <e p="site.css" t="Include" />
           </e>
           <e p="favicon.ico" t="Include" />
+          <e p="images" t="Include">
+            <e p="0ty3sVJGebwUfytQKJzHundefined" t="Include" />
+            <e p="aiM7dBl9FRUncozevONp" t="Include" />
+            <e p="DRw17xQSY3TCpJN3MBPWundefined" t="Include" />
+            <e p="oknBkXqPQnuyvPeLb1bDpng" t="Include" />
+            <e p="PE53YFn6WlREj9GKglYc.png" t="Include" />
+            <e p="z3qVADfciRJ827hcrOg2.jpg" t="Include" />
+            <e p="zJf2YkGm8460gbDNTwYJ.png" t="Include" />
+          </e>
           <e p="js" t="Include">
             <e p="site.js" t="Include" />
           </e>
@@ -719,6 +769,9 @@
         </e>
       </e>
     </e>
+    <e p="C:\Users\ADMIN\Desktop\CalendarProject\ClientApp\node_modules\@nodelib\fs.scandir" t="IncludeRecursive" />
+    <e p="C:\Users\ADMIN\Desktop\CalendarProject\ClientApp\node_modules\@nodelib\fs.stat" t="IncludeRecursive" />
+    <e p="C:\Users\ADMIN\Desktop\CalendarProject\ClientApp\node_modules\@nodelib\fs.walk" t="IncludeRecursive" />
     <e p="C:\Users\ADMIN\Desktop\CalendarProject\ClientApp\node_modules\@types" t="IncludeRecursive">
       <e p="anymatch" t="IncludeRecursive" />
       <e p="bootstrap" t="IncludeRecursive" />
@@ -770,13 +823,16 @@
     <e p="C:\Users\ADMIN\Desktop\CalendarProject\ClientApp\node_modules\bootstrap" t="IncludeRecursive" />
     <e p="C:\Users\ADMIN\Desktop\CalendarProject\ClientApp\node_modules\bower" t="IncludeRecursive" />
     <e p="C:\Users\ADMIN\Desktop\CalendarProject\ClientApp\node_modules\chalk" t="IncludeRecursive" />
+    <e p="C:\Users\ADMIN\Desktop\CalendarProject\ClientApp\node_modules\chokidar" t="IncludeRecursive" />
     <e p="C:\Users\ADMIN\Desktop\CalendarProject\ClientApp\node_modules\clean-webpack-plugin" t="IncludeRecursive" />
     <e p="C:\Users\ADMIN\Desktop\CalendarProject\ClientApp\node_modules\commander" t="IncludeRecursive" />
     <e p="C:\Users\ADMIN\Desktop\CalendarProject\ClientApp\node_modules\concat-with-sourcemaps" t="IncludeRecursive" />
     <e p="C:\Users\ADMIN\Desktop\CalendarProject\ClientApp\node_modules\copy-webpack-plugin" t="IncludeRecursive" />
     <e p="C:\Users\ADMIN\Desktop\CalendarProject\ClientApp\node_modules\css-loader" t="IncludeRecursive" />
+    <e p="C:\Users\ADMIN\Desktop\CalendarProject\ClientApp\node_modules\csstype" t="IncludeRecursive" />
     <e p="C:\Users\ADMIN\Desktop\CalendarProject\ClientApp\node_modules\duplicate-package-checker-webpack-plugin" t="IncludeRecursive" />
     <e p="C:\Users\ADMIN\Desktop\CalendarProject\ClientApp\node_modules\expose-loader" t="IncludeRecursive" />
+    <e p="C:\Users\ADMIN\Desktop\CalendarProject\ClientApp\node_modules\fast-glob" t="IncludeRecursive" />
     <e p="C:\Users\ADMIN\Desktop\CalendarProject\ClientApp\node_modules\file-loader" t="IncludeRecursive" />
     <e p="C:\Users\ADMIN\Desktop\CalendarProject\ClientApp\node_modules\gulp" t="IncludeRecursive" />
     <e p="C:\Users\ADMIN\Desktop\CalendarProject\ClientApp\node_modules\html-loader" t="IncludeRecursive" />
@@ -788,8 +844,10 @@
     <e p="C:\Users\ADMIN\Desktop\CalendarProject\ClientApp\node_modules\minimatch" t="IncludeRecursive" />
     <e p="C:\Users\ADMIN\Desktop\CalendarProject\ClientApp\node_modules\popper.js" t="IncludeRecursive" />
     <e p="C:\Users\ADMIN\Desktop\CalendarProject\ClientApp\node_modules\promise-polyfill" t="IncludeRecursive" />
+    <e p="C:\Users\ADMIN\Desktop\CalendarProject\ClientApp\node_modules\scss" t="IncludeRecursive" />
     <e p="C:\Users\ADMIN\Desktop\CalendarProject\ClientApp\node_modules\source-map" t="IncludeRecursive" />
     <e p="C:\Users\ADMIN\Desktop\CalendarProject\ClientApp\node_modules\style-loader" t="IncludeRecursive" />
+    <e p="C:\Users\ADMIN\Desktop\CalendarProject\ClientApp\node_modules\swagger-ui" t="IncludeRecursive" />
     <e p="C:\Users\ADMIN\Desktop\CalendarProject\ClientApp\node_modules\terser" t="IncludeRecursive" />
     <e p="C:\Users\ADMIN\Desktop\CalendarProject\ClientApp\node_modules\through2" t="IncludeRecursive" />
     <e p="C:\Users\ADMIN\Desktop\CalendarProject\ClientApp\node_modules\tree-kill" t="IncludeRecursive" />
@@ -848,6 +906,7 @@
     <e p="C:\Users\ADMIN\Desktop\CalendarProject\ClientApp\node_modules\typescript\lib\lib.scripthost.d.ts" t="IncludeRecursive" />
     <e p="C:\Users\ADMIN\Desktop\CalendarProject\ClientApp\node_modules\typescript\lib\lib.webworker.d.ts" t="IncludeRecursive" />
     <e p="C:\Users\ADMIN\Desktop\CalendarProject\ClientApp\node_modules\typescript\lib\lib.webworker.importscripts.d.ts" t="IncludeRecursive" />
+    <e p="C:\Users\ADMIN\Desktop\CalendarProject\ClientApp\node_modules\upath" t="IncludeRecursive" />
     <e p="C:\Users\ADMIN\Desktop\CalendarProject\ClientApp\node_modules\url-loader" t="IncludeRecursive" />
     <e p="C:\Users\ADMIN\Desktop\CalendarProject\ClientApp\node_modules\vinyl-fs" t="IncludeRecursive" />
     <e p="C:\Users\ADMIN\Desktop\CalendarProject\ClientApp\node_modules\webpack" t="IncludeRecursive" />

@@ -19,12 +19,15 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity.UI.Services;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.ApiExplorer;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using Microsoft.Extensions.Options;
 using Microsoft.IdentityModel.Tokens;
 using Newtonsoft.Json;
+using Swashbuckle.AspNetCore.SwaggerGen;
 using WebApp.Helpers;
 
 namespace WebApp
@@ -62,7 +65,7 @@ namespace WebApp
                     options.SerializerSettings.Formatting = Formatting.Indented;
                 });
             
-            
+            services.AddApiVersioning(options => { options.ReportApiVersions = true; });
             services
                 .AddIdentity<AppUser, AppRole>()
                 .AddEntityFrameworkStores<AppDbContext>()
@@ -144,11 +147,16 @@ namespace WebApp
                                .AllowAnyMethod()
                                .AllowAnyHeader();
                     }));
+                // Api explorer + OpenAPI/Swagger
+                services.AddVersionedApiExplorer( options => options.GroupNameFormat = "'v'VVV" );
+                services.AddTransient<IConfigureOptions<SwaggerGenOptions>, ConfigureSwaggerOptions>();
+                services.AddSwaggerGen();
+
 
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
+        public void Configure(IApplicationBuilder app, IWebHostEnvironment env, IApiVersionDescriptionProvider provider)
         {
             if (env.IsDevelopment())
             {
@@ -174,6 +182,19 @@ namespace WebApp
                     name: "default",
                     template: "{controller=Home}/{action=Index}/{id?}");
             });
+            
+            app.UseSwagger();
+            app.UseSwaggerUI(
+                options =>
+                {
+                    foreach ( var description in provider.ApiVersionDescriptions )
+                    {
+                        options.SwaggerEndpoint(
+                            $"/swagger/{description.GroupName}/swagger.json",
+                            description.GroupName.ToUpperInvariant() );
+                    }
+                } );
+
         }
     }
 }

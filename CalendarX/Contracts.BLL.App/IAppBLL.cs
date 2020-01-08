@@ -10,6 +10,10 @@ namespace Contracts.BLL.App
         ILocationService Locations { get; }
         IAdministrativeUnitService AdministrativeUnits { get; }
         IEventTypeService EventTypes { get; }
+        ITargetAudienceService TargetAudiences { get; }
+        IPerformerService Performers { get; }
+        IOrganizationService Organizations { get; }
+        IAreaOfInterestService AreaOfInterests { get; }
         
         //Todo: public facing services
     }

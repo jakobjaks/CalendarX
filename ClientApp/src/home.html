@@ -1,6 +1,55 @@
 <template>
-  <div class="big-box">
-  <a id="education-block" class="big-block nav-link text-dark   " route-href="route: EventsIndex">Educational events</a>
-  <a id="entertainment-block" class="nav-link text-dark big-block" route-href="route: EventsIndex">Entertainment events</a>
+  <require from="./home.css"></require>
+  <section>
+  <div class="slider">
+    <input type="radio" name="slider" title="slide1" checked="checked" class="slider__nav"/>
+    <input type="radio" name="slider" title="slide2" class="slider__nav"/>
+    <input type="radio" name="slider" title="slide3" class="slider__nav"/>
+    <input type="radio" name="slider" title="slide4" class="slider__nav"/>
+    <div class="slider__inner">
+      <div class="slider__contents">
+        <img src="https://pbs.twimg.com/media/EGHYvttU4AAYKb7?format=jpg&name=large" class="d-block w-100 img" alt="...">
+      </div>
+      <div class="slider__contents">
+        <img src="https://pbs.twimg.com/media/EGHYvtkUcAAuc8T?format=jpg&name=large" class="d-block w-100" alt="...">
+      </div>
+      <div class="slider__contents"><i class="slider__image fa "></i>
+        <img src="https://pbs.twimg.com/media/EGHYvtjU0AAO8w1?format=jpg&name=large" class="d-block w-100" alt="...">
+      </div>
+      <div class="slider__contents"><i class="slider__image fa "></i>
+        <img src="https://pbs.twimg.com/media/EGHYvtjU0AAO8w1?format=jpg&name=large" class="d-block w-100" alt="...">
+      </div>
+    </div>
   </div>
+  </section>
+  <section class="search-sec">
+    <div class="container">
+      <form action="#" method="post" novalidate="novalidate">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="row">
+              <div class="col-lg-3 col-md-3 col-sm-12 p-0 search-input">
+                <input type="text" class="form-control search-slt" placeholder="Search" value.bind="searchString">
+              </div>
+              <div class="col-lg-3 col-md-3 col-sm-12 p-0">
+                <select class="form-control search-slt" id="exampleFormControlSelect1">
+                  <option>Select Search Topic</option>
+                  <option>Event Name</option>
+                  <option>Administrative Unit</option>
+                  <option>Event Type</option>
+                  <option>Location</option>
+                  <option>Target Audience</option>
+                  <option>Organization</option>
+                </select>
+              </div>
+              <div class="col-lg-3 col-md-3 col-sm-12 p-0">
+                <a type="button" class="btn btn-danger wrn-btn"
+                        route-href="route: EventsIndex">Search</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
+  </section>
 </template>

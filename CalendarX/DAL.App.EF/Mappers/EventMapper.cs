@@ -39,8 +39,6 @@ namespace DAL.App.EF.Mappers
                 AdministrativeUnits = Event.EventAdministrativeUnit?.Select(item => AdministrativeUnitMapper.MapFromDomain(item.AdministrativeUnit)).ToList(),
                 Locations = Event.EventLocations?.Select(item => LocationMapper.MapFromDomain(item.Location)).ToList(),
                 EventTypes = Event.EventTypes?.Select(item => EventTypeMapper.MapFromDomain(item.EventType)).ToList()
-                
-
             };
             
             return res;
@@ -59,17 +57,14 @@ namespace DAL.App.EF.Mappers
                 EventAdministrativeUnit = Event.AdministrativeUnits?.Select(item => new internalDTO.AdministrativeUnitInEvent()
                 {
                     AdministrativeUnitId = item.Id,
-                    EventId = Event.Id
                 }).ToList(),
                 EventLocations = Event.Locations?.Select(item => new internalDTO.EventInLocation()
                 {
                     LocationId = item.Id,
-                    EventId = Event.Id
                 }).ToList(),
                 EventTypes = Event.EventTypes?.Select(type => new internalDTO.EventInType()
                 {
                     EventTypeId = type.Id,
-                    EventId = Event.Id
                 }).ToList()
             };
 

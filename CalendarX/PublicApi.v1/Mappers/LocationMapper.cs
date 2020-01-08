@@ -38,8 +38,6 @@ namespace PublicApi.v1.Mappers
 
         public static internalDTO.Location MapFromExternal(externalDTO.Location Location)
         {
-            Console.WriteLine(Location.Name + "BLL");
-
             var res = Location == null ? null : new internalDTO.Location
             {
                 Id = Location.Id,
@@ -47,8 +45,6 @@ namespace PublicApi.v1.Mappers
                 Description = Location.Description,   
                 AppUserId = Location.AppUserId,
             };
-            Console.WriteLine(res.Name + "BLL");
-
             return res;
         }
     }

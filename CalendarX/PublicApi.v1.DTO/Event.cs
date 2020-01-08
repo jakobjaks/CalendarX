@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using Microsoft.AspNetCore.Http;
 using PublicApi.v1.DTO.Identity;
 
 namespace PublicApi.v1.DTO
@@ -25,6 +26,15 @@ namespace PublicApi.v1.DTO
         public ICollection<AdministrativeUnit> AdministrativeUnits { get; set; }
         public ICollection<Location> Locations { get; set; }
         public ICollection<EventType> EventTypes { get; set; }
+
+        public ICollection<Organization> Organizations { get; set; }
+
+        public ICollection<Organization> Sponsors { get; set; }
+
+        public ICollection<Performer> Performers { get; set; }
+
+        public ICollection<AreaOfInterest> AreaOfInterests { get; set; }
+        public IFormFile Image { get; set; }
 
 
     }
