@@ -19,7 +19,7 @@ using Microsoft.AspNetCore.Cors;
 namespace WebApp.ApiControllers.v1._0
 {
     [ApiVersion("1.0")]
-    [Route("api/[controller]")]
+    [Route("api/v{version:apiVersion}/[controller]")]
     [ApiController]
     [EnableCors("MyPolicy")]
     //[Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
@@ -44,7 +44,7 @@ namespace WebApp.ApiControllers.v1._0
         [HttpGet("{id}")]
         public async Task<ActionResult<PublicApi.v1.DTO.EventType>> GetEventType(int id)
         {
-            var administrativeUnit = PublicApi.v1.Mappers.EventTypeMapper.MapFromBLL(await _bll.EventTypes.FindAsync(id, User.GetUserId()));
+            var administrativeUnit = PublicApi.v1.Mappers.EventTypeMapper.MapFromBLL(await _bll.EventTypes.FindAsync(id));
 
             if (administrativeUnit == null)
             {

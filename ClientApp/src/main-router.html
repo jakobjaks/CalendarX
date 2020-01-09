@@ -30,7 +30,7 @@
 
           
           <ul class="navbar-nav ">
-            <li class="nav-item" show.bind="appConfig.jwt == null">
+            <li class="nav-item">
               <a class="nav-link text-white" route-href="route: EventsIndex">Events</a>
             </li>
             <li class="nav-item" show.bind="appConfig.jwt != null" repeat.for="nav of router.navigation">

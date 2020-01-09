@@ -24,6 +24,8 @@ export class Create {
   
   private selectedFiles = [];
   
+  private time;
+  
   private event: IEvent;
   private administrativeUnitList: IAdministrativeUnit[] = [];
   private locationList: ILocation[] = [];
@@ -64,6 +66,11 @@ export class Create {
     this.event.administrativeUnits = this.administrativeUnitSelected;
     this.event.locations = this.locationSelected;
     this.event.eventTypes = this.eventTypeSelected;
+    this.event.areaOfInterests = this.areaOfInterestsSelected;
+    this.event.performers = this.performerSelected;
+    this.event.targetAudiences = this.targetAudienceSelected;
+    this.event.organizations = this.organizationSelected;
+    this.event.eventDate = this.time;
     var newName = this.makeid(20);
     var oldName = this.selectedFiles[0].name.split(".");
     oldName = oldName[oldName.length - 1];
@@ -72,7 +79,7 @@ export class Create {
   
     var newFile = new File([blob], newName + "." + oldName, {type: this.selectedFiles[0].type});
 
-    this.event.fileName = newName;
+    this.event.imageSrc = newName + "." + oldName;
     this.eventService.post(this.event!, newFile).then(
       response => {
         if (response.status == 201){

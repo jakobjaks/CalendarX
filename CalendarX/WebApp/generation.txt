@@ -36,7 +36,7 @@ DATABASE
 dotnet tool install -g dotnet-ef
 
 Add db migration
-dotnet ef migrations add InitialDbCreation --project DAL.App.EF --startup-project WebApp
+dotnet ef migrations add AddedDate --project DAL.App.EF --startup-project WebApp
 
 Apply migration
 dotnet ef database update --project DAL.App.EF --startup-project WebApp

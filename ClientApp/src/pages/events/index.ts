@@ -11,66 +11,84 @@ export var log = LogManager.getLogger('Event.Index');
 @autoinject
 export class Index {
 
-  private Event: IEvent[] = [];
-  private category: number = 0;
-  private searchString: string = "";
+    private Event: IEvent[] = [];
+    private category: number = 1;
+    private searchString: string = "";
 
-  constructor(
-    private EventService: EventService
-  ) {
-    log.debug('constructor');
-  }
-  
-  submit() {
-    this.EventService.fetchBySearch(this.searchString, this.category).then(
-      jsonData => {
-        log.debug('jsonData', jsonData);
-        this.Event = jsonData;
-      }
-    );
-  }
+    constructor(
+        private EventService: EventService
+    ) {
+        log.debug('constructor');
+    }
 
-  // ============ View LifeCycle events ==============
-  created(owningView: View, myView: View) {
-    log.debug('created');
-  }
+    submit() {
+        this.EventService.fetchBySearch(this.searchString, this.category).then(
+            jsonData => {
+                log.debug('jsonData', jsonData);
+                this.Event = jsonData;
+            }
+        );
+    }
 
-  bind(bindingContext: Object, overrideContext: Object) {
-    log.debug('bind');
-  }
+    getPast() {
+        this.EventService.fetchPast().then(
+            jsonData => {
+                log.debug('jsonData', jsonData);
+                this.Event = jsonData;
+            }
+        );
+    }
 
-  attached() {
-    log.debug('attached');
-    this.EventService.fetchAll().then(
-      jsonData => {
-        log.debug('jsonData', jsonData);
-        this.Event = jsonData;
-      }
-    );
-  }
+    // ============ View LifeCycle events ==============
+    created(owningView: View, myView: View) {
+        log.debug('created');
+    }
 
-  detached() {
-    log.debug('detached');
-  }
+    bind(bindingContext: Object, overrideContext: Object) {
+        log.debug('bind');
+    }
 
-  unbind() {
-    log.debug('unbind');
-  }
+    attached(params: any, routerConfig: RouteConfig, navigationInstruction: NavigationInstruction) {
+        log.debug('attached');
+        this.EventService.fetchAll().then(
+            jsonData => {
+                log.debug('jsonData', jsonData);
+                this.Event = jsonData;
+            }
+        );
+    }
 
-  // ============= Router Events =============
-  canActivate(params: any, routerConfig: RouteConfig, navigationInstruction: NavigationInstruction) {
-    log.debug('canActivate');
-  }
+    detached() {
+        log.debug('detached');
+    }
 
-  activate(params: any, routerConfig: RouteConfig, navigationInstruction: NavigationInstruction) {
-    log.debug('activate');
-  }
+    unbind() {
+        log.debug('unbind');
+    }
 
-  canDeactivate() {
-    log.debug('canDeactivate');
-  }
+    // ============= Router Events =============
+    canActivate(params: any, routerConfig: RouteConfig, navigationInstruction: NavigationInstruction) {
+        log.debug('canActivate');
+    }
 
-  deactivate() {
-    log.debug('deactivate');
-  }
+    activate(params: any, routerConfig: RouteConfig, navigationInstruction: NavigationInstruction) {
+        log.debug('activate' + params.id);
+        if (params.id != null && params.name != null) {
+            this.EventService.fetchBySearch(params.name, params.id).then(
+                jsonData => {
+                    log.debug('jsonData', jsonData);
+                    this.Event = jsonData;
+                }
+            );
+        }
+
+    }
+
+    canDeactivate() {
+        log.debug('canDeactivate');
+    }
+
+    deactivate() {
+        log.debug('deactivate');
+    }
 }

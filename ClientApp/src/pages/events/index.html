@@ -36,18 +36,27 @@
   <p>
     <a route-href="route: EventsCreate" show.bind="appConfig.jwt != null"
        class="btn btn-primary float-center btn-sm">Event - Create New</a>
+  <div class="form-group">
+    <form action="#" method="get" submit.delegate="getPast()">
+      <input type="submit" value="Get past events" class="btn btn-primary"></a>
+    </form>
+</div>
+  <div  class="form-group">
+  <form action="#" method="get" submit.delegate="attached()">
+    <input type="submit" value="Get upcoming events" class="btn btn-primary"></a>
+  </form>
+  </div>
+
   </p>
     <!-- repeat this tr element, iterate over Events -->
     <div class="container">
       <div class="row">
       <div class="col-sm-6 col-md-4 col-lg-3 mt-4" repeat.for="event of Event">
         <div class="card">
-          <img class="card-img-top" src="https://picsum.photos/200/150/?random">
+          <img class="card-img-top" src="https://localhost:5001/images/${event.imageSrc}" style="max-height: 300px">
           <div class="card-block">
-            <figure class="profile">
-              <img src="https://picsum.photos/200/150/?random" class="profile-avatar" alt="">
-            </figure>
-            <h4 class="card-title mt-3">
+
+            <h4 class="mt-3">
               ${event.name}
             </h4>
             <div class="meta">

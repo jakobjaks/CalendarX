@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations.Schema;
 using Domain.Identity;
@@ -35,6 +36,8 @@ namespace Domain
         public int AppUserId { get; set; }
         public AppUser AppUser { get; set; }
 
+        public string ImageSrc { get; set; }
+        public DateTime EventDate { get; set; }
 
     }
 }

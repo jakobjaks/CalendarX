@@ -6,6 +6,7 @@ using BLL.App.Mappers;
 using BLL.Base.Services;
 using Contracts.BLL.App.Services;
 using Contracts.DAL.App;
+using Contracts.DAL.App.Repositories;
 using DAL.App.DTO;
 using Event = BLL.App.DTO.Event;
 
@@ -64,6 +65,9 @@ namespace BLL.App.Services
                     break;
                 case 8:
                     list = await Uow.Event.FindBySponsorSearch(search);
+                    break;
+                case 9:
+                    list = await Uow.Event.FindByPerformerSearch(search);
                     break;
             }
 
@@ -133,6 +137,11 @@ namespace BLL.App.Services
         public Task<List<DAL.App.DTO.Event>> FindByEventNameSearch(string search)
         {
             throw new System.NotImplementedException();
+        }
+
+        public async Task<List<Event>> AllPastAsync()
+        {
+            return (await Uow.Event.AllPastAsync()).Select(e => EventMapper.MapFromDAL(e)).ToList();
         }
     }
 }

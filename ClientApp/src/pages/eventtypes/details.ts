@@ -51,7 +51,6 @@ export class Details {
         this.EventType = EventType;
       }
     );
-
   }
 
   canDeactivate() {

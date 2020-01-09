@@ -51,7 +51,6 @@ export class Details {
         this.administrativeUnit = administrativeUnit;
       }
     );
-
   }
 
   canDeactivate() {

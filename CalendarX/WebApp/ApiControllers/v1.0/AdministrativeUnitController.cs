@@ -10,7 +10,8 @@ using BLL.Base;
 
 namespace WebApp.ApiControllers.v1._0
 {
-    [Route("api/[controller]")]
+    [ApiVersion("1.0")]
+    [Route("api/v{version:apiVersion}/[controller]")]
     [ApiController]
     [EnableCors("MyPolicy")]
     //[Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
@@ -35,7 +36,7 @@ namespace WebApp.ApiControllers.v1._0
         [HttpGet("{id}")]
         public async Task<ActionResult<PublicApi.v1.DTO.AdministrativeUnit>> GetAdministrativeUnit(int id)
         {
-            var administrativeUnit = PublicApi.v1.Mappers.AdministrativeUnitMapper.MapFromBLL(await _bll.AdministrativeUnits.FindForUserAsync(id, User.GetUserId()));
+            var administrativeUnit = PublicApi.v1.Mappers.AdministrativeUnitMapper.MapFromBLL(await _bll.AdministrativeUnits.FindAsync(id));
 
             if (administrativeUnit == null)
             {

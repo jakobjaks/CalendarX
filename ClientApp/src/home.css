@@ -13,10 +13,12 @@ body {
   background-size: cover;
 
   font-family: 'Roboto', sans-serif;
-  font-size: 1rem;
+  font-size: 1.1rem;
   line-height: 1.5;
+  color: white;
 
 }
+
 .background-tint {
   background-image:
     linear-gradient( rgba(0,0,0,.5), rgba(0,0,0,.5) ),
@@ -188,3 +190,14 @@ body {
   max-width: 50%;
 }
 
+.container {
+  border-radius: 25px;
+
+  background: linear-gradient(135deg,#e4067e 10%,#342b60)
+}
+ .card-text-details {
+   color: white;
+ }
+.h4 {
+  color: black;
+}

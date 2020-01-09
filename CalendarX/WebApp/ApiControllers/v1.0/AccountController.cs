@@ -12,7 +12,8 @@ using WebApp.Areas.Identity.Pages.Account;
 
 namespace WebApp.ApiControllers.v1._0
 {
-    [Route("api/[controller]/[action]")]
+    [ApiVersion("1.0")]
+    [Route("api/v{version:apiVersion}/[controller]/[action]")]    
     [ApiController]
     [EnableCors("MyPolicy")]
     public class AccountController : ControllerBase

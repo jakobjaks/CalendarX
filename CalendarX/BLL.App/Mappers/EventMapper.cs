@@ -36,7 +36,9 @@ namespace BLL.App.Mappers
                 AppUserId = Event.AppUserId,
                 AdministrativeUnits = Event.AdministrativeUnits?.Select(AdministrativeUnitMapper.MapFromDAL).ToList(),
                 Locations = Event.Locations?.Select(LocationMapper.MapFromDAL).ToList(),
-                EventTypes= Event.EventTypes?.Select(EventTypeMapper.MapFromDAL).ToList()
+                EventTypes= Event.EventTypes?.Select(EventTypeMapper.MapFromDAL).ToList(),
+                ImageSrc = Event.ImageSrc,                
+                EventDate = Event.EventDate
 
             };
             return res;
@@ -52,7 +54,9 @@ namespace BLL.App.Mappers
                 AppUserId = Event.AppUserId,
                 AdministrativeUnits = Event.AdministrativeUnits?.Select(AdministrativeUnitMapper.MapFromBLL).ToList(),
                 Locations = Event.Locations?.Select(LocationMapper.MapFromBLL).ToList(),
-                EventTypes= Event.EventTypes?.Select(EventTypeMapper.MapFromBLL).ToList()
+                EventTypes= Event.EventTypes?.Select(EventTypeMapper.MapFromBLL).ToList(),
+                ImageSrc = Event.ImageSrc,
+                EventDate = Event.EventDate
 
             };
             return res;

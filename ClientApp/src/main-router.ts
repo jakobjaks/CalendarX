@@ -42,8 +42,8 @@ export class MainRouter {
         {route: 'AreaOfInterests/edit/:id', name: 'AreaOfInterests' + 'Edit', moduleId: PLATFORM.moduleName('pages/areaOfInterests/edit'), nav: false, title: 'AreaOfInterests Edit'},
         {route: 'AreaOfInterests/delete/:id', name: 'AreaOfInterests' + 'Delete', moduleId: PLATFORM.moduleName('pages/areaOfInterests/delete'), nav: false, title: 'AreaOfInterests Delete'},
         {route: 'AreaOfInterests/details/:id', name: 'AreaOfInterests' + 'Details', moduleId: PLATFORM.moduleName('pages/areaOfInterests/details'), nav: false, title: 'AreaOfInterests Details'},
-        
-        {route: ['Events','Even.ts/index', "EventsIndex/:id"], name: 'Events' + 'Index', moduleId: PLATFORM.moduleName('pages/events/index'), nav: true, title: 'Events'},
+
+        {route: ['Events','Events/index', "EventsIndex/:id/:name"], name: 'Events' + 'Index', moduleId: PLATFORM.moduleName('pages/events/index'), nav: false, title: 'Events'},
         {route: 'Events/create', name: 'Events' + 'Create', moduleId: PLATFORM.moduleName('pages/events/create'), nav: false, title: 'Events Create'},
         {route: 'Events/edit/:id', name: 'Events' + 'Edit', moduleId: PLATFORM.moduleName('pages/events/edit'), nav: false, title: 'Events Edit'},
         {route: 'Events/delete/:id', name: 'Events' + 'Delete', moduleId: PLATFORM.moduleName('pages/events/delete'), nav: false, title: 'Events Delete'},

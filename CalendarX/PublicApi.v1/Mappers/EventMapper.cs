@@ -36,7 +36,9 @@ namespace PublicApi.v1.Mappers
                 AppUserId = Event.AppUserId,
                 AdministrativeUnits = Event.AdministrativeUnits?.Select(AdministrativeUnitMapper.MapFromBLL).ToList(),
                 Locations = Event.Locations?.Select(LocationMapper.MapFromBLL).ToList(),
-                EventTypes= Event.EventTypes?.Select(EventTypeMapper.MapFromBLL).ToList()
+                EventTypes= Event.EventTypes?.Select(EventTypeMapper.MapFromBLL).ToList(),
+                ImageSrc = Event.ImageSrc,
+                EventDate = Event.EventDate
             };
             return res;
         }
@@ -64,6 +66,8 @@ namespace PublicApi.v1.Mappers
                 AdministrativeUnits = Event.AdministrativeUnits?.Select(AdministrativeUnitMapper.MapFromExternal).ToList(),
                 Locations = Event.Locations?.Select(LocationMapper.MapFromExternal).ToList(),
                 EventTypes= Event.EventTypes?.Select(EventTypeMapper.MapFromExternal).ToList(),
+                ImageSrc = Event.ImageSrc,
+                EventDate = Event.EventDate
                 
             };
             return res;

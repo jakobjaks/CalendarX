@@ -25,6 +25,8 @@ namespace Contracts.DAL.App.Repositories
         Task<List<IEnumerable<DALAppDTO.Event>>> FindByAreaOfInterestSearch(string search);
         Task<List<IEnumerable<DALAppDTO.Event>>> FindByTargetAudienceSearch(string search);
         Task<List<DALAppDTO.Event>> FindByEventNameSearch(string search);
+        Task<List<TDALEntity>> AllPastAsync();
+
     }
 
     

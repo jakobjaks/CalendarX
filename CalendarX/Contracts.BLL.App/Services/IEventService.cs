@@ -9,5 +9,6 @@ namespace Contracts.BLL.App.Services
     public interface IEventService : IBaseEntityService<Event>, IEventRepository<Event>
     {
         public Task<List<Event>> SearchByCategory(string search, int type);
+
     }
 }

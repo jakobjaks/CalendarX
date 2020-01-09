@@ -40,3 +40,14 @@
 .event-column .form-group {
   margin-right: 5px;
 }
+
+.card {
+  background-color: transparent ;
+}
+
+.card h4, .card h5, .form-signin {
+  color: black;
+}
+.jumbotron {
+  background-color: inherit;
+}

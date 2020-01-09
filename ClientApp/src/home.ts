@@ -6,12 +6,13 @@ import {RouteConfig, NavigationInstruction} from "aurelia-router";
 export var log = LogManager.getLogger('MainRouter');
 
 export class Home {
-
-  searchString: string;
+  private category: number = 1;
+  private searchString: string = "";
   
   constructor() {
     log.debug('constructor')
   }
+  
   
   // ============ View LifeCycle events ==============
   created(owningView: View, myView: View) {

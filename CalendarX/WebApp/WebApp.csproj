@@ -37,7 +37,6 @@
     <ItemGroup>
       <ProjectReference Include="..\BLL.App\BLL.App.csproj" />
       <ProjectReference Include="..\Contracts.BLL.App\Contracts.BLL.App.csproj" />
-      <ProjectReference Include="..\Contracts.BLL.Base\Contracts.BLL.Base.csproj" />
       <ProjectReference Include="..\Contracts.DAL.App\Contracts.DAL.App.csproj" />
       <ProjectReference Include="..\DAL.App.EF\DAL.App.EF.csproj" />
       <ProjectReference Include="..\Identity\Identity.csproj" />

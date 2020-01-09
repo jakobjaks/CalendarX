@@ -9,6 +9,7 @@ export var log = LogManager.getLogger('ContactTypes.Details');
 export class Details {
 
   private event: IEvent | null = null;
+  private file: string;
 
   constructor(
     private router: Router,
@@ -49,9 +50,10 @@ export class Details {
       event => {
         log.debug('event', event);
         this.event = event;
+        this.file = "https://localhost:5001/images/" + event.imageSrc;
+        console.log(this.file)
       }
     );
-
   }
 
   canDeactivate() {

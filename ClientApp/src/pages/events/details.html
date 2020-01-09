@@ -1,20 +1,48 @@
 <template>
-  <div class="card mb-3">
+  <div class="mb-3">
+    <div id="parent_div_1">
+      <div class="event-column">
     <h3 class="card-header">${event.name}</h3>
-
-    <img style="height: 600px; width: 100%; display: block;" src="https://picsum.photos/600/1000/?random" alt="Card image">
+    
     <div class="card-body">
-      <p class="card-text">${event.description}</p>
+      <p class="card-text-details">${event.description}</p>
     </div>
-    <label repeat.for="unit of event.administrativeUnits">
-      ${unit.name}
-    </label>
+        <label class="control-label" if.bind="event.administrativeUnits.length > 0">The administrative units</label>
+        <div repeat.for="unit of event.administrativeUnits">
+          <a route-href="route: AdministrativeUnitsDetails; params.bind: {id: unit.id}">${unit.name}</a>
+        </div>
+        <label class="control-label" if.bind="event.locations.length > 0">The event locations</label>
+        <div repeat.for="unit of event.locations">
+          <a route-href="route: LocationsDetails; params.bind: {id: unit.id}">${unit.name}</a>
+        </div>
+        <label class="control-label" if.bind="event.eventTypes.length > 0">The event types</label>
+        <div repeat.for="unit of event.eventTypes">
+          <a route-href="route: EventTypesDetails; params.bind: {id: unit.id}">${unit.name}</a>
+        </div>
+        <label class="control-label" if.bind="event.organizations.length > 0">The organizations which organized the event</label>
+        <div repeat.for="unit of event.organizations">
+          <a route-href="route: OrganizationsDetails; params.bind: {id: unit.id}">${unit.name}</a>
+        </div>
+        <label class="control-label" if.bind="event.performers.length > 0">The performers in the event</label>
+        <div repeat.for="unit of event.performers">
+          <a route-href="route: PerformersDetails; params.bind: {id: unit.id}">${unit.name}</a>
+        </div>
+        <label class="control-label" if.bind="event.targetAudiences.length > 0">The target audiences for the event</label>
+        <div repeat.for="unit of event.targetAudiences">
+          <a route-href="route: TargetAudiencesDetails; params.bind: {id: unit.id}">${unit.name}</a>
+        </div>
     <div class="card-body">
-      <a href="#" class="card-link">Card link</a>
-      <a href="#" class="card-link">Another link</a>
+      <a route-href="route: EventsIndex">Back to List</a>
+      
     </div>
     <div class="card-footer text-muted">
       2 days ago
+    </div>
+    </div>
+    <div class="event-column">
+    <img style="height: auto;   border-radius: 8px; width: max-content; margin: 10px; 
+    max-height: 1000px; max-width: 500px;display: block;" src.bind="file" alt="Card image">
+    </div>
     </div>
   </div>
 </template>

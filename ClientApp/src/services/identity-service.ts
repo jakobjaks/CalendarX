@@ -17,7 +17,7 @@ export class IdentityService {
   }
 
   login(user: string, password: string): Promise<any> {
-    let url = this.appConfig.apiUrl + "account/login";
+    let url = this.appConfig.apiUrl + 'v1/' + "account/login";
     let loginDTO = {
       email: user,
       password: password
@@ -37,7 +37,7 @@ export class IdentityService {
   }
 
   register(user: string, password: string): Promise<any> {
-    let url = this.appConfig.apiUrl + "account/register";
+    let url = this.appConfig.apiUrl + 'v1/' + "account/register";
     let registerDTO = {
       email: user,
       password: password

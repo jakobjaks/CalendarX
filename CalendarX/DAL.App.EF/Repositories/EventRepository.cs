@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -30,11 +31,16 @@ namespace DAL.App.EF.Repositories
         public override async Task<List<DAL.App.DTO.Event>> AllAsync()
         {
             return await RepositoryDbSet
-                .Include(item => item.EventAdministrativeUnit)
-                .ThenInclude(item => item.AdministrativeUnit)
+                .Where(item => DateTime.Compare(item.EventDate, DateTime.Now) != -1)
                 .Select(e => EventMapper.MapFromDomain(e)).ToListAsync();
         }
-
+        
+        public async Task<List<Event>> AllPastAsync()
+        {
+            return await RepositoryDbSet
+                .Select(e => EventMapper.MapFromDomain(e)).ToListAsync();        
+        }
+        
         public async Task<List<DAL.App.DTO.Event>> AllForUserAsync(int userId)
         {
             return await RepositoryDbSet
@@ -235,6 +241,7 @@ namespace DAL.App.EF.Repositories
 
             return events;
         }
-        
+
+
     }
 }

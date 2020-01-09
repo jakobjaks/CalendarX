@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using Microsoft.AspNetCore.Http;
 using PublicApi.v1.DTO.Identity;
@@ -34,7 +35,8 @@ namespace PublicApi.v1.DTO
         public ICollection<Performer> Performers { get; set; }
 
         public ICollection<AreaOfInterest> AreaOfInterests { get; set; }
-        public IFormFile Image { get; set; }
+        public string ImageSrc { get; set; }
+        public DateTime EventDate { get; set; }
 
 
     }

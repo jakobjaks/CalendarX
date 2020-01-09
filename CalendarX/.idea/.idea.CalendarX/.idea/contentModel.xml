@@ -179,6 +179,10 @@
         <e p="Migrations" t="Include">
           <e p="20191128220355_InitialDbCreation.cs" t="Include" />
           <e p="20191128220355_InitialDbCreation.Designer.cs" t="Include" />
+          <e p="20200108181445_EventsWithFileNames.cs" t="Include" />
+          <e p="20200108181445_EventsWithFileNames.Designer.cs" t="Include" />
+          <e p="20200108210729_AddedDate.cs" t="Include" />
+          <e p="20200108210729_AddedDate.Designer.cs" t="Include" />
           <e p="AppDbContextModelSnapshot.cs" t="Include" />
         </e>
         <e p="obj" t="ExcludeRecursive">
@@ -319,12 +323,12 @@
       <e p="WebApp" t="IncludeRecursive">
         <e p="ApiControllers" t="Include">
           <e p="v1.0" t="Include">
+            <e p="AccountController.cs" t="Include" />
             <e p="AdministrativeUnitController.cs" t="Include" />
             <e p="AreaOfInterestController.cs" t="Include" />
             <e p="EventController.cs" t="Include" />
             <e p="EventTypeController.cs" t="Include" />
             <e p="Identity" t="Include">
-              <e p="AccountController.cs" t="Include" />
               <e p="SigningController.cs" t="Include" />
             </e>
             <e p="LocationController.cs" t="Include" />
@@ -587,10 +591,25 @@
           <e p="favicon.ico" t="Include" />
           <e p="images" t="Include">
             <e p="0ty3sVJGebwUfytQKJzHundefined" t="Include" />
+            <e p="638CGsmxPjLURzvGY5d0.png" t="Include" />
             <e p="aiM7dBl9FRUncozevONp" t="Include" />
+            <e p="BFh9j0l5SbVK1i1zvrEm.jpg" t="Include" />
+            <e p="cMPOeeQ0kBWiVZdPahXp.jpg" t="Include" />
             <e p="DRw17xQSY3TCpJN3MBPWundefined" t="Include" />
+            <e p="DsEekHSKOQpOl3dhAhIq.jpg" t="Include" />
+            <e p="EDulXfVa51QSoHbl4BjV.jpg" t="Include" />
+            <e p="evK4v0XVRwSqZVqE9IMZ.jpeg" t="Include" />
+            <e p="g34H3Ml0FvNdh9Zabb9U.jpg" t="Include" />
+            <e p="HCkJdiMgqLQaQOgtyjmq.jpeg" t="Include" />
+            <e p="IBNzS67mACe0vByovOAw.jpg" t="Include" />
+            <e p="lkxKbssV9Kl5w3raBD9x.jpg" t="Include" />
+            <e p="ntpGZv6np6rAGzxOCkc1.jpg" t="Include" />
+            <e p="OB6xEJRQr4ITvE3VwkfZ.jpg" t="Include" />
             <e p="oknBkXqPQnuyvPeLb1bDpng" t="Include" />
             <e p="PE53YFn6WlREj9GKglYc.png" t="Include" />
+            <e p="sPI2hHOGMH3OWjGYqVj2.jpg" t="Include" />
+            <e p="tUgigEjIj70SfCuAUQSx.jpg" t="Include" />
+            <e p="vkVrsqfta3L998DWtiHU.jpg" t="Include" />
             <e p="z3qVADfciRJ827hcrOg2.jpg" t="Include" />
             <e p="zJf2YkGm8460gbDNTwYJ.png" t="Include" />
           </e>

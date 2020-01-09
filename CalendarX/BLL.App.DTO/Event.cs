@@ -23,6 +23,10 @@ namespace BLL.App.DTO
         public int AppUserId { get; set; }
         public AppUser AppUser { get; set; }
         
+        public string ImageSrc { get; set; }
+        
+        public DateTime EventDate { get; set; }
+
 
         public ICollection<AdministrativeUnit>? AdministrativeUnits { get; set; }
         public ICollection<Location>? Locations { get; set; }

@@ -26,6 +26,8 @@ namespace DAL.App.DTO
         public ICollection<AdministrativeUnit>? AdministrativeUnits { get; set; }
         public ICollection<Location>? Locations { get; set; }
         public ICollection<EventType>? EventTypes { get; set; }
+        public string ImageSrc { get; set; }
+        public DateTime EventDate { get; set; }
 
 
         public bool Equals(Event other)

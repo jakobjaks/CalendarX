@@ -11,12 +11,20 @@
       <dd class = "col-sm-10">
         ${areaOfInterest.name}
       </dd>
+      <dt class = "col-sm-2">
+        Area of Interest Description
+      </dt>
+      <dd class = "col-sm-10">
+        ${areaOfInterest.description}
+      </dd>
     </dl>
   </div>
   <div>
     <!-- if.bind - add/remove element to dom based on predicate -->
     <a if.bind="areaOfInterest != null" route-href="route: AreaOfInterestsEdit; params.bind: {id: areaOfInterest.id}">Edit</a> |
     <a route-href="route: AreaOfInterestsIndex">Back to List</a>
+    <a route-href="route: EventsIndex; params.bind: {id: areaOfInterest.id, name: areaOfInterest.name}">See events for this area of interest</a>
+
   </div>
 
 </template>

@@ -28,7 +28,7 @@ export class BaseService<TEntity extends IBaseEntity> {
 
   fetchAll(): Promise<TEntity[]> {
     // TODO: use config
-    let url = this.serviceAppConfig.apiUrl + this.serviceEndPoint;
+    let url = this.serviceAppConfig.apiUrl + 'v1/' + this.serviceEndPoint;
 
     return this.serviceHttpClient.fetch(url,
       {
@@ -47,16 +47,36 @@ export class BaseService<TEntity extends IBaseEntity> {
       }).catch(reason => {
         log.debug('catch reason', reason);
       });
+  }
 
+  fetchPast(): Promise<TEntity[]> {
+    let url = this.serviceAppConfig.apiUrl + 'v1/' + this.serviceEndPoint + '/past';
+    return this.serviceHttpClient.fetch(url,
+      {
+        cache: 'no-store',
+        headers: {
+          Authorization: 'Bearer ' + this.serviceAppConfig.jwt,
+        }
+      })
+      .then(response => {
+        log.debug('resonse', response);
+        return response.json();
+      })
+      .then(jsonData => {
+        log.debug('jsonData', jsonData);
+        return jsonData;
+      }).catch(reason => {
+        log.debug('catch reason', reason);
+      });
   }
 
   fetchBySearch(search: string, topic: number): Promise<TEntity[]> {
     // TODO: use config
-    let url = this.serviceAppConfig.apiUrl + this.serviceEndPoint + '/' + search + '/' + topic
+    if (search == "") {
+      search = "empty_string"
+    }
+    let url = this.serviceAppConfig.apiUrl + 'v1/' + this.serviceEndPoint + '/' + search + '/' + topic
     console.log(url)
-
-    
-    
     
     return this.serviceHttpClient.fetch(url,
       {
@@ -75,13 +95,12 @@ export class BaseService<TEntity extends IBaseEntity> {
       }).catch(reason => {
         log.debug('catch reason', reason);
       });
-
   }
 
 
   // create a new entity
   post(entity: TEntity, file): Promise<Response> {
-    let url = this.serviceAppConfig.apiUrl + this.serviceEndPoint;
+    let url = this.serviceAppConfig.apiUrl + 'v1/' + this.serviceEndPoint;
 
 
     var form = new FormData()
@@ -117,8 +136,8 @@ export class BaseService<TEntity extends IBaseEntity> {
 
   // get single entity
   fetch(id: number): Promise<TEntity> {
-    let url = this.serviceAppConfig.apiUrl + this.serviceEndPoint + '/' + id;
-
+    let url = this.serviceAppConfig.apiUrl + 'v1/' + this.serviceEndPoint + '/' + id;
+    
     return this.serviceHttpClient.fetch(url, {
       cache: 'no-store',
       headers: {
@@ -140,7 +159,7 @@ export class BaseService<TEntity extends IBaseEntity> {
 
   // update entity
   put(entity: TEntity): Promise<Response> {
-    let url = this.serviceAppConfig.apiUrl + this.serviceEndPoint + '/' + entity.id;
+    let url = this.serviceAppConfig.apiUrl + 'v1/' + this.serviceEndPoint + '/' + entity.id;
 
     return this.serviceHttpClient.put(url, JSON.stringify(entity), {
       cache: 'no-store',
@@ -158,7 +177,7 @@ export class BaseService<TEntity extends IBaseEntity> {
 
   // delete entity
   delete(id: number): Promise<Response> {
-    let url = this.serviceAppConfig.apiUrl + this.serviceEndPoint + '/' + id;
+    let url = this.serviceAppConfig.apiUrl + 'v1/' + this.serviceEndPoint + '/' + id;
 
     return this.serviceHttpClient.delete(url, null, {
       cache: 'no-store',

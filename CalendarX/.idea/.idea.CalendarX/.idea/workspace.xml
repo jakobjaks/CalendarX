@@ -1,59 +1,65 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1d1a967e-c97c-4ba6-8c21-23e2f2dc6315" name="Default Changelist" comment="Added file ending features, fixed frontend and made it nicer, added new search workflows">
-      <change afterPath="$PROJECT_DIR$/../ee.itcollege.jarootnuget/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ee.itcollege.jarootnuget/.idea/.idea.ee.itcollege.jarootnuget/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ee.itcollege.jarootnuget/.idea/.idea.ee.itcollege.jarootnuget/.idea/contentModel.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ee.itcollege.jarootnuget/.idea/.idea.ee.itcollege.jarootnuget/.idea/indexLayout.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ee.itcollege.jarootnuget/.idea/.idea.ee.itcollege.jarootnuget/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ee.itcollege.jarootnuget/.idea/.idea.ee.itcollege.jarootnuget/.idea/projectSettingsUpdater.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ee.itcollege.jarootnuget/.idea/.idea.ee.itcollege.jarootnuget/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ee.itcollege.jarootnuget/.idea/.idea.ee.itcollege.jarootnuget/riderModule.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ee.itcollege.jarootnuget/ee.itcollege.jarootnuget.BLL.Base/ee.itcollege.jarootnuget.BLL.Base.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ee.itcollege.jarootnuget/ee.itcollege.jarootnuget.Contracts.Base/ee.itcollege.jarootnuget.Contracts.Base.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ee.itcollege.jarootnuget/ee.itcollege.jarootnuget.Contracts.DAL.Base/ee.itcollege.jarootnuget.Contracts.DAL.Base.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ee.itcollege.jarootnuget/ee.itcollege.jarootnuget.DAL.Base.EF/ee.itcollege.jarootnuget.DAL.Base.EF.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ee.itcollege.jarootnuget/ee.itcollege.jarootnuget/NewFile1.txt" afterDir="false" />
+    <list default="true" id="1d1a967e-c97c-4ba6-8c21-23e2f2dc6315" name="Default Changelist" comment="Removed Test project, removed all Base projects and uploaded them to nuget">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.CalendarX/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CalendarX/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.CalendarX/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CalendarX/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BLL.App/AppBLL.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BLL.App/AppBLL.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BLL.App.DTO/Event.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BLL.App.DTO/Event.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BLL.App/BLL.App.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/BLL.App/BLL.App.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BLL.Base/BLL.Base.csproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BLL.Base/BaseBLL.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BLL.Base/Helpers/BaseServiceFactory.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BLL.Base/Helpers/BaseServiceProvider.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BLL.Base/Services/BaseEntityService.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BLL.Base/Services/BaseService.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CalendarX.sln" beforeDir="false" afterPath="$PROJECT_DIR$/CalendarX.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BLL.App/Mappers/EventMapper.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BLL.App/Mappers/EventMapper.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BLL.App/Services/EventService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BLL.App/Services/EventService.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Contracts.BLL.App/Contracts.BLL.App.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Contracts.BLL.App/Contracts.BLL.App.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Contracts.BLL.Base/Contracts.BLL.Base.csproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Contracts.BLL.Base/Helpers/IBaseServiceFactory.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Contracts.BLL.Base/Helpers/IBaseServiceProvider.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Contracts.BLL.Base/IBaseBLL.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Contracts.BLL.Base/Mappers/IBaseBLLMapper.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Contracts.BLL.Base/Services/IBaseService.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Contracts.Base/Contracts.Base.csproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Contracts.Base/ITrackableInstance.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Contracts.DAL.Base/Contracts.DAL.Base.csproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Contracts.DAL.Base/Helpers/IBaseRepositoryFactory.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Contracts.DAL.Base/Helpers/IBaseRepositoryProvider.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Contracts.DAL.Base/IBaseEntity.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Contracts.DAL.Base/IBaseUnitOfWork.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Contracts.DAL.Base/IDataContext.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Contracts.DAL.Base/IDomainEntity.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Contracts.DAL.Base/Mappers/IBaseDALMapper.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Contracts.DAL.Base/Repositories/IBaseRepository.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Contracts.BLL.App/Services/IEventService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Contracts.BLL.App/Services/IEventService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Contracts.DAL.App/Contracts.DAL.App.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Contracts.DAL.App/Contracts.DAL.App.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Contracts.DAL.App/Repositories/IEventRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Contracts.DAL.App/Repositories/IEventRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DAL.App.DTO/Event.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DAL.App.DTO/Event.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DAL.App.EF/DAL.App.EF.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/DAL.App.EF/DAL.App.EF.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DAL.Base.EF/BaseUnitOfWork.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DAL.Base.EF/DAL.Base.EF.csproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DAL.Base.EF/Helpers/BaseRepositoryFactory.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DAL.Base.EF/Helpers/BaseRepositoryProvider.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DAL.Base.EF/Mappers/BaseDALMapper.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DAL.Base.EF/Repositories/BaseRepository.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DAL.App.EF/Mappers/EventMapper.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DAL.App.EF/Mappers/EventMapper.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DAL.App.EF/Migrations/AppDbContextModelSnapshot.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DAL.App.EF/Migrations/AppDbContextModelSnapshot.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DAL.App.EF/Repositories/EventRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DAL.App.EF/Repositories/EventRepository.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Domain/Domain.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/Domain.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/Event/Event.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/Event/Event.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PublicApi.v1.DTO/Event.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PublicApi.v1.DTO/Event.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PublicApi.v1.DTO/PublicApi.v1.DTO.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/PublicApi.v1.DTO/PublicApi.v1.DTO.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PublicApi.v1/Mappers/EventMapper.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PublicApi.v1/Mappers/EventMapper.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebApp/ApiControllers/v1.0/AdministrativeUnitController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/ApiControllers/v1.0/AdministrativeUnitController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApp/ApiControllers/v1.0/AreaOfInterestController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/ApiControllers/v1.0/AreaOfInterestController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApp/ApiControllers/v1.0/EventController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/ApiControllers/v1.0/EventController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApp/ApiControllers/v1.0/EventTypeController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/ApiControllers/v1.0/EventTypeController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApp/ApiControllers/v1.0/Identity/AccountController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/ApiControllers/v1.0/AccountController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApp/ApiControllers/v1.0/LocationController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/ApiControllers/v1.0/LocationController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApp/ApiControllers/v1.0/OrganizationController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/ApiControllers/v1.0/OrganizationController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApp/ApiControllers/v1.0/PerformerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/ApiControllers/v1.0/PerformerController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApp/ApiControllers/v1.0/TargetAudienceController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/ApiControllers/v1.0/TargetAudienceController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebApp/WebApp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/WebApp.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApp/generation.txt" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/generation.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ClientApp/src/home.css" beforeDir="false" afterPath="$PROJECT_DIR$/../ClientApp/src/home.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ClientApp/src/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/../ClientApp/src/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ClientApp/src/home.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../ClientApp/src/home.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ClientApp/src/identity/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/../ClientApp/src/identity/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ClientApp/src/interfaces/IEvent.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../ClientApp/src/interfaces/IEvent.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ClientApp/src/main-router.html" beforeDir="false" afterPath="$PROJECT_DIR$/../ClientApp/src/main-router.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ClientApp/src/main-router.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../ClientApp/src/main-router.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ClientApp/src/pages/administrativeUnits/details.html" beforeDir="false" afterPath="$PROJECT_DIR$/../ClientApp/src/pages/administrativeUnits/details.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ClientApp/src/pages/administrativeUnits/details.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../ClientApp/src/pages/administrativeUnits/details.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ClientApp/src/pages/areaOfInterests/details.html" beforeDir="false" afterPath="$PROJECT_DIR$/../ClientApp/src/pages/areaOfInterests/details.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ClientApp/src/pages/events/create.html" beforeDir="false" afterPath="$PROJECT_DIR$/../ClientApp/src/pages/events/create.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ClientApp/src/pages/events/create.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../ClientApp/src/pages/events/create.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ClientApp/src/pages/events/details.html" beforeDir="false" afterPath="$PROJECT_DIR$/../ClientApp/src/pages/events/details.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ClientApp/src/pages/events/details.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../ClientApp/src/pages/events/details.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ClientApp/src/pages/events/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../ClientApp/src/pages/events/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ClientApp/src/pages/events/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../ClientApp/src/pages/events/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ClientApp/src/pages/eventtypes/details.html" beforeDir="false" afterPath="$PROJECT_DIR$/../ClientApp/src/pages/eventtypes/details.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ClientApp/src/pages/eventtypes/details.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../ClientApp/src/pages/eventtypes/details.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ClientApp/src/pages/eventtypes/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../ClientApp/src/pages/eventtypes/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ClientApp/src/pages/locations/details.html" beforeDir="false" afterPath="$PROJECT_DIR$/../ClientApp/src/pages/locations/details.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ClientApp/src/pages/organizations/details.html" beforeDir="false" afterPath="$PROJECT_DIR$/../ClientApp/src/pages/organizations/details.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ClientApp/src/pages/performers/details.html" beforeDir="false" afterPath="$PROJECT_DIR$/../ClientApp/src/pages/performers/details.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ClientApp/src/pages/targetAudiences/details.html" beforeDir="false" afterPath="$PROJECT_DIR$/../ClientApp/src/pages/targetAudiences/details.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ClientApp/src/services/base-service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../ClientApp/src/services/base-service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ClientApp/src/services/identity-service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../ClientApp/src/services/identity-service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ClientApp/src/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/../ClientApp/src/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ClientApp/src/style/homecss.css" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -171,8 +177,9 @@
     <setting file="file://$PROJECT_DIR$/WebApp/Views/OrganizationOrganizing/Create.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/WebApp/Views/OrganizationOrganizing/Delete.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/WebApp/Views/AdminsitrativeUnitInEvent/Create.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/530EA6F8-FA83-415D-BB26-3558E38AABC4/2E/FileStreamResult.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/WebApp/ApiControllers/v1.0/Identity/SigningController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/WebApp/ApiControllers/v1.0/Identity/AccountController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WebApp/ApiControllers/v1.0/AccountController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/947CFA9E-93C5-4D21-8EE6-CD975672A1F8/3DC/List.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/58F99FC1-54B7-4030-B14C-2808C6A01B83/17/HttpRequest.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/947CFA9E-93C5-4D21-8EE6-CD975672A1F8/262/AsyncValueTaskMethodBuilder.cs" root0="SKIP_HIGHLIGHTING" />
@@ -266,6 +273,7 @@
     <setting file="file://$PROJECT_DIR$/BLL.App/Mappers/TargetAudienceMapper.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/BLL.App/Services/OrganizationService.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/BLL.App/Mappers/AreaOfInterestMapper.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/2C033A0B-FAF2-4DDE-B399-4C4EAE96011E/B/FormFile.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/BLL.App/Services/TargetAudienceService.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/BLL.App/Services/PerformerService.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Contracts.BLL.App/Services/IAreaOfInterestService.cs" root0="FORCE_HIGHLIGHTING" />
@@ -290,6 +298,7 @@
     <setting file="file://$PROJECT_DIR$/DAL.App.EF/Mappers/LocationMapper.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/WebApp/appsettings.json" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DAL.App.EF/Repositories/SponsorInEventRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/FEE65D7C-772C-4B24-BA08-22C45CB91FE0/69/238f58de/IBaseRepositoryAsync`1.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DAL.App.EF/Repositories/EventInTypeRepository.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DAL.App.EF/Repositories/AdministrativeUnitRepository.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DAL.App.EF/Repositories/EventTargetAudienceRepository.cs" root0="FORCE_HIGHLIGHTING" />
@@ -312,6 +321,7 @@
     <setting file="file://$PROJECT_DIR$/BLL.App.DTO/Identity/AppRole.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DAL.App.EF/AppDbContext.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/BLL.App.DTO/Identity/AppUser.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/FA94BAD0-5526-42B0-937A-F3FA847AB855/2F/ParameterExpression.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DAL.App.EF/AppUnitOfWork.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/BLL.App.DTO/AdministrativeUnit.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DAL.App.DTO/Identity/AppRole.cs" root0="FORCE_HIGHLIGHTING" />
@@ -370,57 +380,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/DAL.App.EF/AppDbContext.cs" />
-        <option value="$PROJECT_DIR$/DAL.App.EF/Helpers/AppRepositoryFactory.cs" />
-        <option value="$PROJECT_DIR$/../ClientApp/src/identity/style.css" />
-        <option value="$PROJECT_DIR$/../ClientApp/src/carousel.ts" />
-        <option value="$PROJECT_DIR$/../ClientApp/src/carousel.css" />
-        <option value="$PROJECT_DIR$/../ClientApp/src/carousel.html" />
-        <option value="$PROJECT_DIR$/../ClientApp/src/home.scss" />
-        <option value="$PROJECT_DIR$/../ClientApp/src/style/homecss.css" />
-        <option value="$PROJECT_DIR$/../ClientApp/src/identity/login.html" />
-        <option value="$PROJECT_DIR$/../ClientApp/src/home.ts" />
-        <option value="$PROJECT_DIR$/../ClientApp/src/home.html" />
-        <option value="$APPLICATION_CONFIG_DIR$/javascript/extLibs/__maxcdn.bootstrapcdn.com_bootstrap_4.1.1_css_bootstrap.css" />
-        <option value="$PROJECT_DIR$/../ClientApp/src/pages/events/index.ts" />
-        <option value="$PROJECT_DIR$/Domain/Organization/Organization.cs" />
-        <option value="$PROJECT_DIR$/Contracts.DAL.App/Repositories/IEventRepository.cs" />
-        <option value="$PROJECT_DIR$/Contracts.BLL.App/Services/IEventService.cs" />
-        <option value="$PROJECT_DIR$/BLL.App/Services/EventService.cs" />
-        <option value="$PROJECT_DIR$/../ClientApp/src/pages/events/details.html" />
-        <option value="$PROJECT_DIR$/DAL.App.EF/Repositories/EventRepository.cs" />
-        <option value="$PROJECT_DIR$/../ClientApp/src/main-router.ts" />
-        <option value="$PROJECT_DIR$/../ClientApp/src/pages/events/index.css" />
-        <option value="$PROJECT_DIR$/../ClientApp/src/home.css" />
-        <option value="$PROJECT_DIR$/../ClientApp/src/main-router.html" />
-        <option value="$PROJECT_DIR$/../ClientApp/src/pages/events/index.html" />
-        <option value="$PROJECT_DIR$/../ClientApp/src/pages/targetAudiences/index.html" />
-        <option value="$PROJECT_DIR$/../ClientApp/src/style.css" />
-        <option value="$PROJECT_DIR$/PublicApi.v1.DTO/Event.cs" />
-        <option value="$APPLICATION_CONFIG_DIR$/scratches/rest-api_3.http" />
-        <option value="$PROJECT_DIR$/../ClientApp/src/interfaces/IEvent.ts" />
-        <option value="$PROJECT_DIR$/DAL.App.DTO/Event.cs" />
-        <option value="$PROJECT_DIR$/PublicApi.v1/Mappers/EventMapper.cs" />
-        <option value="$PROJECT_DIR$/../ClientApp/src/services/base-service.ts" />
-        <option value="$PROJECT_DIR$/../ClientApp/src/pages/events/create.html" />
-        <option value="$APPLICATION_CONFIG_DIR$/scratches/rest-api_5.http" />
-        <option value="$PROJECT_DIR$/../ClientApp/src/pages/events/create.ts" />
-        <option value="$PROJECT_DIR$/WebApp/ApiControllers/EventController.cs" />
         <option value="$PROJECT_DIR$/WebApp/ApiControllers/v1.0/TargetAudienceController.cs" />
-        <option value="$PROJECT_DIR$/WebApp/ApiControllers/v1.0/AreaOfInterestController.cs" />
+        <option value="$PROJECT_DIR$/../ClientApp/src/services/identity-service.ts" />
+        <option value="$PROJECT_DIR$/WebApp/ApiControllers/v1.0/AccountController.cs" />
+        <option value="$PROJECT_DIR$/PublicApi.v1.DTO/PublicApi.v1.DTO.csproj" />
+        <option value="$PROJECT_DIR$/../ClientApp/src/pages/events/details.html" />
+        <option value="$PROJECT_DIR$/../ClientApp/src/home.css" />
+        <option value="$PROJECT_DIR$/../ClientApp/src/identity/login.html" />
+        <option value="$PROJECT_DIR$/../ClientApp/src/style.css" />
+        <option value="$PROJECT_DIR$/BLL.App.DTO/Event.cs" />
+        <option value="$PROJECT_DIR$/DAL.App.DTO/Event.cs" />
+        <option value="$PROJECT_DIR$/PublicApi.v1.DTO/Event.cs" />
+        <option value="$PROJECT_DIR$/Domain/Event/Event.cs" />
+        <option value="$PROJECT_DIR$/Domain/Domain.csproj" />
+        <option value="$PROJECT_DIR$/Contracts.DAL.App/Contracts.DAL.App.csproj" />
+        <option value="$PROJECT_DIR$/Contracts.BLL.App/Contracts.BLL.App.csproj" />
+        <option value="$PROJECT_DIR$/DAL.App.EF/DAL.App.EF.csproj" />
+        <option value="$PROJECT_DIR$/BLL.App/BLL.App.csproj" />
+        <option value="$PROJECT_DIR$/WebApp/WebApp.csproj" />
+        <option value="$PROJECT_DIR$/WebApp/generation.txt" />
+        <option value="$PROJECT_DIR$/../ClientApp/src/pages/events/create.ts" />
+        <option value="$PROJECT_DIR$/../ClientApp/src/interfaces/IEvent.ts" />
+        <option value="$PROJECT_DIR$/PublicApi.v1/Mappers/EventMapper.cs" />
+        <option value="$PROJECT_DIR$/BLL.App/Mappers/EventMapper.cs" />
+        <option value="$PROJECT_DIR$/DAL.App.EF/Mappers/EventMapper.cs" />
+        <option value="$PROJECT_DIR$/Contracts.DAL.App/Repositories/IEventRepository.cs" />
+        <option value="$PROJECT_DIR$/DAL.App.EF/Repositories/EventRepository.cs" />
+        <option value="$PROJECT_DIR$/Contracts.BLL.App/Services/IEventService.cs" />
+        <option value="$PROJECT_DIR$/WebApp/ApiControllers/v1.0/LocationController.cs" />
+        <option value="$PROJECT_DIR$/../ClientApp/src/pages/events/details.ts" />
+        <option value="$PROJECT_DIR$/../ClientApp/src/services/base-service.ts" />
         <option value="$PROJECT_DIR$/WebApp/ApiControllers/v1.0/EventController.cs" />
         <option value="$PROJECT_DIR$/WebApp/ApiControllers/v1.0/EventTypeController.cs" />
-        <option value="$PROJECT_DIR$/WebApp/ApiControllers/v1.0/LocationController.cs" />
-        <option value="$PROJECT_DIR$/WebApp/ApiControllers/v1.0/OrganizationController.cs" />
-        <option value="$PROJECT_DIR$/WebApp/ApiControllers/v1.0/PerformerController.cs" />
-        <option value="$PROJECT_DIR$/WebApp/ApiControllers/v1.0/Identity/AccountController.cs" />
-        <option value="$PROJECT_DIR$/WebApp/ApiControllers/v1.0/Identity/SigningController.cs" />
-        <option value="$PROJECT_DIR$/WebApp/WebApp.csproj" />
-        <option value="$PROJECT_DIR$/WebApp/Startup.cs" />
-        <option value="$PROJECT_DIR$/WebApp/ConfigureSwaggerOptions.cs" />
-        <option value="$PROJECT_DIR$/CalendarX.sln" />
+        <option value="$PROJECT_DIR$/../ClientApp/src/pages/areaOfInterests/details.html" />
+        <option value="$PROJECT_DIR$/../ClientApp/src/pages/eventtypes/details.html" />
+        <option value="$PROJECT_DIR$/../ClientApp/src/pages/locations/details.html" />
+        <option value="$PROJECT_DIR$/BLL.App/Services/EventService.cs" />
+        <option value="$PROJECT_DIR$/../ClientApp/src/pages/performers/details.html" />
+        <option value="$PROJECT_DIR$/../ClientApp/src/pages/targetAudiences/details.html" />
+        <option value="$PROJECT_DIR$/../ClientApp/src/pages/organizations/details.html" />
+        <option value="$PROJECT_DIR$/../ClientApp/src/pages/administrativeUnits/details.html" />
+        <option value="$PROJECT_DIR$/../ClientApp/src/pages/eventtypes/details.ts" />
+        <option value="$PROJECT_DIR$/../ClientApp/src/pages/administrativeUnits/details.ts" />
         <option value="$PROJECT_DIR$/WebApp/ApiControllers/v1.0/AdministrativeUnitController.cs" />
-        <option value="$PROJECT_DIR$/BLL.App/AppBLL.cs" />
+        <option value="$PROJECT_DIR$/../ClientApp/src/home.ts" />
+        <option value="$PROJECT_DIR$/../ClientApp/src/pages/events/index.html" />
+        <option value="$PROJECT_DIR$/../ClientApp/src/home.html" />
+        <option value="$PROJECT_DIR$/../ClientApp/src/pages/events/index.ts" />
+        <option value="$PROJECT_DIR$/../ClientApp/src/main-router.ts" />
+        <option value="$PROJECT_DIR$/../ClientApp/src/main-router.html" />
+        <option value="$PROJECT_DIR$/../ClientApp/src/pages/events/create.html" />
+        <option value="$PROJECT_DIR$/../ClientApp/src/pages/eventtypes/index.html" />
       </list>
     </option>
   </component>
@@ -453,6 +463,26 @@
   <component name="RestClientSettings">
     <option name="REQUEST_HISTORY">
       <list>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="https://localhost:5001" />
+          <option name="urlPath" value="images/638CGsmxPjLURzvGY5d0.png" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="--null&#13; ‰PNG&#13;  &#13;IHDRÿ¢óvópgAMA±�üa cHRMz&amp;€„ú€èu0ê`:˜pœºQ&lt;&#9;PLTErÎÿÿÿñŠ½ébKGDf|dtIMEá&#9; 0€¾]Û?IDAThÞíÌA&#9;@0CjÇãRB[€EpXÍ¤@ �@ 6ƒ?ó�@ �@°4C`r¢ª¼%tEXtdate:create2017-08-09T10:48:08+00:00Æ”î³%tEXtdate:modify2017-08-09T10:48:08+00:00·ÉVIEND®B`‚&#13; --null--" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
         <RestClientRequest>
           <option name="httpMethod" value="POST" />
           <option name="urlBase" value="https://localhost:5001/api/event/image" />
@@ -666,7 +696,8 @@
       <workItem from="1578441055789" duration="12560000" />
       <workItem from="1578482812198" duration="5207000" />
       <workItem from="1578488215229" duration="1818000" />
-      <workItem from="1578491508504" duration="1031000" />
+      <workItem from="1578491508504" duration="21886000" />
+      <workItem from="1578517111877" duration="9235000" />
     </task>
     <task id="LOCAL-00001" summary="Fixed appunitofwork factory methods">
       <created>1574259508863</created>
@@ -752,7 +783,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578486869689</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Removed Test project, removed all Base projects and uploaded them to nuget">
+      <created>1578492601741</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1578492601741</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -785,7 +823,8 @@
     <MESSAGE value="Radical changes in mappers, used linq mapping instead of doing everything by hand&#10;Added Location support and included locations within events&#10;Event list selection is still broken, will fix later, currently sending every list option to db" />
     <MESSAGE value="Added neW data flows for Event types" />
     <MESSAGE value="Added file ending features, fixed frontend and made it nicer, added new search workflows" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added file ending features, fixed frontend and made it nicer, added new search workflows" />
+    <MESSAGE value="Removed Test project, removed all Base projects and uploaded them to nuget" />
+    <option name="LAST_COMMIT_MESSAGE" value="Removed Test project, removed all Base projects and uploaded them to nuget" />
   </component>
   <component name="WindowStateProjectService">
     <state x="-1386" y="194" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1578317306647">
@@ -796,10 +835,10 @@
       <screen x="-1680" y="30" width="1680" height="1020" />
     </state>
     <state x="-1072" y="342" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1050/-1680.30.1680.1020@-1680.30.1680.1020" timestamp="1578452783369" />
-    <state x="-963" y="242" key="#xdebugger.evaluate" timestamp="1578402919413">
+    <state x="-963" y="242" width="600" height="596" key="#xdebugger.evaluate" timestamp="1578498611994">
       <screen x="-1680" y="30" width="1680" height="1020" />
     </state>
-    <state x="-963" y="242" key="#xdebugger.evaluate/0.0.1920.1050/-1680.30.1680.1020@-1680.30.1680.1020" timestamp="1578402919413" />
+    <state x="-963" y="242" width="600" height="596" key="#xdebugger.evaluate/0.0.1920.1050/-1680.30.1680.1020@-1680.30.1680.1020" timestamp="1578498611994" />
     <state width="415" height="466" key="DebuggerActiveHint" timestamp="1578442486537">
       <screen x="-1680" y="30" width="1680" height="1020" />
     </state>
@@ -808,139 +847,143 @@
       <screen x="-1680" y="30" width="1680" height="1020" />
     </state>
     <state x="-1206" y="317" key="EditFileWatcherDialog/0.0.1920.1050/-1680.30.1680.1020@-1680.30.1680.1020" timestamp="1578323860694" />
-    <state width="1105" height="230" key="GridCell.Tab.0.bottom" timestamp="1578492338603">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state width="1160" height="361" key="GridCell.Tab.0.bottom" timestamp="1578527850382">
+      <screen x="-1680" y="30" width="1680" height="1020" />
     </state>
     <state width="1637" height="275" key="GridCell.Tab.0.bottom/0.0.1920.1050/-1680.-76.1680.1020@-1680.-76.1680.1020" timestamp="1576609714063" />
-    <state width="964" height="222" key="GridCell.Tab.0.bottom/0.0.1920.1050/-1680.30.1680.1020@-1680.30.1680.1020" timestamp="1578486431457" />
+    <state width="1160" height="361" key="GridCell.Tab.0.bottom/0.0.1920.1050/-1680.30.1680.1020@-1680.30.1680.1020" timestamp="1578527850382" />
     <state width="1105" height="230" key="GridCell.Tab.0.bottom/0.0.1920.1050/-1680.30.1680.1020@0.0.1920.1050" timestamp="1578492338603" />
     <state width="1877" height="352" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1577545893163" />
-    <state width="1105" height="230" key="GridCell.Tab.0.center" timestamp="1578492338603">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state width="1160" height="361" key="GridCell.Tab.0.center" timestamp="1578527850376">
+      <screen x="-1680" y="30" width="1680" height="1020" />
     </state>
     <state width="1637" height="275" key="GridCell.Tab.0.center/0.0.1920.1050/-1680.-76.1680.1020@-1680.-76.1680.1020" timestamp="1576609714063" />
-    <state width="964" height="222" key="GridCell.Tab.0.center/0.0.1920.1050/-1680.30.1680.1020@-1680.30.1680.1020" timestamp="1578486431457" />
+    <state width="1160" height="361" key="GridCell.Tab.0.center/0.0.1920.1050/-1680.30.1680.1020@-1680.30.1680.1020" timestamp="1578527850376" />
     <state width="1105" height="230" key="GridCell.Tab.0.center/0.0.1920.1050/-1680.30.1680.1020@0.0.1920.1050" timestamp="1578492338603" />
     <state width="1877" height="352" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1577545893163" />
-    <state width="1105" height="230" key="GridCell.Tab.0.left" timestamp="1578492338603">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state width="1160" height="361" key="GridCell.Tab.0.left" timestamp="1578527850376">
+      <screen x="-1680" y="30" width="1680" height="1020" />
     </state>
     <state width="1637" height="275" key="GridCell.Tab.0.left/0.0.1920.1050/-1680.-76.1680.1020@-1680.-76.1680.1020" timestamp="1576609714063" />
-    <state width="964" height="222" key="GridCell.Tab.0.left/0.0.1920.1050/-1680.30.1680.1020@-1680.30.1680.1020" timestamp="1578486431456" />
+    <state width="1160" height="361" key="GridCell.Tab.0.left/0.0.1920.1050/-1680.30.1680.1020@-1680.30.1680.1020" timestamp="1578527850376" />
     <state width="1105" height="230" key="GridCell.Tab.0.left/0.0.1920.1050/-1680.30.1680.1020@0.0.1920.1050" timestamp="1578492338603" />
     <state width="1877" height="352" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1577545893162" />
-    <state width="1105" height="230" key="GridCell.Tab.0.right" timestamp="1578492338603">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state width="1160" height="361" key="GridCell.Tab.0.right" timestamp="1578527850382">
+      <screen x="-1680" y="30" width="1680" height="1020" />
     </state>
     <state width="1637" height="275" key="GridCell.Tab.0.right/0.0.1920.1050/-1680.-76.1680.1020@-1680.-76.1680.1020" timestamp="1576609714063" />
-    <state width="964" height="222" key="GridCell.Tab.0.right/0.0.1920.1050/-1680.30.1680.1020@-1680.30.1680.1020" timestamp="1578486431457" />
+    <state width="1160" height="361" key="GridCell.Tab.0.right/0.0.1920.1050/-1680.30.1680.1020@-1680.30.1680.1020" timestamp="1578527850382" />
     <state width="1105" height="230" key="GridCell.Tab.0.right/0.0.1920.1050/-1680.30.1680.1020@0.0.1920.1050" timestamp="1578492338603" />
     <state width="1877" height="352" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1577545893163" />
-    <state width="1637" height="361" key="GridCell.Tab.1.bottom" timestamp="1578453678577">
+    <state width="1160" height="361" key="GridCell.Tab.1.bottom" timestamp="1578527850416">
       <screen x="-1680" y="30" width="1680" height="1020" />
     </state>
-    <state width="1637" height="361" key="GridCell.Tab.1.bottom/0.0.1920.1050/-1680.30.1680.1020@-1680.30.1680.1020" timestamp="1578453678577" />
+    <state width="1160" height="361" key="GridCell.Tab.1.bottom/0.0.1920.1050/-1680.30.1680.1020@-1680.30.1680.1020" timestamp="1578527850416" />
     <state width="1877" height="352" key="GridCell.Tab.1.bottom/0.0.1920.1050/-1680.30.1680.1020@0.0.1920.1050" timestamp="1577980769632" />
-    <state width="1637" height="361" key="GridCell.Tab.1.center" timestamp="1578453678577">
+    <state width="1160" height="361" key="GridCell.Tab.1.center" timestamp="1578527850382">
       <screen x="-1680" y="30" width="1680" height="1020" />
     </state>
-    <state width="1637" height="361" key="GridCell.Tab.1.center/0.0.1920.1050/-1680.30.1680.1020@-1680.30.1680.1020" timestamp="1578453678577" />
+    <state width="1160" height="361" key="GridCell.Tab.1.center/0.0.1920.1050/-1680.30.1680.1020@-1680.30.1680.1020" timestamp="1578527850382" />
     <state width="1877" height="352" key="GridCell.Tab.1.center/0.0.1920.1050/-1680.30.1680.1020@0.0.1920.1050" timestamp="1577980769632" />
-    <state width="1637" height="361" key="GridCell.Tab.1.left" timestamp="1578453678577">
+    <state width="1160" height="361" key="GridCell.Tab.1.left" timestamp="1578527850382">
       <screen x="-1680" y="30" width="1680" height="1020" />
     </state>
-    <state width="1637" height="361" key="GridCell.Tab.1.left/0.0.1920.1050/-1680.30.1680.1020@-1680.30.1680.1020" timestamp="1578453678577" />
+    <state width="1160" height="361" key="GridCell.Tab.1.left/0.0.1920.1050/-1680.30.1680.1020@-1680.30.1680.1020" timestamp="1578527850382" />
     <state width="1877" height="352" key="GridCell.Tab.1.left/0.0.1920.1050/-1680.30.1680.1020@0.0.1920.1050" timestamp="1577980769632" />
-    <state width="1637" height="361" key="GridCell.Tab.1.right" timestamp="1578453678577">
+    <state width="1160" height="361" key="GridCell.Tab.1.right" timestamp="1578527850416">
       <screen x="-1680" y="30" width="1680" height="1020" />
     </state>
-    <state width="1637" height="361" key="GridCell.Tab.1.right/0.0.1920.1050/-1680.30.1680.1020@-1680.30.1680.1020" timestamp="1578453678577" />
+    <state width="1160" height="361" key="GridCell.Tab.1.right/0.0.1920.1050/-1680.30.1680.1020@-1680.30.1680.1020" timestamp="1578527850416" />
     <state width="1877" height="352" key="GridCell.Tab.1.right/0.0.1920.1050/-1680.30.1680.1020@0.0.1920.1050" timestamp="1577980769632" />
-    <state width="1637" height="361" key="GridCell.Tab.2.bottom" timestamp="1578453678577">
+    <state width="1160" height="361" key="GridCell.Tab.2.bottom" timestamp="1578527850437">
       <screen x="-1680" y="30" width="1680" height="1020" />
     </state>
-    <state width="1637" height="361" key="GridCell.Tab.2.bottom/0.0.1920.1050/-1680.30.1680.1020@-1680.30.1680.1020" timestamp="1578453678577" />
+    <state width="1160" height="361" key="GridCell.Tab.2.bottom/0.0.1920.1050/-1680.30.1680.1020@-1680.30.1680.1020" timestamp="1578527850437" />
     <state width="1877" height="352" key="GridCell.Tab.2.bottom/0.0.1920.1050/-1680.30.1680.1020@0.0.1920.1050" timestamp="1577980699614" />
-    <state width="1637" height="361" key="GridCell.Tab.2.center" timestamp="1578453678577">
+    <state width="1160" height="361" key="GridCell.Tab.2.center" timestamp="1578527850430">
       <screen x="-1680" y="30" width="1680" height="1020" />
     </state>
-    <state width="1637" height="361" key="GridCell.Tab.2.center/0.0.1920.1050/-1680.30.1680.1020@-1680.30.1680.1020" timestamp="1578453678577" />
+    <state width="1160" height="361" key="GridCell.Tab.2.center/0.0.1920.1050/-1680.30.1680.1020@-1680.30.1680.1020" timestamp="1578527850430" />
     <state width="1877" height="352" key="GridCell.Tab.2.center/0.0.1920.1050/-1680.30.1680.1020@0.0.1920.1050" timestamp="1577980699614" />
-    <state width="1637" height="361" key="GridCell.Tab.2.left" timestamp="1578453678577">
+    <state width="1160" height="361" key="GridCell.Tab.2.left" timestamp="1578527850430">
       <screen x="-1680" y="30" width="1680" height="1020" />
     </state>
-    <state width="1637" height="361" key="GridCell.Tab.2.left/0.0.1920.1050/-1680.30.1680.1020@-1680.30.1680.1020" timestamp="1578453678577" />
+    <state width="1160" height="361" key="GridCell.Tab.2.left/0.0.1920.1050/-1680.30.1680.1020@-1680.30.1680.1020" timestamp="1578527850430" />
     <state width="1877" height="352" key="GridCell.Tab.2.left/0.0.1920.1050/-1680.30.1680.1020@0.0.1920.1050" timestamp="1577980699614" />
-    <state width="1637" height="361" key="GridCell.Tab.2.right" timestamp="1578453678577">
+    <state width="1160" height="361" key="GridCell.Tab.2.right" timestamp="1578527850437">
       <screen x="-1680" y="30" width="1680" height="1020" />
     </state>
-    <state width="1637" height="361" key="GridCell.Tab.2.right/0.0.1920.1050/-1680.30.1680.1020@-1680.30.1680.1020" timestamp="1578453678577" />
+    <state width="1160" height="361" key="GridCell.Tab.2.right/0.0.1920.1050/-1680.30.1680.1020@-1680.30.1680.1020" timestamp="1578527850437" />
     <state width="1877" height="352" key="GridCell.Tab.2.right/0.0.1920.1050/-1680.30.1680.1020@0.0.1920.1050" timestamp="1577980699614" />
-    <state width="1637" height="361" key="GridCell.Tab.3.bottom" timestamp="1578453678578">
+    <state width="1160" height="361" key="GridCell.Tab.3.bottom" timestamp="1578527850442">
       <screen x="-1680" y="30" width="1680" height="1020" />
     </state>
-    <state width="1637" height="361" key="GridCell.Tab.3.bottom/0.0.1920.1050/-1680.30.1680.1020@-1680.30.1680.1020" timestamp="1578453678578" />
+    <state width="1160" height="361" key="GridCell.Tab.3.bottom/0.0.1920.1050/-1680.30.1680.1020@-1680.30.1680.1020" timestamp="1578527850442" />
     <state width="1877" height="352" key="GridCell.Tab.3.bottom/0.0.1920.1050/-1680.30.1680.1020@0.0.1920.1050" timestamp="1577980699614" />
-    <state width="1637" height="361" key="GridCell.Tab.3.center" timestamp="1578453678578">
+    <state width="1160" height="361" key="GridCell.Tab.3.center" timestamp="1578527850442">
       <screen x="-1680" y="30" width="1680" height="1020" />
     </state>
-    <state width="1637" height="361" key="GridCell.Tab.3.center/0.0.1920.1050/-1680.30.1680.1020@-1680.30.1680.1020" timestamp="1578453678578" />
+    <state width="1160" height="361" key="GridCell.Tab.3.center/0.0.1920.1050/-1680.30.1680.1020@-1680.30.1680.1020" timestamp="1578527850442" />
     <state width="1877" height="352" key="GridCell.Tab.3.center/0.0.1920.1050/-1680.30.1680.1020@0.0.1920.1050" timestamp="1577980699614" />
-    <state width="1637" height="361" key="GridCell.Tab.3.left" timestamp="1578453678578">
+    <state width="1160" height="361" key="GridCell.Tab.3.left" timestamp="1578527850442">
       <screen x="-1680" y="30" width="1680" height="1020" />
     </state>
-    <state width="1637" height="361" key="GridCell.Tab.3.left/0.0.1920.1050/-1680.30.1680.1020@-1680.30.1680.1020" timestamp="1578453678578" />
+    <state width="1160" height="361" key="GridCell.Tab.3.left/0.0.1920.1050/-1680.30.1680.1020@-1680.30.1680.1020" timestamp="1578527850442" />
     <state width="1877" height="352" key="GridCell.Tab.3.left/0.0.1920.1050/-1680.30.1680.1020@0.0.1920.1050" timestamp="1577980699614" />
-    <state width="1637" height="361" key="GridCell.Tab.3.right" timestamp="1578453678578">
+    <state width="1160" height="361" key="GridCell.Tab.3.right" timestamp="1578527850442">
       <screen x="-1680" y="30" width="1680" height="1020" />
     </state>
-    <state width="1637" height="361" key="GridCell.Tab.3.right/0.0.1920.1050/-1680.30.1680.1020@-1680.30.1680.1020" timestamp="1578453678578" />
+    <state width="1160" height="361" key="GridCell.Tab.3.right/0.0.1920.1050/-1680.30.1680.1020@-1680.30.1680.1020" timestamp="1578527850442" />
     <state width="1877" height="352" key="GridCell.Tab.3.right/0.0.1920.1050/-1680.30.1680.1020@0.0.1920.1050" timestamp="1577980699614" />
-    <state width="1637" height="361" key="GridCell.Tab.4.bottom" timestamp="1578453678578">
+    <state width="1160" height="361" key="GridCell.Tab.4.bottom" timestamp="1578527850459">
       <screen x="-1680" y="30" width="1680" height="1020" />
     </state>
-    <state width="1637" height="361" key="GridCell.Tab.4.bottom/0.0.1920.1050/-1680.30.1680.1020@-1680.30.1680.1020" timestamp="1578453678578" />
+    <state width="1160" height="361" key="GridCell.Tab.4.bottom/0.0.1920.1050/-1680.30.1680.1020@-1680.30.1680.1020" timestamp="1578527850459" />
     <state width="1877" height="352" key="GridCell.Tab.4.bottom/0.0.1920.1050/-1680.30.1680.1020@0.0.1920.1050" timestamp="1577980699615" />
-    <state width="1637" height="361" key="GridCell.Tab.4.center" timestamp="1578453678578">
+    <state width="1160" height="361" key="GridCell.Tab.4.center" timestamp="1578527850442">
       <screen x="-1680" y="30" width="1680" height="1020" />
     </state>
-    <state width="1637" height="361" key="GridCell.Tab.4.center/0.0.1920.1050/-1680.30.1680.1020@-1680.30.1680.1020" timestamp="1578453678578" />
+    <state width="1160" height="361" key="GridCell.Tab.4.center/0.0.1920.1050/-1680.30.1680.1020@-1680.30.1680.1020" timestamp="1578527850442" />
     <state width="1877" height="352" key="GridCell.Tab.4.center/0.0.1920.1050/-1680.30.1680.1020@0.0.1920.1050" timestamp="1577980699615" />
-    <state width="1637" height="361" key="GridCell.Tab.4.left" timestamp="1578453678578">
+    <state width="1160" height="361" key="GridCell.Tab.4.left" timestamp="1578527850442">
       <screen x="-1680" y="30" width="1680" height="1020" />
     </state>
-    <state width="1637" height="361" key="GridCell.Tab.4.left/0.0.1920.1050/-1680.30.1680.1020@-1680.30.1680.1020" timestamp="1578453678578" />
+    <state width="1160" height="361" key="GridCell.Tab.4.left/0.0.1920.1050/-1680.30.1680.1020@-1680.30.1680.1020" timestamp="1578527850442" />
     <state width="1877" height="352" key="GridCell.Tab.4.left/0.0.1920.1050/-1680.30.1680.1020@0.0.1920.1050" timestamp="1577980699614" />
-    <state width="1637" height="361" key="GridCell.Tab.4.right" timestamp="1578453678578">
+    <state width="1160" height="361" key="GridCell.Tab.4.right" timestamp="1578527850459">
       <screen x="-1680" y="30" width="1680" height="1020" />
     </state>
-    <state width="1637" height="361" key="GridCell.Tab.4.right/0.0.1920.1050/-1680.30.1680.1020@-1680.30.1680.1020" timestamp="1578453678578" />
+    <state width="1160" height="361" key="GridCell.Tab.4.right/0.0.1920.1050/-1680.30.1680.1020@-1680.30.1680.1020" timestamp="1578527850459" />
     <state width="1877" height="352" key="GridCell.Tab.4.right/0.0.1920.1050/-1680.30.1680.1020@0.0.1920.1050" timestamp="1577980699615" />
     <state x="-1248" y="271" key="Rider.ProjectTemplateDialog.Size" timestamp="1578486780276">
       <screen x="-1680" y="30" width="1680" height="1020" />
     </state>
     <state x="-1248" y="271" key="Rider.ProjectTemplateDialog.Size/0.0.1920.1050/-1680.30.1680.1020@-1680.30.1680.1020" timestamp="1578486780276" />
-    <state x="-1073" y="203" key="RiderGenerateDialog" timestamp="1578403674139">
+    <state x="-1073" y="203" key="RiderGenerateDialog" timestamp="1578519116981">
       <screen x="-1680" y="30" width="1680" height="1020" />
     </state>
-    <state x="-1073" y="203" key="RiderGenerateDialog/0.0.1920.1050/-1680.30.1680.1020@-1680.30.1680.1020" timestamp="1578403674139" />
+    <state x="-1073" y="203" key="RiderGenerateDialog/0.0.1920.1050/-1680.30.1680.1020@-1680.30.1680.1020" timestamp="1578519116981" />
     <state x="-1339" y="181" key="SettingsEditor" timestamp="1578483125898">
       <screen x="-1680" y="30" width="1680" height="1020" />
     </state>
     <state x="-1339" y="181" key="SettingsEditor/0.0.1920.1050/-1680.30.1680.1020@-1680.30.1680.1020" timestamp="1578483125898" />
-    <state x="-1197" y="280" key="Vcs.Push.Dialog.v2" timestamp="1578486871741">
+    <state x="-1197" y="280" key="Vcs.Push.Dialog.v2" timestamp="1578492604405">
       <screen x="-1680" y="30" width="1680" height="1020" />
     </state>
-    <state x="-1197" y="280" key="Vcs.Push.Dialog.v2/0.0.1920.1050/-1680.30.1680.1020@-1680.30.1680.1020" timestamp="1578486871741" />
+    <state x="-1197" y="280" key="Vcs.Push.Dialog.v2/0.0.1920.1050/-1680.30.1680.1020@-1680.30.1680.1020" timestamp="1578492604405" />
     <state x="552" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1577137400185" />
     <state x="-1160" y="294" key="WebReferenceSession.Dialog" timestamp="1578317890568">
       <screen x="-1680" y="30" width="1680" height="1020" />
     </state>
     <state x="-1160" y="294" key="WebReferenceSession.Dialog/0.0.1920.1050/-1680.30.1680.1020@-1680.30.1680.1020" timestamp="1578317890568" />
-    <state x="92" y="92" width="1736" height="866" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1578487240444">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state width="848" height="518" key="XDebugger.FullValuePopup" timestamp="1578498608517">
+      <screen x="-1680" y="30" width="1680" height="1020" />
     </state>
-    <state x="-1599" y="119" width="1519" height="842" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1920.1050/-1680.30.1680.1020@-1680.30.1680.1020" timestamp="1578451291872" />
+    <state width="848" height="518" key="XDebugger.FullValuePopup/0.0.1920.1050/-1680.30.1680.1020@-1680.30.1680.1020" timestamp="1578498608517" />
+    <state x="-1599" y="119" width="1519" height="842" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1578511358286">
+      <screen x="-1680" y="30" width="1680" height="1020" />
+    </state>
+    <state x="-1599" y="119" width="1519" height="842" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1920.1050/-1680.30.1680.1020@-1680.30.1680.1020" timestamp="1578511358286" />
     <state x="92" y="92" width="1736" height="866" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1920.1050/-1680.30.1680.1020@0.0.1920.1050" timestamp="1578487240444" />
     <state x="-1415" y="18" width="746" height="919" maximized="true" key="dock-window-1" timestamp="1578314100895">
       <screen x="-1680" y="30" width="1680" height="1020" />
@@ -950,10 +993,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="101" y="-10" width="1180" height="949" maximized="true" key="dock-window-2/0.0.1920.1050/-1680.30.1680.1020@-1680.30.1680.1020" timestamp="1578314620791" />
-    <state x="-1162" y="277" width="741" height="596" key="find.popup" timestamp="1578427921491">
+    <state x="-1162" y="277" width="741" height="596" key="find.popup" timestamp="1578518411339">
       <screen x="-1680" y="30" width="1680" height="1020" />
     </state>
-    <state x="-1162" y="277" width="741" height="596" key="find.popup/0.0.1920.1050/-1680.30.1680.1020@-1680.30.1680.1020" timestamp="1578427921491" />
+    <state x="-1162" y="277" width="741" height="596" key="find.popup/0.0.1920.1050/-1680.30.1680.1020@-1680.30.1680.1020" timestamp="1578518411339" />
     <state x="668" y="315" key="git4idea.merge.GitPullDialog" timestamp="1578488144246">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -1028,13 +1071,13 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/DAL.App.DTO/Event.cs</url>
-          <line>32</line>
+          <line>34</line>
           <properties documentPath="$PROJECT_DIR$/DAL.App.DTO/Event.cs" initialLine="32">
             <startOffsets>
-              <option value="906" />
+              <option value="999" />
             </startOffsets>
             <endOffsets>
-              <option value="924" />
+              <option value="1017" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="83" />
@@ -1051,6 +1094,19 @@
             </endOffsets>
           </properties>
           <option name="timeStamp" value="100" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/WebApp/ApiControllers/v1.0/EventController.cs</url>
+          <line>141</line>
+          <properties documentPath="$PROJECT_DIR$/WebApp/ApiControllers/v1.0/EventController.cs" initialLine="124">
+            <startOffsets>
+              <option value="4806" />
+            </startOffsets>
+            <endOffsets>
+              <option value="4842" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="101" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/../ClientApp/src/pages/singing/singing.ts</url>
