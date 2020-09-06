@@ -54,7 +54,7 @@
     "html-loader": "^0.5.5",
     "istanbul-instrumenter-loader": "^3.0.1",
     "webpack-bundle-analyzer": "^3.0.4",
-    "tree-kill": "^1.2.1"
+    "tree-kill": "^1.2.2"
   },
   "scripts": {
     "build": "webpack --env.production --extractCss",
